@@ -1,9 +1,10 @@
 # Proyecto: ideas de negocio
 
-Carpeta `ideas/` con una idea de negocio por archivo `.txt`, numerados en orden de creación: `N. Nombre.txt` (ej. `1. Mascotas.txt`). El título dentro del archivo empieza con el mismo número. Idea nueva = siguiente número (hoy van 33: EntregaInmueble).
+Carpeta `ideas/` con una idea de negocio por archivo `.txt`, numerados en orden de creación: `N. Nombre.txt` (ej. `1. Mascotas.txt`). El título dentro del archivo empieza con el mismo número. Idea nueva = siguiente número (hoy van 34: MeAlcanza).
 
 ## Reglas para cada idea nueva
 
+- **Alcance masivo y uso diario o casi diario**: priorizar ideas útiles para un público amplio de personas comunes, que resuelvan una necesidad que se repita todos los días o casi todos los días. Explicar quiénes la usarían y qué los haría volver con esa frecuencia; no confundir mercado potencial grande con demanda comprobada.
 - **Soy 1 sola persona**: la idea se tiene que poder construir, vender y operar por una persona (sin empleados, sin logística pesada, costos bajos, preferir WhatsApp + web antes que app móvil).
 - **Pensar internacional desde el inicio**: el mismo sistema debe servir en otros países sin rehacerlo (solo cambiar idioma, moneda, leyes o ciudad).
 - **Empezar en Santa Marta, Colombia**: la idea debe poder probarse primero en Santa Marta.
