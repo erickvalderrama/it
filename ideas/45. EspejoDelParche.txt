@@ -1,0 +1,83 @@
+45. "Espejo del parche" - Un teléfono roto de poses para reírse con amigos
+
+Necesidad/Problema a solucionar:
+- A veces quieres compartir un rato divertido con amigos, pero cada uno tiene horarios distintos y organizar una partida larga cuesta.
+- Público potencial amplio: adultos con celular y un grupo de amigos o familiares. Primer piloto solo con mayores de edad.
+- Uso buscado: una ronda breve al día, con unos segundos de participación por persona. Que resulte gracioso una vez no demuestra uso casi diario.
+- Evidencia internacional: Gartic Phone registra más de un millón de descargas en Android según su ficha. BeReal propone compartir un momento diario con amigos. Hay interés en estas experiencias; esas cifras no prueban pagos ni demanda por nuestro juego.
+  https://play.google.com/store/apps/details?id=com.gartic.garticphone
+  https://play.google.com/store/apps/details?id=com.bereal.ft
+
+Argumentos:
+- Idea: un juego web de poses en cadena para grupos privados de tres a seis personas.
+  1) Una persona crea el grupo y comparte un enlace.
+  2) Cada participante ve durante tres segundos el avatar con la pose anterior; después intenta copiarla de memoria frente a su cámara.
+  3) Al completar la cadena, todos ven una animación desde la primera pose hasta la última y descubren cómo se deformó.
+- Cada intento se convierte en la referencia del siguiente jugador. Prototipo centrado en gestos sencillos de brazos y hombros.
+- La ronda puede quedar abierta hasta 24 horas: cada amigo participa cuando puede. Si faltan turnos, cerrar con los aportes existentes y mostrar quién participó.
+- Fácil: enlace, apodo y permiso de cámara. Diseñar el procesamiento en el dispositivo y enviar solo los datos necesarios para representar un avatar; evitar guardar caras o videos.
+- Google documenta detección de postura en JavaScript para web. Esto respalda una vía técnica, no garantiza rendimiento en todos los teléfonos.
+  https://developers.google.com/edge/mediapipe/solutions/vision/pose_landmarker/web_js
+- Santa Marta: diez grupos de amigos durante cuatro semanas, usando sus propios dispositivos.
+- Tu experiencia en frontend, backend e infraestructura permite construir salas, turnos, captura y revelación automática.
+
+Cómo ganar dinero:
+- Quién paga: PERSONAS.
+- Gratis: una cadena diaria por grupo.
+- Hipótesis: $9.900 COP/mes para el anfitrión por más cadenas, variantes y personalización; los invitados juegan gratis.
+- Probar si al menos cinco grupos vuelven cuatro días por semana y tres anfitriones pagan después de probar.
+- Si se usa solo en reuniones ocasionales, falla el criterio de frecuencia. Si nadie paga, no asumir que un juego divertido ya es negocio.
+
+Competidores en Colombia:
+- Compiten juegos internacionales accesibles por internet; no se afirma que sean empresas colombianas.
+- Gartic Phone: teléfono roto con dibujos, salas y varias modalidades, gratuito según su ficha.
+  Web: https://garticphone.com/es
+  Android: https://play.google.com/store/apps/details?id=com.gartic.garticphone
+- Just Dance Now: juego social de movimiento con una pantalla conectada y el celular como control. Revisar límites y compras; descargar gratis no significa acceso completo gratuito.
+  https://justdancenow.com/
+
+Competidores en Santa Marta:
+- Los mismos juegos, videollamadas, grupos de amigos y retos compartidos por WhatsApp.
+- No se verificó un juego local equivalente. Eso no constituye una ventaja territorial ni demuestra ausencia de competencia.
+
+Competidores en el mundo:
+- PadConsole anuncia juegos por navegador, incluido uno de imitar poses, con acceso inicial gratuito y Premium.
+  https://padconsole.com/en/
+- Pose Runner anuncia movimiento por cámara y salas multijugador.
+  https://movearcade.app/pose-runner
+- BeReal compite por el ritual diario entre amigos, aunque su función principal sea compartir fotos.
+  https://play.google.com/store/apps/details?id=com.bereal.ft
+- No presentar los juegos de cámara, las poses ni el teléfono roto como inventos nuestros.
+
+Nuestra ventaja y filtro frente a LLM gratuitos:
+- El resultado requiere aportes auténticos de los amigos, captura interactiva y un motor que conserve los turnos ocultos y revele la cadena.
+- Un LLM gratuito puede inventar retos, analizar fotos, puntuar poses y generar código. Vender solamente esas funciones no sirve como diferencia.
+- Tampoco afirmar que los asistentes no ven video o no colaboran. Comparar sus funciones vigentes y las herramientas gratuitas conectadas.
+- Hipótesis: una ronda corporal muy corta y asincrónica resulta más cómoda y divertida para este grupo que las alternativas.
+- Comparar con un asistente gratuito más WhatsApp, videollamada y juegos existentes. Si el resultado completo es equivalente, descartar; una interfaz bonita no basta.
+- Nivel de océano azul: BAJO por los juegos sociales y de cámara existentes. La combinación concreta sigue sin validarse.
+- Comparación documental con CLAUDE.md; no se construyó ni probó el juego.
+
+Riesgos:
+- La novedad puede agotarse rápidamente o los turnos pueden quedar esperando.
+- Cámara, iluminación y detección imperfecta pueden frustrar a jugadores.
+- Validar gestos cómodos y ofrecer omitir un turno; la puntuación sería lúdica, sin premios económicos.
+- Mantener salas privadas, controles del anfitrión y borrado de datos. No publicar capturas automáticamente.
+- Usar arte y sonidos propios o autorizados. Revisar licencias del modelo.
+- No afirmar privacidad local hasta comprobar que el flujo real no envía imágenes.
+
+Internacionalización:
+- ALTA: grupos de amigos, gestos y juegos breves funcionan en distintos países; el humor y la repetición deben probarse localmente.
+- Plan: Santa Marta, Colombia y después México o Perú.
+- Adaptar nombre, textos y moneda. Mantener invitaciones y funcionamiento entre horarios distintos.
+
+Problemas para 1 sola persona:
+- Nota: APTA CON CUIDADO para un juego web pequeño.
+- Empezar con una mecánica, un avatar sencillo y pocos navegadores compatibles.
+- Automatizar turnos, cierre, revelación, cobros y borrado. El fundador no arbitra partidas.
+- Evitar catálogo nuevo diario: variar reglas y combinaciones sobre una base pequeña.
+- Medir rendimiento, descarga del modelo y costos por sala.
+- Si exige revisar videos manualmente, producir contenido continuamente o moderar salas públicas, descartar ese alcance.
+- Sin logística física ni soporte humano 24/7; preparar continuidad durante ausencias.
+
+Revisión documental: 30 de octubre de 2026, hora de Colombia. No se contactó a grupos ni se realizaron partidas. Diversión, frecuencia, rendimiento y disposición de pago pendientes de validación.
