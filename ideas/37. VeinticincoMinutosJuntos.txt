@@ -1,0 +1,85 @@
+37. "25 minutos juntos" - Encuentra a una persona real para empezar y avanzar una tarea
+
+Necesidad/Problema a solucionar:
+- Trabajar o estudiar a solas puede hacer difícil empezar y sostener la atención. Tener un compromiso concreto con otra persona puede resultar más útil que otra lista de consejos.
+- Público amplio: universitarios mayores de edad, trabajadores remotos, independientes y personas que quieren avanzar proyectos personales.
+- Uso diario o casi diario: reservar un bloque para estudiar, escribir, hacer cuentas o terminar pendientes.
+- Evidencia INTERNACIONAL: el Work Trend Index 2023 de Microsoft encuestó a 31.000 personas en 31 países; 68% dijo no tener suficiente tiempo de concentración sin interrupciones durante el trabajo.
+  https://www.microsoft.com/en-us/worklab/work-trend-index/will-ai-fix-work
+- Ese dato documenta el problema, no demuestra que compartir una sesión lo resuelva. La existencia de Focusmate y StudyStream muestra una oferta internacional específica de concentración acompañada.
+
+Argumentos:
+- Idea: web que reúne a adultos que quieren concentrarse a la misma hora.
+  1) Elegir un horario y escribir una meta corta: "terminar dos páginas".
+  2) Entrar a una sala privada con un compañero asignado. Ambos dicen qué harán y trabajan por separado durante 25 minutos.
+  3) Al terminar, cada uno cuenta qué logró y puede reservar otra sesión.
+- Fácil de utilizar: horario, meta y botón de entrar; sin instalar una app ni aprender una metodología.
+- Santa Marta: piloto con 30 adultos en dos o tres franjas fijas, evitando abrir horarios sin suficientes participantes.
+- La tarea se realiza por cuenta del usuario; el compañero no es profesor, supervisor ni empleado del negocio.
+- Reservas, asignación, presencia y reposición por inasistencia funcionan automáticamente.
+
+Cómo ganar dinero:
+- Quién paga: PERSONAS.
+- Prueba gratuita con dos sesiones.
+- Hipótesis: $14.900 COP/mes por 20 sesiones, compañeros favoritos y reservas recurrentes.
+- No prometer acceso ilimitado antes de medir costo de videollamada, incidencias y soporte.
+- Validación de cuatro semanas: diez personas usando al menos cuatro sesiones semanales, cinco pagos y una tasa alta de encuentros efectivamente realizados.
+- Comparar con trabajar usando un temporizador o una IA gratuita. Si no valoran la presencia humana, la idea falla su condición principal.
+
+Competidores en Colombia:
+- Focusmate y StudyStream son ofertas internacionales que compiten por este público; no se presentan como empresas colombianas.
+  https://www.focusmate.com/
+  https://www.studystream.live/
+- Amigos o comunidades que organizan sus propias sesiones por videollamada: sustituto gratuito.
+- No se verificó un proveedor colombiano especializado; no afirmar que no exista.
+
+Competidores en Santa Marta:
+- Las mismas plataformas y grupos personales de estudio o trabajo.
+- Bibliotecas y coworking físico también pueden ofrecer compañía para concentrarse, aunque resuelven la necesidad de otra manera.
+- No se comprobó un espacio local libre de competencia.
+
+Competidores en el mundo:
+- Focusmate: empareja personas para sesiones de trabajo compartido. Su oferta pública incluye tres sesiones semanales gratuitas.
+  https://www.focusmate.com/how-it-works/
+  https://www.focusmate.com/pricing/
+- StudyStream: salas para estudiar y trabajar con otros.
+  Web: https://www.studystream.live/
+  Página oficial de su app: https://www.studystream.live/download-mobile-app
+- Study Together anuncia que ahora forma parte de StudyStream; no contarlos como competidores independientes.
+  https://www.studytogether.com/
+
+Nuestra ventaja y diferencia frente a un LLM gratuito:
+- El valor indispensable es reunir participantes reales, cruzar disponibilidad, confirmar asistencia y realizar encuentros. Una respuesta generada no aporta por sí sola esa comunidad.
+- No vender un temporizador, consejos o compañía simulada: esas funciones sí pueden resolverse con herramientas gratuitas.
+- ChatGPT Free ya ofrece chats grupales por invitación; no afirmar que los LLM carecen de colaboración.
+  https://openai.com/index/group-chats-in-chatgpt/
+- Gemini Live permite conversar con la IA y actuar sobre herramientas conectadas; tampoco basar la idea en que solo responde texto.
+  https://gemini.google/overview/gemini-live/
+- Distinción funcional según la documentación consultada: esos recursos no describen una red propia que encuentre compañeros desconocidos disponibles y realice estos encuentros. Un asistente puede recomendar o acceder a un servicio externo, pero la comunidad y la operación siguen siendo necesarias.
+- Hipótesis comercial: sesiones sencillas en español, franjas con buena asistencia y precio local. No son ventajas exclusivas comprobadas.
+- Nivel de océano azul: BAJO. La comunidad y su fiabilidad deben demostrar valor frente a competidores consolidados.
+
+Riesgos:
+- Al inicio puede no haber compañero: mostrar disponibilidad real, confirmar antes de cobrar la sesión y reponerla si falla.
+- Acoso o uso indebido de cámara: participantes adultos, acceso controlado, salida inmediata, bloqueo y reporte; sin grabación por parte del servicio ni mensajería privada fuera de la sesión.
+- No garantizar que otro participante no haga una captura por su cuenta; evitar mostrar documentos o información confidencial.
+- Conexión y proveedor de video pueden fallar. Reposición automática y reglas de cancelación claras.
+- El progreso lo declara el usuario; no certificar productividad ni prometer resultados.
+- Si solo buscan un reloj compartido con amigos, ya existen alternativas gratuitas suficientes.
+
+Internacionalización:
+- ALTA: la concentración acompañada ya tiene oferta internacional.
+- Plan: piloto en Santa Marta, expansión en Colombia y después México o Perú, agrupando horarios compatibles.
+- Adaptar idioma, moneda y zona horaria. Una comunidad de varios países puede mejorar la disponibilidad.
+- Crecimiento potencial amplio no equivale a demanda ni retención comprobadas.
+
+Problemas para 1 sola persona:
+- Nota: APTA CON CUIDADO para un piloto acotado; la moderación puede volverla DIFÍCIL al crecer.
+- El fundador no debe acompañar cada sesión: los participantes se encuentran entre sí.
+- Automatizar reservas, cobro, cancelaciones, asignación y bloqueos. Soporte en horario laboral.
+- No prometer moderación humana en directo ni disponibilidad de compañeros 24/7.
+- Si exige vigilar salas permanentemente o resolver demasiados conflictos manuales, descartar como negocio para una sola persona.
+- Ausencias: acceso y reposiciones automáticos, con respaldos.
+- Sin logística física ni dinero de terceros. La dificultad principal es llenar horarios, mantener convivencia y conservar margen tras video y soporte.
+
+Fuentes consultadas: 30 de octubre de 2026. Precio, demanda, efecto sobre concentración y viabilidad de moderación pendientes de validación.
