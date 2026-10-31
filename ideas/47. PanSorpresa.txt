@@ -1,0 +1,81 @@
+47. "Pan sorpresa" - Reserva excedentes de panadería a menor precio y recógelos cerca de casa
+
+Necesidad/Problema a solucionar:
+- Algunas panaderías terminan con productos sin vender y hay personas que buscan ahorrar en compras habituales.
+- Público potencial amplio: hogares y trabajadores que compran pan o meriendas con frecuencia. La compra casi diaria dependería de oferta cercana, útil y constante.
+- El componente divertido es descubrir un surtido variable con categorías y precio claros.
+- Evidencia internacional: el informe de desperdicio alimentario 2024 del PNUMA incluye pérdidas en comercio y servicios de alimentación. Too Good To Go opera un mercado de excedentes con retiro en tienda.
+  https://wedocs.unep.org/handle/20.500.11822/45275
+  https://www.toogoodtogo.com/en-us/how-does-the-app-work
+- No todo excedente se puede revender ni la existencia del desperdicio demuestra demanda por otra app.
+
+Argumentos:
+- Idea: una web de paquetes de panadería publicados directamente por cada comercio.
+  1) Ver bolsas cercanas con precio, categorías, información del producto y horario de retiro.
+  2) Reservar una disponible y recibir un código.
+  3) Recoger, pagar al comercio y confirmar la entrega con ese código.
+- El comercio prepara y entrega el paquete; publica cantidad y condiciones desde su celular.
+- La sorpresa es el surtido exacto. La información necesaria sobre ingredientes y alérgenos debe definirse antes de vender.
+- Empezar con tres panaderías y 30 compradores de un barrio de Santa Marta, con una ventana de retiro acotada.
+- La plataforma gestiona cupos, reservas, vencimientos y comprobantes. El fundador no recoge, almacena ni transporta alimentos.
+- Es distinta de Restaurantes: aquí el cliente descubre excedentes de varios comercios; no se vende un menú QR al restaurante.
+
+Cómo ganar dinero:
+- Quién paga: MIXTO.
+- Personas: pagan la bolsa directamente al comercio; consultar y reservar sería gratuito.
+- Comercios: hipótesis de $1.000 COP por bolsa efectivamente entregada, con cobro agrupado mensual. Validar margen y costos antes de ofrecerlo.
+- El precio del paquete lo propone el comercio y debe representar un ahorro real, sustentado en su contenido.
+- Piloto de cuatro semanas: medir publicaciones hechas por los comerciantes, retiros completados, compradores que repiten cuatro días por semana y comisiones realmente pagadas.
+- Si necesitas perseguir cada cobro o publicar tú el inventario diario, no encaja con una persona.
+
+Competidores en Colombia:
+- Cheaf ya conecta negocios con excedentes y consumidores en Colombia. Ofrece bolsas sorpresa y retiro en tienda: competencia directa.
+  Web: https://www.cheaf.com/co/
+  iPhone: https://apps.apple.com/co/app/cheaf-salva-comida-y-ahorra/id1527621516
+- Su descarga es gratuita; los alimentos se compran. No presentar nuestra reserva gratuita como una innovación.
+- Los comercios también pueden anunciar descuentos directamente por WhatsApp o redes sociales.
+
+Competidores en Santa Marta:
+- Comprobar la oferta actual de Cheaf y los descuentos de las panaderías elegidas. No se verificó el inventario disponible en la ciudad.
+- No afirmar que Santa Marta esté desatendida a partir de anuncios antiguos de expansión.
+- Si los mismos comercios y paquetes ya están accesibles sin otra plataforma, falta una razón suficiente para construirla.
+
+Competidores en el mundo:
+- Too Good To Go: reserva, pago y retiro de bolsas sorpresa en una franja definida.
+  https://www.toogoodtogo.com/en-us/how-does-the-app-work
+- Cheaf opera este mismo enfoque en otros mercados. No se trata de inventar la bolsa sorpresa.
+  https://www.cheaf.com/co/
+
+Nuestra ventaja y filtro frente a LLM gratuitos:
+- El valor adicional exige existencias reales, comercios que aceptan las reservas y una entrega física.
+- Un LLM gratuito puede encontrar ofertas, comparar precios y usar servicios conectados cuando tenga acceso. Esas funciones cuentan como alternativas.
+- El inventario y los acuerdos comerciales deben existir fuera del chat. Generar una lista de panaderías o un código de reserva sin aceptación del vendedor no completa la compra.
+- Diferencia por validar: panaderías concretas con excedentes recurrentes y condiciones útiles que los compradores aún no encuentren en otros canales.
+- Comparar con un asistente gratuito más Cheaf, WhatsApp y ofertas públicas. Si ya permite conseguir los mismos paquetes de forma equivalente, descartar.
+- Nivel de océano azul: BAJO. La oportunidad local y la disposición de los comercios siguen pendientes.
+- Comparación documental con CLAUDE.md; no se hicieron compras ni pruebas de cobertura.
+
+Riesgos:
+- Calidad, conservación, ingredientes y alérgenos: revisar protocolos y responsabilidades antes de operar. Una foto no demuestra aptitud para consumo.
+- Cupos agotados, cancelaciones o información incorrecta pueden hacer perder un desplazamiento.
+- El descuento puede ser ficticio o el contenido insuficiente. Mostrar condiciones y permitir reclamos.
+- Los excedentes son variables: no prometer bolsas todos los días ni incentivar producción para aparentar rescates.
+- Reservas falsas y entregas fuera del sistema pueden perjudicar al comercio o evitar la comisión.
+- La responsabilidad de la plataforma y del vendedor debe evaluarse; no asumir que el retiro en tienda elimina los riesgos.
+
+Internacionalización:
+- MEDIA: el software se reutiliza, pero cada zona necesita comercios, compradores y revisión de las condiciones locales.
+- Plan: un barrio de Santa Marta, otro corredor colombiano y después un piloto pequeño en México o Perú.
+- Adaptar moneda, categorías, pagos y horarios. La expansión no se resuelve solo traduciendo la web.
+
+Problemas para 1 sola persona:
+- Nota: APTA CON CUIDADO para tres comercios; DIFÍCIL si requiere trabajo operativo constante.
+- Tu experiencia permite construir reservas con control de cupos, códigos de un solo uso y cobros agrupados.
+- El reto principal será captar comercios y resolver incidencias, no programar el catálogo.
+- Exigir publicación autónoma del inventario. Automatizar vencimientos, avisos, comprobantes y conciliación.
+- Sin domicilios, almacenamiento ni custodia del pago de los alimentos.
+- Definir soporte y retiros en horarios manejables, con canales claros del comercio.
+- Si requiere visitas diarias, inspeccionar cada bolsa o intervenir en todas las entregas, descartar para trabajar solo.
+- Preparar continuidad y la posibilidad de pausar nuevas reservas durante ausencias.
+
+Revisión documental: 30 de octubre de 2026, hora de Colombia. No se contactó a panaderías ni se vendieron bolsas. Oferta, recurrencia, margen y obligaciones pendientes de validación.
