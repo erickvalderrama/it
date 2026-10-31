@@ -1,0 +1,83 @@
+40. "Sigue conectado" - Respaldo automático para tus clases y videollamadas cuando falla el Wi-Fi
+
+Necesidad/Problema a solucionar:
+- Si el internet de casa falla durante una reunión o clase, compartir datos y volver a conectarse puede interrumpir la conversación.
+- Público potencial amplio: estudiantes, docentes, trabajadores remotos y familias que tienen internet fijo y datos móviles. Requiere dos conexiones utilizables; no beneficia igual a quien solo tiene una.
+- Uso diario o casi diario durante sus reuniones o clases. No supone que el internet falle todos los días.
+- El problema existe fuera de Colombia: Speedify comercializa continuidad entre conexiones para llamadas y transmisiones; Apple también ofrece asistencia de conectividad. Esto demuestra soluciones para el problema, no demanda comprobada por otro proveedor.
+  https://speedify.com/
+  https://support.apple.com/en-us/127686
+
+Argumentos:
+- Idea: una aplicación que mantiene preparada la conexión del celular y cambia a ella cuando el Wi-Fi deja de funcionar, intentando conservar las sesiones.
+- Primer piloto: computador Windows y celular Android con datos compartidos por USB.
+  1) Instalar una vez y conectar el celular siguiendo una guía breve.
+  2) Elegir cuánto dato móvil se permite gastar.
+  3) Pulsar "Proteger mi conexión" antes de la clase o reunión.
+- Después, el cambio y regreso a la conexión principal son automáticos. Mostrar si el respaldo está listo y cuánto dato se ha usado.
+- El valor debe ser una reducción medible de interrupciones. No prometer llamadas infalibles ni una velocidad mayor sin comprobarlo.
+- Aprovecha la experiencia del fundador en servidores, frontend, backend e infraestructura: cliente, servicio de conexión, panel y operación.
+- Santa Marta: probar con 20 personas que ya tengan ambas conexiones, sin vender routers ni hacer instalaciones a domicilio.
+
+Cómo ganar dinero:
+- Quién paga: PERSONAS.
+- Hipótesis: $19.900 COP/mes por un computador y 20 GB de tráfico total a través del servicio. El plan móvil lo paga aparte el usuario.
+- Son condiciones propuestas, no una oferta validada. Medir transferencia, servidores, pagos y soporte antes de fijarlas.
+- Probar durante cuatro semanas frente a compartir datos normalmente y frente a Speedify gratuito.
+- Medir interrupciones y recuperación con las aplicaciones que realmente usan. Buscar cinco pagos después de demostrar una mejora.
+- Si las opciones gratuitas resuelven su uso o el ahorro de interrupciones es mínimo, descartar para ese público.
+
+Competidores en Colombia:
+- Speedify está disponible por internet y ofrece versiones de escritorio y móvil. No es una empresa colombiana.
+  Web y descargas oficiales: https://speedify.com/download/
+  Planes: https://speedify.com/store/
+- Compartir datos del celular es un sustituto que no exige otra suscripción, aunque su comportamiento durante una sesión debe probarse.
+- Routers compatibles con dos conexiones también pueden cambiar a un respaldo; ASUS documenta esta función.
+  https://www.asus.com/support/faq/1011719/
+
+Competidores en Santa Marta:
+- Los mismos programas, funciones del equipo y soluciones de respaldo disponibles por internet.
+- No se verificó un proveedor local equivalente. Eso no demuestra que no exista.
+- Estar en Santa Marta o cobrar en COP no constituye por sí solo una ventaja suficiente.
+
+Competidores en el mundo:
+- Speedify combina conexiones mediante su servicio de red. Competidor directo con años de desarrollo.
+  https://support.speedify.com/article/892-can-i-use-speedify-without-vpn-server
+- Tiene una opción gratuita: su página de descarga anuncia 5 GB mensuales y una página de ayuda de Android menciona 2 GB. Confirmar el cupo efectivo en el equipo; no elegir el dato más conveniente para vender.
+  https://speedify.com/download/
+  https://msupport.speedify.com/article/224-logging-into-speedify
+- Apple Connectivity Assist usa datos móviles cuando el Wi-Fi funciona mal. No afirmar que el teléfono carece de respaldo automático.
+  https://support.apple.com/en-us/127686
+
+Nuestra ventaja y filtro frente a LLM gratuitos:
+- La función exige un programa con permisos de red y un servicio que transporte tráfico real, no una recomendación escrita.
+- Los asistentes gratuitos pueden generar código, configurar herramientas o explicar cómo conectar el celular. Eso cuenta como competencia y puede bastar para ciertos usuarios.
+- También deben compararse un asistente más herramientas gratuitas de VPN y el cambio de red del sistema. Si conservan las sesiones con un resultado equivalente, descartar.
+- WireGuard admite cambios de dirección de red, pero eso no demuestra por sí solo que una aplicación completa detecte fallos y mantenga todas las llamadas.
+  https://www.wireguard.com/
+- Diferenciación por validar: mejor recuperación en las conexiones del piloto y un cupo útil para llamadas frecuentes, con costos sostenibles.
+- Nivel de océano azul: BAJO. Necesita operación fuera del LLM, pero la ventaja frente a opciones gratuitas y de pago sigue pendiente.
+- Comparación documental con la referencia de CLAUDE.md; todavía no se realizó prueba práctica.
+
+Riesgos:
+- Dos conexiones pueden fallar juntas o tener mala cobertura.
+- El servicio puede añadir latencia o causar incompatibilidades con VPN corporativas y ciertas aplicaciones.
+- El consumo móvil debe tener límites claros; también existe tráfico ajeno a nuestra aplicación.
+- El servidor pasa a ser otro punto de fallo. Preparar retorno a la conexión normal si el servicio falla.
+- Proteger claves y actualizaciones. No inventar criptografía ni afirmar privacidad absoluta.
+- El costo de transferencia y el soporte pueden eliminar el margen.
+
+Internacionalización:
+- MEDIA: se reutiliza el sistema, pero latencia, operadores, dispositivos y condiciones comerciales requieren pruebas locales.
+- Plan: piloto en Santa Marta, otra ciudad colombiana y después México o Perú.
+- Empezar con una combinación de equipos bien soportada; añadir otras plataformas después de validar ingresos.
+
+Problemas para 1 sola persona:
+- Nota: APTA CON CUIDADO para un piloto limitado; DIFÍCIL como servicio para todos los dispositivos desde el inicio.
+- Usar componentes de red mantenidos y revisar sus licencias. Su experiencia técnica ayuda, pero no elimina las pruebas de compatibilidad.
+- Si exige desarrollar un protocolo propio o instalar equipos a domicilio, no encaja con una operación pequeña.
+- Automatizar altas, configuración, cobros, medición y vigilancia del servicio. No vender compromisos de soporte humano 24/7.
+- Preparar actualizaciones reversibles, recuperación automática y continuidad durante vacaciones.
+- Sin logística física ni contratación de internet para terceros. El trabajo central es mantener un cliente y una infraestructura fiables.
+
+Revisión documental: 30 de octubre de 2026, hora de Colombia. Propuesta pendiente de validación técnica y comercial; no se construyó ni probó el servicio.
