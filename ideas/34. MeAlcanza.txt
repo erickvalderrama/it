@@ -1,0 +1,85 @@
+34. "¿Me alcanza?" - Mira cuánto te queda para gastar después de separar tus próximos pagos
+
+Necesidad/Problema a solucionar:
+- El saldo del banco no muestra cuánto ya está comprometido en arriendo, mercado, transporte y otros pagos.
+- Antes de comprar algo, muchas personas necesitan saber si su dinero alcanza hasta la próxima quincena o hasta la fecha que ellas elijan.
+- Público MASIVO: asalariados, independientes, estudiantes que administran una mesada, pensionados, parejas y familias. Es una necesidad recurrente, no depende de mudarse o entregar una vivienda.
+- Evidencia INTERNACIONAL: la encuesta OECD/INFE 2023 cubre 39 países y economías. En promedio entre participantes, solo 38% de adultos decía tener dinero sobrante al terminar el mes.
+  https://www.oecd.org/en/publications/oecd-infe-2023-international-survey-of-adult-financial-literacy_56003a32-en.html
+  https://www.oecd.org/content/dam/oecd/en/publications/reports/2023/12/oecd-infe-2023-international-survey-of-adult-financial-literacy_8ce94e2c/56003a32-en.pdf
+- El dato documenta un problema extendido; una herramienta organiza lo que hay, pero no resuelve ingresos insuficientes.
+
+Argumentos:
+- Idea: web sencilla con una pregunta principal: "¿Cuánto me queda hasta esta fecha?".
+  1) Registrar cuánto dinero tienes realmente disponible en efectivo y cuentas.
+  2) Separar pagos pendientes, necesidades previstas y una reserva elegida por ti.
+  3) Elegir la fecha hasta la que quieres planear.
+  4) Ver el dinero restante y su equivalente por día, con el cálculo visible.
+  5) Probar una compra: "Si gasto esto hoy, ¿cómo cambia lo que me queda?".
+- Ejemplo ficticio: $350.000 disponibles menos $140.000 separados para compromisos dejan $210.000; repartidos entre siete días equivalen a $30.000 diarios según esos datos.
+- Actualizar saldos y marcar pagos realizados. No exigir clasificar cada compra para obtener el cálculo básico.
+- No contar ingresos esperados como si ya estuvieran disponibles. Si no hay fecha de cobro cierta, usar un horizonte elegido por el usuario.
+- Santa Marta: piloto con 30 personas de distintos ritmos de ingreso, empezando por una calculadora gratuita compartible.
+- A diferencia de las ideas 8 y 24, no analiza cobros ni prepara reclamos: ayuda a planear el dinero que ya tienes.
+- Puede crecer sin conseguir proveedores por ciudad, visitar clientes ni custodiar dinero.
+
+Cómo ganar dinero:
+- Quién paga: PERSONAS.
+- Gratis: cálculo individual útil, sin pedir tarjeta ni conectar el banco.
+- Hipótesis premium: $6.900 COP/mes o $49.900 COP/año por historial, pagos recurrentes, escenarios guardados y planificación compartida en pareja.
+- Probar precio y costos antes de ofrecer WhatsApp frecuente; el plan básico funciona desde la web.
+- Validación: de 30 usuarios, buscar diez que actualicen su plan durante cuatro semanas y cinco pagos reales por premium.
+- Alcance amplio no garantiza crecimiento: medir cuánto cuesta adquirir a alguien y cuántos siguen usando la herramienta.
+
+Competidores en Colombia:
+- Marranito: registra ingresos, gastos y presupuestos desde WhatsApp; ofrece una modalidad gratuita.
+  https://marranito.app/
+- Sumalo: se presenta como herramienta gratuita de finanzas personales para colombianos con voz, cuentas y presupuestos.
+  https://sumalo.app/
+- Finly: su ficha oficial describe presupuesto según el ciclo de pago y funciones de WhatsApp.
+  App iOS: https://apps.apple.com/co/app/finly-gastos-y-presupuesto/id6766664596
+- Son competidores directos. No afirmar que faltan opciones colombianas o en español.
+
+Competidores en Santa Marta:
+- Las mismas herramientas accesibles por internet, apps bancarias, hojas de cálculo y el cálculo mental cotidiano.
+- No hace falta un competidor exclusivo de la ciudad para que exista competencia.
+
+Competidores en el mundo:
+- PocketGuard: su función Leftover calcula dinero restante tras compromisos; compite directamente con la pregunta central.
+  https://pocketguard.com/help/leftover/
+  App iOS: https://apps.apple.com/us/app/pocketguard-budget-app/id949414211
+- YNAB: organización del presupuesto, también para ingresos variables.
+  https://www.ynab.com/guide/irregular-income
+
+Nuestra ventaja:
+- Hipótesis: responder una sola pregunta con pocos datos, saldos actualizados y cálculos entendibles, sin obligar a llevar contabilidad completa.
+- Debe demostrarse que esa sencillez mantiene el hábito mejor que las alternativas; no es una función exclusiva comprobada.
+- Nivel de océano azul: BAJO. El mercado es amplio, pero muy competido y con opciones gratuitas.
+- La oportunidad es de alcance masivo potencial, no una promesa de millones de usuarios.
+- Si no conseguimos uso frecuente o una diferencia por la que paguen, descartar antes de construir otra app financiera genérica.
+
+Riesgos:
+- Datos incompletos, pagos olvidados o saldos viejos distorsionan el resultado: mostrar qué se incluyó y cuándo se actualizó.
+- Al marcar un pago realizado, actualizar la reserva pendiente para no descontarlo dos veces.
+- Si los compromisos superan el dinero, mostrar el faltante; no ocultarlo como cero disponible.
+- El resultado es una estimación según los datos del usuario, no una garantía de que puede gastar sin consecuencias.
+- Proteger información financiera, permitir exportación y borrado. No solicitar claves bancarias.
+- La IA puede interpretar texto o voz, pero el usuario confirma importes y fechas; los cálculos deben ser exactos y reproducibles.
+- Precio bajo y mucho soporte pueden hacer inviable el negocio.
+
+Internacionalización:
+- ALTA: planear entre fechas de ingreso es una necesidad documentada en varios países.
+- Plan: Santa Marta, Colombia y después México y Perú, validando retención y pago por separado.
+- Adaptar moneda, fechas y vocabulario. Empezar con una moneda por presupuesto.
+- El cálculo básico funciona sin integraciones bancarias ni contratos con comercios locales.
+
+Problemas para 1 sola persona:
+- Nota: APTA CON CUIDADO.
+- Tiempo: empezar por cálculo, saldos y compromisos; añadir funciones solo si mejoran el uso real.
+- Cobro automático y ayuda dentro del producto para evitar atender manualmente a muchos clientes pequeños.
+- Ausencias: cálculos, acceso y exportación automáticos, con respaldos y recuperación de cuenta.
+- Soporte en horario laboral; no operar transferencias, inversiones, créditos ni emergencias financieras.
+- Mantener bajos los costos por usuario: calcular no requiere una consulta de IA por cada operación.
+- La principal dificultad es competir y distribuir, no programar la primera versión.
+
+Fuentes consultadas: 30 de octubre de 2026. Precio, ventaja, retención y disposición de pago pendientes de validación.
