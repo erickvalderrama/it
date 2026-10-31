@@ -1,0 +1,82 @@
+38. "Un correo por cada sitio" - Regístrate sin entregar tu correo principal y corta los mensajes cuando quieras
+
+Necesidad/Problema a solucionar:
+- Tiendas, sorteos y boletines piden el correo. Después llegan promociones de muchos remitentes y es difícil cerrar esa vía sin cambiar de dirección.
+- Público amplio: personas que compran o se registran por internet y quieren mantener ordenada su bandeja.
+- Uso casi diario EN SEGUNDO PLANO para quienes reciben correo frecuentemente: el servicio recibe y reenvía mensajes aunque no abran el panel. No confundir eso con entrar a la web todos los días.
+- Evidencia internacional: la FTC de EE.UU. recomienda revisar cómo las empresas comparten el correo y usar filtros, bloqueos y bajas de listas.
+  https://consumer.ftc.gov/articles/how-get-less-spam-your-email
+- Mozilla y SimpleLogin ofrecen direcciones alternativas para esta misma necesidad en distintos mercados. El problema existe; la demanda por otro proveedor no está demostrada.
+
+Argumentos:
+- Idea: direcciones alternativas que funcionan como puertas de entrada a tu correo habitual.
+  1) Verificar tu correo principal una vez.
+  2) Pulsar "Crear correo para esta tienda", ponerle un nombre y copiar la dirección generada.
+  3) Recibir los mensajes en tu bandeja de siempre; desactivar esa dirección desde un botón si ya no la quieres usar.
+- Fácil de utilizar: sin configurar dominios, cambiar de bandeja ni aprender qué es un alias.
+- La primera versión se limita a recepción y reenvío. Explicar que responder directamente desde la cuenta principal puede revelar esa dirección si no existe un reenvío de respuestas.
+- Santa Marta: piloto con 20 adultos que compren o lean boletines por internet, empezando con registros no críticos.
+- Es distinta de la idea 13: no analiza si un mensaje es estafa; controla la dirección por la que entra.
+- Operación digital automática con infraestructura gestionada. La confianza y la entrega correcta son más importantes que añadir IA.
+
+Cómo ganar dinero:
+- Quién paga: PERSONAS.
+- Gratis: tres direcciones para probar.
+- Hipótesis: $6.900 COP/mes o $49.900 COP/año por 50 direcciones y gestión desde una sola pantalla.
+- Los límites de mensajes y tamaños deben definirse tras medir costos reales; no prometer uso ilimitado.
+- Antes de desarrollar: mostrar también DuckDuckGo Email Protection y SimpleLogin a los participantes. Buscar cinco pagos por una diferencia concreta que valoren.
+- Si prefieren las opciones gratuitas y no hay diferencia suficiente, descartar. Precio local y una interfaz sencilla no bastan por sí solos.
+
+Competidores en Colombia:
+- Compiten los servicios internacionales disponibles por internet; no se afirma que sean empresas colombianas.
+- Firefox Relay ofrece cinco direcciones gratuitas; su lista pública de disponibilidad Premium consultada no incluye Colombia.
+  https://relay.firefox.com/
+- Los filtros y bloqueos de los proveedores de correo son sustitutos gratuitos, aunque no cambian la dirección ya compartida.
+- No se verificó un proveedor colombiano especializado. Eso no significa que no exista.
+
+Competidores en Santa Marta:
+- Las mismas soluciones internacionales y los filtros del correo actual.
+- No hay una ventaja territorial demostrada: estar en Santa Marta no protege de esa competencia.
+
+Competidores en el mundo:
+- SimpleLogin: diez direcciones gratuitas y planes de pago; permite recepción y respuestas mediante direcciones alternativas.
+  Web: https://simplelogin.io/
+  Planes: https://simplelogin.io/pricing/
+  App Android: https://play.google.com/store/apps/details?id=io.simplelogin.android
+- DuckDuckGo Email Protection: reenvío gratuito, retirada de rastreadores y direcciones privadas prácticamente ilimitadas, con límites contra abusos.
+  https://duckduckgo.com/duckduckgo-help-pages/email-protection/what-is-duckduckgo-email-protection
+- Esta competencia gratuita es una dificultad comercial central, no un detalle menor.
+
+Nuestra ventaja y filtro frente a LLM gratuitos:
+- El valor central exige direcciones que EXISTAN, recepción de mensajes y reenvío continuo bajo reglas del usuario.
+- Un LLM puede explicar cómo hacerlo, generar código o usar una herramienta conectada; una dirección inventada en un chat no recibe mensajes.
+- Si el asistente configura un proveedor externo, ese proveedor sigue prestando la operación indispensable. Nuestro competidor sería ese servicio completo, no solo el modelo.
+- Hipótesis comercial: alta sencilla y pago en COP para usuarios que no quieren gestionar varias herramientas. Compararla con la experiencia real de los rivales.
+- Nivel de océano azul: BAJO. Pasa el filtro de necesitar operación fuera del LLM, pero aún debe demostrar una ventaja frente a servicios gratuitos consolidados.
+- No presentarla como protección absoluta contra rastreo, fraude o filtraciones.
+
+Riesgos:
+- Algunos sitios rechazan dominios de direcciones alternativas.
+- Un mensaje puede retrasarse, rebotar o terminar en spam. Probar con distintos proveedores y preparar reintentos y avisos de fallos.
+- El operador conoce la dirección de destino: no prometer anonimato frente al propio servicio.
+- Proteger cuentas y enrutamiento; impedir que alguien registre un destino ajeno sin verificarlo.
+- Definir cómo conservar, exportar o migrar las direcciones si termina la suscripción o cierra el negocio. No reasignarlas a otro usuario.
+- Evitar convertirse en infraestructura para envíos masivos o abusos; el piloto solo recibe y reenvía a destinos verificados.
+- No convertir las cuentas esenciales de los primeros clientes en una prueba de fiabilidad.
+
+Internacionalización:
+- ALTA para la función; MEDIA por entregabilidad, pagos y obligaciones de protección de datos.
+- Plan: Santa Marta, Colombia y después un piloto en México o Perú.
+- Cambiar idioma, moneda y métodos de pago. Verificar la operación del correo y requisitos de cada mercado.
+- Mantener la misma experiencia de crear, copiar y desactivar.
+
+Problemas para 1 sola persona:
+- Nota: APTA CON CUIDADO para un piloto limitado.
+- Usar infraestructura de correo gestionada y automatizar reenvíos, cobros y controles; revisar licencias si se reutiliza software abierto.
+- La dificultad es mantener la entrega y la confianza, no diseñar la pantalla.
+- Soporte en horario laboral, con reintentos y alertas automáticas. Si exige intervención permanente o compromisos de atención 24/7, descartar para trabajar solo.
+- Medir almacenamiento, tráfico y abuso antes de ampliar usuarios.
+- Preparar continuidad durante enfermedad o vacaciones y un procedimiento de cierre que no deje direcciones abandonadas.
+- Sin logística física ni dinero de terceros, pero con responsabilidad importante sobre comunicaciones personales.
+
+Fuentes consultadas: 30 de octubre de 2026. Precio, demanda, diferenciación y viabilidad operativa pendientes de validación.
