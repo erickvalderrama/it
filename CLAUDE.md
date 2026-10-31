@@ -17,6 +17,39 @@ Carpeta `ideas/` con una idea de negocio por archivo `.txt`, numerados en orden 
 - **Cliente principal = PERSONAS comunes (B2C)**: preferir que quien usa Y quien paga sea el usuario común, cualquier persona (no solo un nicho). Si el cliente que paga resulta ser una empresa, no pasa nada, pero lo principal deben ser personas. En "Cómo ganar dinero" poner primero lo que paga la persona.
 - **Cada idea (hecha y nueva) lleva "Problemas para 1 sola persona"**: lo que se complica por trabajar solo.
 
+## Capacidades de los LLM gratuitos: referencia para descartar ideas
+
+Última revisión documental: **30 de octubre de 2026**. Es una muestra de asistentes relevantes, no un catálogo exhaustivo. Revalidar la función decisiva antes de cada idea: modelos, cupos y disponibilidad cambian según cuenta, país, edad y dispositivo. Una prueba temporal de un plan de pago no cuenta como plan gratuito permanente.
+
+| Asistente / plan | Capacidades documentadas en la oferta gratuita | Límites y cautelas |
+| --- | --- | --- |
+| ChatGPT Free | Conversación, búsqueda web, análisis de datos, carga de imágenes y archivos, generación de imágenes y uso de GPTs existentes. Voz y otras herramientas tienen cupos propios. También hay chats grupales por invitación. | No asumir herramientas ilimitadas ni que una función sea exclusiva por tener fotos, documentos, voz o colaboración. Consultar la disponibilidad del plan y la superficie concreta. |
+| Gemini sin suscripción de IA | La oferta Free enumera Gemini Live, Deep Research, Canvas, Gems y generación/edición de imágenes. | Live puede interactuar con herramientas conectadas, incluidas Calendar, Tasks y Keep; no atribuir a Free todas las integraciones o funciones anunciadas: algunas dependen de configuración, región o suscripción. |
+| Claude Free | Búsqueda web, creación de archivos, ejecución de código, memoria entre conversaciones, conectores, Artifacts y herramientas de documentos, presentaciones y diseño. | Uso limitado. La tabla consultada sitúa la delegación y programación de tareas en planes de pago; no generalizar esa restricción a otros asistentes. |
+
+Fuentes oficiales para comprobar cada fila:
+- ChatGPT Free: https://help.openai.com/en/articles/9275245-chatgpt-free-tier-faq
+- Grupos de ChatGPT, incluido Free: https://openai.com/index/group-chats-in-chatgpt/
+- Gemini Free frente a planes de pago: https://gemini.google/subscriptions/
+- Funciones conectadas de Gemini Live y sus condiciones: https://gemini.google/overview/gemini-live/
+- Límites de Gemini: https://support.google.com/gemini/answer/16275805?hl=es
+- Claude Free frente a planes de pago: https://claude.com/pricing
+
+**Programar también cuenta como competencia:** la documentación de OpenAI incluye acceso Free a tareas cortas de código en escritorio, sujeto a despliegue. Claude Free también anuncia ejecución de código y creación de archivos. Si el usuario puede obtener y utilizar una calculadora, documento o herramienta sencilla generada por un asistente gratuito, comprobar si eso ya resuelve la necesidad.
+- Fuente adicional de OpenAI: https://learn.chatgpt.com/docs/pricing
+
+**No confundir superficies:** una restricción de imágenes en Work/Codex no demuestra que ChatGPT Free no genere imágenes en Chat. El plan de un asistente tampoco hace gratuita una API, el alojamiento de una app o un servicio externo. Verificar cada costo por separado.
+
+### Cómo aplicar este filtro
+
+- No proponer como ventaja por sí sola: resumir, redactar cartas, interpretar fotos/PDF, comparar documentos, hacer cálculos, recomendar recetas, explicar ejercicios, generar archivos, tener memoria, conversar por voz o añadir recordatorios.
+- Tampoco afirmar que los asistentes "no pueden conectarse a herramientas", "no colaboran" o "no guardan contexto". Hay funciones gratuitas y otras condicionadas; revisar la alternativa concreta.
+- Comparar el resultado completo con el mejor asistente gratuito pertinente, usando entradas equivalentes y las herramientas gratuitas que el usuario realmente tendría disponibles. Registrar fuente, fecha y qué se comprobó; distinguir lectura de documentación de prueba práctica.
+- Identificar qué resultado exige una infraestructura, datos exclusivos, participantes reales o ejecución externa indispensable. Añadir un chat o una interfaz no basta.
+- Que una IA recomiende o use un servicio externo no elimina el valor de ese servicio, pero comprobar si ya existe una alternativa gratuita equivalente. Poder generar código tampoco demuestra que exista una operación desplegada, con usuarios y continuidad.
+- Si el resultado útil es equivalente, descartar. Si la gratuidad o disponibilidad decisiva no se pudo confirmar, marcarla como pendiente en lugar de inventar una limitación.
+- Revisar otros asistentes gratuitos, como Copilot, Perplexity o DeepSeek, cuando sean pertinentes; no interpretar su ausencia de esta tabla como falta de capacidades.
+
 ## Problemas generales de ser 1 sola persona (revisar en cada idea)
 
 - **Tiempo**: no se puede vender, programar, dar soporte y hacer trabajo de calle a la vez.
