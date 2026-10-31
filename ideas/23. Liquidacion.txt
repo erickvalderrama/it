@@ -1,0 +1,92 @@
+23. "¿Te pagaron bien?" - Mandas foto de tu liquidación o colilla de pago por WhatsApp y la IA te dice si te pagaron completo
+
+Necesidad/Problema a solucionar:
+- Cuando a alguien lo despiden o termina su contrato, recibe una liquidación
+  (cesantías, intereses, prima, vacaciones, indemnización) y NO sabe si está bien.
+  Firma porque no entiende los cálculos.
+- Entre 2020 y 2023 el Ministerio de Trabajo recibió 9.844 quejas; entre las más
+  comunes: errores en la liquidación de prestaciones y el no pago de prestaciones.
+  Muchos más nunca reclaman.
+- La ley cambió en 2025 (Ley 2466, reforma laboral): ahora es aún más difícil
+  saber cuánto le toca a cada uno.
+- Lo mismo pasa con la colilla de pago mensual: horas extras, recargos nocturnos y
+  dominicales mal pagados (muy común en hoteles, restaurantes y vigilancia en Santa Marta).
+- Un abogado laboral cobra solo por revisar, y la gente no sabe si vale la pena.
+- Problema INTERNACIONAL (con evidencia):
+  - EE.UU.: el "robo de salarios" le cuesta a los trabajadores hasta 50.000 millones
+    de dólares al año (Economic Policy Institute); solo en salario mínimo, 15.000 millones.
+  - La mayoría de víctimas nunca reclama ni demanda.
+  - Liquidaciones y finiquitos mal hechos son tema en México (finiquito), España
+    (finiquito), Perú, Chile, Argentina: cada país con sus reglas difíciles.
+
+Argumentos:
+
+- Idea: bot de WhatsApp.
+  1) El trabajador manda foto de su liquidación o colilla, o cuenta por nota de voz:
+     "trabajé 2 años y 3 meses, ganaba $1.800.000, me despidieron sin justa causa".
+  2) La IA calcula lo que le correspondía según la ley vigente y lo compara.
+  3) Responde sencillo: "Te pagaron bien ✅" o "Te faltan cerca de $1.250.000 en
+     prima y vacaciones ❌", explicando cada parte.
+  4) Si falta plata: carta de reclamo lista para mandar al empleador, o lo conecta
+     con un abogado laboral verificado.
+- Pensada para evitar los problemas de ser 1 persona:
+  - AUTOMÁTICA: lectura del documento + cálculo + explicación + carta.
+  - NO maneja plata de terceros, sin logística, sin trabajo de calle, sin guardia 24/7.
+  - Los casos difíciles los toma un abogado aliado, no uno mismo.
+  - Se difunde solo: quien recupera plata se lo cuenta a sus compañeros.
+- Santa Marta para empezar: hoteles, restaurantes, vigilancia y turismo,
+  con mucha rotación de personal al acabar cada temporada.
+
+Cómo ganar dinero:
+- Revisión básica: gratis (atrae gente y da el diagnóstico).
+- Informe detallado + carta de reclamo lista: pago pequeño
+  (ej. $15.000 - $25.000 COP, pago por link).
+- Abogados laborales aliados: pagan por cada caso referido que vale la pena
+  (ellos cobran al trabajador un % si ganan; nosotros recibimos comisión del abogado).
+- Plan para empleadores pequeños (restaurantes, familias con empleada doméstica):
+  "calcula bien antes de pagar" para evitar demandas (mensualidad).
+
+Competidores en Colombia:
+- Calculadora del Ministerio de Trabajo (web, orientativa, no lee documentos ni compara).
+  Noticia: https://radionacional.co/actualidad/economia/liquidacion-laboral-calculadora-ministerio-de-trabajo
+- Calculadoras web gratis (Runa, Buk, Softland, sitios de cálculo): hay que saber
+  qué datos poner y no dicen qué hacer si falta plata.
+  Web: https://runahr.com/co/recursos/liquidacion/
+- Abogados laborales (cobran por revisar; atienden en oficina).
+- No se encontró un servicio por WhatsApp que lea la liquidación y diga si está bien.
+
+Competidores en Santa Marta:
+- Abogados laborales locales, Inspección de Trabajo (presencial, filas).
+- Ninguno digital.
+
+Competidores en el mundo:
+- Calculadoras de finiquito en México y España (web, genéricas).
+- Servicios legales en línea por demanda (EE.UU., España): cobran caro y no son por WhatsApp.
+- No se encontró un bot fuerte que revise colillas y liquidaciones por foto.
+
+Nuestra ventaja: las calculadoras exigen saber de nómina. Nosotros: mandas la foto
+o hablas, la IA hace el cálculo con la ley vigente, te dice cuánto te falta y te
+da la carta o el abogado. Todo en WhatsApp.
+Nivel de océano azul: MEDIO-ALTO (hay calculadoras web, pero nadie que lea el
+documento y te acompañe a reclamar por WhatsApp).
+
+Riesgos:
+- Cálculo equivocado = falsa esperanza o plata perdida: siempre decir "estimado",
+  pedir confirmar datos, y casos grandes revisados por abogado.
+- Asesoría legal sin ser abogado: el bot solo calcula y orienta; revisar con abogado
+  que el modelo sea legal (que el abogado aliado firme lo que es asesoría).
+- Cambios en la ley (reforma 2025): actualizar las reglas apenas cambien.
+- Datos personales y salariales: cumplir Ley 1581.
+
+Internacionalización (se puede llevar a otros países): SÍ, ALTA
+- Liquidaciones / finiquitos / colillas mal pagadas pasan en todos los países.
+- Mismo bot; cambia la fórmula legal de cada país (una "tabla de reglas" por país)
+  y los abogados aliados.
+- Plan: 1) Santa Marta y Colombia  2) México y Perú (finiquito/CTS)
+  3) Chile, Ecuador, Argentina, España  4) Brasil (rescisão) e India.
+
+Problemas para 1 sola persona: APTA CON CUIDADO
+- Mantener las fórmulas al día con cada cambio de ley (Colombia cambió en 2025).
+- Conseguir y revisar abogados aliados serios (uno por ciudad/país).
+- Responsabilidad si el cálculo sale mal: textos claros + revisión de abogado en casos grandes.
+- Lo bueno: automática, sin plata de terceros, sin logística, sin guardia 24/7.

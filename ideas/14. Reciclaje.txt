@@ -1,0 +1,94 @@
+14. "Recoge mi reciclaje" - Conecta casas y negocios con recicladores de oficio por WhatsApp, con kilos medidos para las empresas
+
+Necesidad/Problema a solucionar:
+- Santa Marta está en crisis de basuras: el relleno Palangana tiene la licencia vencida
+  (mayo 2026) y recibe unas 475 toneladas al día. Se recicla muy poco
+  (unas 400 toneladas al MES en 2021).
+- Colombia recicla solo cerca del 16% de sus residuos.
+- La gente que SÍ separa no sabe a quién entregar el reciclaje ni cuándo pasan.
+  Termina en la misma bolsa de basura.
+- Los recicladores de oficio caminan horas buscando material en bolsas rotas,
+  ganan poco y no tienen clientes fijos.
+- Las empresas que fabrican envases están OBLIGADAS por ley a recuperar parte de lo
+  que venden (Responsabilidad Extendida del Productor), y necesitan datos confiables
+  de cuánto se recogió y dónde.
+- Hoteles y restaurantes generan mucho cartón, vidrio y plástico y no tienen ruta fija.
+- Problema INTERNACIONAL (con evidencia):
+  - Hay millones de recicladores informales en el mundo (Latinoamérica, India, África).
+  - Brasil, México, Perú, Chile, India y la Unión Europea tienen leyes de
+    Responsabilidad Extendida del Productor: las marcas deben pagar por recuperar envases.
+  - Rellenos sanitarios llenos o vencidos: en Colombia se habla de que se "agotaron".
+
+Argumentos:
+
+- Idea: bot de WhatsApp + panel web.
+  - Casa o negocio: "tengo reciclaje" → elige día → le llega el nombre y foto del
+    reciclador que pasa. Califica el servicio.
+  - Reciclador: recibe por WhatsApp su ruta del día con direcciones fijas.
+    Registra los kilos con una foto de la báscula.
+  - Empresa / marca: ve en un panel cuántos kilos de su tipo de envase se recogieron,
+    en qué barrio, con fotos y fechas (trazabilidad).
+- Por qué funciona: todos ganan. La casa se libra del reciclaje, el reciclador
+  gana más caminando menos, la marca cumple la ley con datos confiables, y la
+  ciudad manda menos basura al relleno.
+- Ojo legal: en Colombia el aprovechamiento lo hacen los recicladores de oficio
+  y sus organizaciones. La idea NO los reemplaza: es su herramienta.
+- Por qué sirve para 1 persona:
+  - Solo WhatsApp + web. No hay camiones ni bodegas propias.
+  - Se trabaja con 1 o 2 asociaciones de recicladores de Santa Marta (ellos ponen la gente).
+  - Empezar con hoteles y edificios de El Rodadero y Bello Horizonte (mucho material junto).
+
+Cómo ganar dinero:
+- Negocios (hoteles, restaurantes, edificios, colegios): mensualidad por ruta fija
+  + certificado de cuántos kilos reciclaron (les sirve para sus reportes y su imagen).
+- Marcas y planes colectivos de envases: pagan por los datos de trazabilidad
+  (kilos certificados con foto, fecha y lugar) para cumplir la ley.
+- Asociaciones de recicladores: plan pequeño para manejar sus rutas y reportes.
+- Casas: gratis (son la fuente del material).
+- Después: venta del material directamente a la industria (con la asociación).
+
+Competidores en Colombia:
+- Asociaciones de recicladores y empresas de aseo (rutas selectivas), sin app.
+- Programas de las marcas para recuperar envases (beneficiaron 36.700 recicladores en 2025).
+  Noticia: https://www.publimetro.co/estilo-vida/2026/08/25/colombia-aumenta-el-reciclaje-de-envases-y-recupera-4400-toneladas-durante-2025/
+- No se encontró una app conocida que conecte casas + recicladores + marcas en Colombia.
+
+Competidores en Santa Marta:
+- Essmar: rutas selectivas en 165 barrios, sin app ni horario por casa.
+  Documento: https://essmar.gov.co/wp-content/uploads/ACCIONES-COLABORATIVAS.pdf
+- Organizaciones de recicladores locales (unas 600 familias viven del reciclaje).
+
+Competidores en el mundo:
+- Cataki (Brasil, app que conecta personas con "catadores").
+  Web: https://www.cataki.org
+- Ecolana (México, mapa de centros de reciclaje).
+  Web: https://www.ecolana.com.mx
+- Rubicon y Recycle Coach (EE.UU., gestión de residuos para ciudades y empresas).
+  Web: https://www.rubicon.com
+
+Nuestra ventaja: Cataki y Ecolana solo conectan o muestran un mapa; no le dan
+datos certificados a las marcas, que son las que pagan. Nosotros: WhatsApp para
+casas y recicladores (sin app) + kilos con foto para las marcas que deben cumplir la ley.
+Nivel de océano azul: ALTO en Colombia y Santa Marta, MEDIO afuera (Cataki en Brasil).
+
+Riesgos:
+- Recicladores sin celular o sin datos: empezar con las asociaciones organizadas,
+  y que el líder registre por el grupo.
+- Kilos falsos para cobrar más: foto de báscula + revisión al azar.
+- Ley y política del reciclaje en Colombia es compleja: hablar con Superservicios,
+  Essmar y las asociaciones antes de empezar.
+- Las marcas tardan en pagar y deciden lento: empezar cobrando a hoteles y edificios.
+- Revisar en detalle la Resolución 1407 de 2018 (y sus cambios) sobre envases.
+
+Internacionalización (se puede llevar a otros países): SÍ, ALTA
+- Recicladores informales + leyes de envases existen en Brasil, México, Perú,
+  Chile, Ecuador, Argentina, India, Sudáfrica, Kenia.
+- Mismo sistema; cambia idioma, ley de envases y las organizaciones locales.
+- Plan: 1) Santa Marta  2) Barranquilla, Cartagena, Bogotá
+  3) Perú, Chile, México (leyes de envases fuertes)  4) Brasil e India.
+
+Problemas para 1 sola persona: DIFÍCIL
+- Coordinar rutas con recicladores todos los días.
+- Política del reciclaje (Essmar, asociaciones, Superservicios): reuniones largas.
+- Vender datos a marcas grandes toma meses.
+- Revisar que los kilos reportados sean reales.

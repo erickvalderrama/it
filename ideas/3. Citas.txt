@@ -1,0 +1,61 @@
+3. Agenda de citas por WhatsApp para barberías y peluquerías de barrio
+
+Necesidad/Problema a solucionar:
+- Las barberías pierden tiempo contestando WhatsApp para agendar, mientras atienden.
+- Clientes que no llegan a la cita = plata perdida.
+- La agenda en cuaderno se cruza: dos clientes a la misma hora.
+
+Argumentos:
+
+- Idea: el cliente escribe por WhatsApp y un bot le muestra horas libres y agenda la cita.
+  El negocio ve su agenda en una página web sencilla. Recordatorio automático un día antes.
+- Por qué funciona: en Santa Marta casi todas las barberías agendan a mano por WhatsApp o en un cuaderno.
+  Pierden clientes que no llegan y tiempo contestando mensajes.
+- Por qué sirve para 1 persona:
+  - No hay que hacer app móvil: todo pasa en WhatsApp (que todos ya usan) + una web.
+  - Se puede vender puerta a puerta en el barrio, sin publicidad cara.
+  - Empezar con 5-10 barberías en Santa Marta; si funciona, se repite en otras ciudades.
+  - Costos bajos: servidor pequeño + API de WhatsApp.
+
+Cómo ganar dinero:
+- Mensualidad baja por negocio (ej. $30.000 - $50.000 COP al mes).
+- Plan más caro: cobro de anticipo para que el cliente no falte, reportes y varios barberos.
+- Instalación y configuración pagada una sola vez.
+- Después: mismo producto para uñas, spas, veterinarias, consultorios.
+
+Competidores en Colombia:
+- AgendaPro (de Chile, fuerte en Colombia, bastante completo pero más caro y complejo).
+  Web: https://agendapro.com/co/barberia/app-para-barberia
+  App (iPhone): https://apps.apple.com/app/id1218956898
+
+Competidores en Santa Marta:
+- No se encontró una app local. La competencia real es WhatsApp a mano y el cuaderno.
+
+Competidores en el mundo:
+- Booksy (barberías, EE.UU./Europa).
+  Web: https://booksy.com
+- Fresha (salones y spas, gratis para el negocio, cobra por pagos).
+  Web: https://www.fresha.com
+- Calendly (agenda general, no especial para barberías).
+  Web: https://calendly.com
+
+Nuestra ventaja: ellos piden al cliente bajar una app o entrar a una web.
+Nosotros: todo por WhatsApp, más barato, en español sencillo y con soporte
+en persona en Santa Marta.
+
+Riesgos:
+- La API de WhatsApp cobra por mensaje: revisar precios antes de fijar la mensualidad.
+- Es fácil de copiar: hay que ganar por cercanía y buen soporte.
+
+Internacionalización (se puede llevar a otros países): SÍ, ALTA
+- Barberías y salones que agendan por WhatsApp hay en toda Latinoamérica, España,
+  India, África y Brasil (en portugués).
+- El sistema es igual en todos lados: solo cambia idioma, moneda y forma de pago.
+- Ojo: afuera la competencia es más fuerte (Booksy, Fresha, AgendaPro).
+  Ganar por precio bajo y por ser 100% WhatsApp.
+
+Problemas para 1 sola persona: APTA CON CUIDADO
+- Soporte diario: si el bot falla, todas las barberías llaman al mismo tiempo.
+- Vender puerta a puerta quita tiempo para programar y mejorar el producto.
+- Cobrar mensualidades una por una: usar cobro automático (tarjeta/Nequi recurrente).
+- Fácil de copiar: otro puede bajar precios rápido.

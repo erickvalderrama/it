@@ -1,0 +1,84 @@
+17. "Cotiza tu moto" - Manda foto o nota de voz del daño de tu moto y recibe 3 precios de talleres verificados por WhatsApp
+
+Necesidad/Problema a solucionar:
+- En Colombia hay cerca de 13 millones de motos (más del 60% de todos los vehículos)
+  y en 2025 se vendieron más de 1,1 millones nuevas. Para millones de personas la moto
+  es su trabajo: domiciliarios, mototaxistas, vendedores, mensajeros.
+- Cuando la moto se daña, el dueño no sabe cuánto debe costar la reparación:
+  cada taller dice un precio distinto, a veces le cobran de más o le cambian
+  repuestos que no hacían falta.
+- Ir de taller en taller preguntando = días sin trabajar = días sin ganar.
+- Los talleres buenos no tienen cómo conseguir clientes nuevos, solo "voz a voz".
+- Problema INTERNACIONAL (con evidencia):
+  - Las motos son el vehículo principal en India, Indonesia, Vietnam, Tailandia,
+    Filipinas, Brasil, México, Perú y gran parte de África (cientos de millones de motos).
+  - Las páginas para comparar talleres que existen afuera son para CARROS
+    (ej. GestiRep en España, RepairPal en EE.UU.), no para motos.
+
+Argumentos:
+
+- Idea: bot de WhatsApp.
+  1) El motero manda foto, video o nota de voz: "la moto suena feo al frenar".
+  2) La IA entiende el problema y lo manda a 3-5 talleres verificados cercanos.
+  3) Los talleres responden con precio y tiempo. El motero elige.
+  4) Después califica el taller (precio cumplido, rapidez, honestidad).
+  - Recordatorios: cambio de aceite, SOAT y tecnomecánica (se conecta con la vida diaria del motero).
+- Por qué funciona: el motero ahorra plata y tiempo sin trabajar; el taller
+  honesto consigue clientes nuevos y gana fama con calificaciones.
+- Por qué sirve para 1 persona:
+  - Solo WhatsApp + panel web para talleres. Sin app, sin taller propio, sin repuestos.
+  - Empezar con 20-30 talleres de motos de Santa Marta, visitados en persona.
+  - Se vende solo en grupos de domiciliarios y mototaxistas (comunidades enormes en WhatsApp).
+
+Cómo ganar dinero:
+- Comisión pequeña al taller por cada trabajo conseguido (ej. 5% a 10%).
+- Plan mensual para talleres: aparecer primero, perfil con fotos, más cotizaciones.
+- Venta de repuestos: almacenes de repuestos pagan por aparecer o comisión.
+- Alianzas: SOAT, seguros, créditos para reparación (comisión por referido).
+- Plan para empresas con flotas de motos (mensajería, domicilios): mantenimiento de todas sus motos.
+
+Competidores en Colombia:
+- MotoSmart (app para moteros: talleres, lavado, trámites).
+  Noticia: https://www.portafolio.co/negocios/motosmart-una-app-aliada-de-los-moteros-539081
+- Directorios de talleres (listas sin precios ni cotización).
+  Web: https://encolombia.com/?p=204100
+- Talleres de concesionario (Yamaha, AKT, Bajaj): solo su marca, más caros.
+- No se encontró un servicio de cotización de talleres de motos por WhatsApp.
+
+Competidores en Santa Marta:
+- Ninguno digital. Voz a voz, Facebook y grupos de WhatsApp de moteros.
+
+Competidores en el mundo:
+- GestiRep (España, comparar precios de talleres, solo carros).
+  Noticia: https://www.motor.es/noticias/gestirep-elige-el-mejor-taller-con-un-solo-click-201416166.php
+- RepairPal (EE.UU., precios justos de reparación, solo carros).
+  Web: https://repairpal.com
+- GoMechanic (India, talleres para carros).
+- Nadie fuerte en motos ni por WhatsApp.
+
+Nuestra ventaja: las páginas que existen son para carros y piden app.
+Nosotros: solo motos, por WhatsApp con foto o nota de voz, cotización de varios
+talleres, calificaciones y recordatorios. Pensado para quien vive de su moto.
+Nivel de océano azul: ALTO (no se encontró nada igual para motos, ni en Colombia
+ni afuera).
+
+Riesgos:
+- Talleres que cotizan bajo y luego cobran más: calificación + "precio cumplido".
+- Cotizar sin ver la moto es difícil: dar rango de precio y confirmar en el taller.
+- Talleres pequeños que no quieren pagar comisión: empezar gratis y cobrar cuando
+  ya les llegan clientes.
+- Si el cliente y el taller se arreglan por fuera (sin comisión): por eso también
+  plan mensual, no solo comisión.
+
+Internacionalización (se puede llevar a otros países): SÍ, ALTA
+- Motos + talleres informales + WhatsApp existen en toda Latinoamérica, India,
+  Indonesia, Vietnam, Filipinas, Nigeria, Kenia.
+- Mismo sistema; cambia idioma, moneda y marcas de moto populares.
+- Plan: 1) Santa Marta  2) Barranquilla, Cartagena, Montería, resto de Colombia
+  3) Perú, Ecuador, México, Centroamérica  4) Brasil (portugués) y Asia (inglés).
+
+Problemas para 1 sola persona: APTA CON CUIDADO
+- Reclutar talleres y mantenerlos activos (que respondan las cotizaciones).
+- Quejas entre motero y taller: uno queda en el medio.
+- Cobrar comisiones a talleres pequeños: muchos cobros chiquitos.
+- Calidad de las cotizaciones sin ver la moto.

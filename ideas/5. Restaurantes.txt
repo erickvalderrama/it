@@ -1,0 +1,70 @@
+5. Menú digital con QR y pedidos por WhatsApp para restaurantes pequeños (sin comisión de Rappi)
+
+Necesidad/Problema a solucionar:
+- Rappi y otras apps se quedan con una parte grande de cada pedido del restaurante.
+- Los pedidos por WhatsApp se toman a mano: errores, demoras y mensajes perdidos.
+- El turista extranjero no entiende el menú en español y pide menos.
+
+Argumentos:
+
+- Idea: el restaurante tiene su menú en una página con fotos y precios (en español e inglés).
+  El cliente escanea un QR en la mesa o abre el link, arma su pedido y le llega
+  listo al WhatsApp del restaurante. Sirve para mesa, para llevar y domicilio.
+- Por qué funciona: Rappi y otras apps cobran comisiones altas por pedido.
+  Muchos restaurantes de Santa Marta ya reciben pedidos por WhatsApp, pero a mano:
+  mandan fotos del menú en PDF y anotan todo en papel.
+  Santa Marta tiene muchos turistas extranjeros: el menú en inglés ayuda a vender más.
+- Por qué sirve para 1 persona:
+  - Un solo sistema web que sirve para todos los restaurantes (cada uno con su link).
+  - Montar un menú toma 1-2 horas: se puede vender y configurar en la misma visita.
+  - No se manejan domiciliarios ni comida: el restaurante sigue con los suyos.
+  - Se vende caminando: El Rodadero, Centro Histórico, Taganga, Bello Horizonte.
+
+Cómo ganar dinero:
+- Mensualidad fija baja (ej. $40.000 - $70.000 COP), sin comisión por pedido.
+- Cobro único por montar el menú y tomar fotos de los platos.
+- Plan más caro: pago en línea (Nequi, PSE), varias sedes, reportes de ventas.
+- Extra: imprimir los QR en stickers o porta-QR para las mesas.
+
+Competidores en Colombia:
+- Rappi (domicilios, cobra comisión alta al restaurante).
+  Web: https://www.rappi.com.co
+- OlaClick (menú digital y pedidos por WhatsApp para Latinoamérica, fuerte en Colombia).
+  Web: https://www.olaclick.com
+
+Competidores en Santa Marta:
+- Rappi y Didi Food (los restaurantes grandes ya están ahí).
+- WhatsApp a mano con menú en PDF o foto (la competencia más común).
+- No se encontró un servicio local que haga menús digitales.
+
+Competidores en el mundo:
+- Meniu (menú y pedidos por WhatsApp).
+  Web: https://meniuapp.com
+- MENU TIGER (menú con QR).
+  Web: https://www.qrcode-tiger.com/es/qr-menu
+- uQR.me (menú QR, desde ~4,95 USD al mes).
+  Web: https://uqr.me
+
+Nuestra ventaja: los grandes dejan que el restaurante lo monte solo y en
+línea; al dueño de un restaurante pequeño eso le cuesta. Nosotros: lo
+montamos en persona, con fotos, menú en inglés para turistas y soporte por
+WhatsApp en Santa Marta. Sin comisión por pedido.
+
+Riesgos:
+- OlaClick y otros tienen planes gratis: hay que ganar con servicio en persona.
+- Si el restaurante cambia precios y no actualiza, el cliente se queja: hacer
+  muy fácil cambiar precios desde el celular.
+- Algunos dueños no quieren pagar mensualidad: ofrecer 1 mes gratis de prueba.
+
+Internacionalización (se puede llevar a otros países): SÍ, ALTA
+- Menú QR + pedidos por WhatsApp sirve en cualquier país donde se use WhatsApp
+  (Latinoamérica, España, India, África).
+- El menú bilingüe sirve en cualquier ciudad turística (Cartagena, Tulum, Cusco, Punta Cana).
+- Ojo: afuera hay mucha competencia (OlaClick, Meniu). La ventaja de "montarlo en
+  persona" no viaja: en otros países hay que vender en línea o con socios locales.
+
+Problemas para 1 sola persona: APTA CON CUIDADO
+- Montar cada menú y tomar fotos uno mismo: 1-2 horas por restaurante.
+- Los dueños piden que uno les cambie los precios: hacer que lo hagan ellos desde el celular.
+- Soporte en horas pico (noches y fines de semana).
+- Competencia con planes gratis: hay que vender mucho en persona.

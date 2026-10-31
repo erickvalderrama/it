@@ -1,0 +1,88 @@
+16. "Inglés para tu trabajo" - Profesor de inglés con IA por notas de voz de WhatsApp para meseros, taxistas, guías y recepcionistas
+
+Necesidad/Problema a solucionar:
+- Santa Marta vive del turismo y llegan muchos extranjeros, pero meseros, taxistas,
+  lancheros, guías, vendedores y recepcionistas casi no hablan inglés.
+  Pierden propinas, ventas y clientes ("no le entendí, mejor me voy a otro lado").
+- Colombia tiene nivel de inglés BAJO: puesto 76 en el mundo (EF EPI 2025),
+  y lo más débil es ENTENDER cuando hablan (escucha).
+- Los cursos normales no sirven para ellos: son caros, con horario fijo, y enseñan
+  gramática, no lo que necesitan decir en su trabajo.
+- Duolingo y similares enseñan inglés general, no "cómo explicarle el menú a un
+  turista" o "cuánto cuesta la carrera al aeropuerto".
+- Problema INTERNACIONAL (con evidencia):
+  - El turismo es uno de cada diez empleos en el mundo, y en muchos países
+    turísticos los trabajadores no hablan inglés: México, Perú, Brasil, Ecuador,
+    República Dominicana, Vietnam, Tailandia, Indonesia, Egipto, Marruecos.
+  - El índice EF EPI muestra nivel bajo o muy bajo en gran parte de Latinoamérica y Asia.
+
+Argumentos:
+
+- Idea: un "profesor" con IA dentro de WhatsApp. El trabajador elige su oficio
+  (mesero, taxista, guía, recepcionista, vendedor de playa, lanchero).
+  Cada día, 10 minutos por notas de voz:
+  1) La IA hace de turista: "Hi, can I see the menu? Is the fish fresh?"
+  2) El trabajador responde con nota de voz.
+  3) La IA le corrige la pronunciación y le enseña la frase correcta.
+  - Solo frases reales del trabajo: precios, direcciones, recomendaciones, quejas, propinas.
+  - Al terminar un nivel: certificado digital ("Inglés básico para meseros").
+- Por qué funciona: aprende en los ratos libres, por notas de voz, sin bajar app,
+  y lo usa el mismo día con turistas reales (y gana más propina).
+- Por qué sirve para 1 persona:
+  - Solo WhatsApp + IA. Las lecciones por oficio se escriben una vez y sirven para todos.
+  - Se vende a grupos: hoteles, restaurantes, asociaciones de taxistas y lancheros.
+  - Santa Marta para empezar: El Rodadero, Taganga, Centro Histórico.
+
+Cómo ganar dinero:
+- Personal: suscripción baja (ej. $15.000 - $25.000 COP al mes, 3 a 6 USD).
+- Empresas (hoteles, restaurantes, agencias): paquete para todo su personal,
+  con reporte de avance de cada empleado.
+- Contratos con entidades: Alcaldía, Cámara de Comercio, SENA, gremios de turismo
+  y programas de bilingüismo (pagan por capacitar trabajadores del sector).
+- Certificados pagos por nivel.
+- Después: más idiomas (francés, alemán, portugués) y más oficios (salud, call centers).
+
+Competidores en Colombia:
+- SENA e institutos: cursos de inglés gratis o pagos, horario fijo, inglés general.
+- Duolingo, Babbel, Open English: apps o clases de inglés general.
+  Web: https://www.duolingo.com
+  Web: https://www.openenglish.com
+- Meta AI dentro de WhatsApp: gratis, puede practicar inglés, pero sin plan,
+  sin oficio, sin seguimiento ni certificado.
+
+Competidores en Santa Marta:
+- Institutos de inglés locales y SENA (presencial, horario fijo).
+- No se encontró un programa de inglés por oficio para trabajadores del turismo.
+
+Competidores en el mundo:
+- Praktika, Speak, ELSA Speak (apps de práctica con IA, inglés general, en app).
+  Web: https://www.elsaspeak.com
+- EduSim (Brasil, bot para practicar hablar inglés).
+- Meta AI / ChatGPT (gratis, pero hay que saber qué pedirle).
+
+Nuestra ventaja: los demás enseñan inglés general en una app. Nosotros: inglés
+SOLO para tu oficio, por notas de voz de WhatsApp, 10 minutos al día, con
+certificado y vendido a empresas y entidades de turismo.
+Nivel de océano azul: MEDIO (hay apps de inglés con IA y Meta AI gratis, pero
+nadie hace "inglés por oficio de turismo" por WhatsApp).
+
+Riesgos:
+- Meta AI y ChatGPT son gratis: hay que ganar con el plan por oficio, el seguimiento
+  y vender a empresas/entidades (que pagan por resultados y reportes).
+- Gente que empieza y abandona: mensajes diarios cortos, retos y premios.
+- Costos de IA de voz por minuto: calcular bien antes de fijar precio.
+- Calidad de la corrección de pronunciación: probar con trabajadores reales.
+
+Internacionalización (se puede llevar a otros países): SÍ, ALTA
+- Mismo problema en todos los destinos turísticos donde no se habla inglés.
+- Mismo sistema; solo cambia el idioma base (español, portugués, vietnamita...)
+  y algunas frases locales.
+- Plan: 1) Santa Marta  2) Cartagena, San Andrés, Medellín
+  3) México (Cancún, Tulum), Perú (Cusco), República Dominicana
+  4) Brasil (portugués) y Sudeste Asiático.
+
+Problemas para 1 sola persona: APTA
+- Escribir lecciones por cada oficio (y luego por idioma): mucho contenido al inicio.
+- Vender a entidades (Alcaldía, SENA) es lento: licitaciones y meses de espera.
+- La gente abandona: hay que crear retos y recordatorios automáticos.
+- Costos de IA de voz si crece rápido.

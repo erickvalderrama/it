@@ -1,0 +1,85 @@
+15. "Paga directo" - El migrante paga desde afuera las facturas, el colegio y el mercado de su familia, sin mandar efectivo
+
+Necesidad/Problema a solucionar:
+- Colombia recibió más de US$13.000 millones en remesas en 2025 (récord). Las familias
+  las usan sobre todo para gastos diarios: servicios, comida, colegio, salud.
+- Pero el migrante manda plata y NO sabe si se usó para lo que la mandó:
+  la luz se corta, el colegio queda debiendo, la plata se gasta en otra cosa.
+- Los papás mayores tienen que salir a hacer fila para cobrar la remesa y luego
+  otra fila para pagar cada factura.
+- Desde afuera no se pueden pagar facturas colombianas: PSE y las apps de bancos
+  piden cuenta en Colombia.
+- Problema INTERNACIONAL (con evidencia):
+  - Las remesas son de las mayores entradas de plata en México, Centroamérica,
+    Colombia, Perú, Ecuador, República Dominicana, Filipinas, India, Nigeria.
+  - Xoom (de PayPal) ya ofrece pagar facturas en algunos países (México, Filipinas,
+    India): prueba de que la gente lo quiere. En Colombia no se encontró algo así.
+
+Argumentos:
+
+- Idea:
+  1) La familia en Colombia manda por WhatsApp la foto de la factura
+     (luz, agua, gas, internet, colegio, EPS, arriendo) o la lista del mercado.
+  2) El migrante recibe en su WhatsApp: "Factura de luz de mamá: $180.000. ¿Pagar?".
+  3) Paga con su tarjeta de afuera. Nosotros pagamos la factura en Colombia.
+  4) El migrante y la familia reciben el comprobante.
+  - Opción "automático": pagar todos los meses la luz y el colegio sin preguntar.
+  - Mercado: pedido a un supermercado aliado con domicilio a la casa de la familia.
+- Por qué funciona: el migrante tiene control y tranquilidad; la familia no hace filas.
+- Por qué sirve para 1 persona:
+  - Solo WhatsApp + web de pagos. La IA lee la factura (monto, referencia, fecha).
+  - Las facturas en Colombia ya se pagan por internet: no hay que ir a ningún lado.
+  - Se vende por internet a migrantes (grupos de colombianos en EE.UU. y España).
+  - Santa Marta para empezar: muchas familias con hijos afuera; se prueba con conocidos.
+
+Cómo ganar dinero:
+- Tarifa fija por factura pagada (ej. 1,99 a 2,99 USD) o un % pequeño.
+- Plan mensual: todas las facturas de la familia por una cuota (ej. 7 a 10 USD/mes).
+- Diferencia en el cambio de dólar/euro a peso (pequeña y transparente).
+- Comisión de supermercados y droguerías aliadas por los pedidos.
+- Después: pagar salud prepagada, seguros, cuotas de crédito de la familia.
+
+Competidores en Colombia:
+- Remesadoras (Western Union, Remitly, Nequi para recibir del exterior): mandan
+  efectivo, no pagan facturas.
+- Bancolombia: pagar facturas desde su app, pero se necesita cuenta en Colombia.
+  Web: https://www.bancolombia.com/personas/necesidades/colombianos-exterior
+- No se encontró un servicio para pagar facturas de la familia desde el exterior.
+
+Competidores en Santa Marta:
+- Ninguno. Hoy: cobrar remesa en Efecty o banco y pagar cada factura en fila.
+
+Competidores en el mundo:
+- Xoom (PayPal): envíos y pago de facturas en algunos países, no en Colombia.
+  Web: https://www.xoom.com
+- Remitly y Western Union: envían plata, sin control de en qué se usa.
+  Web: https://www.remitly.com
+- Plataformas para Cuba (ej. Supermarket23, Katapulk): el migrante compra el mercado
+  y se entrega a la familia (prueba de que el modelo funciona).
+
+Nuestra ventaja: nadie deja al migrante colombiano pagar las facturas de su familia
+por WhatsApp con foto del recibo. Control de en qué se usa la plata, comprobante
+y nada de filas para los papás.
+Nivel de océano azul: ALTO en Colombia, MEDIO afuera (Xoom en algunos países).
+
+Riesgos:
+- LEGAL (el más importante): recibir plata del exterior y pagar en Colombia puede
+  requerir licencia (cambios / pagos). Para 1 persona: NO manejar la plata uno mismo;
+  trabajar con una fintech o pasarela con licencia (que ellos muevan el dinero) y
+  nosotros ser la capa de WhatsApp + lectura de facturas. Revisar con abogado ANTES.
+- Errores pagando una factura equivocada: confirmar referencia y monto antes de pagar.
+- Fraude con tarjetas robadas: usar pasarela con control antifraude.
+- Remesadoras grandes podrían copiar: ganar por WhatsApp, sencillez y nicho.
+
+Internacionalización (se puede llevar a otros países): SÍ, ALTA
+- El problema existe en todo país que recibe remesas: México, Guatemala, Honduras,
+  El Salvador, República Dominicana, Ecuador, Perú, Venezuela, Filipinas, India.
+- Mismo sistema; cambia el socio de pagos por país y la lista de facturas.
+- Plan: 1) Santa Marta y Colombia (migrantes en EE.UU. y España)
+  2) Ecuador y Perú  3) Centroamérica y República Dominicana  4) México.
+
+Problemas para 1 sola persona: DIFÍCIL (NO hacer sin socio con licencia)
+- Manejar plata de otros: licencias, fraude, reclamos, devoluciones.
+- Un pago equivocado = plata perdida que hay que devolver de su bolsillo.
+- Soporte a migrantes en otros husos horarios cuando un pago falla.
+- Requiere abogado y socio fintech antes de empezar.

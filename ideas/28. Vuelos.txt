@@ -1,0 +1,95 @@
+28. "Tu vuelo se retrasó: reclama" - Mandas foto del pasabordo por WhatsApp y te dice si la aerolínea te debe plata, y hace el reclamo por ti
+
+Necesidad/Problema a solucionar:
+- Los vuelos en Colombia se retrasan y se cancelan mucho (crisis de diciembre 2025,
+  medidas contra Avianca por demoras, quiebras de aerolíneas de bajo costo).
+- Por ley (RAC 3) la aerolínea debe compensar al pasajero en demoras y cancelaciones
+  que son su culpa: comida, hotel, transporte o PLATA. En unos meses las aerolíneas
+  pagaron $8.800 millones a pasajeros (Aerocivil).
+- Pero casi nadie reclama: no conocen sus derechos, no saben cuánto les toca ni
+  cómo hacerlo (Aerocivil, Supertransporte, SIC Facilita). En Brasil, solo el 5%
+  de los pasajeros afectados reclama (Liberfly).
+- Santa Marta tiene aeropuerto con muchos vuelos turísticos y temporadas llenas:
+  retrasos y cancelaciones frecuentes.
+- Problema INTERNACIONAL (con evidencia):
+  - AirHelp (Europa) existe justo por esto y trabaja con reglas de la Unión Europea
+    y Brasil (no Colombia).
+  - Liberfly (Brasil): 10 millones de pasajeros con problemas al año, solo 5% reclama.
+  - Retrasos y cancelaciones pasan en todo el mundo; cada país tiene su ley de
+    derechos del pasajero (México, Perú, Chile, Argentina, EE.UU., Europa).
+
+Argumentos:
+
+- Idea: bot de WhatsApp.
+  1) El pasajero manda foto del pasabordo o la reserva y cuenta qué pasó:
+     "mi vuelo Santa Marta-Bogotá salió 5 horas tarde".
+  2) La IA revisa la ley y responde: "Tienes derecho a X (ej. % del tiquete o
+     compensación), más los gastos que tuviste (manda las facturas)".
+  3) Arma el reclamo listo para la aerolínea, con la norma exacta.
+  4) Si la aerolínea no responde o niega: lo lleva a Supertransporte / SIC Facilita
+     y recuerda los plazos.
+  - Aviso preventivo: "Tu vuelo está demorado: pide ya el bono de comida, guarda
+    facturas, no aceptes un bono si te toca plata".
+- Pensada para evitar los problemas de ser 1 persona:
+  - AUTOMÁTICA: leer pasabordo + revisar reglas + escribir reclamo + recordar plazos.
+  - NO maneja plata de terceros: la aerolínea le paga directo al pasajero.
+  - Sin logística, sin trabajo de calle, sin guardia 24/7.
+- Quién la usa y paga: CUALQUIER persona que vuela (turistas, familias, trabajadores).
+- Santa Marta para empezar: aeropuerto Simón Bolívar, temporadas altas de turismo.
+
+Cómo ganar dinero:
+- Quién paga: PERSONAS.
+- Revisión "¿me deben plata?": gratis.
+- Reclamo completo con seguimiento: pago fijo pequeño (ej. $19.900 - $29.900 COP),
+  cobrado al inicio (así no hay que perseguir a nadie después).
+- Opción "solo si ganas": % de lo recuperado (AirHelp y Liberfly cobran ~30-35%),
+  pagado por el pasajero cuando recibe la plata (requiere confianza; usar contrato digital).
+- Secundario: seguros de viaje y tarjetas con beneficios (comisión por referido).
+
+Competidores en Colombia:
+- Aerocivil, Supertransporte y SIC Facilita: reciben quejas, pero el pasajero
+  tiene que saber qué pedir y hacerlo solo.
+  Noticia: https://www.portafolio.co/negocios/empresas/latam-entrara-a-la-plataforma-sic-facilita-el-primero-de-noviembre-522034
+- Abogados (no vale la pena para un vuelo).
+- No se encontró un servicio tipo AirHelp para vuelos en Colombia.
+
+Competidores en Santa Marta:
+- Ninguno. Mostrador de la aerolínea en el aeropuerto.
+
+Competidores en el mundo:
+- AirHelp (Europa, reglas de la UE y Brasil; cobra % si gana).
+  Web: https://www.airhelp.com/es-ar/
+- Liberfly (Brasil, cobra cerca de 30% de la compensación).
+  Noticia: https://anba.com.br/en/liberfly-from-a-canceled-flight-to-global-success
+- Reclamador (España), Flightright (Alemania).
+
+Nuestra ventaja: AirHelp y compañía no trabajan con las reglas de Colombia ni de
+la mayoría de países latinoamericanos, y usan web. Nosotros: por WhatsApp, en
+español sencillo, con la ley colombiana (RAC 3), aviso en el momento del retraso
+y precio fijo bajo.
+Nivel de océano azul: ALTO en Colombia y gran parte de Latinoamérica, BAJO en
+Europa/Brasil (AirHelp, Liberfly ya están).
+
+Riesgos:
+- La compensación en Colombia puede ser baja o en bonos: decir claro cuánto se
+  puede recuperar antes de cobrar.
+- Si la demora es por clima o seguridad, la aerolínea no debe pagar: la IA debe
+  revisar la causa y no prometer.
+- La ley puede cambiar (hubo proyecto de ley en 2025 para aumentar compensaciones):
+  actualizar las reglas.
+- Cobro por éxito: el pasajero recibe la plata directo y puede no pagar; preferir
+  precio fijo al inicio.
+
+Internacionalización (se puede llevar a otros países): SÍ, ALTA
+- Retrasos y cancelaciones en todos los países, cada uno con su ley de pasajeros.
+- Mismo bot; cambia la "tabla de reglas" por país y a dónde se reclama
+  (Profeco en México, Indecopi en Perú, Sernac en Chile...).
+- Plan: 1) Santa Marta y Colombia  2) México, Perú, Chile, Ecuador
+  3) Argentina, Centroamérica, República Dominicana  4) EE.UU. (latinos) y España.
+
+Problemas para 1 sola persona: APTA
+- Estudiar y mantener la ley de pasajeros de cada país.
+- Seguimiento de muchos reclamos con plazos (automatizar recordatorios).
+- Marketing en el momento justo (cuando la gente está en el aeropuerto molesta:
+  TikTok, grupos de viajeros, QR en redes).
+- Lo bueno: automática, sin plata de terceros, sin logística, sin guardia 24/7.

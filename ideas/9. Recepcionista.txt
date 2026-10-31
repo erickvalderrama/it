@@ -1,0 +1,85 @@
+9. Recepcionista con IA por WhatsApp para hostales, posadas y Airbnb pequeños (responde 24/7 en cualquier idioma)
+
+Necesidad/Problema a solucionar:
+- Los alojamientos pequeños (1 a 20 habitaciones) reciben preguntas por WhatsApp todo
+  el día y la noche: precio, disponibilidad, cómo llegar, si hay wifi, check-in.
+- Los turistas escriben en inglés, francés, alemán o portugués, y a cualquier hora
+  (por la diferencia horaria). El dueño duerme, está ocupado o no habla el idioma.
+- Si no responden rápido, el turista reserva en otro lado o por Booking/Airbnb,
+  que se quedan con 15% a 20% de comisión.
+- Contratar un recepcionista 24/7 que hable idiomas es muy caro para un hostal pequeño.
+
+Argumentos:
+
+- Idea: el dueño conecta su WhatsApp y llena un formulario (precios, habitaciones,
+  reglas, cómo llegar, fotos). La IA responde sola, en el idioma del turista,
+  muestra disponibilidad y deja la reserva lista para que el dueño solo confirme.
+  Si la pregunta es difícil, le pasa la conversación al dueño.
+- Por qué funciona: cada mensaje sin responder es una reserva perdida. Se puede
+  medir en plata: "esta semana la IA respondió 40 mensajes de noche y salieron 3 reservas".
+- Por qué es internacional desde el día 1:
+  - Turismo pequeño con WhatsApp hay en toda Latinoamérica, España, Portugal,
+    Sudeste Asiático (Tailandia, Vietnam, Indonesia), India y África.
+  - La IA ya habla todos los idiomas: el mismo sistema sirve en cualquier país
+    sin cambiar nada. Solo cambia moneda y zona horaria.
+  - Se puede vender en línea (anuncios en Facebook/Instagram a dueños de hostales),
+    no hace falta estar en persona.
+- Por qué sirve para 1 persona:
+  - Un solo sistema (WhatsApp + IA + panel web) para todos los clientes.
+  - Configurar un hostal es llenar un formulario: el dueño lo hace solo.
+  - No hay operación física ni empleados.
+- Santa Marta para empezar: Taganga, El Rodadero, Centro Histórico, Minca, Palomino
+  y la zona del Tayrona tienen muchísimos hostales pequeños y turistas extranjeros.
+
+Cómo ganar dinero:
+- Mensualidad por alojamiento (ej. 20 a 40 USD al mes, o $80.000 - $150.000 COP).
+- Plan más caro: varias propiedades, cobro de anticipo por link de pago, reportes.
+- Extra: la IA ofrece tours, transporte y alquiler de equipo, y cobra comisión
+  (se conecta con la idea de Turismo.txt).
+- Mes gratis de prueba: que el dueño vea las reservas que antes perdía.
+
+Competidores en Colombia:
+- Treble.ai (Bogotá, WhatsApp para empresas grandes, precio por cotización).
+  Web: https://treble.ai
+- Leadsales (CRM de WhatsApp, Colombia, México, Perú; para vender, no para hostales).
+  Web: https://leadsales.io
+
+Competidores en Santa Marta:
+- No se encontró un servicio local. Hoy los hostales responden a mano, con
+  respuestas guardadas de WhatsApp Business, o dejan que Booking/Airbnb hagan la reserva.
+
+Competidores en el mundo:
+- WeSpeak (Argentina, recepcionista virtual con IA para +700 hoteles en Latinoamérica).
+  Caso: https://cloud.google.com/customers/wespeak
+- Mews ConciergeIA (asistente por WhatsApp, solo si el hotel usa el sistema Mews).
+  Web: https://www.mews.com/en/products/marketplace/conciergeia
+- Visito AI (agente de WhatsApp para hoteles).
+  Web: https://visitoai.com/en/ai-agents/whatsapp-ai
+- Hostex HostGPT (para dueños de Airbnb, dentro de la app Hostex).
+  Web: https://hostex.io
+- Wando (IA de WhatsApp para pymes de Latinoamérica, no especial para alojamientos).
+
+Nuestra ventaja: los grandes son para hoteles medianos/grandes o exigen usar su
+sistema de reservas (Mews, Hostex, Guesty). Nosotros: para el hostal o Airbnb
+pequeño que solo tiene WhatsApp. Se configura solo en 15 minutos, precio bajo,
+y probado primero en un destino turístico real (Santa Marta).
+
+Riesgos:
+- Hay competidores con plata (WeSpeak, Treble): ganar en el nicho pequeño que ellos no atienden.
+- Costos de la API de WhatsApp y de la IA por mensaje: calcular bien antes de fijar precio.
+- Si la IA responde algo falso (precio o disponibilidad), el dueño pierde confianza:
+  la IA solo responde con lo que el dueño llenó, y si no sabe, pasa al dueño.
+- WhatsApp/Meta puede cambiar reglas para bots: seguir sus políticas al pie de la letra.
+
+Internacionalización (se puede llevar a otros países): SÍ, ALTA
+- Es la más internacional de todas las ideas: el producto no cambia por país
+  (la IA ya habla todos los idiomas) y se vende por internet.
+- Plan: 1) Santa Marta (Taganga, Palomino, Minca)  2) Cartagena, San Andrés, Medellín
+  3) México (Tulum, Oaxaca), Perú (Cusco), Costa Rica, Guatemala
+  4) Sudeste Asiático y Brasil (en portugués).
+
+Problemas para 1 sola persona: APTA CON CUIDADO
+- Clientes en varios países y husos horarios: soporte a cualquier hora.
+- Si la IA se equivoca con un precio o disponibilidad, el hostal se queja y pide devolución.
+- Vender por internet a otros países requiere aprender marketing digital.
+- Cambios de reglas de WhatsApp/Meta pueden romper el sistema de un día para otro.

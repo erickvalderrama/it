@@ -1,0 +1,91 @@
+25. "Antes de firmar" - Mandas foto del contrato por WhatsApp y la IA te dice en palabras sencillas qué estás firmando y dónde está la trampa
+
+Necesidad/Problema a solucionar:
+- Todos firmamos contratos sin entenderlos: arriendo, crédito, compra de moto o
+  carro a cuotas, plan de celular, gimnasio, contrato de trabajo, seguros,
+  compra de lote o vivienda, préstamos.
+- Las trampas están en la letra pequeña: multas por salir antes, renovación
+  automática, intereses escondidos, seguros incluidos, pagarés en blanco,
+  depósitos que no se devuelven, cláusulas que la ley no permite.
+- Un abogado cobra solo por leer el contrato; la gente no lo paga y firma igual.
+- Problema INTERNACIONAL (con evidencia):
+  - Deloitte (EE.UU.): el 91% acepta términos legales sin leerlos; 97% entre 18 y 34 años.
+  - España (CIS): el 62,7% no lee nunca o casi nunca lo que acepta.
+  - Docusign: cerca de 3 de cada 5 personas admiten haber firmado contratos que
+    no entendían del todo.
+  - En EE.UU. propusieron una ley (TLDR Act) para obligar a resumir los términos:
+    el problema es reconocido por gobiernos.
+
+Argumentos:
+
+- Idea: bot de WhatsApp.
+  1) La persona manda fotos o PDF del contrato ANTES de firmar.
+  2) La IA responde en 1 minuto, en palabras sencillas:
+     - "Qué estás firmando" (resumen en 5 líneas).
+     - "🚩 Puntos de cuidado": "si te sales antes de 12 meses pagas 3 arriendos de multa",
+       "el crédito incluye un seguro de $40.000/mes", "se renueva solo cada año".
+     - "⚠️ Esto podría no ser legal en Colombia" (ej. depósito en dinero en arriendo).
+     - "Pregunta esto antes de firmar": lista de preguntas para negociar.
+  3) Si el contrato es grande o riesgoso: "Te recomiendo un abogado" (aliado).
+- Pensada para evitar los problemas de ser 1 persona:
+  - AUTOMÁTICA: leer, resumir, marcar riesgos. Sin guardia 24/7.
+  - NO maneja plata de terceros, sin logística, sin trabajo de calle.
+- Quién la usa y paga: CUALQUIER persona que va a firmar algo (todos, varias veces al año).
+- Santa Marta para empezar: arriendos (estudiantes, trabajadores, turistas largos),
+  compra de motos a crédito, contratos de trabajo de temporada.
+
+Cómo ganar dinero:
+- Quién paga: PERSONAS.
+- Resumen corto: gratis (gancho).
+- Revisión completa con puntos de cuidado y preguntas: pago por contrato
+  (ej. $9.900 - $19.900 COP según tamaño, pago por link).
+- Plan familia/anual: contratos ilimitados (ej. 3 USD/mes o $49.900 COP/año).
+- Secundario: comisión de abogados aliados por casos que necesitan revisión humana.
+
+Competidores en Colombia:
+- Abogados (caros para revisar un arriendo o un plan de celular).
+- Consultorios jurídicos de universidades (gratis, filas y horarios).
+- ChatGPT / Meta AI (gratis, pero hay que saber pedirlo y no conocen bien la ley
+  colombiana de arriendos, consumo y crédito).
+- No se encontró un servicio por WhatsApp para revisar contratos de personas en Colombia.
+
+Competidores en Santa Marta:
+- Abogados locales y consultorios jurídicos (Unimagdalena, Sergio Arboleda).
+
+Competidores en el mundo:
+- Apps de revisión de contratos con IA para consumidores (Sign Wise, AI Contract
+  Analyzer, ClauseLens; en app, mayormente en inglés).
+  App: https://apps.apple.com/app/id6759932515
+- ContratoCerto (Brasil, app de revisión de contratos).
+  App: https://appshunter.io/ios/app/contratocerto/id6761301846
+- Docusign (resúmenes con IA, pero para quien envía el contrato, no para quien firma).
+  Noticia: https://www.techradar.com/pro/docusign-wants-to-use-ai-to-turn-your-complex-contracts-into-plain-english
+
+Nuestra ventaja: las apps que existen son en inglés, hay que bajarlas y no conocen
+la ley de cada país latinoamericano. Nosotros: por WhatsApp, en español sencillo,
+con reglas de la ley colombiana (arriendo, consumo, crédito, trabajo) y lista de
+preguntas para negociar antes de firmar.
+Nivel de océano azul: MEDIO (hay apps en inglés y ChatGPT gratis; nadie por
+WhatsApp con ley local para Latinoamérica).
+
+Riesgos:
+- No es asesoría legal: decir siempre que es orientación; contratos grandes
+  (vivienda, sociedad) → abogado.
+- La IA puede pasar algo por alto: pedir a la persona que mande TODAS las páginas
+  y avisar si faltan.
+- ChatGPT gratis: ganar con ley local, sencillez, WhatsApp y confianza.
+- Datos personales en los contratos: no guardar el documento después del análisis; Ley 1581.
+
+Internacionalización (se puede llevar a otros países): SÍ, ALTA
+- Firmar sin entender pasa en todo el mundo.
+- Mismo bot; cambia la "tabla de reglas" de cada país (arriendo, consumo, crédito, trabajo).
+- Plan: 1) Santa Marta y Colombia  2) México, Perú, Chile, Ecuador
+  3) España y Argentina  4) Brasil (portugués).
+
+Problemas para 1 sola persona: APTA CON CUIDADO
+- Armar y mantener las reglas legales de cada tipo de contrato y cada país
+  (hacerlo una vez con un abogado y actualizar).
+- Responsabilidad si la IA no ve una trampa: textos claros de "orientación".
+- Competir contra herramientas gratis: requiere buen marketing (TikTok: "mira la
+  trampa de este contrato de arriendo").
+- Lo bueno: automática, sin plata de terceros, sin logística, sin guardia 24/7.

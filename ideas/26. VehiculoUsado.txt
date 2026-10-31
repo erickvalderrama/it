@@ -1,0 +1,97 @@
+26. "¿La compro o no?" - Antes de comprar una moto o carro usado, mandas la placa y fotos por WhatsApp y te dice si está limpio (multas, prenda, embargo, robo, papeles)
+
+Necesidad/Problema a solucionar:
+- En Colombia se compran y venden millones de motos y carros usados, sobre todo
+  entre particulares (Facebook Marketplace, grupos de WhatsApp, "se vende" en la calle).
+- El comprador no sabe si el vehículo tiene multas, prenda (es garantía de un
+  crédito), embargo, reporte de robo, motor cambiado sin legalizar o si es
+  "gemeleado" (placas de otro vehículo).
+- Solo en el primer semestre se robaron más de 16.000 motos en Colombia (Ituran).
+  Comprar una moto robada = perder la plata y meterse en problemas legales.
+- Revisar todo es confuso: el histórico del RUNT, el certificado de tradición
+  (otro documento, otra entidad), las multas en el SIMIT (aparte), la revisión
+  de números de motor y chasis... La gente no sabe por dónde empezar y compra a ciegas.
+- Problema INTERNACIONAL (con evidencia):
+  - Por eso existen Carfax (EE.UU.) y carVertical (presente en más de 30 mercados,
+    incluido México): comprar usado con historia oculta es problema mundial.
+  - Kilometraje alterado, daños escondidos y vehículos robados son comunes en el
+    mercado de usados en Europa (carVertical) y Latinoamérica.
+  - carVertical NO cubre Colombia (no aparece como mercado).
+
+Argumentos:
+
+- Idea: bot de WhatsApp que acompaña la compra paso a paso.
+  1) El comprador manda la placa y fotos de la tarjeta de propiedad.
+  2) El bot le dice exactamente qué consultar y cómo (RUNT, SIMIT, tradición),
+     y la persona le manda los PDF o capturas.
+  3) La IA lee todo y responde con un SEMÁFORO:
+     🟢 "Limpia: sin multas, sin prenda, sin embargo, SOAT y tecnomecánica al día".
+     🟡 "Cuidado: tiene $1.300.000 en multas; negocia que el vendedor las pague".
+     🔴 "NO compres: tiene prenda a favor de un banco" o "los datos no coinciden".
+  4) Lista de revisión al ver el vehículo: comparar número de motor y chasis con
+     la foto de la tarjeta, improntas, preguntas al vendedor.
+  5) Plantilla de contrato de compraventa y pasos del traspaso.
+- Pensada para evitar los problemas de ser 1 persona:
+  - AUTOMÁTICA: lectura de documentos + semáforo + guía. Sin guardia 24/7.
+  - NO maneja plata de terceros, sin logística, sin trabajo de calle.
+  - Los datos son públicos y los consulta la propia persona (evita problemas de
+    automatizar páginas del Estado).
+- Quién la usa y paga: CUALQUIER persona que va a comprar una moto o carro usado.
+- Santa Marta para empezar: mercado enorme de motos usadas; grupos de compraventa.
+
+Cómo ganar dinero:
+- Quién paga: PERSONAS (el comprador; está a punto de gastar millones y paga
+  con gusto para no perderlos).
+- Semáforo básico: gratis (placa + 1 documento).
+- Revisión completa con semáforo, lista de revisión y contrato: pago por vehículo
+  (ej. $19.900 COP moto, $39.900 COP carro, pago por link).
+- Plan "vendedor confiable": el vendedor paga para mostrar su vehículo con el
+  sello "revisado" y vender más rápido (también persona común).
+- Secundario: referidos con comisión (SOAT, seguros, gestores de traspaso, peritos).
+
+Competidores en Colombia:
+- RUNT (histórico vehicular), organismos de tránsito (certificado de tradición, ~$58.400
+  en Bogotá) y SIMIT: oficiales, separados, y no explican qué significa cada cosa.
+  Guía: https://colombiamove.com/blog/historial-vehicular-certificado-tradicion-runt-colombia/
+- Peritajes en concesionarios y talleres (revisan el estado mecánico, no el historial legal).
+- No se encontró un servicio por WhatsApp que junte todo y dé un semáforo.
+
+Competidores en Santa Marta:
+- Tramitadores en las afueras del tránsito (cobran, no siempre confiables).
+- Ninguno digital.
+
+Competidores en el mundo:
+- Carfax (EE.UU., historial de vehículos).
+  Web: https://www.carfax.com
+- carVertical (Europa, EE.UU., México, Australia; no Colombia).
+  Web: https://www.carvertical.com/mx
+- autoDNA (Europa).
+
+Nuestra ventaja: Carfax y carVertical no cubren Colombia y son para carros.
+Nosotros: motos Y carros, por WhatsApp, junta RUNT + tradición + SIMIT en un
+semáforo sencillo, con lista de revisión anti-robo y contrato. Para la compra
+entre particulares.
+Nivel de océano azul: ALTO en Colombia (y en los países latinoamericanos donde
+carVertical/Carfax no están), MEDIO afuera.
+
+Riesgos:
+- La persona puede mandar documentos falsos del vendedor: pedir que ella misma
+  consulte en las páginas oficiales y mande lo que sale.
+- El semáforo no garantiza nada mecánico: decir claro que no reemplaza un peritaje.
+- Si un vehículo "limpio" resultó robado después: textos claros, la revisión es
+  con la información pública de ese día.
+- Datos personales del propietario: no guardar más de lo necesario; Ley 1581.
+
+Internacionalización (se puede llevar a otros países): SÍ, ALTA
+- Compra de usados entre particulares con riesgo de robo, deudas y papeles malos
+  pasa en toda Latinoamérica, África, India y Sudeste Asiático.
+- Mismo bot; cambia la lista de consultas oficiales de cada país (REPUVE en México,
+  SUNARP en Perú, Registro Civil en Chile...).
+- Plan: 1) Santa Marta y Colombia  2) Perú y Ecuador (SOAT y registros similares)
+  3) Centroamérica, República Dominicana, Chile  4) Brasil, India.
+
+Problemas para 1 sola persona: APTA
+- Aprender y mantener los pasos de consulta de cada país y cada tránsito.
+- Mucha competencia de "tramitadores" informales: ganar con precio bajo y rapidez.
+- Marketing en grupos de compraventa (constante, pero se puede hacer en línea).
+- Lo bueno: automática, sin plata de terceros, sin logística, sin guardia 24/7.

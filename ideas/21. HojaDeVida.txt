@@ -1,0 +1,93 @@
+21. "Tu hoja de vida por WhatsApp" - Hablas por nota de voz, la IA te arma la hoja de vida en PDF y te conecta con empleos de tu ciudad
+
+Necesidad/Problema a solucionar:
+- Santa Marta tiene 10,1% de desempleo y 55,9% de informalidad (abril-junio 2026).
+  El desempleo juvenil llegó a 22% (de los más altos del país).
+- Mucha gente que busca trabajo NO tiene computador ni sabe hacer una hoja de vida:
+  meseros, cocineros, camareras, vigilantes, domésticas, ayudantes de obra.
+  Pagan en una papelería para que se la hagan, o mandan una foto mal tomada.
+- Los negocios (hoteles, restaurantes, tiendas) en temporada alta necesitan
+  gente rápido y reciben hojas de vida desordenadas por WhatsApp o en papel.
+- Problema INTERNACIONAL (con evidencia):
+  - Más de la mitad de los trabajadores de Colombia son informales (55,1%), y pasa
+    igual en gran parte de Latinoamérica, África y Asia.
+  - En Sudáfrica (Ejoobi) y Brasil (Biu, hackathon de IA) se crearon bots para
+    hacer hojas de vida por WhatsApp: prueba de que el problema existe en otros países.
+  - La provincia de Santa Fe (Argentina) ofrece un chat oficial para crear hoja de vida.
+
+Argumentos:
+
+- Idea: bot de WhatsApp.
+  1) La persona escribe "quiero mi hoja de vida".
+  2) La IA le hace preguntas por nota de voz: nombre, experiencia, estudios,
+     qué sabe hacer, en qué barrio vive, disponibilidad.
+  3) En minutos le manda su hoja de vida en PDF, bonita y sin errores
+     (también en inglés si quiere trabajar en turismo).
+  4) Le avisa por WhatsApp de empleos que encajan con su perfil y su ciudad.
+- Lado empresa: el hotel o restaurante escribe "necesito 3 meseros para diciembre"
+  y recibe una lista de candidatos con su hoja de vida, ordenados por quién encaja más.
+- Pensada para evitar los problemas de ser 1 persona:
+  - AUTOMÁTICA: la IA entrevista, arma el PDF y cruza perfiles con vacantes.
+  - NO maneja plata de terceros, sin logística, sin trabajo de calle diario.
+  - Se vende por internet; para el buscador de empleo es gratis (crece solo
+    en grupos de WhatsApp de empleo).
+- Santa Marta para empezar: temporada alta (diciembre-enero, Semana Santa,
+  junio-julio) con muchos hoteles y restaurantes buscando gente.
+
+Cómo ganar dinero:
+- Buscador de empleo: hoja de vida básica gratis.
+  Extras pagos pequeños: versión en inglés, foto profesional con IA, carta de
+  presentación (ej. $5.000 - $10.000 COP, pago por link).
+- Empresas: pagan por publicar vacantes y recibir candidatos filtrados
+  (por vacante o mensualidad en temporada alta).
+- Plan para agencias de empleo temporal y cadenas de hoteles: búsqueda en la base de candidatos.
+- Contratos con alcaldías, cajas de compensación y programas de empleo juvenil
+  (que ya tienen presupuesto para empleabilidad).
+
+Competidores en Colombia:
+- Servicio Público de Empleo, Computrabajo, elempleo: portales web pensados para
+  quien tiene computador y sabe hacer hoja de vida.
+  Web: https://www.computrabajo.com.co
+  Web: https://www.elempleo.com
+- Papelerías que hacen hojas de vida (cobran, no conectan con empleos).
+- No se encontró un bot de WhatsApp que haga hojas de vida por voz en Colombia.
+
+Competidores en Santa Marta:
+- Grupos de Facebook y WhatsApp de empleos (desordenados).
+- Cajas de compensación y Servicio de Empleo (presencial, filas).
+
+Competidores en el mundo:
+- Ejoobi (Sudáfrica, hoja de vida y postulación por WhatsApp/SMS, 2019).
+  Noticia: https://itweb.co.za/content/nWJadvb8EJdMbjO1
+- WorqNow (búsqueda de empleo y hoja de vida en un chat, mercados emergentes).
+  Web: https://www.producthunt.com/p/worqnow
+- Biu (Brasil, proyecto de hackathon: hoja de vida por voz en WhatsApp, no es empresa aún).
+  Web: https://sao-paulo.aitinkerers.org/hackathons/h_bR4e1ymrqkc/entries/ht_lNcFIEy9bm0
+- LinkedIn, Indeed: para trabajos de oficina, no para oficios.
+
+Nuestra ventaja: los portales son para gente con computador y trabajos de oficina.
+Nosotros: por nota de voz en WhatsApp, para oficios (turismo, comida, servicios),
+hoja de vida en minutos, y empresas que reciben candidatos ya filtrados.
+Nivel de océano azul: ALTO en Colombia, MEDIO afuera (algunos bots en Sudáfrica y
+proyectos en Brasil, ninguno grande).
+
+Riesgos:
+- Las personas que buscan empleo tienen poca plata: el dinero debe venir de las empresas.
+- Ofertas de trabajo falsas o abusivas: solo publicar empresas verificadas
+  (NIT, Cámara de Comercio) y permitir reportar.
+- Datos personales sensibles: cumplir Ley 1581, pedir permiso para compartir la hoja de vida.
+- Portales grandes (Computrabajo) podrían copiar: ganar en oficios y voz por WhatsApp.
+
+Internacionalización (se puede llevar a otros países): SÍ, ALTA
+- Gente sin computador buscando empleo en oficios existe en toda Latinoamérica,
+  África, India y Sudeste Asiático.
+- La IA habla cualquier idioma: el mismo bot sirve en otros países; solo cambian
+  las vacantes y el formato de hoja de vida.
+- Plan: 1) Santa Marta  2) Barranquilla, Cartagena, resto de Colombia
+  3) Perú, Ecuador, México, Centroamérica  4) Brasil, África, India.
+
+Problemas para 1 sola persona: APTA
+- Conseguir empresas que publiquen vacantes (ventas al inicio, sobre todo antes de temporada).
+- Verificar empresas para evitar ofertas falsas (automatizar con NIT/RUES).
+- Costos de IA de voz si crece rápido.
+- Lo bueno: automática, sin plata de terceros, sin logística, sin guardia 24/7.

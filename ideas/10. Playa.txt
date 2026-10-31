@@ -1,0 +1,89 @@
+10. "Pide desde tu carpa" - Vendedores de playa con precio fijo, pedido por QR y sin acoso
+
+Necesidad/Problema a solucionar:
+- En El Rodadero y otras playas de Santa Marta el turista no está tranquilo: decenas
+  de vendedores pasando cada minuto ofreciendo lo mismo (acoso).
+- No hay precios claros: cobran de más al turista, y eso termina en peleas
+  (en abril de 2025 hubo una batalla campal entre turistas y vendedores en El Rodadero).
+- El turista que SÍ quiere algo (una cerveza, un coco, un masaje, un pescado frito)
+  no sabe a quién pedirle ni cuánto cuesta.
+- El vendedor honesto camina horas bajo el sol para vender poco, y paga la mala
+  fama de los abusivos.
+- La Alcaldía hace operativos y decomisos, pero el problema sigue.
+
+Argumentos:
+
+- Idea: cada carpa o toldo tiene un QR. El turista lo escanea (sin bajar app) y ve
+  los vendedores registrados de esa playa con foto, producto y PRECIO FIJO.
+  Pide, el vendedor recibe el pedido por WhatsApp con la ubicación de la carpa y lo lleva.
+  El turista califica al vendedor. Paga en efectivo o Nequi.
+- Por qué funciona:
+  - Turista: tranquilo, precio claro, pide solo cuando quiere.
+  - Vendedor: vende más caminando menos, y gana buena fama con calificaciones.
+  - Carpero (dueño de las carpas): su carpa vale más porque ofrece "servicio a la carpa".
+  - Alcaldía: playa ordenada, vendedores identificados, menos peleas.
+- Océano azul: no se encontró nada así para vendedores informales de playa.
+  Lo que existe (en España) es para chiringuitos y clubes de playa con mesero propio.
+- Por qué sirve para 1 persona:
+  - Solo una web + WhatsApp, sin app móvil.
+  - Un solo sistema para todas las playas: cada playa es una "zona" con sus vendedores.
+  - Empezar con 1 tramo de El Rodadero, 20 vendedores y 30 carpas.
+  - Los vendedores ya se organizan en asociaciones: se habla con el líder, no uno por uno.
+
+Cómo ganar dinero:
+- Vendedor paga una cuota pequeña diaria o semanal por estar en la lista (ej. $3.000 - $5.000 COP/día).
+- Carperos pagan por tener QR y "servicio a la carpa" en sus carpas.
+- Contrato con la Alcaldía / Promotora Turística: carnet digital de vendedores autorizados
+  y datos de la playa (cuántos turistas piden, qué, en qué temporada).
+- Publicidad de marcas (cerveza, bloqueador, bebidas) en el menú de la playa.
+- Después: comisión por pagos con Nequi/tarjeta dentro del sistema.
+
+Competidores en Colombia:
+- Queresto (pedidos con QR en restaurantes, en Colombia y otros 9 países; no en playa).
+  Web: https://gust.com/companies/queresto-com
+- Rappi (domicilios, no entra a la arena ni trabaja con vendedores ambulantes).
+- No se encontró nada para vendedores de playa.
+
+Competidores en Santa Marta:
+- Ninguno digital. Hoy es todo a pie y a grito.
+- Alcaldía: operativos y control en el camellón (no es una solución digital).
+  Noticia: https://www.santamarta.gov.co/sala-prensa/noticias/alcaldia-intensifica-operativos-en-el-camellon-de-el-rodadero-para-garantizar
+
+Competidores en el mundo:
+- Camarero (España, pedir desde la hamaca en chiringuitos con QR).
+  Caso: https://qamarero.com/clientes/grupo-america/
+- soyTuCamarero (España, QR en hamacas de playa).
+  App: https://apps.apple.com/us/app/-/id1588881423
+- Tap2Order (México, QR, solo para locales que usan su software).
+  App: https://apps.apple.com/mx/app/tap2order/id6465394869
+- Ninguno trabaja con vendedores ambulantes: todos son para negocios con local y mesero.
+
+Nuestra ventaja: somos los únicos para la playa "informal" de Latinoamérica:
+vendedores ambulantes + carperos + precio fijo + calificaciones. Los demás son
+para chiringuitos de lujo en España.
+Nivel de océano azul: ALTO.
+
+Riesgos:
+- Vendedores que no quieren precio fijo ni ser calificados: empezar con los
+  honestos y que la diferencia en ventas convenza a los demás.
+- Poca señal de internet en algunas playas: la página debe ser muy liviana.
+- Política local: vendedores, carperos y Alcaldía tienen conflictos; no tomar partido,
+  ofrecerlo como herramienta para todos.
+- Temporada baja: menos turistas, menos ingresos (mismo riesgo que Turismo.txt).
+- Hay que hablar mucho en persona al inicio (convencer líderes de vendedores).
+
+Internacionalización (se puede llevar a otros países): SÍ, ALTA
+- Playas con vendedores ambulantes, acoso y precios abusivos hay en todo el mundo:
+  - Colombia: Cartagena (Bocagrande, quejas de turistas chilenos en 2026), San Andrés.
+  - Brasil (Río, Salvador, Fortaleza: "ambulantes" y "barracas"), México (Cancún, Acapulco),
+    República Dominicana, Perú, Ecuador, Venezuela.
+  - Tailandia, Bali, India (Goa), Egipto, Marruecos.
+- El sistema es el mismo; solo cambia idioma (español, portugués, inglés) y moneda.
+- Plan: 1) El Rodadero  2) resto de Santa Marta + Cartagena  3) Brasil y México
+  4) Sudeste Asiático.
+
+Problemas para 1 sola persona: DIFÍCIL
+- Mucho trabajo de calle: convencer vendedores, carperos y líderes, todos los días.
+- Cobrar cuotas diarias pequeñas en efectivo a muchos vendedores: muy pesado.
+- Conflictos políticos (Alcaldía, asociaciones, vendedores): desgastan.
+- Al ser playa, el trabajo es fines de semana y temporada alta.

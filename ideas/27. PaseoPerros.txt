@@ -1,0 +1,95 @@
+27. "Pasea a tu perro" - Revisión de la idea de paseadores de perros + versión adaptada a las reglas (WhatsApp, calor de Santa Marta, paseos entre vecinos)
+
+OJO - Evaluación de la idea "normal" (app para contratar paseadores):
+- Ya hay MUCHA competencia: Mywak (Bogotá y Medellín, +41.000 paseos en 2025),
+  Wakypet y GoPets (Medellín), Doggy Walker, PaseaPerros (Latinoamérica),
+  DogHero (Brasil, Argentina, México, apoyada por Rover), Rover y Wag (EE.UU./Europa).
+  → NO es océano azul.
+- Para 1 persona es DIFÍCIL: hay que reclutar, verificar y vigilar paseadores; si un
+  perro se pierde, muerde o lo atropellan, la responsabilidad cae en la plataforma.
+- Por eso se propone una VERSIÓN DISTINTA (abajo) que sí cumple las reglas.
+
+Necesidad/Problema a solucionar:
+- En Santa Marta hace mucho calor: pasear al perro a mediodía puede quemarle las
+  patas (el asfalto se calienta mucho más que el aire) o darle un golpe de calor.
+  La gente no sabe a qué hora es seguro salir.
+- Muchos dueños trabajan todo el día y el perro no sale; pagar un paseador diario es caro.
+- No saben dónde hay parques, playas o rutas con sombra donde se permitan perros.
+- Problema INTERNACIONAL (con evidencia):
+  - Veterinarios en EE.UU. advierten cada verano por el pavimento caliente (AKC):
+    con 85°F (29°C) o más el suelo puede ser peligroso para las patas.
+  - Hay apps en inglés para esto (PawStomp, NorthPaw, Paw Safety Check): prueba de
+    que el problema existe en otros países.
+  - Latinoamérica tiene más de 100 millones de perros (Rover/DogHero), muchos en
+    ciudades calientes.
+
+Argumentos:
+
+- Idea: bot de WhatsApp para dueños de perros.
+  1) "¿Puedo sacar a mi perro?": cada día le avisa las horas seguras para pasear
+     según calor, humedad, sol y lluvia de su barrio, y la raza del perro
+     (pug, bulldog, perros viejos o cachorros = más riesgo).
+  2) Rutas y lugares: parques, playas y caminos con sombra donde se permiten perros
+     (los mismos usuarios los recomiendan).
+  3) "Paseo entre vecinos": encuentra dueños cerca que pasean a la misma hora para
+     pasear juntos o turnarse ("hoy saco yo a los dos perros, mañana tú").
+     Sin paseadores contratados por la plataforma.
+  4) Recordatorios: vacunas, desparasitación, baño, comida.
+  - Opcional después: lista de paseadores independientes con calificaciones
+    (ellos se anuncian; la plataforma no los contrata ni cobra por el paseo).
+- Pensada para evitar los problemas de ser 1 persona:
+  - AUTOMÁTICA: clima + reglas por raza + recordatorios + emparejar vecinos.
+  - NO maneja plata de terceros, sin logística, sin paseadores propios.
+- Quién la usa y paga: CUALQUIER persona con perro.
+
+Cómo ganar dinero:
+- Quién paga: PERSONAS (dueños de perros).
+- Gratis: aviso diario de horas seguras.
+- Plan "perro feliz" (ej. $9.900 COP/mes o 2-3 USD): alertas por raza, rutas,
+  paseo entre vecinos, recordatorios de salud de varios perros.
+- Paseadores independientes (también personas): pagan poco por aparecer destacados.
+- Secundario: veterinarias y tiendas de mascotas cercanas (descuentos con comisión).
+
+Competidores en Colombia:
+- Mywak (paseadores y cuidadores, Bogotá y Medellín).
+  Noticia: https://www.portafolio.co/emprendimiento/este-emprendimiento-colombiano-conecta-a-paseadores-de-perros-con-familias-que-buscan-cuidado-seguro-y-confiable-485185
+- Wakypet y GoPets (Medellín), Doggy Walker (varias ciudades).
+- Ninguno avisa horas seguras por calor ni conecta vecinos para pasear juntos.
+
+Competidores en Santa Marta:
+- Paseadores independientes por Instagram y voz a voz.
+- No se encontró app de paseos ni de alertas de calor para perros.
+
+Competidores en el mundo:
+- Rover, Wag, DogHero, Pawshake (paseadores pagos).
+  Web: https://www.rover.com
+- PawStomp, NorthPaw, Paw Safety Check (alertas de pavimento caliente, en inglés, en app).
+  Noticia: https://www.popsci.com/environment/dog-paws-hot-pavement-app/
+
+Nuestra ventaja: los de paseadores son caros y llenos de competencia; los de calor
+están en inglés y en app. Nosotros: por WhatsApp, en español, pensado para ciudades
+calientes de Latinoamérica, con paseo entre vecinos (gratis entre ellos).
+Nivel de océano azul: MEDIO (paseadores = océano rojo; alertas de calor + vecinos
+por WhatsApp en español = poco atendido).
+
+Riesgos:
+- La gente no paga por avisos de clima: el plan debe sumar rutas, vecinos y salud.
+- Paseo entre vecinos: si un perro se pierde con el vecino, problema entre ellos;
+  dejar claro que la plataforma solo los presenta (y pedir verificación básica).
+- Estimar temperatura del suelo es aproximado: decir "estimado" y enseñar la
+  prueba de la mano (7 segundos sobre el piso).
+
+Internacionalización (se puede llevar a otros países): SÍ, ALTA
+- Perros + calor + dueños sin tiempo existen en todo el Caribe, México, Brasil,
+  Centroamérica, España, India, Medio Oriente, Australia.
+- Mismo bot; cambia idioma, clima y lugares por ciudad.
+- Plan: 1) Santa Marta  2) Barranquilla, Cartagena, Cúcuta, Cali
+  3) México (Monterrey, Mérida), Centroamérica, Brasil  4) España y Medio Oriente.
+
+Problemas para 1 sola persona:
+- Idea "normal" de paseadores: DIFÍCIL (reclutar, verificar, responsabilidad).
+- Versión propuesta: APTA CON CUIDADO
+  - Cargar lugares y rutas de cada ciudad al inicio (luego los aportan los usuarios).
+  - "Paseo entre vecinos" necesita masa de usuarios en el mismo barrio para servir.
+  - Disposición a pagar baja: requiere muchos usuarios para ganar bien.
+  - Lo bueno: automática, sin plata de terceros, sin logística, sin guardia 24/7.

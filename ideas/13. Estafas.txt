@@ -1,0 +1,91 @@
+13. "¿Es estafa?" - Reenvía el mensaje sospechoso a un bot de WhatsApp y en segundos te dice si es estafa
+
+Necesidad/Problema a solucionar:
+- Llegan mensajes, llamadas y links falsos todos los días: "su paquete está retenido",
+  "mami, cambié de número", "ganó un premio", trabajos falsos, falsos soporte de
+  WhatsApp, falsos bancos, comprobantes de pago falsos.
+- La gente no sabe si es real o estafa, y no tiene a quién preguntar rápido.
+  Los más afectados: adultos mayores y pequeños negocios.
+- En Colombia hubo más de 64.000 denuncias por estafas digitales en 2025
+  (y 74.845 en 2024, récord). Muchas más no se denuncian.
+- Problema INTERNACIONAL (con evidencia):
+  - Meta cerró 6,8 millones de cuentas de WhatsApp usadas para estafas en el mundo.
+  - Check Point (2025): WhatsApp es uno de los principales canales de fraude.
+  - Singapur creó un bot oficial (ScamShield) para lo mismo; en India hay bots similares.
+  - Brasil (Pix), México, Perú (Yape), España, India (UPI): mismas estafas.
+
+Argumentos:
+
+- Idea: el usuario reenvía el mensaje, link, número o foto al bot de WhatsApp. El bot:
+  1) Lo revisa con IA (señales típicas: urgencia, premio, link raro, pedir clave o código).
+  2) Busca el número/link en la base de datos de reportes de otros usuarios.
+  3) Responde en segundos: "🔴 ESTAFA: 230 personas reportaron este número" o
+     "🟢 Parece seguro", y qué hacer (no responder, bloquear, denunciar en CAI Virtual).
+- Plan familia: el hijo activa protección para sus papás. Si el papá reenvía algo
+  peligroso o el bot detecta riesgo, avisa también al hijo.
+  (Se conecta con la idea 12. Abuelos.txt.)
+- Por qué funciona: es gratis probar, rápido, y está en WhatsApp, donde llega la estafa.
+  Cada reporte hace la base de datos más fuerte (efecto red).
+- Por qué sirve para 1 persona:
+  - Solo un bot de WhatsApp + IA + base de datos. Sin app, sin operación física.
+  - Crece solo: la gente reenvía las alertas a sus grupos de familia.
+  - Contenido gratis: "estafa de la semana" en TikTok/Instagram.
+
+Cómo ganar dinero:
+- Gratis: 3 revisiones al día (para crecer).
+- Plan personal/familia: revisiones ilimitadas + protección para papás
+  (ej. 2 a 4 USD al mes, $8.000 - $15.000 COP).
+- Plan negocios: tiendas y vendedores por WhatsApp revisan comprobantes de pago
+  y clientes sospechosos (mensualidad).
+- Venta a cooperativas, bancos pequeños, fintechs y operadores de telefonía:
+  el bot con su marca para sus clientes + alertas de nuevas estafas (B2B).
+- Datos agregados de estafas (números, links, modalidades) para entidades,
+  sin datos personales.
+
+Competidores en Colombia:
+- CAI Virtual de la Policía: recibe denuncias, no revisa mensajes al momento.
+  Web: https://caivirtual.policia.gov.co
+- Bancos: avisos generales ("nunca le pediremos su clave"), no revisan tu mensaje.
+- No se encontró un bot que revise mensajes sospechosos en Colombia.
+
+Competidores en Santa Marta:
+- Ninguno. Hoy se pregunta a familiares o en grupos de WhatsApp.
+
+Competidores en el mundo:
+- ScamShield Bot (Singapur, del gobierno/policía, gratis, por WhatsApp).
+  Web: https://www.scamshield.org.sg/about-bot
+- AI Scam Detector (India, bot de WhatsApp, 5 revisiones gratis al día).
+  Web: https://www.stork.ai/en/ai-scam-detector-whatsapp-scanner
+- ScamAdviser (revisa si una página web es confiable, no WhatsApp).
+  Web: https://www.scamadviser.com
+- Truecaller y Whoscall (identifican llamadas spam, no revisan mensajes).
+  Web: https://www.truecaller.com
+
+Nuestra ventaja: en Latinoamérica nadie ofrece esto por WhatsApp. Afuera lo
+hace Singapur (solo para Singapur) y bots pequeños de India. Nosotros: en español
+(y portugués), con base de datos de estafas de Latinoamérica, plan familia para
+proteger a los papás y plan para negocios.
+Nivel de océano azul: ALTO en Latinoamérica, MEDIO afuera.
+
+Riesgos:
+- Si dice "seguro" y era estafa, la persona pierde plata: nunca decir "100% seguro",
+  decir "no encontramos señales, pero tenga cuidado".
+- Los estafadores cambian rápido: actualizar la IA y la base de datos cada semana.
+- Meta/WhatsApp podría sacar algo propio: crecer rápido y ganar con plan familia y B2B.
+- Datos personales: los mensajes reenviados pueden tener datos privados;
+  no guardar más de lo necesario y cumplir Ley 1581 de protección de datos.
+- Costos de API de WhatsApp + IA por revisión: el plan gratis debe tener límite.
+
+Internacionalización (se puede llevar a otros países): SÍ, ALTA
+- Las estafas por WhatsApp son un problema mundial y las modalidades se repiten
+  en todos los países (cambia el nombre del banco o la app de pagos).
+- Mismo bot; cambia idioma, entidades para denunciar y la base de datos por país.
+- La base de datos de un país ayuda a otros: los mismos estafadores atacan varios países.
+- Plan: 1) Santa Marta y Colombia  2) México, Perú, Ecuador, Chile
+  3) Brasil (portugués)  4) España y resto de Latinoamérica.
+
+Problemas para 1 sola persona: APTA CON CUIDADO
+- Actualizar la base de datos de estafas cada semana (los estafadores cambian rápido).
+- Si se vuelve viral, los costos de IA y WhatsApp suben de golpe.
+- Los estafadores pueden atacar o engañar al bot (reportes falsos).
+- Si el bot dice 'seguro' y era estafa, la gente culpa a uno.

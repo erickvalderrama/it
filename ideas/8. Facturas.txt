@@ -1,0 +1,81 @@
+8. "Reclama tu factura" - Bot que revisa tu recibo de luz/agua/gas y hace el reclamo por ti
+
+Necesidad/Problema a solucionar:
+- En la Costa (Santa Marta, Barranquilla, Riohacha) las facturas de luz de Air-e
+  llegan altísimas: hay casos de recibos que se duplicaron o triplicaron, cobros
+  repetidos y lecturas mal hechas. Air-e está entre las empresas con más quejas del país.
+- La mayoría de la gente paga aunque crea que el cobro está mal, porque:
+  - No sabe leer la factura ni qué cobro está mal.
+  - No sabe escribir un reclamo ni un derecho de petición.
+  - No sabe que tiene 5 meses para reclamar y que puede apelar a la Superservicios.
+- No existe una app en Colombia que haga el reclamo de forma automática.
+
+Argumentos:
+
+- Idea: bot de WhatsApp. El usuario manda foto de su factura. El bot (con IA):
+  1) Lee la factura y la compara con meses anteriores.
+  2) Dice en palabras sencillas si hay algo raro (consumo muy alto, cobro repetido, estimado).
+  3) Escribe el reclamo listo con las leyes correctas, para firmar y enviar.
+  4) Recuerda los plazos: cuándo responde la empresa y cuándo apelar a la Superservicios.
+- Por qué funciona: el problema le duele al bolsillo cada mes y toda la Costa lo conoce.
+- Por qué sirve para 1 persona:
+  - Solo WhatsApp + IA, sin app móvil.
+  - Los reclamos son casi siempre los mismos: se hacen plantillas.
+  - No hay que ir a ningún lado: todo es digital.
+  - Crece solo: si a alguien le devuelven plata, se lo cuenta a todos.
+
+Cómo ganar dinero:
+- Revisar la factura: gratis (para atraer gente).
+- Reclamo listo para enviar: pago pequeño (ej. $10.000 - $15.000 COP).
+- Plan "te acompaño": seguimos todo el proceso hasta la Superservicios, cobro
+  de un % de la plata que te devuelvan (solo si ganas).
+- Plan para negocios (restaurantes, hoteles, edificios): revisión mensual de todas
+  sus facturas, pago mensual.
+- Alianzas con abogados para casos grandes (ellos pagan comisión).
+
+Competidores en Colombia:
+- Superservicios: cartilla gratis de cómo reclamar (hay que hacerlo uno mismo).
+  Web: https://www.superservicios.gov.co/sites/default/files/inline-files/ABC-de-la-facturacion-y-reclamacion-2026.pdf
+- Ligas de usuarios y Personerías: ayudan gratis, pero con filas y demoras.
+- Abogados: caros para un recibo de luz.
+- No se encontró una app que haga el reclamo automático.
+
+Competidores en Santa Marta:
+- Oficinas de atención de Air-e y Essmar (filas, el reclamo lo hace uno).
+- Personería Distrital y líderes comunales que ayudan a escribir reclamos.
+- Contraloría Distrital pidió investigar a Air-e por cobros altos (no ayuda caso por caso).
+
+Competidores en el mundo:
+- DoNotPay (EE.UU., "abogado robot" para reclamos; multado en 2024 por prometer de más).
+  Web: https://donotpay.com
+- Reclamador (España, reclamos de vuelos, bancos y más; cobra % si gana).
+  Web: https://www.reclamador.es
+- Profeco (México, gobierno, quejas de consumidores, gratis).
+  Web: https://www.gob.mx/profeco
+
+Nuestra ventaja: nadie en Colombia lee tu factura y te escribe el reclamo listo
+por WhatsApp en minutos. Hablamos sencillo, cobramos poco y solo cobramos el %
+si te devuelven la plata.
+
+Riesgos:
+- No prometer que se gana: decir siempre "te ayudamos a reclamar", no "te devolvemos".
+  (DoNotPay fue multado por eso.)
+- Revisar con un abogado que se pueda cobrar por escribir reclamos sin ser abogado.
+- Si la IA lee mal la factura, el reclamo sale mal: que el usuario confirme los datos.
+- Si las tarifas de Air-e bajan, hay menos reclamos (en 2025 hubo una baja de tarifa).
+
+Internacionalización (se puede llevar a otros países): SÍ, MEDIA-ALTA
+- Facturas de luz, agua y gas mal cobradas hay en toda Latinoamérica:
+  México (CFE), Perú, Ecuador, Argentina, República Dominicana (apagones y cobros altos).
+- Lo que se repite: leer factura con IA + comparar + escribir reclamo + recordar plazos.
+- Lo que cambia por país: las leyes y a quién se apela (en Colombia la Superservicios,
+  en México Profeco/CFE, etc.). Se hace una plantilla de reclamo por país.
+- Después se puede ampliar a otros reclamos: telefonía e internet, bancos, vuelos.
+- Plan: 1) Santa Marta y Costa (Air-e)  2) todo Colombia (luz, agua, gas, internet)
+  3) México y Perú  4) resto de Latinoamérica.
+
+Problemas para 1 sola persona: APTA CON CUIDADO
+- Hacer y actualizar las plantillas de reclamo por cada empresa (luz, agua, gas).
+- Casos difíciles necesitan abogado: tener un abogado aliado, no hacerlo uno.
+- Llevar los plazos de muchos casos: automatizar recordatorios.
+- Riesgo legal de cobrar por escribir reclamos: confirmar con abogado antes de empezar.

@@ -1,0 +1,58 @@
+2. Ver todos los gimnasios y realizar una serie de tops de usuarios de los gimnasios
+
+Necesidad/Problema a solucionar:
+- Elegir gimnasio es difícil: no hay un solo lugar para comparar precios, horarios y máquinas.
+- Las opiniones están regadas en Google Maps e Instagram, y la publicidad del gimnasio no es confiable.
+- La gente se inscribe, se aburre y deja de ir: falta algo que la motive a volver.
+
+Argumentos:
+
+- Idea: app con todos los gimnasios de la ciudad en un mapa, con precios, horarios, fotos y "tops" hechos por los usuarios (mejor precio, más limpio, mejores máquinas, mejor ambiente, etc.).
+- Por qué funciona: hay unos 2.000 gimnasios en Colombia y elegir uno es difícil. La gente confía más en opiniones de otros usuarios que en la publicidad del gimnasio.
+- Extra: tops de usuarios (rachas, asistencia, retos) para que la gente vuelva a la app todos los días.
+
+Cómo ganar dinero:
+- Gimnasios pagan por salir destacados o primeros en los tops patrocinados (marcados como "anuncio").
+- Comisión por cada persona que se inscriba a un gimnasio desde la app.
+- Plan para gimnasios: ver sus estadísticas, responder opiniones y publicar promociones.
+- Publicidad de suplementos, ropa deportiva y entrenadores.
+- Pases de día: el usuario compra una entrada a un gimnasio y la app cobra un %.
+
+Competidores en Colombia:
+- Fitpass (pase para +400 gimnasios).
+  Web: https://www.fitpass.co
+  Noticia: https://www.portafolio.co/innovacion/mas-de-400-gimnasios-en-una-sola-plataforma-520526
+- Fitpal (el "Uber de los gimnasios").
+  Noticia: https://www.xataka.com.co/aplicaciones/fitpal-es-el-uber-de-los-gimnasios-en-colombia-que-te-permite-ejercitarte-si-pagar-mas
+- Wellhub, antes Gympass (gimnasios pagados por la empresa donde trabajas).
+  Web: https://wellhub.com
+- Google Maps (opiniones y estrellas de gimnasios, gratis).
+  Web: https://maps.google.com
+
+Competidores en Santa Marta:
+- Smart Fit (cadena con sede en Santa Marta, misma tarifa en todo el país).
+  Web: https://www.smartfit.com.co
+  Noticia: https://www.larepublica.co/empresas/smart-fit-avanzo-en-su-plan-de-expansion-y-abrio-su-sede-numero-50-2765921
+- Gimnasios de barrio: se promocionan por Instagram, WhatsApp y Google Maps.
+  No hay ninguna app que los compare o los rankee en la ciudad.
+
+Competidores en el mundo:
+- ClassPass (EE.UU., reservas en gimnasios y clases).
+  Web: https://classpass.com
+- Urban Sports Club (Europa, pase para muchos gimnasios).
+  Web: https://urbansportsclub.com
+- Strava (tops y retos entre deportistas, no de gimnasios).
+  Web: https://www.strava.com
+
+Nuestra ventaja: ellos venden pases o membresías; nadie hace rankings
+honestos de gimnasios hechos por usuarios. Nosotros: comparar todos los
+gimnasios (no solo los aliados) + tops de usuarios + pases de día.
+
+Internacionalización (se puede llevar a otros países): BAJA
+- El problema es débil en todos lados: Google Maps ya muestra gimnasios y opiniones en
+  todo el mundo, y ClassPass, Wellhub y Urban Sports Club ya están en muchos países.
+
+Problemas para 1 sola persona: DIFÍCIL
+- Cargar y mantener al día precios y horarios de cientos de gimnasios a mano.
+- Vender planes a gimnasios uno por uno.
+- El problema es débil: mucho esfuerzo para poco resultado.

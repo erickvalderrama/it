@@ -1,0 +1,76 @@
+7. "¿Hay agua?" - Alertas de cortes de agua por barrio y pedido de carrotanques en Santa Marta
+
+Necesidad/Problema a solucionar:
+- Santa Marta tiene cortes de agua muy seguidos: a veces más de 180 barrios sin agua
+  por 9 horas o más. Bloqueos, lluvias y daños en bombas dejan barrios días sin agua.
+- La gente no sabe cuándo se va ni cuándo vuelve el agua: los avisos de Essmar salen
+  tarde o no llegan, y uno se entera por el vecino o por grupos de WhatsApp.
+- Cuando no hay agua, conseguir un carrotanque es difícil: hay que llamar a varios,
+  no se sabe el precio y a veces no llegan.
+- Hoteles, restaurantes y lavanderías pierden plata cuando se quedan sin agua sin aviso.
+
+Argumentos:
+
+- Idea: web + bot de WhatsApp. El usuario registra su barrio y recibe un aviso cuando
+  hay corte programado o cuando sus vecinos reportan que no hay agua. Mapa de barrios
+  "con agua / sin agua" que llenan los mismos usuarios (como Waze, pero del agua).
+  Botón para pedir carrotanque privado con precio claro.
+- Por qué funciona: el problema es diario, conocido por toda la ciudad, y nadie lo
+  tiene ordenado en un solo lugar.
+- Por qué sirve para 1 persona:
+  - Solo WhatsApp + una web con mapa, sin app móvil.
+  - Los datos los ponen los usuarios (reportes) y los comunicados de Essmar.
+  - Crece solo: la gente comparte en grupos del barrio cuando hay corte.
+  - No se manejan carrotanques: solo se conecta usuario con dueño de carrotanque.
+
+Cómo ganar dinero:
+- Comisión por cada carrotanque pedido desde el sistema.
+- Plan para negocios (hoteles, restaurantes, lavanderías, edificios): aviso
+  anticipado + carrotanque con prioridad, pago mensual.
+- Publicidad de ferreterías y tiendas: tanques, bombas, filtros, botellones de agua.
+- Venta de datos agregados (qué barrios sufren más) a constructoras e inmobiliarias.
+
+Competidores en Colombia:
+- Avisos de cortes de cada empresa de acueducto en su web (ej. Bogotá), solo cortes programados.
+  Web: https://www.acueducto.com.co
+- No se encontró una app que junte cortes + reportes de vecinos + carrotanques.
+
+Competidores en Santa Marta:
+- Essmar: publica comunicados de cortes programados (no avisa por barrio ni en tiempo real).
+  Web: https://essmar.gov.co
+- Alcaldía "Ruta del Agua": reparte agua gratis en carrotanques en barrios en crisis.
+  Noticia: https://santamarta.gov.co/sala-prensa/noticias/la-ruta-del-agua-continua-atendiendo-la-crisis-en-la-ciudad-por-la-falta-del
+- Grupos de WhatsApp y Facebook de barrios (desordenado, sin mapa).
+- Dueños de carrotanques privados que venden por teléfono y redes.
+
+Competidores en el mundo:
+- NextDrop (India): avisaba por SMS cuándo llegaba el agua a cada barrio. Ya cerró.
+- Downdetector (reportes de usuarios cuando falla un servicio, no de agua).
+  Web: https://downdetector.com
+
+Nuestra ventaja: nadie junta en un solo lugar los cortes de Essmar, los reportes
+de los vecinos y los carrotanques. Todo por WhatsApp, que todos usan.
+
+Riesgos:
+- La gente no paga por avisos: la plata viene de carrotanques y negocios, no del usuario.
+- Si Essmar arregla el servicio, el problema baja (poco probable a corto plazo).
+- Reportes falsos: pedir varios reportes del mismo barrio antes de marcarlo "sin agua".
+- Carrotanques privados: verificar que el agua sea potable antes de recomendarlos.
+
+Internacionalización (se puede llevar a otros países): SÍ, ALTA
+- Los cortes de agua y la compra de agua en camión pasan en muchos países:
+  - México: "pipas" de agua (Ciudad de México, Iztapalapa, Monterrey).
+  - Perú (Lima), Venezuela, Ecuador, Bolivia: cortes y cisternas.
+  - India (Bangalore, Chennai), Pakistán, Sudáfrica (Johannesburgo), Kenia, Nigeria.
+- Lo que cambia por país: nombre del camión (carrotanque, pipa, cisterna, tanker),
+  idioma y la empresa de agua de donde se sacan los cortes programados.
+- Lo que NO cambia: bot de WhatsApp + mapa de reportes + pedido de camión.
+  Es el mismo sistema, solo se configura una ciudad nueva.
+- Plan: 1) Santa Marta  2) otras ciudades de la Costa (Barranquilla, Cartagena, Riohacha)
+  3) México (pipas)  4) India y África (en inglés).
+
+Problemas para 1 sola persona: APTA CON CUIDADO
+- En una crisis de agua llegan miles de mensajes al mismo tiempo: el sistema debe aguantar solo.
+- Verificar que los carrotanques sean confiables y el agua potable.
+- Si el aviso falla, la gente se queja con uno.
+- Depende de los datos de Essmar y de los reportes de vecinos.

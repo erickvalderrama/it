@@ -1,0 +1,90 @@
+12. "¿Cómo amaneciste?" - Chequeo diario por WhatsApp a adultos mayores que viven solos, con alerta a la familia
+
+Necesidad/Problema a solucionar:
+- Cada vez más adultos mayores viven solos (en Colombia la proporción se duplicó
+  en pocas décadas). Si se caen o se enferman, pueden pasar horas o días sin que nadie sepa.
+- Los hijos viven lejos: en otra ciudad o en otro país (EE.UU., España, Chile).
+  Se preocupan todo el día y no pueden llamar a cada rato.
+- Los abuelos no saben usar apps nuevas, pero SÍ usan WhatsApp y notas de voz.
+- Se olvidan de tomar sus medicamentos.
+- Problema INTERNACIONAL (con evidencia):
+  - En China la app "Are You Dead?" (hoy Demumu) fue la app paga #1 en enero de 2026:
+    millones de personas que viven solas piden un chequeo diario.
+  - En EE.UU. existe Snug Safety por el mismo problema; NPR (2026) habla de soledad
+    y aislamiento como tendencia mundial.
+  - Japón, Corea, Europa: envejecimiento y "muertes solitarias" son tema nacional.
+  - Latinoamérica: millones de hijos migrantes con padres solos en su país
+    (Colombia, Venezuela, México, Centroamérica).
+
+Argumentos:
+
+- Idea: un bot de WhatsApp le escribe al abuelo cada mañana: "Buenos días doña Rosa,
+  ¿cómo amaneció?". Él responde con un mensaje, un emoji o una nota de voz.
+  - Si responde: la familia recibe "Mamá está bien ✅" (y la nota de voz si quiere).
+  - Si no responde en X horas: se le insiste, luego se avisa al hijo, a un vecino
+    o a quien la familia elija.
+  - Recordatorio de medicamentos: "¿Ya se tomó la pastilla de la presión?".
+  - La IA detecta frases de alarma ("me caí", "me duele el pecho", "estoy mareado")
+    y avisa de inmediato a la familia.
+- Por qué funciona: el abuelo no tiene que aprender nada (ya usa WhatsApp), y el
+  hijo lejos duerme tranquilo.
+- Por qué sirve para 1 persona:
+  - Solo un bot de WhatsApp + panel web para la familia. Sin app, sin aparatos.
+  - Todo automático: no hay que llamar a nadie a mano.
+  - Se vende por internet a los hijos (redes sociales, grupos de migrantes).
+- Santa Marta para empezar: muchas familias con hijos en Bogotá, Barranquilla,
+  EE.UU. o España, y abuelos solos en la ciudad.
+
+Cómo ganar dinero:
+- Suscripción mensual pagada por los hijos (ej. 5 a 10 USD al mes, o $20.000 - $40.000 COP).
+  Los hijos en el exterior pagan en dólares o euros.
+- Plan familiar: varios abuelos o varios hijos que reciben alertas.
+- Extra: resumen semanal ("mamá estuvo de buen ánimo, tomó sus pastillas 7 de 7 días").
+- Después: alianza con hogares geriátricos, EPS/seguros, cuidadores a domicilio
+  (comisión cuando la familia contrata ayuda).
+
+Competidores en Colombia:
+- Teleasistencia con botón de pánico (empresas privadas y algunas alcaldías): requiere
+  aparato y es más cara.
+- Llamadas de la familia (gratis, pero no son diarias ni seguras).
+- No se encontró un servicio de chequeo diario por WhatsApp.
+
+Competidores en Santa Marta:
+- Ninguno digital. Vecinos y familiares que pasan a ver al abuelo.
+
+Competidores en el mundo:
+- Are You Dead? / Demumu (China, check-in diario con botón en la app).
+  Noticia: https://appleinsider.com/articles/26/01/13/are-you-dead-ios-app-helps-lonely-people-stay-safe-in-china
+- Snug Safety (EE.UU., check-in diario por app).
+  Noticia: https://www.npr.org/2026/02/03/nx-s1-5694669/loneliness-isolation-app-are-you-dead-snug-alone
+- Not Dead Right? y DidYouDie (apps pequeñas de check-in).
+  App: https://apps.apple.com/mx/app/not-dead-right/id6757766530
+- Teleasistencia (España y Europa, botón en el cuello, pagado por gobierno o seguro).
+
+Nuestra ventaja: todos piden bajar una app y apretar un botón; los abuelos de
+Latinoamérica no lo hacen. Nosotros: por WhatsApp, con notas de voz, en español,
+con recordatorio de medicamentos y pensado para que el hijo migrante pague.
+Nivel de océano azul: ALTO en Latinoamérica (no se encontró nada por WhatsApp);
+MEDIO en EE.UU./China (hay apps, pero no por WhatsApp).
+
+Riesgos:
+- NO es un servicio de emergencias: decir claro que no reemplaza llamar al 123.
+- Si el sistema falla y no avisa, es muy grave: tener alertas de respaldo
+  (SMS) y probar todos los días que funciona.
+- Datos de salud y personales: cumplir la ley de protección de datos (Ley 1581 en Colombia).
+- Costos de la API de WhatsApp por mensaje: calcular bien el precio.
+- Que el abuelo se canse de responder: mensajes cortos, cariñosos y variados.
+
+Internacionalización (se puede llevar a otros países): SÍ, ALTA
+- El problema (adultos mayores solos + hijos lejos) existe en todo el mundo.
+- WhatsApp es la app principal en Latinoamérica, España, India, África y Brasil.
+- Mismo sistema; solo cambia idioma y números de emergencia.
+- Plan: 1) Santa Marta  2) todo Colombia (vender a colombianos en EE.UU. y España)
+  3) Venezuela, México, Centroamérica (hijos migrantes)  4) España, Brasil, India.
+
+Problemas para 1 sola persona: DIFÍCIL
+- Es un sistema crítico: si falla un día y un abuelo se cae, es gravísimo.
+  Uno solo no puede estar pendiente las 24 horas, los 365 días.
+- Familias angustiadas escribiendo a cualquier hora.
+- Responsabilidad legal: dejar claro que NO es servicio de emergencias.
+- Si uno se enferma o se va de viaje, nadie revisa que el sistema funcione.

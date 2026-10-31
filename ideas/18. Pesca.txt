@@ -1,0 +1,90 @@
+18. "Pesca del día" - Pescadores artesanales venden directo a restaurantes y hoteles por WhatsApp, sin intermediarios
+
+Necesidad/Problema a solucionar:
+- Los pescadores artesanales (Taganga, Rodadero, Don Jaca, Ciénaga) venden su pesca
+  a intermediarios que les pagan poco. Los costos (gasolina, hielo, redes) suben,
+  pero el precio que recibe el pescador no sube igual.
+- El pescado se daña si no se vende rápido: plata perdida.
+- Restaurantes y hoteles quieren pescado fresco de verdad, pero compran a
+  intermediarios sin saber de dónde viene ni de qué día es.
+- El turista paga caro la "pesca del día" sin saber si es local.
+- Problema INTERNACIONAL (con evidencia):
+  - La pesca artesanal da más del 90% de los empleos de pesca del mundo
+    (unos 60 millones de personas) y cerca del 40% de toda la pesca mundial (FAO/WorldFish).
+  - Estudios en Argentina, Ecuador y México muestran lo mismo: cadenas de 2-3
+    intermediarios y el pescador recibe el precio más bajo.
+  - En Sudáfrica nació Abalobi justo por este problema (prueba de que existe y se puede resolver).
+
+Argumentos:
+
+- Idea: bot de WhatsApp + panel web.
+  1) Restaurantes y hoteles dejan su pedido la noche antes:
+     "mañana necesito 10 kg de pargo y 5 kg de sierra".
+  2) Los pescadores ven los pedidos antes de salir al mar (saben qué buscar).
+  3) Al llegar a la playa, el pescador manda foto y kilos por WhatsApp
+     (o lo hace el líder de la asociación).
+  4) El restaurante confirma, paga por Nequi/transferencia y recibe el pescado
+     con "certificado": quién lo pescó, dónde y a qué hora.
+  - El restaurante puede mostrar en su menú: "Pargo pescado hoy por Don José en Taganga".
+- Por qué funciona: el pescador gana más y vende seguro; el restaurante recibe
+  pescado fresco con historia (que vende más caro al turista).
+- Por qué sirve para 1 persona:
+  - Solo WhatsApp + web. No hay barcos, ni bodegas, ni camiones propios.
+  - Se trabaja con 1-2 asociaciones de pescadores de Taganga (el líder organiza).
+  - Empezar con 10-15 restaurantes de Taganga, Rodadero y Centro Histórico.
+  - El transporte lo hacen los pescadores o un motocarguero con nevera (pagado por envío).
+
+Cómo ganar dinero:
+- Comisión por venta (ej. 8% a 10%), cobrada al restaurante o repartida.
+- Plan para restaurantes: pedidos fijos, prioridad y "sello de pesca local"
+  para su menú y redes sociales.
+- Trazabilidad para hoteles y marcas que quieren mostrar compras sostenibles.
+- Después: venta a casas (pedidos de fin de semana) y a turistas en hostales.
+- Datos de pesca (qué especies, cuántos kilos, dónde) para universidades y
+  entidades ambientales (sin datos personales).
+
+Competidores en Colombia:
+- Intermediarios y plazas de mercado (la forma actual, sin tecnología).
+- Distribuidoras de pescado para restaurantes (no artesanal, no trazable).
+- No se encontró una plataforma para venta directa de pesca artesanal en Colombia.
+
+Competidores en Santa Marta:
+- Intermediarios en las playas de Taganga y el mercado público.
+- Venta directa en la playa a quien llegue (sin pedidos ni pagos digitales).
+
+Competidores en el mundo:
+- Abalobi (Sudáfrica, app para pescadores artesanales + mercado directo;
+  sus herramientas se usan en unos 12 países, incluido Chile).
+  Noticia: https://www.dailymaverick.co.za/article/2025-05-19-sa-fisher-led-nonprofit-abalobi-hopes-to-reel-in-huge-global-prize-with-tech-powered-approach.md
+- Plataformas de "pescado directo" en Europa y EE.UU. (para consumidores, no artesanales pobres).
+
+Nuestra ventaja: Abalobi es una ONG con apps propias y fuerte en África; en
+Colombia y el Caribe no hay nada. Nosotros: todo por WhatsApp (los pescadores ya
+lo usan), pedidos antes de salir al mar, y "sello de pesca local" que le sirve
+al restaurante para venderle al turista.
+Nivel de océano azul: ALTO en Colombia y el Caribe, MEDIO afuera (Abalobi).
+
+Riesgos:
+- Cadena de frío: si el pescado llega mal, se pierde todo. Exigir hielo/nevera
+  en cada entrega.
+- Normas sanitarias (Invima, Secretaría de Salud) para vender pescado a restaurantes:
+  revisar qué se necesita antes de empezar.
+- Vedas y tallas mínimas: no aceptar especies en veda ni pescado pequeño
+  (cuidar el mar y la imagen).
+- Intermediarios pueden reaccionar mal: trabajar con las asociaciones, no contra nadie.
+- La pesca depende del clima y la temporada: a veces no hay pedido completo;
+  avisar temprano al restaurante.
+
+Internacionalización (se puede llevar a otros países): SÍ, ALTA
+- Pesca artesanal + intermediarios + restaurantes turísticos existen en todo el
+  Caribe, Pacífico y Atlántico: Cartagena, San Andrés, Ecuador, Perú, México,
+  Centroamérica, República Dominicana, Brasil, Filipinas, Indonesia, África.
+- Mismo sistema; cambia idioma, especies y normas sanitarias de cada país.
+- Plan: 1) Taganga / Santa Marta  2) Cartagena, San Andrés, Pacífico colombiano
+  3) Ecuador, Perú, México, Centroamérica  4) Brasil y Sudeste Asiático.
+
+Problemas para 1 sola persona: DIFÍCIL
+- La pesca es de madrugada todos los días: coordinar pedidos muy temprano.
+- Cadena de frío y entregas: si el pescado llega mal, el reclamo es para uno.
+- Normas sanitarias (Invima) y vedas: trámites.
+- Discusiones por peso y calidad entre pescador y restaurante.

@@ -1,0 +1,95 @@
+24. "¿Qué me están cobrando?" - Mandas foto de tu extracto del banco o la factura del celular y la IA encuentra cobros que no pediste, y te ayuda a cancelarlos
+
+Necesidad/Problema a solucionar:
+- Bancos y empresas de celular cobran cosas que la gente no pidió o ya no usa:
+  seguros "de regalo" pegados a la tarjeta o al crédito, cuotas de manejo,
+  suscripciones (streaming, apps, "contenidos" en el celular), membresías,
+  cobros repetidos.
+- La gente no lee el extracto (es largo y confuso) y paga meses o años sin saberlo.
+- En 2025 los bancos en Colombia recibieron millones de quejas (Bancolombia sola
+  1,82 millones), muchas por transacciones no reconocidas y cobros.
+- La Superfinanciera encontró 10 prácticas abusivas en la venta de seguros a
+  través de bancos, y sancionó al Banco de Bogotá (2025) por fallas con seguros de deudores.
+- Cancelar es difícil a propósito: llamadas largas, oficinas, formularios.
+- Problema INTERNACIONAL (con evidencia):
+  - EE.UU. (2025): la gente gasta en promedio 205 dólares al año en suscripciones
+    que ya no usa; el 42% paga algo que no usa.
+  - Por eso existe Rocket Money (EE.UU.), que ya canceló cerca de 2,5 millones de
+    suscripciones, pero solo funciona con bancos de EE.UU.
+  - Latinoamérica: millones de personas con varias suscripciones (estudio en Brasil,
+    Argentina, Chile, México, Perú y Colombia) y seguros bancarios vendidos "amarrados".
+
+Argumentos:
+
+- Idea: bot de WhatsApp.
+  1) La persona manda foto o PDF de su extracto bancario, de la tarjeta o de la
+     factura del celular.
+  2) La IA lo lee y responde sencillo: "Encontré 4 cobros raros: seguro de vida
+     $28.900/mes, seguro de desempleo $15.400/mes, Netflix y Disney (¿usas los dos?),
+     contenido SMS $9.900. Total: $76.000 al mes = $912.000 al año".
+  3) Con un clic: carta lista para cancelar o reclamar cada cobro (con la norma
+     que aplica y a dónde mandarla: banco, Superfinanciera, operador, SIC).
+  4) Recordatorio: "¿Ya te respondió el banco? Si no en 15 días hábiles, vamos a la Superfinanciera".
+- Pensada para evitar los problemas de ser 1 persona:
+  - AUTOMÁTICA: leer extracto + detectar cobros + escribir cartas + recordar plazos.
+  - NO maneja plata de terceros (no se conecta a la cuenta: solo lee la foto).
+  - Sin logística, sin trabajo de calle, sin guardia 24/7.
+- Quién la usa y paga: CUALQUIER persona con cuenta bancaria, tarjeta o celular.
+- Santa Marta para empezar: probar con conocidos, grupos de WhatsApp y TikTok
+  ("mira lo que me estaba cobrando el banco").
+
+Cómo ganar dinero:
+- Quién paga: PERSONAS.
+- Revisión gratis: muestra cuánto le están cobrando de más (gancho).
+- Para cancelar/reclamar: pago pequeño por carta (ej. $9.900 COP) o paquete
+  "cancela todo" (ej. $19.900 COP).
+- Plan "vigilante": cada mes manda su extracto y el bot avisa si aparece un cobro
+  nuevo (ej. $5.000 - $9.000 COP/mes o 2 USD).
+- Opción "pago por éxito": cobrar un % de lo que se ahorra en el primer año
+  (como Rocket Money).
+
+Competidores en Colombia:
+- Superfinanciera y SIC: reciben quejas (formulario web), no revisan tu extracto.
+  Noticia: https://www.noticiascaracol.com/economia/tiene-problemas-con-su-banco-asi-puede-poner-una-demanda-ante-la-superfinanciera-so35
+- Defensor del consumidor financiero de cada banco (lento, hay que saber reclamar).
+- Apps de finanzas personales (registran gastos, no cancelan ni reclaman).
+- No se encontró un servicio que lea el extracto y te ayude a cancelar cobros.
+
+Competidores en Santa Marta:
+- Ninguno. Oficinas del banco y del operador (filas).
+
+Competidores en el mundo:
+- Rocket Money (EE.UU., cancela suscripciones; solo bancos de EE.UU.).
+  Web: https://www.rocketmoney.com
+- Emma (Reino Unido, finanzas y suscripciones).
+- ReSubs y otras apps de seguimiento de suscripciones (hay que anotarlas a mano).
+  Web: https://resubs.app
+
+Nuestra ventaja: Rocket Money solo sirve en EE.UU. y pide conectar el banco.
+Nosotros: por WhatsApp, con foto del extracto (no hay que dar claves), en español,
+encuentra también seguros amarrados de bancos latinoamericanos y escribe la carta
+con la ley de cada país.
+Nivel de océano azul: ALTO en Latinoamérica, MEDIO afuera (Rocket Money en EE.UU.).
+
+Riesgos:
+- Extractos con datos sensibles: no guardar la imagen, solo el resultado;
+  cumplir Ley 1581; explicar claro qué se hace con los datos.
+- La IA puede marcar como "raro" algo que la persona sí pidió: siempre preguntar
+  "¿Reconoces este cobro?" antes de escribir la carta.
+- Bancos pueden poner trabas: el bot da el paso siguiente (Superfinanciera, SIC).
+- Si la persona espera devolución de plata y no llega: decir claro que se ayuda
+  a reclamar, no se garantiza devolución.
+
+Internacionalización (se puede llevar a otros países): SÍ, ALTA
+- Seguros amarrados, cuotas de manejo y suscripciones olvidadas existen en toda
+  Latinoamérica, España, India y más.
+- Mismo bot; cambia el formato de extractos de cada banco, la ley y a dónde se reclama
+  (Condusef en México, Indecopi en Perú, Sernac en Chile, Banco de España...).
+- Plan: 1) Santa Marta y Colombia  2) México, Perú, Chile
+  3) Ecuador, Argentina, España  4) Brasil (portugués).
+
+Problemas para 1 sola persona: APTA
+- Aprender a leer extractos de muchos bancos distintos (la IA ayuda, pero hay que probar).
+- Mantener al día las normas y a dónde se reclama en cada país.
+- Ganar confianza: la gente teme mandar su extracto (mostrar privacidad clara, testimonios).
+- Lo bueno: automática, sin plata de terceros, sin logística, sin guardia 24/7.

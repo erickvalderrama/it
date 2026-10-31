@@ -1,0 +1,70 @@
+4. Tours con guías y lancheros locales de Santa Marta (reserva por WhatsApp)
+
+Necesidad/Problema a solucionar:
+- El turista no sabe en qué guía o lanchero confiar ni cuál es el precio justo (cobros de más).
+- Los guías pequeños de Santa Marta no tienen cómo vender en internet; los grandes no los aceptan.
+- Las páginas grandes venden en dólares y caro, pensando solo en extranjeros.
+
+Argumentos:
+
+- Idea: web sencilla con tours de guías pequeños de Santa Marta (lanchas a playas, Taganga,
+  Minca, Tayrona, avistamiento, buceo). El turista ve precio fijo, fotos y opiniones,
+  y reserva por WhatsApp pagando con Nequi, Bancolombia o tarjeta.
+- Por qué funciona: Santa Marta vive del turismo. Los guías pequeños no están en
+  Civitatis ni GetYourGuide y venden solo en la calle o por Instagram. El turista
+  no sabe en quién confiar ni cuánto es el precio justo.
+- Por qué sirve para 1 persona:
+  - Solo una web + WhatsApp, sin app móvil.
+  - Empezar con 10-15 guías que conozcas o visites en persona.
+  - No se manejan lanchas ni empleados: solo se conecta turista con guía.
+  - Contenido gratis: videos cortos de los tours en TikTok/Instagram.
+
+Cómo ganar dinero:
+- Comisión del 10% al 15% por cada reserva.
+- Guías pagan por salir destacados en temporada alta.
+- Alianzas con hostales y hoteles: ellos recomiendan la web y reciben una parte.
+- Venta extra: transporte al aeropuerto, combos de tours.
+
+Competidores en Colombia:
+- Agencias de viaje y hoteles que venden tours a sus huéspedes.
+- Daypass (pases de día a hoteles y clubes de playa en Santa Marta).
+  Web: https://daypass.com
+
+Competidores en Santa Marta:
+- Vendedores de tours en la playa, el Rodadero y la Marina (sin web, precios variables).
+- Agencias locales que venden por Instagram y WhatsApp.
+- Entrada oficial al Parque Tayrona (solo entrada, no tours).
+  Noticia: https://daypass.com/blog/tayrona-national-park-tours-santa-marta
+
+Competidores en el mundo:
+- Civitatis (España, muy fuerte en turistas que hablan español).
+  Web: https://www.civitatis.com/es/santa-marta/
+- Nomades (excursiones en Latinoamérica).
+  Web: https://www.nomades.com/santa-marta/
+- ToursByLocals (guías privados, caro: ~616 USD un día en Tayrona).
+  Web: https://www.toursbylocals.com/tours/colombia/santa-marta
+- GetYourGuide y Viator (tours en todo el mundo).
+  Web: https://www.getyourguide.com
+  Web: https://www.viator.com
+
+Nuestra ventaja: los grandes solo tienen agencias medianas y precios en dólares.
+Nosotros: guías pequeños verificados en persona, precios en pesos, pago con Nequi
+y atención por WhatsApp. Pensado también para el turista colombiano, no solo el extranjero.
+
+Riesgos:
+- Turismo baja fuera de temporada (enero, junio-julio y diciembre son los fuertes).
+- Si un guía falla, la culpa cae en la web: verificar bien y pedir opiniones.
+- Revisar si se necesita Registro Nacional de Turismo (RNT) para vender tours.
+
+Internacionalización (se puede llevar a otros países): MEDIA
+- El mismo problema (turista no sabe en qué guía confiar) existe en Cartagena, Tulum,
+  Cusco, Punta Cana, Bocas del Toro y casi toda ciudad turística de Latinoamérica.
+- La web es la misma, solo se agrega ciudad nueva.
+- Ojo: verificar guías en persona no se puede hacer solo en otro país.
+  Hace falta un socio o verificador local por ciudad (pagado por comisión).
+
+Problemas para 1 sola persona: DIFÍCIL
+- Verificar guías en persona y revisarlos cada temporada.
+- Reclamos de turistas en temporada alta, fines de semana y festivos (cuando uno quiere descansar).
+- Reembolsos y cancelaciones si se cobra la reserva: mejor que el guía cobre directo.
+- Trámites de turismo (RNT) y responsabilidad si pasa un accidente en un tour.

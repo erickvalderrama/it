@@ -1,0 +1,92 @@
+19. "¿Cuánto debería costar?" - Precios justos para turistas por WhatsApp (taxi, lancha, carpa, coco, comida) para no dejarse cobrar de más
+
+Necesidad/Problema a solucionar:
+- En Santa Marta al turista le cobran de más: taxi del aeropuerto, lancha a playas,
+  carpas, sillas, comida en la playa, motos de agua. No sabe cuál es el precio normal
+  y no tiene a quién preguntar en el momento.
+- Eso termina en peleas: turistas agredidos por no pagar alquileres "excesivos"
+  y riñas entre turistas y vendedores en El Rodadero (2025).
+- El turista se va con mala imagen de la ciudad y no recomienda volver.
+- Los negocios honestos pierden: el turista desconfía de todos.
+- Problema INTERNACIONAL (con evidencia):
+  - Encuesta en Reino Unido (2025): el taxi cobrado de más es la estafa más común
+    en vacaciones (32%), seguida de restaurantes que cobran de más (18%).
+  - Mastercard: en Yakarta el 66% de los fraudes reportados son de taxis y alquiler de carros.
+  - En Macao el 37% de turistas encuestados sintió que el taxi le cobró de más.
+  - Cartagena hizo su propia app oficial de precios ("Visit Cartagena") por el mismo problema.
+
+Argumentos:
+
+- Idea: bot de WhatsApp. El turista pregunta: "¿cuánto cuesta un taxi del aeropuerto
+  al Rodadero?" o "¿cuánto vale una carpa en Playa Blanca?". El bot responde con el
+  rango de precio normal, de dónde sale el dato y qué hacer si le cobran más.
+  - Los precios vienen de: tarifas oficiales (taxis, Alcaldía), reportes de otros
+    turistas ("pagué $X por esto") y negocios que publican su precio fijo.
+  - También en inglés, francés, alemán y portugués (la IA traduce sola).
+- Por qué funciona: el turista pregunta ANTES de aceptar el precio. Rápido,
+  sin bajar app, en su idioma.
+- Pensada para evitar los problemas de ser 1 persona:
+  - Es AUTOMÁTICA: no hay guardia 24/7 ni trabajo de madrugada.
+  - NO maneja plata de terceros, NO hay logística, NO hay trabajo de calle diario.
+  - Los datos los llenan los mismos turistas (crowdsourcing) + tarifas oficiales.
+  - Se vende por internet; abrir una ciudad nueva = cargar sus precios base.
+- Santa Marta para empezar: El Rodadero, Taganga, Playa Blanca, aeropuerto, Tayrona.
+
+Cómo ganar dinero:
+- Turista: gratis (es lo que hace crecer la base de datos).
+- Hoteles y hostales: pagan por darle el bot con su marca a sus huéspedes
+  ("guía de precios del Hotel X") - mensualidad.
+- Negocios con "precio justo verificado": pagan por aparecer como recomendados
+  cuando el turista pregunta (ej. lanchas o restaurantes con precio fijo publicado).
+- Comisión por reservas a negocios recomendados (se conecta con 4. Turismo.txt).
+- Alcaldías y oficinas de turismo: licencia del sistema para su ciudad (como
+  Cartagena hizo su app, pero más barato y por WhatsApp).
+- Datos agregados de precios por temporada para gremios y entidades de turismo.
+
+Competidores en Colombia:
+- Visit Cartagena (app oficial de la Alcaldía de Cartagena con precios promedio,
+  solo Cartagena, hay que bajar app).
+  Noticia: https://www.xataka.com.co/aplicaciones/visit-cartagena-nueva-aplicacion-para-combatir-abusos-precios-turisticos
+- iega (tarifario de taxis en Cartagena, 2018).
+  Noticia: https://www.eluniversal.com.co/tecnologia/2018/12/17/iega-la-app-hecha-con-taxistas-para-evitar-el-abuso-de-tarifas/
+- Uber, InDrive, Didi: precio fijo solo para transporte, no para playa ni comida.
+
+Competidores en Santa Marta:
+- Listas de precios de la Alcaldía en algunas playas (papel, no siempre se respetan).
+- Ninguno digital.
+
+Competidores en el mundo:
+- Hagglestar (precios promedio de taxis en otros países, reportados por viajeros).
+  Web: https://betalist.com/startups/hagglestar
+- TripAdvisor y Reddit (foros, hay que buscar mucho y la info es vieja).
+- Numbeo (costo de vida, no precios turísticos del momento).
+  Web: https://www.numbeo.com
+
+Nuestra ventaja: Visit Cartagena es solo para Cartagena y hay que bajar app;
+Hagglestar solo taxis. Nosotros: todos los servicios turísticos (taxi, lancha,
+playa, comida), por WhatsApp, en varios idiomas, con reportes de turistas, y
+cualquier ciudad del mundo.
+Nivel de océano azul: ALTO (no se encontró nada igual por WhatsApp ni con todos los servicios).
+
+Riesgos:
+- Vendedores y taxistas enojados porque se publican sus precios: mostrar
+  rangos, no nombres; y destacar a los honestos.
+- Datos falsos o viejos: pedir varios reportes antes de mostrar un precio y
+  mostrar la fecha del último dato.
+- Al inicio no hay datos: cargar uno mismo los precios base de Santa Marta
+  (1-2 semanas de trabajo) y tarifas oficiales.
+- Monetización lenta: el turista no paga; la plata viene de hoteles y negocios.
+
+Internacionalización (se puede llevar a otros países): SÍ, ALTA
+- El cobro de más a turistas pasa en todos los destinos del mundo: Cartagena,
+  Cancún, Tulum, Cusco, Punta Cana, Río, Bali, Tailandia, Marruecos, Egipto, Turquía.
+- El bot ya habla todos los idiomas: abrir un destino = cargar precios base.
+- Los turistas viajan a varios países: el mismo usuario lo usa en su siguiente viaje.
+- Plan: 1) Santa Marta  2) Cartagena, San Andrés, Medellín
+  3) México, Perú, República Dominicana  4) Sudeste Asiático, Marruecos, Egipto.
+
+Problemas para 1 sola persona: APTA
+- Cargar los precios base de cada ciudad nueva (1-2 semanas por ciudad).
+- Vender a hoteles y negocios: trabajo de ventas (se puede hacer online).
+- Moderar reportes falsos (automatizar con reglas: mínimo de reportes, fechas).
+- Lo bueno: sin guardia 24/7, sin plata de terceros, sin logística, sin trabajo de calle diario.

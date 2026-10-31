@@ -1,0 +1,90 @@
+20. "No se te vence nada" - Mandas foto de tus documentos por WhatsApp y te avisa antes de que venzan (SOAT, tecnomecánica, licencia, pasaporte, visa, impuestos)
+
+Necesidad/Problema a solucionar:
+- En Colombia hay unos 10,7 millones de vehículos SIN SOAT vigente (sept. 2026),
+  casi la mitad del parque; el 78% son motos. La cifra se duplicó en 10 años.
+- Cerca del 56% de vehículos no tiene la tecnomecánica al día (RUNT, 2025).
+- Mucha gente no evade a propósito: se le OLVIDA la fecha. Resultado: multas,
+  moto inmovilizada (días sin trabajar) y, si hay accidente, pagar todo de su bolsillo.
+- Pasa igual con licencia de conducción, pasaporte (viajes perdidos), visa,
+  impuesto vehicular, predial, garantías, vacunas de mascotas.
+- Problema INTERNACIONAL (con evidencia):
+  - Seguros de vehículo vencidos o sin seguro es problema en toda Latinoamérica,
+    EE.UU. y Europa (conductores sin seguro).
+  - Pasaportes y visas vencidas arruinan viajes en todos los países.
+  - Todo el mundo tiene documentos con fecha de vencimiento y nadie lleva la cuenta.
+
+Argumentos:
+
+- Idea: bot de WhatsApp.
+  1) Mandas foto del SOAT, licencia, pasaporte, etc. (o la placa del vehículo).
+  2) La IA lee la fecha de vencimiento y la guarda.
+  3) Te avisa por WhatsApp 30, 15 y 3 días antes: "Tu SOAT de la moto vence el viernes".
+  4) Con un botón: "Renovar ahora" → te lleva a comprar el SOAT o agendar la tecnomecánica.
+  - Plan familia: los documentos de toda la casa (papás, hijos, carros, motos, mascotas).
+- Por qué funciona: el aviso llega donde la gente sí mira (WhatsApp), no en un
+  correo ni en una app más que nadie abre.
+- Pensada para evitar los problemas de ser 1 persona:
+  - Es AUTOMÁTICA: leer la foto, guardar fecha, mandar aviso. Sin guardia 24/7.
+  - NO maneja plata: la compra del SOAT la hace la aseguradora (uno solo refiere).
+  - Sin logística, sin trabajo de calle.
+  - Se vende por internet y en grupos de WhatsApp de moteros y conductores.
+- Santa Marta para empezar: grupos de mototaxistas, domiciliarios y conductores.
+
+Cómo ganar dinero:
+- Usuario: gratis (avisos de hasta 3 documentos).
+- Comisión por referido: cada SOAT vendido, tecnomecánica agendada en un CDA,
+  seguro todo riesgo o renovación de licencia (el SOAT es obligatorio y se compra
+  cada año: ingreso que se repite).
+- Plan familia/premium: documentos ilimitados, varios vehículos, avisos a varios
+  números (ej. 1 a 2 USD al mes).
+- Plan empresas con flotas (mensajería, domicilios, taxis): control de todos los
+  vehículos y conductores.
+
+Competidores en Colombia:
+- Mis Fechas (app gratis 2026 para recordar SOAT, tecnomecánica y licencia; hay que bajar app).
+  Noticia: https://www.vanguardia.com/colombia/2026/02/28/lanzan-aplicacion-para-ayudar-a-conductores-a-prevenir-infracciones-de-transito/
+- App de alertas de trámites vehiculares (SOAT y multas).
+  Noticia: https://www.valoraanalitik.com/empresa-lanza-app-para-alertar-a-conductores-sobre-tramites-vehiculares/
+- Mi Carro (app para mantener al día todo lo del vehículo).
+  Noticia: https://www.xataka.com.co/vehiculos/mi-carro-la-app-perfecta-para-mantener-todo-lo-relacionado-con-tu-vehiculo-al-dia
+- R5, RUNT y aseguradoras: consultar vencimiento y avisos por SMS o correo.
+  Web: https://www.grupor5.com/herramientas/cuando-vence-mi-soat
+
+Competidores en Santa Marta:
+- Los mismos nacionales. Avisos de aseguradoras y CDA por SMS (cuando tienen el dato).
+
+Competidores en el mundo:
+- Apps genéricas de recordatorios de vencimientos de documentos (hay que bajar app
+  y escribir las fechas a mano).
+- Aseguradoras de cada país (solo avisan su propio seguro).
+
+Nuestra ventaja: los demás son apps que hay que bajar y solo cubren el vehículo.
+Nosotros: por WhatsApp, con FOTO (la IA lee la fecha sola), TODOS los documentos
+(vehículo + pasaporte + visa + impuestos + mascotas), plan familia y botón para
+renovar en un clic.
+Nivel de océano azul: MEDIO (hay apps de recordatorio en Colombia, pero ninguna por
+WhatsApp ni con todos los documentos).
+
+Riesgos:
+- Competencia de apps gratis y de las mismas aseguradoras: ganar por WhatsApp,
+  foto y todos los documentos.
+- Si la IA lee mal una fecha y no avisa, el usuario se queja: pedir que confirme
+  la fecha al guardar ("¿Tu SOAT vence el 12/03/2027? Sí/No").
+- Datos personales (cédula, pasaporte): guardar lo mínimo (solo tipo y fecha),
+  cumplir Ley 1581.
+- Las comisiones de SOAT son pequeñas: se necesita mucho volumen.
+
+Internacionalización (se puede llevar a otros países): SÍ, ALTA
+- Todo el mundo tiene documentos que vencen (seguro del vehículo, licencia,
+  pasaporte, visa, impuestos).
+- Mismo bot; cambia la lista de documentos por país y los socios para renovar
+  (aseguradoras, centros de revisión).
+- Plan: 1) Santa Marta y Colombia (SOAT + tecnomecánica)  2) Perú (SOAT también),
+  Ecuador, México  3) resto de Latinoamérica y España  4) India y Sudeste Asiático.
+
+Problemas para 1 sola persona: APTA
+- Conseguir acuerdos de comisión con aseguradoras y CDA (trabajo de ventas al inicio).
+- Volumen: para ganar bien se necesitan miles de usuarios (marketing constante).
+- Costos de mensajes de WhatsApp por cada aviso: calcular bien.
+- Lo bueno: automática, sin plata de terceros, sin logística, sin trabajo de calle diario.

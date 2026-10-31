@@ -1,0 +1,90 @@
+11. "¿Dónde está mi medicamento?" - Bot de WhatsApp que te dice qué droguería cercana lo tiene y a qué precio
+
+Necesidad/Problema a solucionar:
+- En Colombia hay desabastecimiento de medicamentos (Invima reporta medicamentos
+  desabastecidos y en riesgo en 2026, incluidos de salud mental y epilepsia).
+- Las EPS y sus dispensarios no entregan a tiempo: muchos pacientes interrumpen
+  tratamientos o terminan comprando por su cuenta.
+- El paciente va de droguería en droguería preguntando "¿tiene este?", o llama
+  a números que nadie contesta. Pierde tiempo, plata en transporte y salud.
+- El mismo medicamento cambia mucho de precio entre droguerías y nadie lo compara.
+- Las droguerías de barrio SÍ tienen el medicamento a veces, pero nadie lo sabe.
+
+Argumentos:
+
+- Idea: el usuario escribe por WhatsApp el nombre del medicamento (o manda foto
+  de la fórmula). El bot responde qué droguerías cercanas lo tienen, a qué precio,
+  y permite apartarlo o pedirlo a domicilio.
+  Los datos vienen de:
+  1) Droguerías de barrio que se registran y actualizan su inventario (o lo comparten).
+  2) Reportes de usuarios ("lo encontré en tal droguería a tal precio").
+  3) Lista oficial del Invima de medicamentos desabastecidos (para avisar alternativas).
+- Por qué funciona: el problema le duele a millones de personas cada mes, y en
+  Colombia no se encontró una herramienta privada que lo resuelva.
+- Por qué sirve para 1 persona:
+  - Solo WhatsApp + web, sin app móvil.
+  - Empezar con 20-30 droguerías de barrio en Santa Marta (visitarlas en persona).
+  - No se venden medicamentos: solo se conecta paciente con droguería
+    (evita permisos de farmacia).
+  - Crece solo: el que encuentra su medicamento lo cuenta en su grupo de la EPS.
+
+Cómo ganar dinero:
+- Droguerías pagan mensualidad por aparecer y recibir clientes (ej. $50.000 - $100.000 COP).
+- Comisión por cada medicamento apartado o enviado a domicilio.
+- Alerta "avísame cuando llegue": gratis el primer aviso, pago pequeño por
+  avisos ilimitados o medicamentos de uso diario.
+- Datos agregados (qué falta, dónde, cuándo) para laboratorios y distribuidores,
+  sin datos personales de pacientes.
+
+Competidores en Colombia:
+- Invima: publica listado de medicamentos desabastecidos (no dice dónde hay).
+  Web: https://www.invima.gov.co
+- Apps de cadenas (Cruz Verde, La Rebaja, Farmatodo): solo muestran su propia cadena.
+- App para encontrar la droguería más cercana (nota de 2019, no muestra inventario).
+  Noticia: https://www.enter.co/chips-bits/apps-software/con-esta-app-puedes-encontrar-la-drogueria-mas-cercana
+- No se encontró una herramienta que busque el medicamento en TODAS las droguerías.
+
+Competidores en Santa Marta:
+- Ninguno digital. Hoy: ir en persona, llamar o preguntar en grupos de WhatsApp.
+
+Competidores en el mundo:
+- AhorroMED (Perú, app del Ministerio de Salud: precios y droguerías cercanas).
+  Noticia: https://andina.pe/agencia/noticia-medicamentos-a-bajo-precio-un-clic-aplicativo-movil-727244.aspx
+- MedicApp (Panamá, gobierno: precio y disponibilidad).
+  Noticia: https://www.laestrella.com.pa/economia/medicapp-disponibilidad-medicamentos-BELE496733
+- Yapp (Chile, comparar precios de medicamentos).
+  Noticia: https://www.chilevision.cl/noticias/te-ayuda/hasta-50-mas-baratos-esta-es-la-app-para-encontrar-los-medicamentos-de-menor-precio/
+- Axeso (Perú, buscar medicamentos y cupones, sobre todo en Lima).
+  Noticia: https://infomercado.pe/axeso-buscar-un-medicamento-nunca-habia-sido-tan-facil/
+- Remedin (Brasil, disponibilidad y precios en tiempo real).
+
+Nuestra ventaja: en Colombia nadie busca el medicamento en todas las droguerías
+(cadenas + barrio). Afuera lo hacen gobiernos con apps que pocos usan. Nosotros:
+por WhatsApp, con droguerías de barrio, reportes de usuarios y alerta "avísame
+cuando llegue".
+Nivel de océano azul: ALTO en Colombia, MEDIO afuera (hay apps en Perú, Chile, Panamá, Brasil).
+
+Riesgos:
+- Inventario desactualizado: si el bot dice "hay" y no hay, se pierde confianza.
+  Pedir a la droguería confirmar antes de que el usuario vaya (apartar).
+- Droguerías de barrio con inventario en cuaderno: empezar con las que tienen
+  sistema o que respondan por WhatsApp.
+- Salud es tema delicado: nunca recomendar medicamentos ni cambiar uno por otro;
+  solo decir dónde hay. Revisar con abogado reglas de publicidad de medicamentos.
+- Cadenas grandes no van a querer compartir inventario al inicio.
+
+Internacionalización (se puede llevar a otros países): SÍ, ALTA
+- Escasez y diferencias de precio de medicamentos hay en toda Latinoamérica:
+  Venezuela, Ecuador, Bolivia, Argentina, México (desabasto), Perú.
+  También en Europa y EE.UU. hay faltantes de medicamentos.
+- Donde ya hay app del gobierno (Perú, Panamá, Chile), entrar por WhatsApp y
+  droguerías de barrio, que esas apps no cubren.
+- El sistema es el mismo; cambia idioma, moneda y la lista oficial de cada país.
+- Plan: 1) Santa Marta  2) Barranquilla, Cartagena y resto de Colombia
+  3) Ecuador, Venezuela, México  4) resto de Latinoamérica.
+
+Problemas para 1 sola persona: DIFÍCIL
+- Mantener los inventarios de las droguerías al día (si no, el bot miente).
+- Visitar droguerías una por una para registrarlas.
+- Tema de salud: un error puede afectar a un paciente; responsabilidad legal.
+- Normas de publicidad de medicamentos: revisar con abogado.

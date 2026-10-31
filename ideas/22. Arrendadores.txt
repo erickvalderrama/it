@@ -1,0 +1,97 @@
+22. "Cobra tu arriendo sin pelear" - Asistente por WhatsApp para pequeños arrendadores: recuerda, registra y lleva la cuenta del arriendo
+
+Necesidad/Problema a solucionar:
+- Mucha gente vive de arrendar 1 a 5 apartamentos, habitaciones o locales
+  (pensionados, familias, dueños en Santa Marta que alquilan a locales y turistas).
+- Cobrar es incómodo: hay que escribirle al inquilino cada mes, insistir, discutir
+  y llevar la cuenta en un cuaderno o en la memoria. Alrededor del 20% de los
+  arrendatarios en Colombia se atrasa en algún momento.
+- No saben cuánto pueden cobrar de mora ni qué dice la ley (Ley 820, usura),
+  y a veces cobran cosas ilegales sin saberlo (depósitos en dinero).
+- El inquilino tampoco tiene comprobantes ordenados de lo que pagó.
+- Las inmobiliarias cobran 8-10% del arriendo por administrar: caro para 1 o 2 apartamentos.
+- Problema INTERNACIONAL (con evidencia):
+  - EE.UU.: los pequeños arrendadores tuvieron más de 10% de pagos atrasados
+    durante 9 meses seguidos en 2025; 9 de cada 10 dicen que el arriendo llega tarde.
+  - Los pequeños arrendadores (menos de 10 unidades) son los que peor cobran
+    y los que menos herramientas usan.
+  - En toda Latinoamérica, España e India el arriendo entre particulares se maneja
+    por WhatsApp y efectivo/transferencia, sin orden.
+
+Argumentos:
+
+- Idea: bot de WhatsApp para el dueño (y mensajes al inquilino).
+  1) El dueño registra: inmueble, inquilino, valor, día de pago (por nota de voz).
+  2) El bot le escribe al inquilino 3 días antes: "Hola Carlos, recuerda que el
+     arriendo de $1.200.000 vence el 5. Cuando pagues, manda aquí el comprobante".
+  3) El inquilino manda foto del comprobante (Nequi, Bancolombia, efectivo).
+     La IA lee monto y fecha, y le avisa al dueño: "Carlos pagó ✅".
+  4) Si no paga: recordatorios amables y automáticos (así el dueño no pelea).
+  5) Cada mes: recibo de pago para el inquilino y resumen para el dueño
+     (quién pagó, quién debe, cuánto le entró en el año, útil para la declaración de renta).
+  - Extra: plantilla de contrato y "¿qué dice la ley?" (cuánta mora se puede cobrar,
+    qué no se puede cobrar).
+- Pensada para evitar los problemas de ser 1 persona:
+  - AUTOMÁTICA: recordatorios, lectura de comprobantes, recibos y resúmenes.
+  - NO maneja plata: el inquilino le paga directo al dueño; el bot solo registra.
+  - Sin logística, sin trabajo de calle, sin guardia 24/7.
+  - Se vende por internet y en grupos de propietarios.
+- Santa Marta para empezar: muchos dueños pequeños de apartamentos y habitaciones
+  (para locales, estudiantes y turistas).
+
+Cómo ganar dinero:
+- Gratis: 1 inmueble (para que lo prueben).
+- Plan por inmueble: ej. $10.000 - $15.000 COP al mes por cada apartamento/local
+  (mucho más barato que el 8-10% de una inmobiliaria).
+- Extras: contratos personalizados, reporte anual para la declaración de renta.
+- Referidos con comisión: seguros de arrendamiento, abogados para casos de mora,
+  pintores y mantenimiento.
+- Después: historial de pagos del inquilino ("buen pagador") que sirve para
+  su siguiente arriendo (con su permiso).
+
+Competidores en Colombia:
+- Inmobiliarias: administran todo pero cobran 8-10% del arriendo.
+- Dora (startup que le paga el arriendo al dueño y asume la mora; es fintech, más compleja).
+  Noticia: https://www.enter.co/startups/asi-funciona-dora-la-startup-que-te-paga-el-arriendo-como-y-por-que
+- Bancos (links de pago y pagos automáticos), sin recordatorios ni registro para el dueño.
+  Noticia: https://blog.bancolombia.com/negocios/estrategias-recaudo-pago-arriendo-inmobiliarias/
+- No se encontró un asistente por WhatsApp para pequeños arrendadores.
+
+Competidores en Santa Marta:
+- Inmobiliarias locales y el cuaderno del dueño. Ninguno digital para particulares.
+
+Competidores en el mundo:
+- RentRedi, TurboTenant, Avail, Baselane (EE.UU., apps para pequeños arrendadores;
+  en inglés, con pagos en EE.UU., no usan WhatsApp).
+  Web: https://rentredi.com
+  Web: https://www.baselane.com
+- Landlord Studio (Reino Unido, Australia, EE.UU.).
+
+Nuestra ventaja: las apps de EE.UU. no funcionan en Latinoamérica ni por WhatsApp;
+las inmobiliarias son caras. Nosotros: por WhatsApp, lee comprobantes de Nequi y
+bancos locales, recordatorios automáticos, recibos y la ley explicada sencillo.
+Barato por inmueble.
+Nivel de océano azul: ALTO en Latinoamérica, MEDIO afuera (fuerte competencia en EE.UU.).
+
+Riesgos:
+- Comprobantes falsos (foto editada): avisar al dueño que confirme en su banco;
+  el bot no garantiza que la plata llegó.
+- Dar información legal equivocada: usar textos revisados por un abogado y decir
+  que es orientación, no asesoría legal.
+- Datos personales de inquilinos: pedir permiso, cumplir Ley 1581.
+- Que el inquilino no quiera recibir mensajes del bot: mensajes cortos y amables;
+  si se opone, el bot solo recuerda al dueño.
+
+Internacionalización (se puede llevar a otros países): SÍ, ALTA
+- Pequeños arrendadores que cobran por WhatsApp existen en toda Latinoamérica,
+  España, Portugal, India y África.
+- Mismo bot; cambia idioma, apps de pago que lee (Yape en Perú, Pix en Brasil,
+  SPEI en México, Bizum en España) y la ley de arriendos de cada país.
+- Plan: 1) Santa Marta y Colombia  2) Perú, México, Ecuador, Chile
+  3) España  4) Brasil (portugués) e India.
+
+Problemas para 1 sola persona: APTA
+- Escribir la parte legal ("qué dice la ley") de cada país: hacerlo con un abogado una vez.
+- Soporte a dueños mayores que no entienden el bot al inicio (videos cortos de ayuda).
+- Cobrar mensualidades: usar cobro automático.
+- Lo bueno: automática, sin plata de terceros, sin logística, sin guardia 24/7.
