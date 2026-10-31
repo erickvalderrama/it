@@ -1,0 +1,83 @@
+31. "Nos turnamos" - Reparte entre familiares la ayuda cotidiana para que no le toque todo a uno
+
+Necesidad/Problema a solucionar:
+- Cuando un familiar necesita apoyo, alguien termina coordinando compras, visitas, acompañamientos y diligencias desde un chat.
+- Los mensajes no dejan claro quién aceptó cada tarea, qué sigue pendiente y quién puede reemplazar a alguien.
+- Problema INTERNACIONAL con evidencia:
+  - EE.UU.: AARP y National Alliance for Caregiving reportaron 63 millones de cuidadores familiares en 2025 y describieron su carga personal y económica.
+    https://www.aarp.org/pri/topics/ltss/family-caregiving/caregiving-in-the-us-2025/
+  - Caring Village ofrece calendarios y tareas compartidas para familias que cuidan: confirma que ya existe este tipo de solución en otros mercados.
+    https://caringvillage.com/faq/
+- Colombia: el DANE estimó para 2024, con cifras provisionales, 23 horas semanales de trabajo doméstico y de cuidado no remunerado para mujeres frente a 9 para hombres. Es contexto de desigualdad en la carga, no una medición específica de cuidar adultos mayores.
+  https://www.dane.gov.co/index.php/estadisticas-por-tema/cuentas-nacionales/cuentas-nacionales-de-transferencia-de-tiempo-cntt
+- Estas fuentes no demuestran todavía demanda pagada en Santa Marta.
+
+Argumentos:
+- Idea: tablero familiar privado que se abre desde un enlace compartido por WhatsApp.
+  1) Crear tareas: comprar mercado, acompañar a una cita, llevar comida o hacer una diligencia.
+  2) Cada familiar acepta una tarea y queda visible como responsable.
+  3) Si cambia su disponibilidad, solicita reemplazo; otro familiar debe aceptarlo.
+  4) La familia marca lo realizado y ve lo pendiente.
+  5) Un resumen semanal muestra compromisos y espacios sin cubrir.
+- Empezar con organización cotidiana: los estados son declaraciones de la familia, no comprobaciones de que alguien recibió atención.
+- Santa Marta: piloto remoto con diez familias que ya se repartan estas responsabilidades, incluidas familias con hijos viviendo en otra ciudad.
+- El valor está en coordinar compromisos entre personas; no requiere una IA para funcionar.
+- Se diferencia de la idea 12, "Abuelos": aquí se organiza ayuda entre familiares, sin chequeos de salud ni alertas de emergencia.
+
+Cómo ganar dinero:
+- Quién paga: PERSONAS; un familiar paga y el resto participa.
+- Plan familiar propuesto: $12.900 COP/mes por un grupo de hasta ocho integrantes, tareas recurrentes y resumen semanal.
+- Prueba gratuita corta con todas las personas del grupo: hay que comprobar adopción familiar, no solo que se registre el organizador.
+- Precio por validar; no es una tarifa comprobada del mercado.
+- Validación: diez familias durante cuatro semanas; buscar tres que paguen y comprobar que al menos dos familiares por grupo aceptan y completan tareas. Si solo participa quien organiza, replantear o descartar.
+
+Competidores en Colombia:
+- Recda se presenta como un ecosistema colombiano de cuidado a distancia con funciones de salud; anuncia sus apps como próximas, por lo que no se asume que estén disponibles.
+  https://recdatech.com/
+- TaskKin Care: su ficha de App Store Colombia describe coordinación familiar en español y un nivel gratuito. Competidor directo disponible para ese mercado; no se afirma que sea una empresa colombiana.
+  https://apps.apple.com/co/app/taskkin-cuidado-de-mayores/id6794837934
+- WhatsApp y Google Calendar: alternativas gratuitas que muchas familias ya saben usar.
+  https://www.whatsapp.com/
+  https://calendar.google.com/
+
+Competidores en Santa Marta:
+- Las mismas herramientas nacionales e internacionales accesibles por internet.
+- No se verificó un producto exclusivo de Santa Marta; eso no significa ausencia de competencia.
+- El rival principal es continuar coordinándose por chat sin pagar.
+
+Competidores en el mundo:
+- Caring Village: calendario, responsables y listas compartidas; tiene planes gratuitos y de pago.
+  https://caringvillage.com/faq/
+- CareMate: tareas, calendario, chat y gastos familiares.
+  https://www.caremate-app.com/
+- Sus sitios oficiales describen sus funciones. No se comprobó aquí cada enlace de descarga móvil.
+
+Nuestra ventaja:
+- Hipótesis: una experiencia muy corta para aceptar, pedir reemplazo y cerrar tareas, accesible desde el enlace que llega al chat familiar.
+- La diferencia debe demostrarse con más participación y menos mensajes para coordinar; tener una web en español no basta.
+- Nivel de océano azul: BAJO en la categoría general. El flujo sencillo de relevos familiares es un nicho por validar, no un espacio libre demostrado.
+- Si las familias están satisfechas con alternativas gratuitas, no construir una plataforma grande.
+
+Riesgos:
+- El programa no logra que ayude quien no quiere participar; no prometer resolver conflictos familiares.
+- Una tarea marcada como hecha puede ser incorrecta; mostrar autor y fecha, sin presentarlo como verificación.
+- Separar coordinación cotidiana de decisiones médicas y atención urgente. El servicio no supervisa personas.
+- Acceso privado por invitación, permisos claros y borrado de datos; recoger la mínima información personal.
+- Los recordatorios automáticos por WhatsApp pueden aumentar los costos; empezar con resúmenes compartibles y medir el margen antes de ofrecer mensajes frecuentes.
+
+Internacionalización:
+- ALTA para el tablero de tareas; validar por país la disposición de pago.
+- Plan: Santa Marta y Colombia; después un piloto en México o Perú y, si funciona, España.
+- Cambiar idioma, moneda, zona horaria y vocabulario. La coordinación no depende de convenios con hospitales ni de bases de datos locales.
+- Las familias dispersas pueden participar en el mismo grupo desde países diferentes.
+
+Problemas para 1 sola persona:
+- Nota: APTA CON CUIDADO.
+- Tiempo: limitar el producto a tareas y relevos; no sumar contratación de cuidadores, transporte o trámites por encargo.
+- Soporte: horario laboral y ayuda sobre el uso del sistema; la familia conserva la responsabilidad de coordinarse.
+- Ausencias: cobro, recordatorios y acceso automáticos, con respaldos y exportación.
+- Ventas: conseguir que se sumen varios familiares es más difícil que vender una cuenta individual.
+- Sin logística física, custodia de dinero de terceros ni vigilancia 24/7.
+- Si cada familia exige seguimiento personal, la operación deja de ser apta para trabajar solo.
+
+Fuentes consultadas: 30 de octubre de 2026. Precio, ventaja y demanda local son hipótesis pendientes de validación.
