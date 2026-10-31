@@ -1,0 +1,80 @@
+46. "Un pueblo a pasos" - Construye un pueblito con las caminatas de tus amigos
+
+Necesidad/Problema a solucionar:
+- Caminar puede sentirse repetitivo. Un objetivo compartido puede darle un motivo divertido a las caminatas habituales y mantener contacto con amigos.
+- Público potencial amplio: adultos que llevan el celular al trabajar, estudiar o hacer diligencias. Primer piloto con grupos privados de conocidos.
+- Uso buscado: aportar pasos del día y entrar uno o dos minutos para ver qué construyó el grupo. La repetición casi diaria debe medirse.
+- Contexto internacional: la OMS informó en 2024 que el 31% de los adultos no alcanzaba los niveles recomendados de actividad física en 2022. Eso no demuestra que un videojuego mejore su salud ni que quieran pagar por él.
+  https://www.who.int/news/item/26-06-2024-nearly-1.8-billion-adults-at-risk-of-disease-from-not-doing-enough-physical-activity
+
+Argumentos:
+- Idea: tres a seis amigos construyen un mismo pueblo virtual con los pasos que registra su celular.
+  1) Crear el pueblo, compartir el enlace y autorizar el contador compatible.
+  2) Caminar con el teléfono durante el día.
+  3) Entrar para aportar recursos y votar qué construir: un faro, una plaza o un puente.
+- Cada proyecto tiene etapas y pequeñas decisiones compartidas. Los amigos pueden participar en horarios diferentes.
+- Si alguien descansa, el pueblo sigue existiendo y avanza más despacio. El diseño no exige una meta universal de pasos.
+- Primer alcance: Android y un pueblo pequeño en 2D. Contar pasos sin necesitar rutas ni ubicación GPS.
+- Google documenta una Recording API que registra pasos en el dispositivo con permiso de actividad y requisitos de compatibilidad. Probar lectura y sincronización antes de prometer funcionamiento automático.
+  https://developer.android.com/health-and-fitness/recording-api
+- Tu experiencia técnica permite construir el cliente, el estado compartido y la operación. El piloto puede comenzar con diez grupos de Santa Marta que ya se conozcan.
+- Es distinta de EspejoDelParche: aquí los aportes cotidianos transforman un mundo común durante varias semanas.
+
+Cómo ganar dinero:
+- Quién paga: PERSONAS.
+- Gratis: un pueblo y sus funciones principales.
+- Hipótesis: $7.900 COP/mes por anfitrión para personalizarlo, añadir estilos propios y administrar varios pueblos. Sus amigos participan gratis.
+- Validación de cuatro semanas: cinco grupos entrando al menos cuatro días por semana y tres anfitriones pagando por extras concretos.
+- Comparar con los juegos gratuitos existentes. Si solo atrae durante unos días o nadie valora los extras, revisar o descartar.
+
+Competidores en Colombia:
+- Compiten aplicaciones internacionales; comprobar acceso y compatibilidad en los equipos del piloto.
+- Walkr convierte pasos en energía, ofrece aventuras y funciones sociales. Su ficha declara juego gratuito con compras.
+  Web: https://sparkful.app/walkr
+  Android: https://play.google.com/store/apps/details?id=com.fourdesire.spacewalk
+- Pikmin Bloom tiene actividades compartidas y retos de pasos con amigos.
+  Android: https://play.google.com/store/apps/details?id=com.nianticlabs.pikmin
+- No afirmar que cooperar mediante pasos sea una característica nueva.
+
+Competidores en Santa Marta:
+- Las mismas aplicaciones, contadores del celular y retos entre conocidos.
+- No se verificó una ventaja territorial ni ausencia de un producto equivalente. Santa Marta sirve para probarlo, no para protegerlo de la competencia.
+
+Competidores en el mundo:
+- Stepets combina caminar, mascotas y crecimiento de una isla.
+  https://www.platonicgames.com/stepets
+- Pikmin Bloom permite un reto semanal gratuito por tipo, con condiciones para repetirlo. Es competencia gratuita relevante.
+  https://niantic.helpshift.com/hc/en/23-pikmin-bloom/faq/3404-weekly-challenges/
+- Walkr también permite colaborar con otros jugadores. Cambiar el espacio por un pueblo no basta como diferenciación.
+
+Nuestra ventaja y filtro frente a LLM gratuitos:
+- La parte adicional requiere leer actividad autorizada de varios dispositivos y mantener un mundo compartido con aportes, decisiones y progreso.
+- Un LLM gratuito puede calcular puntos, crear imágenes del pueblo, recordar reglas y generar código. Estas capacidades cuentan como alternativas.
+- Comparar con un asistente, un contador gratuito, un grupo de WhatsApp y los juegos anteriores. Si esa combinación ya ofrece el resultado que buscan, descartar.
+- Diferencia por validar: decisiones sencillas sobre un pueblo que todos sienten suyo, con sesiones breves y aportes desde sus rutinas.
+- Nivel de océano azul: BAJO. Necesita ejecución fuera del chat, pero aún debe demostrar valor frente a juegos gratuitos consolidados.
+- Comparación documental con CLAUDE.md; no se probó el juego ni la equivalencia práctica con asistentes gratuitos.
+
+Riesgos:
+- Sensores, permisos o servicios del teléfono pueden impedir contar o sincronizar pasos.
+- El contador ofrece estimaciones y puede manipularse. Mantener recompensas virtuales sin premios económicos.
+- La decoración puede aburrir o un grupo puede depender de una sola persona activa.
+- Pedir solo los datos necesarios y permitir salir del grupo y borrar la cuenta. No publicar recorridos ni actividad personal fuera del grupo.
+- No hacer promesas médicas ni incentivar esfuerzos para los que una persona no se sienta preparada.
+- La calidad del arte y la variedad importan tanto como el servidor.
+
+Internacionalización:
+- ALTA para la mecánica: no depende de mapas ni de conseguir comercios en cada ciudad.
+- Plan: Santa Marta, Colombia y después México o Perú.
+- Adaptar idioma, moneda y temas visuales; validar que la diversión y el pago se mantengan.
+
+Problemas para 1 sola persona:
+- Nota: APTA CON CUIDADO para una versión pequeña.
+- Empezar con una plataforma, pocos proyectos y piezas gráficas reutilizables, propias o autorizadas.
+- Automatizar aportes, progreso, decisiones y cobros. Los jugadores gestionan sus grupos.
+- Probar reinicios, duplicados, sincronización y batería; evitar que un error multiplique aportes.
+- Limitar datos enviados y revisar políticas de permisos antes de publicar.
+- Si necesita contenido nuevo diario, corregir pasos manualmente o moderar una comunidad pública grande, descartar ese alcance.
+- Sin logística física ni atención humana 24/7; preparar continuidad durante ausencias.
+
+Revisión documental: 30 de octubre de 2026, hora de Colombia. No se contactó a grupos ni se midieron pasos. Diversión, retención, compatibilidad y pagos pendientes de validación.
