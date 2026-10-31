@@ -1,0 +1,80 @@
+33. "Así lo recibí" - Documenta cómo recibes una vivienda para compararla cuando la devuelvas
+
+Necesidad/Problema a solucionar:
+- Una pared manchada, una puerta dañada o una llave faltante pueden terminar en discusión si nadie dejó claro el estado inicial del inmueble.
+- Tener fotos sueltas no facilita encontrar qué se observó en cada habitación ni qué aceptó la otra parte.
+- Problema INTERNACIONAL con evidencia:
+  - Nueva Zelanda: Tenancy Services recomienda revisar juntos el inmueble al comenzar el arriendo y registrar su estado.
+    https://www.tenancy.govt.nz/starting-a-tenancy/new-to-tenancy/initial-property-inspection/
+  - Australia, Queensland: la RTA explica que el informe de entrada con fotos ayuda a evitar disputas sobre el estado del inmueble.
+    https://www.rta.qld.gov.au/starting-a-tenancy/entry-condition-report
+- Son ejemplos del problema fuera de Colombia; sus reglas legales no se trasladan automáticamente al mercado colombiano.
+
+Argumentos:
+- Idea: web para inquilinos y propietarios particulares.
+  1) Recorrer habitaciones con una lista: paredes, pisos, puertas, ventanas, elementos incluidos, llaves y medidores.
+  2) Agregar fotos y observaciones concretas.
+  3) Compartir el borrador para que la otra parte añada comentarios; distinguir lo aceptado de lo pendiente o discutido.
+  4) Descargar un informe y las fotos originales.
+  5) Al salir, cargar el registro inicial y comparar el mismo elemento antes y después.
+- El sistema ordena lo que las personas documentan; no determina automáticamente quién causó un daño.
+- Santa Marta: empezar con diez entregas de apartamentos o habitaciones entre particulares.
+- Una persona puede operar captura, revisión compartida, cobro y generación de documentos sin visitar inmuebles.
+- Se diferencia de la idea 6, que busca alojamiento; la 22, que organiza cobros; y la 32, que organiza cajas de mudanza.
+
+Cómo ganar dinero:
+- Quién paga: PERSONAS; puede pagar el inquilino o el propietario.
+- Lista de revisión básica gratuita.
+- Hipótesis: $19.900 COP por informe con fotos y comentarios, con 30 días para editar y descargar. La otra parte revisa gratis.
+- La persona conserva su copia y puede reutilizarla en una futura comparación; explicar claramente el periodo de almacenamiento.
+- Validar cinco pagos entre diez entregas reales. Si una plantilla gratuita resuelve igual de bien el problema, replantear o descartar.
+
+Competidores en Colombia:
+- Elyssa: inventarios digitales, fotos e informes para inmobiliarias y propietarios. Competidor directo colombiano, incluso para pocos inmuebles.
+  Web: https://elyssa.app/
+  App Android: https://play.google.com/store/apps/details?id=co.elyssa.elyssa
+- GestRent: anuncia actas de entrega con fotos y firmas dentro de su gestión de arriendos.
+  https://gestrent.com/
+- Plantillas de Word, carpetas de fotos y documentos compartidos: sustitutos gratuitos fuertes.
+
+Competidores en Santa Marta:
+- Inmobiliarias que gestionan la entrega como parte de la administración. Ejemplo:
+  https://sobrenaturalinmobiliaria.com/main-servicio-id-15298-q-administracion_de_propiedades_inmobiliaria_en_santa_marta.htm
+- También están disponibles las herramientas nacionales. No se comprobó un vacío de oferta local.
+
+Competidores en el mundo:
+- RentCheck: inspecciones de entrada y salida realizadas desde el celular.
+  Web: https://www.getrentcheck.com/
+  App iOS: https://apps.apple.com/us/app/rentcheck/id1134017691
+- Formularios oficiales gratuitos, como los publicados por Tenancy Services y la RTA.
+
+Nuestra ventaja:
+- Hipótesis: compra puntual por entrega, revisión sencilla de ambas partes y comparación por elemento, sin contratar administración inmobiliaria.
+- Nivel de océano azul: BAJO. Ya hay competencia colombiana e internacional directa.
+- El nicho de particulares que solo necesitan un informe es por validar; no afirmar que esté desatendido.
+- La sencillez debe demostrarse con usuarios, no suponerse por tener una web.
+
+Riesgos:
+- Una foto no demuestra por sí sola cuándo apareció un daño ni quién lo causó.
+- Registrar fecha de carga y conservar originales y versiones, sin prometer certificación de autenticidad ni resultado judicial.
+- No presentar falta de respuesta como aceptación del informe.
+- El usuario puede omitir daños o registrar lecturas incorrectas: revisión humana antes de cerrar.
+- Proteger imágenes del interior, direcciones y accesos compartidos.
+- Aclarar que el producto organiza documentación; no realiza peritajes ni resuelve controversias.
+
+Internacionalización:
+- ALTA para organizar fotos y comparaciones; MEDIA para adaptar documentos a normas locales.
+- Plan: Santa Marta, Colombia y después un piloto en México o Perú.
+- Cambiar idioma, unidades y vocabulario. Revisar cualquier contenido jurídico antes de ofrecerlo en otro país.
+- La necesidad internacional está documentada, pero la disposición de pago debe probarse por mercado.
+
+Problemas para 1 sola persona:
+- Nota: APTA CON CUIDADO.
+- Tiempo: limitarse al informe; incorporar visitas, reparaciones o mediación cambia la operación.
+- Soporte: ayuda sobre el sistema en horario laboral; evitar prometer asistencia durante cada entrega.
+- Ausencias: cobro y descarga automáticos, respaldos y exportación de documentos.
+- Costos: limitar fotos y almacenamiento; no vender conservación indefinida con un pago pequeño.
+- Sin custodiar arriendos, manejar depósitos, contratar personal de campo ni operar una guardia 24/7.
+- Principal dificultad comercial: convencer de pagar cuando ya existen herramientas y plantillas gratuitas.
+
+Fuentes consultadas: 30 de octubre de 2026. Precio, demanda y ventaja son hipótesis pendientes de validación.
