@@ -1,0 +1,84 @@
+30. "Compara el arreglo" - Entiende qué incluye cada cotización antes de arreglar tu casa
+
+Necesidad/Problema a solucionar:
+- Para pintar, cambiar un piso o remodelar un baño recibes propuestas que parecen del mismo trabajo, pero incluyen cosas diferentes.
+- Una cobra solo mano de obra; otra incluye materiales. El retiro de escombros, transporte o acabado final puede quedar sin especificar.
+- Elegir por el total más bajo sin aclarar esas diferencias puede terminar en gastos adicionales.
+- Problema INTERNACIONAL con evidencia:
+  - EE.UU.: la FTC recomienda pedir varios presupuestos escritos y preguntar por diferencias importantes de precio, revisando trabajo, materiales y fechas.
+    https://consumer.ftc.gov/articles/how-avoid-home-improvement-scam
+  - Inglaterra: Citizens Advice recomienda comparar al menos tres cotizaciones y advierte que un precio menor puede corresponder a trabajos distintos.
+    https://www.citizensadvice.org.uk/consumer/getting-home-improvements-done/before-you-get-building-work-done/
+- Estas fuentes confirman la necesidad de comparar; no prueban disposición de pago en Santa Marta.
+
+Argumentos:
+- Idea: web sencilla. La persona sube dos o tres cotizaciones en foto, texto o PDF.
+- El sistema ordena una tabla: actividades, cantidades, materiales, mano de obra, transporte, limpieza, fechas, pagos y total.
+- Cada dato enlaza con el fragmento del documento del que salió. Lo ausente aparece como "no especificado", para preguntarlo.
+- Ejemplo ficticio: A cobra $1.200.000 solo por mano de obra; B cobra $1.700.000 incluyendo materiales. El informe explica que todavía no se puede decidir cuál cuesta menos para el mismo trabajo.
+- Genera un mensaje para pedir a ambos proveedores lo que falta y permite actualizar la comparación con sus respuestas.
+- Santa Marta: empezar con pintura interior y cambio de pisos en viviendas. Probar con personas que ya tengan cotizaciones; no conseguirles los trabajadores.
+- Una persona puede construir y operar el flujo automático sin visitas, inventario ni una base de precios que deba actualizar diariamente.
+- Es distinta de la idea 19, centrada en precios turísticos, y de la 25, centrada en cláusulas de contratos: aquí se comparan trabajos y cantidades.
+
+Cómo ganar dinero:
+- Quién paga: PERSONAS que van a contratar un arreglo.
+- Gratis: plantilla para pedir cotizaciones comparables.
+- Hipótesis de precio: $14.900 COP por comparar hasta tres propuestas y una ronda de actualización.
+- Cobro automático por proyecto; el uso ocasional encaja mejor con pago único que con suscripción obligatoria.
+- No vender posiciones a contratistas: la confianza depende de que el informe responda al comprador.
+- Validación: 15 personas con dos cotizaciones reales; buscar cinco pagos y comprobar si las preguntas cambiaron o aclararon su decisión. Si no supera una comparación gratuita con ChatGPT, replantear o descartar.
+
+Competidores en Colombia:
+- Homecenter: ofrece presupuestos para proyectos a medida e instalaciones. Alternativa para contratar, no un comparador independiente de propuestas ajenas.
+  https://www.homecenter.com.co/homecenter-co/content/Landing-Servicios-Proyectos_a_medida/
+- Cotixar: software para preparar cotizaciones dirigido a contratistas; competencia indirecta por estructurar la información.
+  https://www.cotixar.com/
+- ChatGPT y hojas de cálculo: sustitutos directos para comparar documentos.
+  https://chatgpt.com/
+- No se confirmó en esta revisión un competidor colombiano idéntico. Eso no demuestra que no exista.
+
+Competidores en Santa Marta:
+- OCA Servicios Integrales ofrece remodelaciones y cotizaciones en la ciudad; alternativa de contratación y asesoría.
+  https://ocaservicios.com/servicio?s=acabados
+- Homecenter publica Santa Marta en la cobertura de algunos servicios de instalación:
+  https://www.homecenter.com.co/homecenter-co/product/478706/instalacion-und-sanitario-o-lavamanos-marca-corona/478706/
+- La oferta y el alcance deben confirmarse para cada trabajo.
+
+Competidores en el mundo:
+- Quote Advisor App: analiza cotizaciones y permite compararlas. Competidor directo; ya existe una solución muy parecida.
+  https://www.quoteadvisor.app/
+- CheckMyBid: su ficha oficial ofrece revisión de presupuestos y comparación de tres propuestas.
+  App iOS: https://apps.apple.com/us/app/checkmybid/id6761315814
+- No atribuirles limitaciones de país o idioma que no se hayan comprobado.
+
+Nuestra ventaja:
+- Hipótesis: especializar el flujo en arreglos pequeños, vocabulario colombiano y propuestas informales, con preguntas concretas y comparación actualizable.
+- El valor tiene que estar en aclarar el mismo trabajo con datos verificables, no en emitir una opinión genérica con IA.
+- Nivel de océano azul: BAJO mundialmente. El nicho colombiano es una oportunidad por validar, no un espacio libre demostrado.
+- Traducir una herramienta existente o ponerla en WhatsApp no basta como ventaja.
+
+Riesgos:
+- Una foto borrosa o una unidad mal leída cambia la comparación: confirmar importes y cantidades.
+- Diferencias de materiales o trabajos pueden impedir comparar: mostrarlas expresamente.
+- El sistema no debe inventar precios faltantes ni acusar sobrecostos sin referencias comprobables.
+- La calidad del trabajador y la seguridad de la obra requieren evaluación profesional; el informe compara documentos.
+- Proteger direcciones y teléfonos; permitir ocultarlos antes de cargar y borrar archivos.
+- La captación puede costar más que el pago por informe: medir margen incluyendo publicidad, procesamiento, cobros y soporte.
+
+Internacionalización:
+- ALTA para comparar documentos; MEDIA si se agregan orientaciones normativas.
+- El problema está documentado en EE.UU. e Inglaterra; validar demanda pagada en cada mercado nuevo.
+- Plan: Santa Marta, resto de Colombia, después un piloto en México o Perú.
+- Adaptar moneda, unidades y vocabulario. Agregar reglas legales solo tras revisión local.
+- Mantener el modelo de pago por proyecto y el mismo flujo de comparación.
+
+Problemas para 1 sola persona:
+- Nota: APTA CON CUIDADO.
+- Tiempo: limitarse inicialmente a dos tipos de arreglo y un informe estándar.
+- Soporte: los compradores pueden pedir asesoría durante toda la obra; vender claramente un comparador documental, con atención en horario laboral.
+- Ausencias: generación, pago y descarga automáticos, con copias de seguridad; no depender de revisar personalmente cada caso.
+- Operación: sin custodiar anticipos, coordinar cuadrillas ni realizar visitas.
+- Agotamiento: limitar páginas y actualizaciones por compra. Si los casos exigen revisión técnica humana frecuente, esta versión deja de ser apta para trabajar solo.
+
+Fuentes consultadas: 30 de octubre de 2026. Precios, ventaja y demanda local son hipótesis pendientes de validación.
