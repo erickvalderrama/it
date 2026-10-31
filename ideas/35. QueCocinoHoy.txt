@@ -1,0 +1,78 @@
+35. "¿Qué cocino hoy?" - Dices qué tienes y recibes tres comidas sencillas para preparar
+
+Necesidad/Problema a solucionar:
+- Llegas a casa y tienes ingredientes, pero no sabes qué preparar sin comprar más ni pasar mucho tiempo buscando recetas.
+- Público MASIVO: personas que cocinan en casa, familias, parejas, estudiantes y trabajadores. La decisión aparece todos los días o casi todos los días.
+- Evidencia INTERNACIONAL: el PNUMA estimó que en 2022 los hogares de todos los continentes desperdiciaron más de mil millones de comidas diarias. El 60% del desperdicio medido en hogares, servicios de alimentación y comercio ocurrió en los hogares.
+  https://www.unep.org/en/news-and-stories/press-release/world-squanders-over-1-billion-meals-day-un-report
+- El desperdicio tiene muchas causas: este dato no demuestra que todas se resuelvan recomendando recetas. La necesidad específica de decidir más rápido debe validarse.
+
+Argumentos:
+- Idea: una web con un campo para escribir o hablar.
+  1) "Tengo arroz, huevo y tomate; somos dos y tengo 20 minutos".
+  2) Recibir tres opciones con ingredientes, cantidades y tiempo aproximado. Mostrar cualquier ingrediente que falte, sin dar por hecho que lo tiene.
+  3) Elegir una y seguir pasos cortos, uno por pantalla.
+- Fácil de utilizar: probar sin cuenta; pedir solo ingredientes, personas y tiempo. Guardar preferencias después, si el usuario quiere.
+- No exigir inventariar toda la despensa ni actualizar cada producto consumido.
+- Regreso casi diario: resolver almuerzo o cena, recordar qué preparó y ofrecer variedad con lo disponible.
+- Santa Marta: probar con 30 hogares y comidas habituales de preparación sencilla.
+- Una persona puede empezar con un catálogo pequeño de recetas propias probadas, selección automática y cobro digital; no requiere entregar alimentos.
+- La idea es ayudar a decidir, no publicar otro catálogo interminable de recetas.
+
+Cómo ganar dinero:
+- Quién paga: PERSONAS.
+- Gratis: una consulta diaria con tres opciones útiles.
+- Precio propuesto: $5.900 COP/mes o $39.900 COP/año por más consultas, historial, preferencias familiares y plan de tres días con lista de faltantes.
+- Validar si esas funciones justifican pagar; no asumir que lo harán por llevar IA.
+- Prueba de cuatro semanas: buscar diez de los 30 hogares usando el servicio al menos cuatro días por semana y cinco pagos reales.
+- Precio bajo exige costos bajos y captación económica. Medir margen antes de promocionar consultas ilimitadas o mensajes frecuentes por WhatsApp.
+
+Competidores en Colombia:
+- Savia: su ficha oficial ofrece recetas con ingredientes disponibles, inventario y lista de mercado para Colombia y Latinoamérica. Competidor directo.
+  App Android: https://play.google.com/store/apps/details?id=com.yousosavia.savia
+- ChatGPT y recetas en redes sociales: alternativas gratuitas que el usuario ya puede conocer.
+  https://chatgpt.com/
+- No afirmar que recetas colombianas o entrada por voz sean características exclusivas.
+
+Competidores en Santa Marta:
+- Las mismas apps y búsquedas de recetas accesibles por internet.
+- Recetas guardadas, familiares y creadores de cocina también resuelven la decisión sin pagar otra suscripción.
+- No se comprobó un vacío de oferta exclusivo de la ciudad.
+
+Competidores en el mundo:
+- SuperCook: busca recetas según ingredientes y permite agregarlos por voz. Competidor directo gratuito.
+  Web: https://www.supercook.com/recipes/es
+  App iOS: https://apps.apple.com/es/app/supercook-recetas/id1477747816
+- Asistentes generales de IA y buscadores de recetas compiten por la misma consulta.
+
+Nuestra ventaja:
+- Hipótesis: tres opciones fáciles de comparar, pasos breves y variedad basada en lo que realmente preparó el hogar.
+- El criterio debe ser cuánto tarda en elegir y empezar a cocinar, no cuántas recetas genera.
+- Nivel de océano azul: BAJO; hay competencia directa fuerte y gratuita.
+- Lo masivo y cotidiano es el problema, no una demanda demostrada por nuestra solución. Si no mejora la experiencia frente a SuperCook o ChatGPT, descartar.
+
+Riesgos:
+- El usuario puede no tener cantidades suficientes: mostrar cantidades y pedir confirmación cuando sea necesario.
+- Una receta puede resultar poco práctica: comenzar con preparaciones probadas y recoger comentarios.
+- Revisar ingredientes y pasos; no presentar recomendaciones como dietas médicas ni garantizar ausencia de alérgenos.
+- No deducir frescura o seguridad de un alimento por una foto.
+- Usar recetas propias, autorizadas o enlaces a sus autores; no copiar textos y fotos ajenos.
+- El catálogo gratis puede ser suficiente y la mayoría podría no pagar.
+- Preferencias e historial deben poder borrarse; pedir pocos datos.
+
+Internacionalización:
+- ALTA: cocinar y decidir qué hacer con ingredientes disponibles ocurre en distintos países.
+- Plan: Santa Marta, Colombia, después México y Perú.
+- Adaptar nombres de ingredientes, medidas, platos habituales y moneda; no prometer precios locales sin datos.
+- Mantener el mismo flujo simple y validar frecuencia de uso y pago en cada mercado.
+
+Problemas para 1 sola persona:
+- Nota: APTA CON CUIDADO.
+- Tiempo: comenzar con pocas preparaciones útiles y comprobadas, ampliando según uso.
+- Costos: reutilizar recetas y resultados; evitar generar contenido nuevo innecesariamente en cada consulta.
+- Soporte: ayuda sobre el producto en horario laboral; no atender dietas o consultas individuales de salud.
+- Ausencias: selección, cobro y acceso automáticos, con respaldos.
+- Sin compras por encargo, domicilios, inventario físico, dinero de terceros ni guardia 24/7.
+- Principal dificultad: conseguir retención y pagos frente a competidores gratuitos, sin agotar al fundador creando contenido y haciendo marketing.
+
+Fuentes consultadas: 30 de octubre de 2026. Precio, ventaja, retención y disposición de pago pendientes de validación.
