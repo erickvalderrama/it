@@ -2,6 +2,12 @@
 
 Carpeta `ideas/` con una idea de negocio por archivo `.txt`, numerados en orden de creación: `N. Nombre.txt` (ej. `1. Mascotas.txt`). El título dentro del archivo empieza con el mismo número. Idea nueva = siguiente número (hoy van 39: AcaboDeSalir).
 
+## Perfil técnico del fundador
+
+- El usuario tiene conocimientos amplios de servidores, frontend, backend e infraestructura en general.
+- Tener en cuenta esta experiencia al proponer y evaluar ideas: la configuración de servidores y el desarrollo de frontend, backend e infraestructura no son barreras básicas de aprendizaje para él.
+- Las ideas pueden aprovechar esa capacidad técnica. Seguir evaluando el tiempo, los costos, el soporte y la viabilidad de construir, vender y operar el negocio siendo una sola persona.
+
 ## Reglas para cada idea nueva
 
 - **No sustituible por un LLM gratuito**: descartar ideas cuyo problema principal pueda resolverse con ChatGPT, Gemini u otro LLM en su versión gratuita, mediante una conversación o cargando fotos o archivos. Una interfaz más bonita, un prompt preparado o llevarlo a WhatsApp no bastan como ventaja. La idea puede usar IA, pero su valor central debe depender de algo adicional indispensable, como datos propios que el usuario no puede obtener del LLM, integraciones que ejecutan acciones reales, coordinación entre usuarios o una operación persistente que el chat gratuito no pueda realizar. Cada idea debe explicar qué parte del resultado exige el producto y comprobar la diferencia frente a las capacidades gratuitas vigentes, sin inventar limitaciones de los competidores. Si el LLM gratuito resuelve la necesidad de forma equivalente, la idea se descarta.
