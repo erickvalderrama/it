@@ -4,6 +4,7 @@ Carpeta `ideas/` con una idea de negocio por archivo `.txt`, numerados en orden 
 
 ## Reglas para cada idea nueva
 
+- **Fácil de utilizar**: cualquier persona común debe poder entender y usar la solución sin conocimientos técnicos ni capacitación. Priorizar pocos pasos, lenguaje claro y pedir solo los datos indispensables. Explicar cómo el usuario obtiene el beneficio principal de forma sencilla desde el primer uso.
 - **Alcance masivo y uso diario o casi diario**: priorizar ideas útiles para un público amplio de personas comunes, que resuelvan una necesidad que se repita todos los días o casi todos los días. Explicar quiénes la usarían y qué los haría volver con esa frecuencia; no confundir mercado potencial grande con demanda comprobada.
 - **Soy 1 sola persona**: la idea se tiene que poder construir, vender y operar por una persona (sin empleados, sin logística pesada, costos bajos, preferir WhatsApp + web antes que app móvil).
 - **Pensar internacional desde el inicio**: el mismo sistema debe servir en otros países sin rehacerlo (solo cambiar idioma, moneda, leyes o ciudad).
