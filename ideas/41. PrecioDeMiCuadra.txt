@@ -1,0 +1,78 @@
+41. "Precio de mi cuadra" - Compara compras pequeñas con precios recientes de las tiendas del barrio
+
+Necesidad/Problema a solucionar:
+- Antes de comprar leche, huevos o arroz, muchas personas no conocen el precio en las otras tiendas cercanas.
+- Público potencial amplio: hogares que hacen compras pequeñas frecuentes. El uso casi diario debe comprobarse en ese grupo; comer todos los días no significa comparar precios diariamente.
+- Evidencia internacional: la CMA británica encontró que reglas como "el paquete grande siempre conviene" pueden fallar. Su análisis de 2024 respalda comparar precios equivalentes, no demuestra demanda por nuestra app.
+  https://www.gov.uk/government/publications/unit-pricing-analysis-and-consumer-research/summary-of-consumer-research-and-unit-pricing-analysis
+
+Argumentos:
+- Idea: una web que compara precios aportados por compradores de comercios cercanos.
+  1) Elegir el barrio y buscar "leche de un litro".
+  2) Ver producto, presentación, tienda, precio, fecha y respaldo del dato.
+  3) Al comprar, aportar una foto del recibo o etiqueta y confirmar lo detectado.
+- Sin recibo ni etiqueta, aceptar un reporte manual claramente marcado como no corroborado. Las confirmaciones ayudan, pero no garantizan el precio actual.
+- Empezar con 20 productos comparables y un barrio de Santa Marta. No exigir registrar toda la despensa.
+- Separar precios por marca, cantidad y condiciones de promoción. No presentar productos diferentes como idénticos.
+- Es distinta de PreciosJustos: compras cotidianas del hogar, no tarifas turísticas. Tampoco recomienda recetas como QueCocinoHoy.
+- Tu experiencia técnica permite construir y automatizar la captura, comparación y mantenimiento de datos sin empleados.
+
+Cómo ganar dinero:
+- Quién paga: PERSONAS.
+- Consulta y aportes básicos gratuitos. Hipótesis: $5.900 COP/mes por seguir una lista habitual y recibir alertas sobre sus precios.
+- Esa función también existe en rivales: solo tendría valor diferencial con cobertura local útil.
+- Piloto de cuatro semanas con 30 hogares: medir consultas en cuatro días semanales, aportes voluntarios y ahorro comprobado después del desplazamiento.
+- Buscar cinco pagos reales. Si todos prefieren consultar gratis, revisar la monetización antes de ampliar.
+
+Competidores en Colombia:
+- Priceo compara supermercados, listas y alertas gratuitamente. Su web menciona cobertura de cadenas con presencia en Santa Marta.
+  https://priceo.co/
+- El Compa ofrece comparación gratuita por WhatsApp y Telegram.
+  https://elcompa.co/
+- Lucashian anuncia precios comunitarios, confirmaciones y consulta básica gratuita: competencia directa, no solo un comparador de cadenas.
+  https://lucashian.com/
+- Pricery ofrece recibos, historial y comparación comunitaria por ciudad; figura como gratis con compras dentro de la app. No se comprobó qué comparación incluye sin pagar.
+  https://apps.apple.com/co/app/pricery-recibos-y-gastos/id6759989944
+
+Competidores en Santa Marta:
+- Las soluciones anteriores, precios publicados por comercios y grupos vecinales.
+- No se comprobó su cobertura efectiva de tiendas independientes del barrio elegido. Eso no permite afirmar que exista un mercado desatendido.
+
+Competidores en el mundo:
+- Open Prices recopila precios con fotos de etiquetas o recibos y ofrece datos públicos y API.
+  https://openfoodfacts.github.io/documentation/docs/Product-Opener/api/tutorials/product-prices/
+- Trolley compara precios en Reino Unido.
+  https://www.trolley.co.uk/
+- La comparación de precios tiene competencia fuerte y gratuita.
+
+Nuestra ventaja y filtro frente a LLM gratuitos:
+- Un LLM gratuito ya puede leer recibos, calcular precios por unidad y comparar los datos que recibe. Esa versión de la idea se descarta.
+- El valor adicional tendría que ser una red que aporte precios recientes de otras tiendas que el comprador todavía no conoce.
+- No afirmar que esos datos nunca aparecen en internet: Google permite publicar precios e inventario local gratuitamente.
+  https://support.google.com/merchants/answer/14869424
+- Comparación documental con las capacidades registradas en CLAUDE.md; sin prueba práctica. Antes del piloto, comparar una misma cesta con asistentes gratuitos, buscadores, Open Prices y competidores.
+- Si ya ofrecen gratis precios equivalentes y suficientemente recientes de esas tiendas, descartar. Los datos abiertos no deben presentarse como exclusivos.
+- Nivel de océano azul: BAJO. La posible diferencia es cobertura comprobada de pequeños comercios; todavía no existe ni está validada.
+
+Riesgos:
+- Sin contribuciones frecuentes, los precios envejecen y el producto pierde utilidad.
+- No inventar faltantes ni confundir un precio reportado con existencia actual.
+- Mostrar antigüedad, promociones y fuente; retirar datos vencidos y permitir correcciones.
+- Ocultar datos personales de recibos antes de publicar. No mostrar recibos completos ni recorridos de compradores.
+- No vender posiciones en el ranking como si fueran resultados de precio.
+- Un ahorro pequeño puede desaparecer al caminar o transportarse más lejos.
+
+Internacionalización:
+- MEDIA: el sistema se reutiliza; conseguir una comunidad y precios locales exige trabajo en cada zona.
+- Plan: un barrio de Santa Marta, otra zona colombiana y después una comunidad concreta en México o Perú.
+- Adaptar moneda, unidades y nombres. No prometer cobertura nacional por traducir la web.
+
+Problemas para 1 sola persona:
+- Nota: APTA CON CUIDADO para un piloto acotado.
+- Automatizar duplicados, vencimiento, detección de anomalías y cobros; presupuestar lectura de imágenes.
+- El problema principal es conseguir aportes y controlar abuso, no programar el comparador.
+- Si debes visitar tiendas o actualizar precios personalmente todos los días, descartar.
+- Sin domicilios, compras por encargo, inventario físico ni manejo de dinero de terceros.
+- Soporte en horario laboral, respaldos y funcionamiento automático durante ausencias.
+
+Revisión documental: 30 de octubre de 2026, hora de Colombia. No se probó cobertura en campo. Demanda, frecuencia, ahorro y disposición de pago pendientes de validación.
