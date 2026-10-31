@@ -1,6 +1,6 @@
 # Proyecto: ideas de negocio
 
-Carpeta `ideas/` con una idea de negocio por archivo `.txt`, numerados en orden de creación: `N. Nombre.txt` (ej. `1. Mascotas.txt`). El título dentro del archivo empieza con el mismo número. Idea nueva = siguiente número (hoy van 46: UnPuebloAPasos).
+Carpeta `ideas/` con una idea de negocio por archivo `.txt`, numerados en orden de creación: `N. Nombre.txt` (ej. `1. Mascotas.txt`). El título dentro del archivo empieza con el mismo número. Idea nueva = siguiente número (hoy van 47: PanSorpresa).
 
 ## Perfil técnico del fundador
 
