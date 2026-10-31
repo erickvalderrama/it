@@ -1,0 +1,79 @@
+39. "Acabo de salir" - Avisos recientes de lugares para parquear que otros conductores acaban de dejar
+
+Necesidad/Problema a solucionar:
+- Encontrar un parqueadero en el mapa no dice si acaba de quedar un lugar libre cerca del destino.
+- Público potencial amplio: conductores que van al trabajo, estudian o hacen diligencias y no tienen un puesto asignado. No sirve igual para quienes siempre estacionan en casa o en un cupo reservado.
+- Uso diario o casi diario para ese grupo: consultar antes de llegar y aportar un aviso al salir. La frecuencia y la participación deben medirse; no son demanda demostrada.
+- Evidencia internacional: un estudio de INRIX de 2017 encuestó a conductores de EE.UU., Reino Unido y Alemania sobre el tiempo perdido buscando parqueo. Es evidencia histórica del problema, no una cifra actual de Santa Marta.
+  https://inrix.com/wp-content/uploads/2017/07/INRIX_Parking_Pain_Infog_US_HR.pdf
+
+Argumentos:
+- Idea: mapa de avisos breves, aportados por personas que acaban de dejar un lugar.
+  1) Al terminar de salir y estando detenido, tocar "Dejé un lugar" y confirmar el punto.
+  2) Quien busca escribe el destino y ve avisos como "Reportado libre hace 40 segundos".
+  3) El aviso caduca automáticamente tras pocos minutos o antes si alguien informa que ya está ocupado.
+- Fácil: sin fotos, placas, chats entre desconocidos ni formularios largos. Consultar desde una web móvil; cuenta sencilla para aportar y controlar abusos.
+- El aviso describe una observación pasada. No garantiza disponibilidad, permiso para estacionar ni reserva.
+- Santa Marta: empezar en unas pocas cuadras con estacionamiento permitido, delimitadas antes del piloto. No afirmar que cualquier espacio junto a una acera se puede usar.
+- Un fundador desarrolla el mapa, la recepción y caducidad de avisos y las reglas contra abuso. Los reportes los aportan usuarios; no contratar personas para vigilar calles.
+- Es distinta de VehiculoUsado y Motos: resuelve una búsqueda cotidiana, no una compra o reparación.
+
+Cómo ganar dinero:
+- Quién paga: PERSONAS.
+- Consulta básica y aportes gratuitos para formar la red.
+- Hipótesis: $7.900 COP/mes por guardar destinos y recibir avisos de esas zonas antes de salir. Se cobra información, nunca el derecho a ocupar espacio público.
+- Primero probar cuatro semanas con 40 conductores de una misma zona. Medir avisos útiles, tiempo perdido por reportes vencidos y días de uso.
+- Comparar con un grupo gratuito de WhatsApp y con las apps disponibles. Buscar cinco pagos reales; no contar intención de pago como venta.
+- Si los lugares se ocupan antes de que los avisos ayuden, o una alternativa gratuita da el mismo resultado, descartar.
+
+Competidores en Colombia:
+- Zonas de Parqueo Pago de Bogotá: canales digitales para localizar, reservar y pagar estacionamiento en sus zonas. Competidor funcional fuerte, aunque no es una red nacional de avisos ciudadanos.
+  https://bogota.gov.co/mi-ciudad/movilidad/usuarios-que-realizan-autogestion-en-zonas-de-parqueo-pago-en-bogota
+- Parking: operador con web y aplicación para su red de parqueaderos.
+  https://www.parking.net.co/
+- Pasa y Parquea: su web ofrece un mercado de cupos con disponibilidad, reservas y pagos. No se comprobó su volumen de usuarios ni cobertura efectiva.
+  https://www.pasnpark.com/
+- No confundir anuncios de un proveedor con disponibilidad comprobada en una calle concreta.
+
+Competidores en Santa Marta:
+- Samaria Parking se presenta como intermediario entre parqueaderos formales y conductores mediante una app. Su página no demuestra por sí sola que la operación siga activa.
+  https://samariaparking.wixsite.com/landingpage/quienes-somos
+- También compiten los parqueaderos conocidos, las recomendaciones y los grupos locales.
+- No se verificó una red activa equivalente de avisos fugaces en Santa Marta. Esto no prueba que no exista.
+
+Competidores en el mundo:
+- SpotAngels: su ficha describe reportes comunitarios de espacios libres y disponibilidad probable. Es competencia directa, no solo un directorio.
+  Web: https://www.spotangels.com/about
+  Android: https://play.google.com/store/apps/details?id=com.spotangels.android
+  iPhone: https://apps.apple.com/us/app/spotangels-parking-gas/id897809583
+- Su web declara funciones básicas gratuitas; las tiendas también anuncian prueba y suscripción. Comprobar qué función se cobra y qué cobertura real existe para el usuario colombiano. Una prueba de pago no equivale a gratuidad permanente.
+
+Nuestra ventaja y filtro frente a LLM gratuitos:
+- El resultado exige reportes auténticos, geolocalizados y recientes de otras personas, con hora y caducidad. Un LLM puede procesarlos, generar el mapa o conectarse a servicios; no puede inventar observaciones fiables de conductores.
+- La referencia de capacidades gratuitas está en CLAUDE.md. Se revisaron documentos de los competidores, sin prueba práctica de cobertura ni comparación de campo con asistentes gratuitos.
+- Un asistente que use una red externa depende de esa red. Si ya ofrece gratis avisos equivalentes y suficientes en la zona, no habría razón para construir otra.
+- La ventaja posible sería una comunidad local con datos realmente útiles. No está conseguida: una web sencilla o estar en Santa Marta no bastan.
+- Nivel de océano azul: BAJO por competencia directa internacional. La oportunidad local sigue pendiente de validación.
+
+Riesgos:
+- Falta de participantes: un mapa sin avisos recientes no resuelve nada. No llenar los huecos con predicciones presentadas como hechos.
+- Avisos falsos, errores de ubicación y puestos que se ocupan en segundos. Aplicar caducidad, límites de aportes y correcciones.
+- No vender reservas de lugares públicos ni fomentar que alguien los guarde. No cobrar por reportar ni crear recompensas que incentiven avisos falsos.
+- Evitar interacción mientras se conduce. Consultar antes del viaje o con ayuda de un acompañante.
+- No publicar identidades, placas ni recorridos personales. Pedir ubicación solo para la función solicitada.
+- Las reglas de estacionamiento cambian: el aviso no sustituye señales ni restricciones del lugar.
+
+Internacionalización:
+- MEDIA: el software se reutiliza, pero cada zona necesita participantes y comprobar sus reglas. Traducir la pantalla no crea cobertura.
+- Plan: una zona de Santa Marta; después otra zona de Colombia. Probar una comunidad concreta en México o Perú solo si se consigue participación sin trabajo de calle permanente.
+- Mantener la misma función: reportar, consultar y caducar. No depender de contratos con gobiernos para comenzar.
+
+Problemas para 1 sola persona:
+- Nota: APTA CON CUIDADO para un piloto pequeño; DIFÍCIL si exige captar usuarios calle por calle.
+- Lo más duro es conseguir suficientes aportes simultáneos y moderar abuso, no programar el mapa.
+- Automatizar caducidad, cobros y controles. Soporte en horario laboral; sin prometer asistencia vial ni atención 24/7.
+- Si el fundador debe verificar lugares a diario, la idea deja de encajar.
+- Medir costos de mapas, consultas y mensajes. Usar proveedores y datos con permisos adecuados.
+- Sin sensores, vigilantes, custodia de vehículos ni manejo de pagos de parqueo. Si no hay datos recientes, mostrarlo con claridad, incluso durante vacaciones.
+
+Revisión documental: 31 de octubre de 2026 (UTC). No se realizó prueba de campo. Precio, participación, cobertura rival y utilidad real pendientes de validación.
