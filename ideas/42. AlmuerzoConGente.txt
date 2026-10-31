@@ -1,0 +1,76 @@
+42. "Almuerzo con gente" - Encuentra compañía cercana para tu pausa del mediodía
+
+Necesidad/Problema a solucionar:
+- Hay adultos que almuerzan solos porque sus amigos y compañeros tienen otros horarios, aunque les gustaría compartir ese rato.
+- Público potencial amplio: trabajadores, estudiantes adultos y personas nuevas en una ciudad. No todo el que come solo quiere compañía.
+- Uso buscado: cuatro o cinco días laborales por semana para quienes ya almuerzan fuera y desean compartir la pausa. Esa frecuencia es una hipótesis, no una consecuencia automática de comer diariamente.
+- Evidencia internacional: la OMS estimó en 2025 que una de cada seis personas experimenta soledad. Eso muestra un problema general de conexión social; no demuestra que nuestra propuesta lo resuelva ni que esos usuarios paguen.
+  https://www.who.int/news/item/30-06-2025-social-connection-linked-to-improved-heath-and-reduced-risk-of-early-death
+
+Argumentos:
+- Idea: una web que reúne grupos de tres a cinco adultos disponibles en la misma zona y franja de almuerzo.
+  1) Elegir zona y horario.
+  2) Ver un grupo y un punto de encuentro público compatibles con esa pausa.
+  3) Confirmar y acudir; cada persona elige y paga su comida directamente.
+- Registro inicial breve: nombre, contacto y confirmación de mayoría de edad. No pedir domicilio ni ubicación continua.
+- Se puede repetir con conocidos o encontrar otro grupo cuando ellos no estén disponibles.
+- Empezar en una zona de Santa Marta, con pocos horarios y puntos de encuentro que permitan grupos pequeños. Comprobar condiciones y espacio antes del piloto; no vender una mesa reservada.
+- El fundador proporciona la comunidad, las confirmaciones y las cancelaciones. No prepara comida ni actúa como anfitrión de cada encuentro.
+- Es distinta de VeinticincoMinutosJuntos: compañía presencial durante una comida, no sesiones de concentración por video.
+
+Cómo ganar dinero:
+- Quién paga: PERSONAS.
+- Primer encuentro gratuito. Hipótesis: $9.900 COP/mes por acceder a los grupos disponibles; la comida se paga aparte.
+- No empezar a cobrar en una zona sin participantes suficientes. Definir cancelaciones y compensaciones antes de vender.
+- Piloto de cuatro semanas con 40 adultos de una misma zona: medir asistencia, repetición en cuatro días laborales y cinco pagos reales.
+- Si la mayoría solo quiere un encuentro ocasional, no cumple el criterio de uso casi diario. Si organizarlo por WhatsApp resulta equivalente, descartar.
+
+Competidores en Colombia:
+- Timeleft organiza encuentros y tiene oferta publicada en Bogotá; forma grupos y gestiona el lugar.
+  https://timeleft.com/es/bogota/
+  Android: https://play.google.com/store/apps/details?id=com.timeleft.app
+- Bumble For Friends tiene fichas en las tiendas de Colombia y declara uso básico gratuito con funciones de pago. Confirmar acceso y participantes locales.
+  Android: https://play.google.com/store/apps/details?id=com.bumblebff.app
+  iPhone: https://apps.apple.com/co/app/bumble-for-friends-haz-amigos/id6444040977
+
+Competidores en Santa Marta:
+- Meetup muestra grupos sociales y de intereses en la ciudad. Comprobar actividad, fechas y condiciones; aparecer en un directorio no prueba encuentros frecuentes.
+  https://www.meetup.com/es-ES/find/co--santa-marta/
+- Comunidades de WhatsApp, colegas y grupos locales pueden satisfacer la necesidad gratuitamente. No es un mercado vacío.
+
+Competidores en el mundo:
+- Timeleft ofrece cenas, cafés, bebidas y caminatas en distintos países. Su membresía cubre el encuentro; comida y bebidas se pagan aparte.
+  https://timeleft.com/faq/
+- Meetup y las aplicaciones de amistad compiten por el mismo tiempo y las mismas personas.
+
+Nuestra ventaja y filtro frente a LLM gratuitos:
+- La parte indispensable sería una comunidad real de personas cercanas que confirman disponibilidad y asisten físicamente.
+- Un LLM puede sugerir lugares, redactar invitaciones y coordinar personas. ChatGPT Free ya incluye chats grupales: esa coordinación no es una ventaja exclusiva.
+  https://openai.com/index/group-chats-in-chatgpt/
+- Un asistente conectado a una comunidad externa puede ayudar a encontrar participantes; hay que contar esa alternativa.
+- Diferencia por validar: encontrar un grupo disponible para una pausa corta de hoy, sin que el usuario reclute a todos.
+- Comparación documental, sin prueba práctica: contrastar con asistentes gratuitos, comunidades existentes y apps de amistad. Si ya proporcionan gratis un resultado equivalente, descartar.
+- Nivel de océano azul: BAJO. No se ha demostrado un espacio libre para almuerzos frecuentes en Santa Marta.
+
+Riesgos:
+- Poca concentración de usuarios por zona y horario: no se forma el grupo.
+- Ausencias, cancelaciones y lugares llenos pueden arruinar una pausa corta.
+- Acoso y perfiles falsos: reglas claras, bloqueo, reportes y revisión de casos. Verificar un contacto no garantiza una persona segura.
+- Al hacer amigos, muchos migrarán a WhatsApp y dejarán de pagar. Es un riesgo central de retención.
+- No presentar la experiencia como terapia ni prometer eliminar la soledad.
+
+Internacionalización:
+- MEDIA: el software se reutiliza, pero cada zona necesita comunidad, lugares adecuados y revisión de sus condiciones locales.
+- Plan: una zona de Santa Marta, otra comunidad colombiana y después México o Perú.
+- Adaptar horarios, idioma, presupuesto y formas habituales de almorzar.
+
+Problemas para 1 sola persona:
+- Nota: APTA CON CUIDADO para un piloto pequeño.
+- Tu experiencia sirve para construir la web, el emparejamiento, las confirmaciones y los cobros.
+- Lo difícil será captar personas y moderar conflictos, no desarrollar el calendario.
+- Automatizar avisos y cancelaciones. Limitar inicialmente los encuentros a horarios que permitan atender incidencias del producto.
+- Si requiere acompañar grupos, reservar restaurantes manualmente a diario o dar soporte humano permanente, descartar para trabajar solo.
+- Preparar suspensión de nuevas inscripciones y continuidad durante ausencias.
+- Sin alimentos, transporte, cuentas compartidas ni custodia del dinero de las comidas.
+
+Revisión documental: 30 de octubre de 2026, hora de Colombia. No se organizaron encuentros ni se contactó a participantes. Frecuencia, demanda, asistencia y disposición de pago pendientes de validación.
