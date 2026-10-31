@@ -1,0 +1,80 @@
+43. "Ya viene el bus" - Ubicaciones recientes de buses compartidas por sus pasajeros
+
+Necesidad/Problema a solucionar:
+- Quien espera un bus necesita saber si se acerca, si acaba de pasar o si solo está viendo un horario teórico.
+- Público potencial masivo: personas que usan transporte público para trabajar, estudiar o hacer diligencias.
+- Uso diario o casi diario en los trayectos habituales. La demanda por otra aplicación depende de que las actuales dejen una necesidad sin resolver.
+- Evidencia internacional: Transit explica que sus pasajeros aportan posiciones cuando faltan datos del operador. La falta de información reciente existe en otros mercados; no está comprobada en las rutas elegidas de Santa Marta.
+  https://transitapp.com/en/features/go-crowdsourcing
+
+Argumentos:
+- Idea: los pasajeros ayudan a quienes todavía esperan.
+  1) Al subir, tocar "Voy en este bus", elegir ruta y sentido y autorizar ubicación durante ese viaje.
+  2) Quien espera selecciona una parada y ve la última posición recibida, su antigüedad y una llegada estimada cuando haya datos suficientes.
+  3) Al bajar, tocar "Terminé". La sesión también debe tener cierre automático y límite de duración.
+- No publicar nombre del pasajero ni su recorrido fuera del viaje. Mostrar un vehículo aproximado, no un perfil personal en movimiento.
+- Consulta desde web móvil; primera versión Android para aportar posiciones durante el trayecto, con aviso visible y controles para detenerlas.
+- Android documenta permisos y servicios de ubicación que deben implementarse y probarse correctamente.
+  https://developer.android.com/develop/sensors-and-location/location/permissions
+- Comenzar con una sola ruta y sus dos sentidos en Santa Marta. Sin GPS instalados en buses ni contratos obligatorios con operadores.
+- Tu experiencia en servidores, frontend, backend e infraestructura sirve para operar la recepción de posiciones y las actualizaciones.
+
+Cómo ganar dinero:
+- Quién paga: PERSONAS.
+- Gratis: consultar posiciones recientes y aportar datos.
+- Hipótesis: $4.900 COP/mes o $29.900 COP/año por alertas de aproximación en paradas favoritas. No vender suscripciones en rutas sin cobertura útil.
+- Piloto de cuatro semanas con 60 pasajeros adultos de una ruta: medir cobertura, errores de llegada, consumo de batería y consultas repetidas.
+- Buscar cinco pagos después de demostrar utilidad frente a las alternativas gratuitas.
+- Si solo mejora la apariencia del mapa, no justifica otro producto.
+
+Competidores en Colombia:
+- Moovit ofrece rutas, horarios e información de llegada en tiempo real cuando está disponible; sus funciones básicas siguen siendo gratuitas.
+  Web: https://moovitapp.com/es/
+  Android: https://play.google.com/store/apps/details?id=com.tranzmate
+- Su ayuda distingue llegadas en tiempo real de horarios programados.
+  https://support.moovitapp.com/hc/es/articles/115000391525--Qué-es-Moovit
+- Moovit+ incluye ubicación del vehículo en el mapa y actualizaciones de llegada entre sus funciones premium. No confundir esto con afirmar que toda información en tiempo real es de pago.
+  https://support.moovitapp.com/hc/es/articles/10011559836818-Moovit-nuevas-ventajas-para-un-viaje-de-primera-clase
+
+Competidores en Santa Marta:
+- Moovit ya publica rutas de STU en Santa Marta y anuncia seguimiento. Es competencia local efectiva en oferta publicada, aunque no se probó la precisión en campo.
+  https://moovitapp.com/index/es-419/transporte_p%C3%BAblico-lines-Santa_Marta-3120-853984
+- Comprobar también los canales y servicios actuales del sistema oficial. No asumir que carece de aplicación o información para pasajeros.
+- No hay un vacío local demostrado.
+
+Competidores en el mundo:
+- Transit GO ya utiliza ubicaciones aportadas por pasajeros. El mecanismo no es nuevo.
+  https://transitapp.com/en/features/go-crowdsourcing
+- Moovit también recibe reportes comunitarios sobre ocupación. Añadir "va lleno" no sería una ventaja exclusiva.
+  https://moovit.com/blog/how-crowded-is-your-bus-know-in-real-time-and-help-others-by-self-reporting/amp/
+
+Nuestra ventaja y filtro frente a LLM gratuitos:
+- La parte indispensable sería una red que aporte posiciones auténticas y recientes y una operación que mantenga esos datos actualizados.
+- Un LLM puede planear rutas, leer horarios, generar código y consultar herramientas conectadas. No hay ventaja en ofrecer solamente esas respuestas.
+- Si el asistente consulta una fuente gratuita con llegadas fiables para esa ruta, puede resolver la necesidad: hay que contar esa alternativa.
+- Antes de desarrollar, comparar Moovit gratuito y otras fuentes en las mismas paradas, horas y días. Si ya son suficientemente fiables, descartar esa ruta y no fabricar una carencia.
+- Posible diferencia: cobertura comunitaria comprobada en una ruta donde falten datos. Sigue pendiente de validación.
+- Nivel de océano azul: BAJO. Comparación documental con las capacidades de CLAUDE.md; no se realizó prueba práctica.
+
+Riesgos:
+- Sin pasajeros que compartan, no hay información reciente. No sustituirla por un bus inventado avanzando en el mapa.
+- Ruta o sentido incorrectos, GPS impreciso, fraude y sesiones que siguen abiertas al bajar.
+- La llegada es una estimación: tráfico, paradas y desvíos pueden cambiarla.
+- Caducar posiciones antiguas, limitar sesiones y minimizar conservación de ubicaciones. Probar el cierre antes del piloto.
+- El gasto de batería y datos puede desanimar a los colaboradores.
+
+Internacionalización:
+- MEDIA: el software se reutiliza; rutas, cobertura y comunidad deben conseguirse en cada ciudad.
+- Plan: una ruta de Santa Marta, otro corredor colombiano y después una comunidad concreta en México o Perú.
+- Usar mapas y recorridos con permisos adecuados; revisar licencias y costos, sin copiar bases de competidores.
+  https://www.openstreetmap.org/copyright
+
+Problemas para 1 sola persona:
+- Nota: APTA CON CUIDADO para un piloto de una ruta.
+- La mayor dificultad es obtener aportes suficientes y corregir errores sin seguimiento manual permanente.
+- Automatizar caducidad, controles de coherencia, alertas y cobros. Medir costos de mapas, posiciones y notificaciones.
+- Si necesitas recorrer rutas diariamente, contratar informantes o dar soporte humano 24/7, descartar.
+- Preparar recuperación automática y funcionamiento durante ausencias.
+- Sin transportar pasajeros, cobrar pasajes, instalar equipos físicos ni manejar dinero de terceros.
+
+Revisión documental: 30 de octubre de 2026, hora de Colombia. No se midieron buses ni se contactó a pasajeros. Cobertura rival, precisión, participación y disposición de pago pendientes de validación.
