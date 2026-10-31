@@ -1,0 +1,84 @@
+29. "Que te respondan" - Organiza las pruebas de un producto defectuoso y prepara el reclamo de garantía
+
+Necesidad/Problema a solucionar:
+- Cuando un celular o electrodoméstico falla, la persona tiene fotos, chats y comprobantes separados y no sabe cómo explicar el caso al vendedor.
+- El problema es reunir pruebas y seguir el reclamo sin repetir la historia cada vez.
+- Colombia: la SIC explica los derechos frente a productos defectuosos y ofrece SIC Facilita para mediar conflictos. Son alternativas gratuitas que debemos mostrar desde el inicio.
+- Evidencia internacional: Your Europe publica rutas para reparar o reemplazar productos defectuosos y condiciones para otras soluciones. Warrify ofrece guardar recibos digitales y usarlos para devoluciones. Esto demuestra necesidades de posventa en otros mercados, pero NO prueba que pagarán por nuestra propuesta.
+- Fuentes:
+  https://sedeelectronica.sic.gov.co/index.php/temas/proteccion-al-consumidor/derechos-y-deberes/fallas-en-un-producto
+  https://europa.eu/youreurope/citizens/consumers/shopping/shopping-consumer-rights/index_en.htm
+  https://www.warrify.com/en/user
+
+Argumentos:
+- Idea: web sencilla, con recepción por WhatsApp como segunda etapa.
+  1) La persona carga comprobantes, fotos del defecto y conversaciones.
+  2) Confirma los datos extraídos: producto, vendedor, compra, falla y contactos.
+  3) El sistema organiza una cronología y señala información faltante.
+  4) Genera un borrador de reclamo y un expediente descargable con anexos.
+  5) La persona revisa y envía; luego registra la respuesta para saber qué falta.
+- Empezar solo con celulares y electrodomésticos, sin servicios financieros ni litigios.
+- Se diferencia de la idea 20: el centro es documentar una falla y gestionar el caso, no recordar vencimientos. De la 24: productos defectuosos, no cobros bancarios.
+- Santa Marta: probar con 15 compradores que ya tengan una falla, mediante convocatoria digital; no depender de visitar comercios.
+- Automatizar documentos, cobro y seguimiento. No recoger equipos, hacer peritajes ni negociar personalmente.
+
+Cómo ganar dinero:
+- Quién paga: PERSONAS.
+- Lista de pruebas y enlaces oficiales: gratis.
+- Hipótesis de precio: $14.900 COP por expediente completo y borrador editable.
+- Paquete familiar opcional solo si aparece uso repetido; no asumir que esto merece una suscripción.
+- Validación: conseguir 5 pagos reales entre 15 casos con problema activo. Si prefieren las vías gratuitas y no valoran ordenar las pruebas, replantear o descartar.
+- Precio propuesto para probar; no es tarifa de mercado comprobada.
+
+Competidores en Colombia:
+- SIC Facilita: mediación gratuita entre consumidores y proveedores participantes.
+  Web oficial: https://sicfacilita.sic.gov.co/SICFacilita/index.xhtml
+- Canales de garantía de cada vendedor y fabricante: el consumidor puede usarlos directamente.
+- ChatGPT y plantillas gratuitas: sustitutos para redactar el reclamo.
+  Web: https://chatgpt.com/
+- No se verificó un competidor colombiano idéntico en esta búsqueda; eso no significa que no exista.
+
+Competidores en Santa Marta:
+- Canales de posventa de las tiendas que atienden la ciudad y servicios nacionales accesibles por internet.
+- No se comprobó una plataforma local especializada. No afirmar ausencia de competencia.
+
+Competidores en el mundo:
+- Warrify: recibos digitales, gestión web gratuita y funciones de devolución en algunos recibos.
+  Web oficial: https://www.warrify.com/en/user
+- ReturnQueen: servicio de devoluciones con recogida; competidor indirecto con logística que no debemos copiar.
+  Web oficial: https://returnqueen.com/
+  App iOS: https://apps.apple.com/us/app/returnqueen/id1537845231
+- Las páginas oficiales enlazan sus canales disponibles; no se verificó una app oficial de Warrify.
+
+Nuestra ventaja:
+- Propuesta a validar: convertir pruebas desordenadas en un expediente claro, en español, con cronología y seguimiento del mismo caso.
+- La ventaja debe ser ahorrar trabajo y evitar omisiones; una carta de IA sola es fácil de copiar.
+- Nivel de océano azul: MEDIO como hipótesis para el flujo completo; BAJO para redactar cartas o guardar recibos. Existen soluciones gratuitas fuertes.
+
+Riesgos:
+- No prometer reparación, devolución ni éxito del reclamo.
+- No afirmar que perder la factura elimina la garantía: la SIC indica que no puede condicionarse a presentarla si se demuestra la relación de consumo.
+- Separar garantía legal, política comercial de cambios y retracto. No aplicar un plazo universal.
+- Reglas revisadas por país y fuentes visibles; la IA organiza y redacta, no decide derechos automáticamente.
+- Confirmación humana de datos y fechas antes de generar el documento.
+- Guardar solo lo necesario, permitir borrado y proteger documentos y conversaciones.
+- Limitar soporte a problemas del producto digital; no asumir representación ni seguimiento manual de cada disputa.
+
+Internacionalización:
+- ALTA para organizar evidencias; MEDIA para orientar sobre derechos.
+- El problema de fallas y posventa existe fuera de Colombia; las normas y canales cambian.
+- Plan: Santa Marta y Colombia primero; después validar México o Perú, uno a la vez. España solo con reglas propias revisadas.
+- Mismo sistema de cronología y anexos; adaptar idioma, moneda, fuentes y modelos de reclamo.
+- No lanzar varios países a la vez ni depender de acuerdos con fabricantes.
+
+Problemas para 1 sola persona:
+- Nota: APTA CON CUIDADO.
+- Mantener reglas y canales requiere tiempo y revisión jurídica externa puntual.
+- Los usuarios pueden esperar que uno resuelva todo: definir alcance y soporte en horario laboral.
+- Costos de lectura de archivos, almacenamiento y mensajes: limitar tamaño y medir margen por caso.
+- Marketing y soporte compiten con el desarrollo: empezar con un solo tipo de caso.
+- Si el fundador se ausenta, descarga y generación deben seguir automáticas; publicar tiempos de respuesta y conservar respaldos.
+- Sin inventario, transporte, custodia de productos, dinero de terceros ni guardia 24/7.
+- Descartar si vender exige perseguir casos uno por uno o acompañamiento legal permanente.
+
+Fuentes consultadas: 30 de octubre de 2026. Las ventajas y los precios son hipótesis; no se validó todavía disposición de pago.
