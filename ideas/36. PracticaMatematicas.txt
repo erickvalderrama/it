@@ -1,0 +1,84 @@
+36. "10 minutos de matemáticas" - Practica un poco cada día lo que todavía te cuesta
+
+Necesidad/Problema a solucionar:
+- Un estudiante puede terminar la tarea siguiendo un ejemplo, pero volver a equivocarse cuando cambian los números.
+- La familia quiere ayudar sin preparar una clase ni contratar acompañamiento diario.
+- Público MASIVO: estudiantes y familias que necesitan reforzar matemáticas. No sirve para todo el mundo, pero atiende una población amplia en muchos países.
+- Uso diario o casi diario: una sesión corta retoma errores anteriores y propone nuevos ejercicios.
+- Evidencia INTERNACIONAL: PISA 2022 encontró que 31% de los estudiantes de 15 años, en promedio entre países OCDE, quedó por debajo del nivel básico en matemáticas; en Colombia fue 71%.
+  https://www.oecd.org/en/publications/pisa-2022-results-volume-i-and-ii-country-notes_ed6fbcc5-en/colombia_dd5f34d9-en.html
+- Son resultados de estudiantes de 15 años; no describen a todos los niños ni prueban que nuestra herramienta mejore el aprendizaje.
+
+Argumentos:
+- Idea: web con un botón principal: "Practicar hoy".
+  1) Elegir un tema la primera vez y responder tres preguntas cortas.
+  2) Ante un error, recibir una pista y volver a intentarlo; después ver una explicación.
+  3) Continuar otro día con ejercicios distintos del concepto que costó.
+- Fácil de utilizar: una pregunta por pantalla, ejemplos visuales y progreso comprensible, sin configurar un plan de estudios.
+- Duración objetivo: unos diez minutos, adaptable al ritmo del estudiante.
+- Empezar con fracciones y porcentajes para estudiantes de aproximadamente 10 a 15 años; ampliar solo tras comprobar calidad y uso.
+- El adulto recibe un resumen: qué practicó, qué resolvió sin ayuda y qué sigue costando.
+- Santa Marta: piloto remoto con 30 familias durante cuatro semanas.
+- Una persona puede operar ejercicios y corrección automática; hace falta revisar el contenido antes de publicarlo.
+
+Cómo ganar dinero:
+- Quién paga: PERSONAS; inicialmente padres o acudientes.
+- Gratis: sesión breve con preguntas y explicación.
+- Hipótesis de precio: $12.900 COP/mes por hasta tres perfiles, práctica personalizada más amplia y resumen semanal.
+- Cobro automático; no depender de vender licencias a colegios para comenzar.
+- Validar diez familias con uso de al menos cuatro días por semana y cinco pagos reales.
+- Comprobar también si resuelven ejercicios nuevos sin pistas. Completar sesiones no demuestra por sí solo aprendizaje.
+
+Competidores en Colombia:
+- Refuerzo.ai ofrece práctica, corrección y seguimiento para el mercado colombiano.
+  https://refuerzo.ai/co
+- Profe Christian ofrece cursos y práctica gratuitos, además de tutoría con IA de pago.
+  https://facilmatematicas.com/padres
+- Son alternativas reales. No afirmar que el mercado carece de refuerzo accesible.
+
+Competidores en Santa Marta:
+- Las mismas plataformas disponibles por internet, profesores particulares y recursos gratuitos de los colegios.
+- La ausencia de una app exclusiva de la ciudad no significa ausencia de competencia.
+
+Competidores en el mundo:
+- Smartick: práctica adaptativa en sesiones diarias. Compite directamente por el hábito familiar.
+  Web: https://co.smartick.com/matematicas
+  App iOS: https://apps.apple.com/co/app/smartick-matem%C3%A1ticas-y-lectura/id823586852
+- Photomath: explicaciones paso a paso a partir de problemas; ofrece funciones básicas gratuitas.
+  Web: https://photomath.com/
+  App Android: https://play.google.com/store/apps/details?id=com.microblink.photomath
+- Los asistentes generales de IA también compiten por las dudas del estudiante.
+
+Nuestra ventaja:
+- Hipótesis: comenzar rápido, practicar errores concretos y mostrar al adulto avances entendibles, con un precio familiar bajo.
+- Estas funciones no son exclusivas. La ventaja solo existe si las familias encuentran más fácil sostener la práctica y observan aprendizaje.
+- Nivel de océano azul: BAJO. Existen competidores fuertes, incluso con rutinas diarias.
+- No intentar superar todo su catálogo: validar primero pocos temas. Si no destaca en facilidad, uso y aprendizaje, descartar.
+
+Riesgos:
+- Una explicación incorrecta enseña mal: ejercicios y soluciones revisados, con comprobación matemática de respuestas.
+- Diferenciar errores de cálculo, comprensión del enunciado y escritura de la respuesta; no diagnosticar dificultades de aprendizaje.
+- No prometer mejores notas ni una mejora garantizada en diez minutos.
+- Evitar que memorizar respuestas se confunda con entender: variar ejercicios y medir resolución independiente.
+- Para menores, cuenta administrada por un adulto, datos mínimos y posibilidad de borrado; sin perfiles públicos ni chat entre desconocidos.
+- Usar ejercicios propios o autorizados.
+- La familia puede elegir recursos gratuitos y el estudiante puede abandonar, especialmente en vacaciones.
+
+Internacionalización:
+- ALTA en contenidos básicos; MEDIA al adaptar programas escolares.
+- Plan: Santa Marta, Colombia y después pilotos en México o Perú.
+- Adaptar idioma, notación decimal, ejemplos y nombres de cursos.
+- Las fracciones y porcentajes permiten reutilizar gran parte del contenido sin afirmar alineación curricular automática.
+- Validar aprendizaje y pago en cada país.
+
+Problemas para 1 sola persona:
+- Nota: APTA CON CUIDADO.
+- Tiempo: empezar con pocos conceptos. Crear un curso completo de todas las edades sería demasiado.
+- Calidad: presupuestar revisión pedagógica externa puntual; no depender de corregir errores reportados por familias.
+- Soporte sobre el producto en horario laboral; la suscripción no incluye clases particulares.
+- Costos: reutilizar ejercicios comprobados y limitar explicaciones generadas por IA.
+- Ausencias: sesiones, cobro y acceso automáticos, con respaldos.
+- Sin logística, dinero de terceros ni guardia 24/7.
+- El reto principal es combinar calidad educativa, captación económica y permanencia de los usuarios.
+
+Fuentes consultadas: 30 de octubre de 2026. Precio, demanda y eficacia educativa pendientes de validación.
