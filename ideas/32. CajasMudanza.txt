@@ -1,0 +1,87 @@
+32. "¿En qué caja está?" - Organiza tu trasteo y encuentra tus cosas sin abrir todas las cajas
+
+Necesidad/Problema a solucionar:
+- Al empacar, las cajas terminan marcadas como "varios". Después nadie recuerda dónde quedaron el cargador, las sábanas o los utensilios.
+- También cuesta comprobar qué salió de la vivienda anterior y qué llegó a la nueva.
+- Problema INTERNACIONAL con evidencia:
+  - EE.UU.: la FMCSA recomienda revisar el inventario de la mudanza y anotar cajas u objetos faltantes o dañados en la entrega.
+    https://www.fmcsa.dot.gov/protect-your-move/moving-checklist
+  - Canadá: la Office of Consumer Affairs recomienda preparar un inventario y comprobar los objetos al descargarlos.
+    https://ised-isde.canada.ca/site/office-consumer-affairs/en/buying-and-leasing-big-ticket-items/moving-advice
+- Son recomendaciones de esos países que documentan el problema; no se presentan como obligaciones legales en Colombia.
+- Falta comprobar si las familias prefieren pagar o resolverlo con marcador y fotos.
+
+Argumentos:
+- Idea: web para la persona que se muda, independiente del transportador.
+  1) Crear una caja y registrar su contenido con texto o una nota de voz que el usuario revisa.
+  2) Agregar fotos y la habitación de destino.
+  3) Descargar etiquetas con número grande y QR; la persona las imprime donde prefiera o escribe el número a mano.
+  4) Buscar un objeto y ver la caja correspondiente.
+  5) Marcar cada caja al cargar y recibir; consultar las que siguen pendientes.
+- Modo "primera noche": marcar lo que se necesita al llegar para empacarlo junto y localizarlo primero.
+- Descargar una lista por caja para consultar cuando falle internet.
+- Santa Marta: probar con diez familias que se muden dentro de la ciudad. El cliente organiza su propio trasteo; el negocio vende únicamente la herramienta digital.
+- Una persona puede operar generación de etiquetas, búsquedas, cobros y exportaciones automáticamente.
+- Se diferencia de las ideas de arriendos y garantías: organiza pertenencias durante un traslado.
+
+Cómo ganar dinero:
+- Quién paga: PERSONAS que se van a mudar.
+- Gratis: hasta cinco cajas para probar.
+- Precio propuesto: $19.900 COP por una mudanza de hasta 60 cajas, dos fotos por caja y 90 días de acceso.
+- Exportación de la lista y las fotos antes de terminar el periodo. Explicar desde la compra la duración del acceso y de los QR.
+- Cobro único automático: la mudanza es una necesidad ocasional.
+- Validación: diez familias con mudanza próxima; buscar cuatro pagos y comprobar que registren y consulten al menos diez cajas. Si solo prueban el QR pero abandonan el inventario, replantear.
+- Precio y límites son hipótesis, no tarifas de mercado verificadas.
+
+Competidores en Colombia:
+- Más Metros: permite preparar un inventario para cotizar mudanza o almacenamiento. Competencia indirecta ligada a su servicio.
+  https://masmetros.com.co/calculadora/
+- Dexter: software de inventarios y cotizaciones para empresas de mudanzas; otro público comprador.
+  https://www.dexter.com.co/es/cotizaciones-e-inventarios
+- Fotos del celular, una hoja de cálculo y etiquetas escritas: sustitutos gratuitos.
+- No se comprobó una plataforma colombiana idéntica; no asumir que no existe.
+
+Competidores en Santa Marta:
+- Empresas de trasteos que ofrecen empaque y organización como parte del servicio.
+  Ejemplo de oferta publicada para la ciudad:
+  https://mudanzasentodacolombia.com/mudanzas-santa-marta/
+- Las apps internacionales también compiten por internet. No hay exclusividad local demostrada.
+
+Competidores en el mundo:
+- BoxTrack: competidor directo; ya ofrece inventario para mudanzas, etiquetas QR, búsqueda y acceso desde el navegador.
+  https://box-track.com/for/movers
+- Stuffbook: inventario doméstico con ubicaciones, cajas y etiquetas QR, según su ficha oficial.
+  App iOS: https://apps.apple.com/co/app/stuffbook-inventario-hogar/id6813287726
+- La existencia de estos productos confirma competencia, no demuestra que tengan muchos clientes ni que todos paguen.
+
+Nuestra ventaja:
+- Hipótesis: experiencia guiada para una sola mudanza, pago en COP y organización de lo necesario para la llegada.
+- Tiene que ahorrar tiempo de registro frente a fotos y marcador. El QR por sí solo no es una ventaja.
+- Nivel de océano azul: BAJO en la categoría general. Una adaptación local solo merece construirse si las pruebas muestran una necesidad mal atendida.
+- No afirmar que "en español y sin instalar app" sea exclusivo: ya hay alternativas similares.
+
+Riesgos:
+- Registrar todo puede dar más trabajo del que ahorra: permitir agrupar objetos y empezar por cajas importantes.
+- Una nota de voz puede transcribirse mal: confirmar el contenido antes de guardar.
+- Un escaneo registra una acción del usuario; no certifica entrega ni estado de los objetos.
+- La lista no garantiza indemnización ni sustituye documentos del transportador.
+- Proteger fotos e inventarios: QR con acceso controlado, sin dirección ni descripción de objetos valiosos en la etiqueta visible.
+- Costos de almacenamiento y soporte: límites claros y aviso previo al vencimiento, con exportación sencilla.
+- Captación difícil: pocos usuarios repiten pronto. Medir si publicidad y soporte consumen el ingreso por venta.
+
+Internacionalización:
+- ALTA: empacar, localizar y contar cajas es el mismo problema en distintos países.
+- Plan: Santa Marta, resto de Colombia y después un piloto en México o Perú.
+- Cambiar idioma, moneda y tamaños de papel. No depender de contratar transportadores por ciudad.
+- Mantener la herramienta separada de trámites aduaneros y asesoría de seguros, que requieren adaptación adicional.
+
+Problemas para 1 sola persona:
+- Nota: APTA.
+- Tiempo: centrarse en cajas, contenido y lista de llegada; evitar construir una plataforma completa de logística.
+- Trabajo de calle: el cliente registra e imprime; no vender visitas, cajas físicas ni etiquetas enviadas a domicilio.
+- Soporte: ofrecer ayuda en horario laboral y una lista descargable; no prometer asistencia durante el traslado.
+- Ausencias: cobro, acceso y exportación automáticos, con respaldos.
+- Dinero y logística: no custodiar anticipos, transportar pertenencias ni resolver disputas con mudanceros.
+- La mayor dificultad es comercial: demostrar suficiente ahorro de esfuerzo para cobrar por algo que puede hacerse gratis.
+
+Fuentes consultadas: 30 de octubre de 2026. Demanda local, precio y ventaja pendientes de validación.
