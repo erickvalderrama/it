@@ -1,0 +1,86 @@
+44. "Copia que vuelve" - Respaldo automático de documentos y fotos con pruebas de recuperación
+
+Necesidad/Problema a solucionar:
+- Perder el computador, borrar una carpeta o descubrir archivos dañados puede dejar a una persona sin documentos o fotos importantes.
+- Público potencial amplio: estudiantes, trabajadores y familias que guardan archivos en un computador.
+- Uso casi diario EN SEGUNDO PLANO para quienes crean o modifican archivos frecuentemente. No implica que abran la aplicación todos los días.
+- Evidencia internacional: el NCSC británico recomienda copias separadas y comprobar que contienen los archivos importantes y se pueden recuperar.
+  https://www.ncsc.gov.uk/files/Backing%20up%20your%20data%20%28NCSC%20Infographic%29.pdf
+- El problema es real; la necesidad de pagar por otro proveedor sigue sin demostrarse.
+
+Argumentos:
+- Idea: una aplicación que copia carpetas elegidas, conserva versiones y prueba periódicamente la recuperación de una muestra.
+  1) Instalar y elegir las carpetas.
+  2) Completar la primera copia.
+  3) Consultar "Última copia" y "Última prueba de recuperación"; recuperar un archivo eligiendo su fecha.
+- La instalación debe explicar la cuenta y la recuperación de claves sin exigir conocimientos de servidores.
+- Las pruebas descargan y recuperan archivos en una ubicación temporal controlada. Una muestra correcta no garantiza que toda la copia esté sana.
+- Separar los permisos para añadir copias de los permisos para eliminar versiones protegidas.
+- Primer piloto: Windows, archivos personales y 20 usuarios de Santa Marta. Probar primero con datos reemplazables y mantener otras copias independientes.
+- Tu experiencia en servidores, frontend, backend e infraestructura permite construir el cliente, el panel y la operación.
+
+Cómo ganar dinero:
+- Quién paga: PERSONAS.
+- Hipótesis: $7.900 COP/mes o $59.900 COP/año por un computador y 50 GB totales, incluyendo versiones anteriores.
+- Retención propuesta: 30 días, pendiente de validar técnica y económicamente. No prometer espacio ilimitado.
+- Medir crecimiento del historial, transferencia, recuperaciones y soporte antes de fijar el plan.
+- Buscar cinco pagos tras demostrar recuperación en otro equipo. Si las herramientas gratuitas ya cubren esos archivos, no hay motivo suficiente para venderles este servicio.
+
+Competidores en Colombia:
+- Google Drive y OneDrive compiten por guardar y recuperar archivos; revisar sus funciones y límites concretos, sin afirmar que carecen de historial.
+  https://www.google.com/drive/
+  Aplicación de escritorio: https://www.google.com/drive/download/
+  https://www.microsoft.com/microsoft-365/onedrive/online-cloud-storage
+- Google documenta hasta 15 GB gratuitos compartidos entre Drive, Gmail y Fotos.
+  https://support.google.com/drive/answer/2375123
+- Movistar Cloud publica una oferta de copias para teléfono, computador y tablet. Confirmar activación y condiciones vigentes.
+  https://www.movistar.com.co/movistar-cloud
+
+Competidores en Santa Marta:
+- Los mismos servicios de nube y programas disponibles por internet.
+- Un disco externo con el Historial de archivos de Windows también permite copias automáticas y recuperación de versiones.
+  https://support.microsoft.com/en-us/windows/experience/backup-recovery/backup-and-restore-with-file-history
+- No existe una ventaja territorial demostrada.
+
+Competidores en el mundo:
+- Backblaze Personal ofrece respaldo automático para computadores. Competidor directo consolidado.
+  https://www.backblaze.com/cloud-backup/personal
+- Arq conserva historial y puede usar distintas nubes o discos.
+  https://www.arqbackup.com/
+- Restic es gratuito, abierto y permite copias cifradas y verificables. Es una alternativa real, no solo una posible herramienta interna.
+  https://restic.net/
+
+Nuestra ventaja y filtro frente a LLM gratuitos:
+- El resultado exige almacenamiento real fuera del equipo, transferencia continua, versiones conservadas y recuperación efectiva.
+- Un LLM gratuito puede generar scripts, configurar Restic y ayudar a probar copias. Esas capacidades no son exclusivas.
+- Comparar el servicio completo con un asistente más almacenamiento gratuito, discos que el usuario ya tenga y herramientas de Windows.
+- Si esa combinación da una recuperación equivalente, descartar para ese segmento. Una pantalla más sencilla no basta.
+- La diferencia comercial tendría que ser una operación mantenida y comprobada para personas cuyas necesidades no queden cubiertas gratuitamente.
+- Nivel de océano azul: BAJO. No se ha demostrado una ventaja frente a proveedores de respaldo existentes.
+- Comparación documental con CLAUDE.md; no se construyó ni probó el servicio.
+
+Riesgos:
+- Una copia incompleta o una clave perdida pueden impedir recuperar archivos. Probar reinstalación y recuperación antes de aceptar datos importantes.
+- Definir quién controla las claves y qué puede acceder el operador; no prometer privacidad absoluta.
+- Si se llena el cupo, avisar que la copia dejó de actualizarse sin borrar versiones que deban conservarse.
+- Un bloqueo de borrado exige validar toda la cadena de archivos necesarios para restaurar, no solo activar una opción.
+- Backblaze documenta Object Lock; Rest Server ofrece modo de solo añadir. Son mecanismos distintos y no garantizan por sí solos nuestro producto.
+  https://www.backblaze.com/docs/cloud-storage-object-lock
+  https://github.com/restic/rest-server
+- Preparar exportación, cancelación y cierre del negocio sin abandonar los datos de los clientes.
+
+Internacionalización:
+- ALTA para la función; MEDIA por pagos, ubicación del almacenamiento y condiciones de tratamiento de datos.
+- Plan: Santa Marta, Colombia y después México o Perú.
+- Mantener el cliente y adaptar idioma, moneda y soporte. Ampliar plataformas después de validar el piloto.
+
+Problemas para 1 sola persona:
+- Nota: APTA CON CUIDADO para un piloto limitado.
+- Reutilizar componentes mantenidos y revisar licencias; evitar crear criptografía propia.
+- Automatizar copias, comprobaciones, cobros y alertas. Las recuperaciones deben funcionar sin intervención humana.
+- Soporte en horario laboral; no vender recuperación urgente atendida 24/7.
+- Si cada cliente necesita instalación remota o restauración manual, descartar ese alcance.
+- Preparar continuidad, acceso de recuperación y actualizaciones reversibles durante ausencias.
+- Sin logística física, pero con responsabilidad importante sobre datos personales.
+
+Revisión documental: 30 de octubre de 2026, hora de Colombia. Precio, costos, retención y recuperación pendientes de validación.
