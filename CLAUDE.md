@@ -1,6 +1,6 @@
 # Proyecto: ideas de negocio
 
-Carpeta `ideas/` con una idea de negocio por archivo `.txt`, numerados en orden de creación: `N. Nombre.txt` (ej. `1. Mascotas.txt`). El título dentro del archivo empieza con el mismo número. Idea nueva = siguiente número (hoy van 47: PanSorpresa).
+Carpeta `ideas/` con una idea de negocio por archivo `.txt`, numerados en orden de creación: `N. Nombre.txt` (ej. `1. Mascotas.txt`). El título dentro del archivo empieza con el mismo número. Idea nueva = siguiente número (hoy van 48: LaBandaDeUnMinuto).
 
 ## Perfil técnico del fundador
 
@@ -41,6 +41,13 @@ Fuentes oficiales para comprobar cada fila:
 - Funciones conectadas de Gemini Live y sus condiciones: https://gemini.google/overview/gemini-live/
 - Límites de Gemini: https://support.google.com/gemini/answer/16275805?hl=es
 - Claude Free frente a planes de pago: https://claude.com/pricing
+
+### Actualización puntual: generación musical
+
+**3 de noviembre de 2026:** Google anunció Lyria 3.5 en Gemini para todos los usuarios en web y móvil, con creación de pistas vocales e instrumentales. Generar música o acompañamientos no debe considerarse por sí solo una ventaja frente a asistentes gratuitos. Comprobar los cupos y condiciones de la cuenta; esta revisión puntual corresponde a la función musical.
+
+Fuente oficial:
+- https://blog.google/innovation-and-ai/products/gemini-app/better-tracks-lyria-gemini/
 
 **Programar también cuenta como competencia:** la documentación de OpenAI incluye acceso Free a tareas cortas de código en escritorio, sujeto a despliegue. Claude Free también anuncia ejecución de código y creación de archivos. Si el usuario puede obtener y utilizar una calculadora, documento o herramienta sencilla generada por un asistente gratuito, comprobar si eso ya resuelve la necesidad.
 - Fuente adicional de OpenAI: https://learn.chatgpt.com/docs/pricing
