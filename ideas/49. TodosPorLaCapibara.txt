@@ -1,0 +1,80 @@
+49. "Todos por la capibara" - Un personaje, tres botones y toda la comunidad al mando
+
+Necesidad/Problema a solucionar:
+- Personas que buscan una pausa divertida y breve, con algo que comentar o compartir después.
+- Público potencial masivo: jugadores casuales con un celular y navegador. La entrada es individual: abres el enlace y participas en la escena pública.
+- Uso buscado: visitas cortas para ayudar, ver hasta dónde llegó el personaje y probar el recorrido del día. La repetición diaria debe comprobarse.
+- Evidencia internacional: Guinness registra 1.165.140 participantes acumulados en Twitch Plays Pokémon en 2014. Es un antecedente de control colectivo masivo, no una proyección de usuarios para nosotros.
+  https://www.guinnessworldrecords.com/world-records/most-participants-on-a-single-player-online-videogame
+
+Argumentos:
+- Idea: todos los jugadores conectados controlan la misma capibara en un escenario absurdo y colorido.
+  1) Abrir el enlace y ver dónde está.
+  2) Elegir izquierda, derecha o salto.
+  3) Cada dos segundos, la acción más votada se ejecuta y todos ven el resultado.
+- La gracia está en coordinarse: cruzar un puente, alcanzar una plataforma o caer al agua por una decisión colectiva.
+- Se puede entrar durante un minuto y regresar más tarde. El servidor mantiene el progreso común.
+- Empezar con un escenario pequeño, puntos de recuperación y recorridos hechos con piezas reutilizables. Al completarlo puede comenzar otra vuelta.
+- Mostrar actividad y votos realmente registrados. La capibara también puede avanzar cuando solo haya una persona conectada.
+- El juego debe permitir entender los tres controles en segundos, con botones grandes y texto mínimo.
+- Santa Marta: piloto con 100 adultos y sesiones de prueba con grupos pequeños conectados a la vez.
+- Tu experiencia permite construir el cliente web, la recepción de votos, el estado compartido y la recuperación del servicio.
+
+Cómo ganar dinero:
+- Quién paga: MIXTO.
+- Personas: partida pública gratuita. Hipótesis de $4.900 COP/mes por cosméticos del avatar y salas privadas para sus amigos.
+- Mantener el mismo peso de voto para todos en la escena pública.
+- Publicidad ligera como vía secundaria, después de demostrar tráfico recurrente. No proyectar ingresos con visitas imaginadas.
+- Prueba de cuatro semanas: medir entrada sin ayuda, regreso en cuatro días semanales, invitaciones espontáneas y cinco pagos reales.
+- Si solo funciona en un evento puntual, no cumple la frecuencia buscada.
+
+Competidores en Colombia:
+- Compiten juegos internacionales por navegador; comprobar su uso en los dispositivos del piloto.
+- HaxBall ofrece partidas multijugador en tiempo real y juego en equipo.
+  https://www.haxball.com/about
+- Wplace ofrece un mapa de píxeles compartido. Compite por la experiencia de intervenir en un mundo con otras personas.
+  https://wplace.live/
+- No se verificó un competidor colombiano con la misma mecánica.
+
+Competidores en Santa Marta:
+- Los mismos juegos web, videojuegos móviles y experiencias sociales accesibles por internet.
+- Estar en Santa Marta no ofrece una barrera frente a esa competencia ni garantiza adopción local.
+
+Competidores en el mundo:
+- Twitch Plays Pokémon es un antecedente directo de decidir acciones entre muchas personas. No presentar ese mecanismo como una invención.
+  https://blog.twitch.tv/en/2014/03/01/tpp-victory-the-thundershock-heard-around-the-world-3128a5b1cdf5/
+- El creador de One Million Checkboxes reportó 500.000 jugadores durante sus dos semanas de funcionamiento en 2024. Es un caso histórico de interacción compartida, no un servicio activo permanente.
+  https://eieio.games/blog/the-secret-inside-one-million-checkboxes/
+- Estos ejemplos prueban precedentes de interés colectivo; no demuestran rentabilidad ni retención para esta propuesta.
+
+Nuestra ventaja y filtro frente a LLM gratuitos:
+- El resultado exige un motor que reciba acciones auténticas de otros jugadores y mantenga una partida común.
+- Un LLM gratuito puede generar personajes, niveles, código o sugerir movimientos; también puede usar juegos conectados. Esas capacidades cuentan como alternativas.
+- La experiencia propuesta depende de lo que hagan las personas conectadas en ese momento, además del software.
+- Diferencia por validar: entrar desde el celular, entender tres botones y participar en momentos colectivos graciosos.
+- Comparar con un asistente gratuito más juegos existentes. Si ya proporcionan una experiencia equivalente, descartar; cambiar únicamente la mascota no basta.
+- Nivel de océano azul: BAJO. El personaje, el humor y la calidad del juego tendrían que ganarse a los usuarios.
+- Comparación documental con CLAUDE.md; no se realizó prueba práctica con jugadores ni asistentes gratuitos.
+
+Riesgos:
+- Un grupo puede sabotear el recorrido o hacer que quede atascado. Probar recuperaciones y avances cortos.
+- Bots o conexiones repetidas pueden distorsionar las decisiones. Aplicar límites de voto y controles de abuso sin prometer personas verificadas.
+- Un pico de tráfico puede aumentar costos o causar caídas.
+- La diversión inicial puede agotarse. Preparar variaciones comprobadas sin depender de crear un mapa manual cada día.
+- Usar personajes, arte y sonidos originales o con permisos adecuados.
+
+Internacionalización:
+- ALTA: tres controles y un personaje visual requieren pocas traducciones.
+- Plan: Santa Marta, Colombia y después comunidades de México o Perú.
+- Se puede mantener una escena común o probar salas por idioma según la participación real.
+
+Problemas para 1 sola persona:
+- Nota: APTA CON CUIDADO para un prototipo; el crecimiento masivo exige validar capacidad y costos.
+- Empezar con gráficos 2D, pocos obstáculos y una sola escena pública.
+- Automatizar rondas, recuperación, límites de conexiones, cobros y seguimiento de fallos.
+- Mantener interacciones predefinidas y avatares controlados para reducir moderación.
+- Guardar progreso y permitir volver tras una caída, sin intervención durante cada partida.
+- Si necesita atención humana permanente, desarrollo continuo de escenarios o gastos imprevisibles para funcionar, descartar ese alcance.
+- Sin logística física ni soporte humano 24/7. La operación debe poder continuar durante ausencias.
+
+Revisión documental: 3 de noviembre de 2026, hora de Colombia. No se construyó el juego ni se reclutaron participantes. Diversión, frecuencia, capacidad y pagos pendientes de validación.
