@@ -17,6 +17,7 @@ Argumentos:
 - Conservar como visión el álbum anual por zonas, medallas únicas, temporadas, rareza y referidos. Posponer su desarrollo hasta comprobar interés.
 - Medallas públicas por visita con ubicación puntual y QR donde exista permiso; medallas privadas sujetas a solicitud y validación del establecimiento. Un registro de visita no demuestra una compra.
 - MVP: web móvil, una ruta revisada, cinco puntos, dos comercios aliados, progreso del grupo y canje sencillo. Sin app obligatoria, mercado de tours ni transporte.
+- Hacer concreto el juego compartido: un enlace abre la partida del grupo, con una misión a la vez, pistas y un final común. Permitir jugar desde un solo celular y sumar otros sin exigir una cuenta a cada integrante. Probar que se entiende sin ayuda.
 - Un solo fundador puede desarrollar el sistema con su experiencia. Conseguir aliados y mantener la información siguen siendo trabajo comercial y operativo.
 
 Cómo ganar dinero:
@@ -29,10 +30,21 @@ Cómo ganar dinero:
 - Patrocinios de eventos pueden ser una vía, pero no equivalen a ingresos diarios ni a demanda B2C comprobada.
 
 Competidores en Colombia:
-- Novaturis anuncia retos fotográficos, álbum, puntos e insignias para explorar Colombia. Es una propuesta muy cercana; su web anuncia inicio gratuito. No se probó la cuenta, el alcance gratuito ni su tracción.
+- Novaturis (Colombia): competidor directo por su propuesta de retos fotográficos, álbum, puntos e insignias para explorar destinos. Anuncia inicio gratuito; no se probó la cuenta, el alcance gratuito ni su funcionamiento completo.
   https://novaturis.com/
   https://novaturis.com/como-funciona/
-- No se verificó una app móvil oficial de Novaturis.
+- Responsable y administrador publicado: William Javier Jurado Pérez, Colombia. Su web lo identifica con esos cargos; no se verificó quién desarrolló la plataforma.
+  https://novaturis.com/terminos-y-condiciones/
+  https://novaturis.com/aviso-legal-de-novaturis/
+- Su política de privacidad lo presenta como proyecto digital independiente. No se confirmó una sociedad constituida ni una ciudad de operación.
+  https://novaturis.com/privacy-policy/
+- Dominio novaturis.com: registro del 16 de enero de 2026 a las 04:30:25 UTC, equivalente al 15 de enero a las 11:30:25 p. m. en Colombia. Registrador: Cloudflare, Inc. Coinciden los registros oficiales de Verisign y Cloudflare. Esta fecha no certifica el lanzamiento ni una compraventa posterior.
+  https://rdap.verisign.com/com/v1/domain/novaturis.com
+  https://rdap.cloudflare.com/rdap/v1/domain/NOVATURIS.COM
+- Contactos profesionales publicados: contacto@novaturis.com en Contacto; novaturisoficial@gmail.com en Aviso legal.
+  https://novaturis.com/contacto/
+- No se verificaron app móvil ni cuentas oficiales en redes. No atribuirle perfiles homónimos sin un vínculo comprobado.
+- Hay evidencia de una oferta pública similar; usuarios activos, ventas y resultados comerciales no se verificaron. La antigüedad del dominio no demuestra tracción.
 - También compiten los juegos y pasaportes internacionales accesibles desde Colombia; comprobar cobertura real por ciudad.
 
 Competidores en Santa Marta:
@@ -54,6 +66,8 @@ Competidores en el mundo:
 
 Nuestra ventaja y filtro frente a LLM gratuitos:
 - Nivel de océano azul: BAJO. Medallas, QR, GPS, álbumes y rankings ya existen. La diferencia tendría que comprobarse en la calidad del juego, la distribución local y el beneficio cumplido.
+- Posicionamiento a probar frente a Novaturis: un plan corto para jugar juntos en Santa Marta, con avance compartido y un beneficio definido de antemano. Su web destaca el registro fotográfico y el álbum personal; eso no demuestra que carezca de juego en grupo o beneficios. Verificar el solapamiento antes de anunciar exclusividad.
+- Prioridad comercial: demostrar que el grupo paga por la experiencia y que el aliado recibe valor medible. El nombre, las medallas y una interfaz distinta no bastan como defensa.
 - Un asistente gratuito puede proponer rutas, escribir acertijos, generar un álbum y producir código. Claude Free documenta búsqueda web, archivos, ejecución de código y conectores.
   https://claude.com/pricing
 - El valor adicional propuesto requiere una experiencia operativa compartida, contenido local comprobado y un derecho de canje aceptado por un comercio. No basta con añadir una interfaz.
@@ -81,10 +95,12 @@ Problemas para 1 sola persona:
 - Automatizar alta, pagos del servicio propio, progreso, vencimientos y cobros de campañas. Limitar el catálogo y los horarios de atención.
 - Piloto propuesto de cuatro semanas: ofrecer la ruta con precio visible a 30 grupos elegibles; buscar al menos cinco compras reales y finalizaciones sin acompañamiento.
 - Son umbrales de decisión propuestos, no resultados obtenidos ni prueba estadística de un mercado masivo.
+- Comparación pendiente con Novaturis: confirmar qué puede probarse gratis y en qué destinos. Comparar experiencias disponibles con necesidades, tiempo y presupuesto semejantes. Si no existe un recorrido comparable en Santa Marta, registrar esa limitación; no concluir que Turciti es superior.
+- Preguntar a los compradores por qué eligieron Turciti y registrar si pesaron la diversión, compartir el plan o el ahorro. Comprobarlo con pagos y una segunda compra, además de respuestas a una encuesta.
 - Registrar origen de cada grupo, ingresos, costo del beneficio, tiempo de venta y soporte. Proponer como límite diez minutos de soporte por grupo y comprobar si se sostiene.
 - Buscar que los dos aliados quieran repetir con condiciones económicas concretas; una felicitación no equivale a una renovación.
 - Medir por separado repetición de turistas y residentes, regreso espontáneo y compra de una segunda experiencia. Si el uso es ocasional o semanal, no llamarlo diario.
 - Evaluar con las cuatro perspectivas trabajadas: fundador, inversionista, negocio y usuario. Comprobar diversión, retorno comercial y operación sostenible.
 - No desarrollar la plataforma completa antes del piloto. Si solo funciona con descuentos costosos, atención permanente o visitas comerciales continuas, reducir el alcance o descartarlo.
 
-Revisión documental: 3 de noviembre de 2026. Ficha de la idea conversada y propuesta de piloto, sin afirmar producto activo, usuarios, ventas ni alianzas existentes. Siguen pendientes la diferenciación, el pago, la frecuencia, el retorno comercial y la operación sostenible.
+Revisión documental y ampliación del análisis de Novaturis: 3 de noviembre de 2026. Fuentes públicas consultadas; declaraciones del proveedor separadas de los registros del dominio. Sin prueba práctica de sus cuentas o servicios. Ficha de la idea conversada y propuesta de piloto, sin afirmar producto activo, usuarios, ventas ni alianzas existentes para Turciti. Siguen pendientes la diferenciación, el pago, la frecuencia, el retorno comercial y la operación sostenible.
