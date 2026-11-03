@@ -1,0 +1,90 @@
+50. "Turciti" - Explorar la ciudad con misiones, medallas y experiencias que valgan la pena
+
+Necesidad/Problema a solucionar:
+- Ayudar a residentes y visitantes a encontrar un plan entretenido para compartir y descubrir lugares.
+- Idea trabajada previamente: misiones, medallas públicas y privadas, QR + GPS, rankings y álbum anual por sectores o zonas. Dominio recordado: turciti.com; no se verificó su estado.
+- Debilidad principal: coleccionar medallas puede resultar agradable sin justificar un pago ni un regreso.
+- La frecuencia del turista depende de su estancia. Incluir residentes no demuestra uso diario: ese criterio sigue sin cumplirse de forma comprobada.
+- Questo comercializa exploraciones con acertijos en distintas ciudades: evidencia de oferta internacional, no de demanda o rentabilidad para Turciti.
+  https://questoapp.com/faq
+
+Argumentos:
+- Primera versión propuesta: un juego autoguiado de 60–90 minutos para parejas o grupos pequeños, en una zona de Santa Marta. Residentes y visitantes adultos, medidos por separado.
+  1) Abrir un enlace, ver recorrido, duración, precio y beneficio incluido.
+  2) Resolver cinco misiones de observación en lugares comprobados y registrar el avance compartido.
+  3) Completar el álbum de esa experiencia y, si corresponde, canjear un beneficio previamente acordado con un comercio.
+- El beneficio comercial es una hipótesis nueva para probar; las medallas y el álbum eran parte de la idea original. Evitar que la experiencia se reduzca a perseguir descuentos.
+- Conservar como visión el álbum anual por zonas, medallas únicas, temporadas, rareza y referidos. Posponer su desarrollo hasta comprobar interés.
+- Medallas públicas por visita con ubicación puntual y QR donde exista permiso; medallas privadas sujetas a solicitud y validación del establecimiento. Un registro de visita no demuestra una compra.
+- MVP: web móvil, una ruta revisada, cinco puntos, dos comercios aliados, progreso del grupo y canje sencillo. Sin app obligatoria, mercado de tours ni transporte.
+- Un solo fundador puede desarrollar el sistema con su experiencia. Conseguir aliados y mantener la información siguen siendo trabajo comercial y operativo.
+
+Cómo ganar dinero:
+- Quién paga: MIXTO.
+- Personas: explorar gratis una muestra; vender una experiencia concreta por grupo. Precio inicial propuesto para probar: $9.900 COP por grupo, no una tarifa validada.
+- Posponer suscripción mensual y créditos hasta demostrar que alguien compra una segunda experiencia. El turista ocasional no justifica por sí mismo una mensualidad.
+- Negocios: después del piloto, probar campañas de duración y cupos definidos. Ofrecer suscripción solo si hay valor recurrente medido.
+- Principio trabajado: "No te pago por medallas; te pago si me traes clientes". Separar escaneos, visitas, canjes y ventas; no presentar todos como clientes nuevos.
+- Cobrar por el juego y el servicio propio. El comercio vende sus productos directamente y confirma el beneficio pactado; Turciti no cobra esas ventas para repartirlas.
+- Patrocinios de eventos pueden ser una vía, pero no equivalen a ingresos diarios ni a demanda B2C comprobada.
+
+Competidores en Colombia:
+- Novaturis anuncia retos fotográficos, álbum, puntos e insignias para explorar Colombia. Es una propuesta muy cercana; su web anuncia inicio gratuito. No se probó la cuenta, el alcance gratuito ni su tracción.
+  https://novaturis.com/
+  https://novaturis.com/como-funciona/
+- No se verificó una app móvil oficial de Novaturis.
+- También compiten los juegos y pasaportes internacionales accesibles desde Colombia; comprobar cobertura real por ciudad.
+
+Competidores en Santa Marta:
+- City Pass Santa Marta anuncia beneficios en actividades y comercios, mediante tarjeta física o digital. Competencia cercana al componente de descuentos; no se comprobó cada oferta ni el proceso de compra.
+  https://citypasssantamarta.com/
+- Visit Santa Marta ofrece experiencias y tours locales. Compite por la elección del plan, aunque el formato no sea un juego de medallas.
+  https://visitsantamarta.com/
+- No se verificó un producto samario idéntico; eso no demuestra ausencia de competencia.
+
+Competidores en el mundo:
+- Questo: juegos de exploración con historias y acertijos; anuncia experiencias gratuitas y de pago.
+  https://questoapp.com/
+  https://questoapp.com/faq
+  Android: https://play.google.com/store/apps/details?id=com.questo.questoapp
+  iOS: https://apps.apple.com/us/app/questo-city-games-tours/id1216630504
+- Proxi: pasaportes digitales para destinos y comercio local, con registros, QR, geolocalización, insignias y rankings. También compite con la posible venta de campañas a organizaciones.
+  https://es.proxi.co/passport-challenge
+- Los proveedores publican estas funciones; no se realizaron pruebas de compra, operación o resultados económicos.
+
+Nuestra ventaja y filtro frente a LLM gratuitos:
+- Nivel de océano azul: BAJO. Medallas, QR, GPS, álbumes y rankings ya existen. La diferencia tendría que comprobarse en la calidad del juego, la distribución local y el beneficio cumplido.
+- Un asistente gratuito puede proponer rutas, escribir acertijos, generar un álbum y producir código. Claude Free documenta búsqueda web, archivos, ejecución de código y conectores.
+  https://claude.com/pricing
+- El valor adicional propuesto requiere una experiencia operativa compartida, contenido local comprobado y un derecho de canje aceptado por un comercio. No basta con añadir una interfaz.
+- Una IA puede utilizar servicios externos; eso cuenta como alternativa. También comparar con Novaturis, las experiencias gratuitas de Questo y los beneficios locales existentes.
+- Prueba pendiente: dar a un asistente gratuito las mismas necesidades del grupo y comparar el resultado completo. Si una ruta generada y herramientas gratuitas resuelven igual el plan, descartar esa versión.
+- La documentación permite identificar alternativas; no demuestra que Turciti supere el filtro. No se realizó prueba práctica.
+
+Riesgos y decisiones para reducirlos:
+- Interés sin pago: vender una experiencia terminada antes de ampliar el catálogo. Medir pagos y finalización, además de opiniones.
+- Falta de usuarios y comercios al comienzo: probar una ruta que sea divertida por sí misma y solo dos beneficios acordados. Buscar distribución con un alojamiento o comercio aliado, sin depender de una red grande.
+- Comercios sin retorno: acordar por escrito oferta, cupos, horarios y confirmación. Mostrar ventas registradas cuando haya evidencia; los canjes no prueban por sí solos ventas adicionales causadas por Turciti.
+- Pérdida de novedad: probar una segunda experiencia reutilizando el sistema. Si hay que producir contenido manual diario para retener, la operación no encaja con una sola persona.
+- Abuso de canjes: códigos individuales de un uso y validación del comercio. QR + GPS no garantizan presencia ni compra.
+- Información desactualizada: rutas cortas revisables y comercios responsables de confirmar sus condiciones. Pausar ofertas vencidas.
+- Privacidad y seguridad: ubicación solo al validar, progreso privado por defecto y puntos públicos revisados. Evitar pedir desplazamientos peligrosos por completar una medalla.
+- Competencia: probar preferencia frente a las alternativas, sin atribuir originalidad a funciones existentes.
+
+Internacionalización:
+- MEDIA para una sola persona: el software se adapta a idioma y moneda, pero verificar rutas y conseguir aliados exige trabajo por ciudad.
+- Plan propuesto: una zona de Santa Marta; después otra zona con el mismo proceso. Considerar Cartagena y posteriormente una ciudad de México o Perú solo con un aliado local y demanda comprobada.
+- No abrir ciudades vacías para aparentar alcance. Una red de operadores podría ayudar, pero implica selección, soporte y control de calidad.
+
+Problemas para 1 sola persona:
+- Nota: APTA CON CUIDADO para el piloto; DIFÍCIL como red amplia de comercios y ciudades operada directamente.
+- Automatizar alta, pagos del servicio propio, progreso, vencimientos y cobros de campañas. Limitar el catálogo y los horarios de atención.
+- Piloto propuesto de cuatro semanas: ofrecer la ruta con precio visible a 30 grupos elegibles; buscar al menos cinco compras reales y finalizaciones sin acompañamiento.
+- Son umbrales de decisión propuestos, no resultados obtenidos ni prueba estadística de un mercado masivo.
+- Registrar origen de cada grupo, ingresos, costo del beneficio, tiempo de venta y soporte. Proponer como límite diez minutos de soporte por grupo y comprobar si se sostiene.
+- Buscar que los dos aliados quieran repetir con condiciones económicas concretas; una felicitación no equivale a una renovación.
+- Medir por separado repetición de turistas y residentes, regreso espontáneo y compra de una segunda experiencia. Si el uso es ocasional o semanal, no llamarlo diario.
+- Evaluar con las cuatro perspectivas trabajadas: fundador, inversionista, negocio y usuario. Comprobar diversión, retorno comercial y operación sostenible.
+- No desarrollar la plataforma completa antes del piloto. Si solo funciona con descuentos costosos, atención permanente o visitas comerciales continuas, reducir el alcance o descartarlo.
+
+Revisión documental: 3 de noviembre de 2026. Ficha de la idea conversada y propuesta de piloto, sin afirmar producto activo, usuarios, ventas ni alianzas existentes. Siguen pendientes la diferenciación, el pago, la frecuencia, el retorno comercial y la operación sostenible.
