@@ -1,0 +1,81 @@
+48. "La banda de un minuto" - Un juego musical cooperativo con un botón por persona
+
+Necesidad/Problema a solucionar:
+- Compartir una pausa divertida puede complicarse cuando un juego exige aprender muchas reglas o preparar equipos.
+- Público potencial amplio: parejas, amigos y convivientes con celulares y acceso a una pantalla común.
+- Uso buscado: partidas de un minuto en una pausa cotidiana. Que funcione en una fiesta no demuestra uso casi diario.
+- Evidencia internacional: Incredibox ofrece una experiencia musical interactiva y WEJAM permite tocar con otros por internet. Son señales de interés en esta categoría, no pruebas de demanda por nuestro juego.
+  https://www.incredibox.com/
+  https://wejam.com/
+
+Argumentos:
+- Idea: de dos a cuatro personas forman una banda y deben coordinar sus pulsaciones para completar un reto rítmico.
+  1) Abrir una sala en computador o tablet y compartir su QR.
+  2) Cada amigo entra desde su celular y recibe un botón que controla un instrumento.
+  3) Seguir las señales de la pantalla durante 60 segundos; al final aparece el resultado del equipo.
+- Reglas simples: tocar cuando entra tu instrumento, mantener el ritmo y resolver pequeños cambios de roles.
+- Primera versión presencial: la pantalla principal reproduce el sonido y los teléfonos envían pulsaciones. Probar latencia y tolerancias antes de puntuar.
+- Usar patrones y sonidos propios o autorizados. Empezar con pocos retos reutilizables.
+- La Web Audio API permite controlar sonido en el navegador; no demuestra por sí sola que nuestro juego vaya sincronizado.
+  https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API
+- Santa Marta: diez grupos de adultos, con sus equipos habituales, durante cuatro semanas.
+- Tu experiencia en frontend, backend e infraestructura permite construir controles, salas y estado de las partidas.
+
+Cómo ganar dinero:
+- Quién paga: PERSONAS.
+- Gratis: un reto básico diario.
+- Hipótesis: $9.900 COP/mes por anfitrión para acceder a variantes, temas visuales y más retos. Los invitados participan gratis.
+- Medir repetición en cuatro días semanales y buscar tres anfitriones que paguen después del piloto.
+- Si predomina el uso ocasional o los modos gratuitos bastan, revisar o descartar el modelo.
+
+Competidores en Colombia:
+- Compiten productos internacionales; confirmar acceso y compatibilidad en los dispositivos del piloto.
+- Incredibox combina creación musical y juego; tiene versión web y aplicación.
+  Web: https://www.incredibox.com/
+  Android: https://play.google.com/store/apps/details?id=com.sofarsogood.incredibox
+- WEJAM ofrece música multijugador y su ficha anuncia sesiones privadas. Esa característica ya existe.
+  Web: https://wejam.com/
+  Android: https://play.google.com/store/apps/details?id=com.interactionideas.wejam
+
+Competidores en Santa Marta:
+- Los mismos juegos, instrumentos virtuales y actividades entre amigos.
+- No se demostró una ventaja territorial. La ciudad sirve para probar la propuesta.
+
+Competidores en el mundo:
+- Shared Piano de Google permite tocar juntos mediante un enlace, sin instalar ni iniciar sesión.
+  https://experiments.withgoogle.com/shared-piano
+- WEJAM anuncia juego gratuito en navegador. Competencia directa para quien solo busca hacer música con amigos.
+  https://wejam.com/
+- Comparar el juego cooperativo completo, no solo la cantidad de instrumentos.
+
+Nuestra ventaja y filtro frente a LLM gratuitos:
+- El resultado requiere un motor de partida que reciba pulsaciones de varios dispositivos, mantenga el tiempo y calcule un resultado compartido.
+- Los asistentes pueden generar patrones, canciones y código. Google anunció Lyria 3.5 en Gemini para todos los usuarios; no asumir que componer música es una ventaja exclusiva.
+  https://blog.google/innovation-and-ai/products/gemini-app/better-tracks-lyria-gemini/
+- Diferencia por validar: un reto de coordinación inmediato y divertido para personas sin experiencia musical.
+- Comparar con un asistente gratuito más Shared Piano, WEJAM y otros juegos. Si permiten conseguir un resultado equivalente, descartar.
+- Nivel de océano azul: BAJO. La música compartida tiene opciones gratuitas y consolidadas.
+- Comparación documental con CLAUDE.md; no se realizaron partidas ni pruebas prácticas de equivalencia.
+
+Riesgos:
+- Retrasos o diferencias entre equipos pueden volver injusta la puntuación.
+- El sonido puede resultar molesto o poco atractivo; probar volumen, duración y calidad.
+- Requerir una pantalla común y coincidir físicamente limita la frecuencia.
+- La novedad puede agotarse. No depender de producir nuevas canciones todos los días.
+- Revisar derechos de sonidos, composiciones y recursos gráficos antes de publicar.
+
+Internacionalización:
+- ALTA para la mecánica: las señales visuales y el ritmo requieren pocos textos.
+- Plan: Santa Marta, Colombia y después México o Perú.
+- Adaptar idioma, moneda y estilos propios; comprobar diversión y pago en cada mercado.
+
+Problemas para 1 sola persona:
+- Nota: APTA CON CUIDADO para un prototipo pequeño.
+- Empezar con un navegador principal, cuatro instrumentos y un catálogo reducido.
+- Automatizar salas, reconexiones, resultados y cobros. El fundador no arbitra partidas.
+- Mantener grupos privados y datos mínimos para reducir moderación.
+- La dificultad central será la respuesta del audio y la calidad del juego, además del desarrollo web.
+- Si exige asistencia durante cada sesión o producción continua de contenido, descartar ese alcance.
+- Sin logística física ni soporte humano 24/7; preparar funcionamiento durante ausencias.
+
+Revisión documental: 3 de noviembre de 2026, hora de Colombia. No se contactó a grupos ni se construyó el juego. Diversión, frecuencia, latencia y pagos pendientes de validación.
