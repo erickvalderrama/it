@@ -9,24 +9,27 @@ Necesidad/Problema a solucionar:
   https://questoapp.com/faq
 
 Argumentos:
-- Primera versión propuesta: un juego autoguiado de 60–90 minutos para parejas o grupos pequeños, en una zona de Santa Marta. Residentes y visitantes adultos, medidos por separado.
-  1) Abrir un enlace, ver recorrido, duración, precio y beneficio incluido.
-  2) Resolver cinco misiones de observación en lugares comprobados y registrar el avance compartido.
-  3) Completar el álbum de esa experiencia y, si corresponde, canjear un beneficio previamente acordado con un comercio.
-- El beneficio comercial es una hipótesis nueva para probar; las medallas y el álbum eran parte de la idea original. Evitar que la experiencia se reduzca a perseguir descuentos.
-- Conservar como visión el álbum anual por zonas, medallas únicas, temporadas, rareza y referidos. Posponer su desarrollo hasta comprobar interés.
-- Medallas públicas por visita con ubicación puntual y QR donde exista permiso; medallas privadas sujetas a solicitud y validación del establecimiento. Un registro de visita no demuestra una compra.
-- MVP: web móvil, una ruta revisada, cinco puntos, dos comercios aliados, progreso del grupo y canje sencillo. Sin app obligatoria, mercado de tours ni transporte.
-- Hacer concreto el juego compartido: un enlace abre la partida del grupo, con una misión a la vez, pistas y un final común. Permitir jugar desde un solo celular y sumar otros sin exigir una cuenta a cada integrante. Probar que se entiende sin ayuda.
-- Un solo fundador puede desarrollar el sistema con su experiencia. Conseguir aliados y mantener la información siguen siendo trabajo comercial y operativo.
-
+- Núcleo gratuito propuesto: "Tu paseo de hoy". Explorar y completar el álbum público debe ser una experiencia útil y entretenida sin comprar ni entrar en un comercio.
+  1) Elegir cuánto tiempo quiere salir: 10, 20 o 30 minutos.
+  2) Ver un recorrido estimado con dos o tres puntos públicos cercanos, tomados de un catálogo revisado. Mostrar distancia y condiciones conocidas antes de empezar.
+  3) Llegar a cada punto, confirmar ubicación y resolver una observación breve sobre el lugar. No exigir fotografías de personas ni QR instalados para completar el paseo público.
+  4) Desbloquear una medalla del lugar y avanzar en el álbum de su zona.
+- Ejemplo ilustrativo, sin ruta real trazada: "Visita dos puntos públicos de tu zona y completa una página de tu álbum".
+- Motivo para regresar: combinaciones de recorridos y objetivos semanales usando los mismos puntos revisados. Repetir un paseo puede sumar actividad en un día distinto, aunque la medalla del lugar se obtenga una sola vez. No exigir nuevos lugares cada día ni crear contenido manual diario.
+- Progreso propuesto: días con paseos completados, lugares descubiertos y colección de la zona. No convertirlo en dinero ni borrar logros por faltar un día. La frecuencia casi diaria sigue pendiente de prueba.
+- Se puede jugar solo desde el primer día; compartir una misión con amigos es una opción posterior. No depender de una comunidad grande para que el primer paseo tenga sentido.
+- Los negocios son paradas opcionales: pueden ofrecer un beneficio o plan identificado como comercial. Comprar, reservar o entrar al local no desbloquea el progreso público obligatorio.
+- Mantener la visión de medallas públicas y privadas, álbum anual por zonas y campañas. Las medallas privadas pueden exigir validación del establecimiento, con condiciones visibles; una visita no demuestra una compra.
+- MVP en Flutter, de acuerdo con la tecnología indicada por el usuario: una zona de Santa Marta, cinco puntos públicos revisados, tres recorridos combinables, medallas y progreso semanal. Los dos comercios opcionales se incorporan para probar conversión, sin ser requisito para lanzar el paseo gratuito.
+- Como hipótesis posterior, ofrecer experiencias especiales autoguiadas de 60–90 minutos para parejas o grupos, con avance compartido y beneficios acordados. No cobrar por terminar el ciclo gratuito.
+- Tu experiencia permite construir el sistema; revisar lugares y conseguir aliados siguen exigiendo tiempo. Esta revisión define el diseño, no acredita una implementación.
 Cómo ganar dinero:
 - Quién paga: MIXTO.
-- Personas: explorar gratis una muestra; vender una experiencia concreta por grupo. Precio inicial propuesto para probar: $9.900 COP por grupo, no una tarifa validada.
+- Personas: paseos cortos, medallas públicas y progreso del álbum gratuitos. Experiencias especiales opcionales podrían venderse por grupo; $9.900 COP es solo una hipótesis previa para probar, sin limitar el juego público gratuito.
 - Posponer suscripción mensual y créditos hasta demostrar que alguien compra una segunda experiencia. El turista ocasional no justifica por sí mismo una mensualidad.
-- Negocios: después del piloto, probar campañas de duración y cupos definidos. Ofrecer suscripción solo si hay valor recurrente medido.
+- Negocios: probar campañas opcionales de duración y cupos definidos, con beneficios o planes reales para quienes quieran visitar el comercio. Medir compras confirmadas y margen; ofrecer suscripción solo si hay valor recurrente. No prometer ventas por contabilizar caminantes cercanos.
 - Principio trabajado: "No te pago por medallas; te pago si me traes clientes". Separar escaneos, visitas, canjes y ventas; no presentar todos como clientes nuevos.
-- Cobrar por el juego y el servicio propio. El comercio vende sus productos directamente y confirma el beneficio pactado; Turciti no cobra esas ventas para repartirlas.
+- Cobrar por experiencias especiales y servicios comerciales propios, conservando el núcleo gratuito. El comercio vende sus productos directamente y confirma el beneficio pactado; Turciti no cobra esas ventas para repartirlas.
 - Patrocinios de eventos pueden ser una vía, pero no equivalen a ingresos diarios ni a demanda B2C comprobada.
 
 Competidores en Colombia:
@@ -62,27 +65,32 @@ Competidores en el mundo:
   iOS: https://apps.apple.com/us/app/questo-city-games-tours/id1216630504
 - Proxi: pasaportes digitales para destinos y comercio local, con registros, QR, geolocalización, insignias y rankings. También compite con la posible venta de campañas a organizaciones.
   https://es.proxi.co/passport-challenge
-- Los proveedores publican estas funciones; no se realizaron pruebas de compra, operación o resultados económicos.
+- Pikmin Bloom compite directamente por salir a caminar, coleccionar y participar en objetivos compartidos. Su ficha Android declara juego gratuito con compras integradas. La web oficial describe desafíos semanales y postales; no atribuir estas mecánicas a Turciti como una invención.
+  https://pikminbloom.com/
+  Android: https://play.google.com/store/apps/details?id=com.nianticlabs.pikmin
+  iOS: https://apps.apple.com/us/app/pikmin-bloom/id1556357398
+- Los proveedores publican estas funciones; no se realizaron pruebas de compra, operación o resultados económicos. Revisar qué alternativa gratuita ofrece una experiencia equivalente.
 
 Nuestra ventaja y filtro frente a LLM gratuitos:
 - Nivel de océano azul: BAJO. Medallas, QR, GPS, álbumes y rankings ya existen. La diferencia tendría que comprobarse en la calidad del juego, la distribución local y el beneficio cumplido.
-- Posicionamiento a probar frente a Novaturis: un plan corto para jugar juntos en Santa Marta, con avance compartido y un beneficio definido de antemano. Su web destaca el registro fotográfico y el álbum personal; eso no demuestra que carezca de juego en grupo o beneficios. Verificar el solapamiento antes de anunciar exclusividad.
-- Prioridad comercial: demostrar que el grupo paga por la experiencia y que el aliado recibe valor medible. El nombre, las medallas y una interfaz distinta no bastan como defensa.
+- Posicionamiento a probar: paseos cortos y gratuitos para descubrir Santa Marta, con lugares revisados y una colección local; ofertas comerciales opcionales. Novaturis destaca fotografías y álbum; Pikmin Bloom ya ofrece caminar y coleccionar. Verificar el solapamiento antes de anunciar exclusividad y comprobar si el contenido local justifica elegir Turciti.
+- Prioridad: demostrar que las personas salen, completan paseos y regresan por iniciativa propia; después comprobar compras y retorno comercial. El nombre, las medallas y una interfaz distinta no bastan como defensa.
 - Un asistente gratuito puede proponer rutas, escribir acertijos, generar un álbum y producir código. Claude Free documenta búsqueda web, archivos, ejecución de código y conectores.
   https://claude.com/pricing
-- El valor adicional propuesto requiere una experiencia operativa compartida, contenido local comprobado y un derecho de canje aceptado por un comercio. No basta con añadir una interfaz.
-- Una IA puede utilizar servicios externos; eso cuenta como alternativa. También comparar con Novaturis, las experiencias gratuitas de Questo y los beneficios locales existentes.
+- El núcleo gratuito debe compararse con rutas y retos generados por un asistente y con apps gratuitas de exploración. Mantener visitas y progreso persistente no demuestra por sí solo una ventaja suficiente. En las funciones comerciales, los beneficios y canjes requieren aceptación real del negocio, pero son opcionales para el paseo.
+- Una IA puede utilizar servicios externos; eso cuenta como alternativa. También comparar con Novaturis, Pikmin Bloom, las experiencias gratuitas de Questo y los beneficios locales existentes.
 - Prueba pendiente: dar a un asistente gratuito las mismas necesidades del grupo y comparar el resultado completo. Si una ruta generada y herramientas gratuitas resuelven igual el plan, descartar esa versión.
 - La documentación permite identificar alternativas; no demuestra que Turciti supere el filtro. No se realizó prueba práctica.
 
 Riesgos y decisiones para reducirlos:
-- Interés sin pago: vender una experiencia terminada antes de ampliar el catálogo. Medir pagos y finalización, además de opiniones.
+- Paseos sin repetición: medir recorridos completados y regresos voluntarios; si las medallas no motivan otra salida, replantear el juego antes de ampliar el catálogo.
+- Usuarios gratuitos sin ingresos: medir por separado adopción, conversión comercial y costo de servirlos. Caminar cerca de un negocio no acredita una venta ni hace sostenible el modelo.
 - Falta de usuarios y comercios al comienzo: probar una ruta que sea divertida por sí misma y solo dos beneficios acordados. Buscar distribución con un alojamiento o comercio aliado, sin depender de una red grande.
 - Comercios sin retorno: acordar por escrito oferta, cupos, horarios y confirmación. Mostrar ventas registradas cuando haya evidencia; los canjes no prueban por sí solos ventas adicionales causadas por Turciti.
 - Pérdida de novedad: probar una segunda experiencia reutilizando el sistema. Si hay que producir contenido manual diario para retener, la operación no encaja con una sola persona.
 - Abuso de canjes: códigos individuales de un uso y validación del comercio. QR + GPS no garantizan presencia ni compra.
 - Información desactualizada: rutas cortas revisables y comercios responsables de confirmar sus condiciones. Pausar ofertas vencidas.
-- Privacidad y seguridad: ubicación solo al validar, progreso privado por defecto y puntos públicos revisados. Evitar pedir desplazamientos peligrosos por completar una medalla.
+- Privacidad y seguridad: ubicación al validar puntos, progreso privado por defecto y recorridos públicos revisados. No colocar destinos aleatorios ni publicar la ubicación en directo de los participantes. Permitir pausar una ruta si cambia el acceso a un punto.
 - Competencia: probar preferencia frente a las alternativas, sin atribuir originalidad a funciones existentes.
 
 Internacionalización:
@@ -93,14 +101,15 @@ Internacionalización:
 Problemas para 1 sola persona:
 - Nota: APTA CON CUIDADO para el piloto; DIFÍCIL como red amplia de comercios y ciudades operada directamente.
 - Automatizar alta, pagos del servicio propio, progreso, vencimientos y cobros de campañas. Limitar el catálogo y los horarios de atención.
-- Piloto propuesto de cuatro semanas: ofrecer la ruta con precio visible a 30 grupos elegibles; buscar al menos cinco compras reales y finalizaciones sin acompañamiento.
+- Piloto gratuito propuesto de cuatro semanas con 30 adultos, distinguiendo residentes y visitantes: medir cuántos empiezan, completan y repiten paseos en días diferentes sin acompañamiento del fundador. Para residentes, estudiar regreso en al menos cuatro días semanales como objetivo por validar; no presentarlo como resultado ni como una prescripción de ejercicio.
+- Validación comercial posterior y separada: con usuarios recurrentes, probar los dos negocios opcionales y registrar compras confirmadas. Las experiencias especiales de pago se evalúan después de demostrar interés en ellas.
 - Son umbrales de decisión propuestos, no resultados obtenidos ni prueba estadística de un mercado masivo.
 - Comparación pendiente con Novaturis: confirmar qué puede probarse gratis y en qué destinos. Comparar experiencias disponibles con necesidades, tiempo y presupuesto semejantes. Si no existe un recorrido comparable en Santa Marta, registrar esa limitación; no concluir que Turciti es superior.
-- Preguntar a los compradores por qué eligieron Turciti y registrar si pesaron la diversión, compartir el plan o el ahorro. Comprobarlo con pagos y una segunda compra, además de respuestas a una encuesta.
-- Registrar origen de cada grupo, ingresos, costo del beneficio, tiempo de venta y soporte. Proponer como límite diez minutos de soporte por grupo y comprobar si se sostiene.
+- Preguntar por qué vuelven a pasear: descubrimiento, colección o compañía. Contrastar respuestas con recorridos repetidos. En la prueba comercial, registrar por qué eligieron el negocio y si compraron otra vez.
+- Registrar origen de usuarios, costo de mapas y servicio, revisión de lugares, ingresos, costo del beneficio y soporte. Proponer un límite de diez minutos de ayuda por grupo y comprobar si se sostiene.
 - Buscar que los dos aliados quieran repetir con condiciones económicas concretas; una felicitación no equivale a una renovación.
 - Medir por separado repetición de turistas y residentes, regreso espontáneo y compra de una segunda experiencia. Si el uso es ocasional o semanal, no llamarlo diario.
 - Evaluar con las cuatro perspectivas trabajadas: fundador, inversionista, negocio y usuario. Comprobar diversión, retorno comercial y operación sostenible.
 - No desarrollar la plataforma completa antes del piloto. Si solo funciona con descuentos costosos, atención permanente o visitas comerciales continuas, reducir el alcance o descartarlo.
 
-Revisión documental y ampliación del análisis de Novaturis: 3 de noviembre de 2026. Fuentes públicas consultadas; declaraciones del proveedor separadas de los registros del dominio. Sin prueba práctica de sus cuentas o servicios. Ficha de la idea conversada y propuesta de piloto, sin afirmar producto activo, usuarios, ventas ni alianzas existentes para Turciti. Siguen pendientes la diferenciación, el pago, la frecuencia, el retorno comercial y la operación sostenible.
+Actualización de diseño: 4 de noviembre de 2026. Se incorpora el núcleo gratuito de paseos y la referencia de Pikmin Bloom. Investigación de Novaturis realizada el 3 de noviembre de 2026. Fuentes públicas consultadas; declaraciones del proveedor separadas de los registros del dominio. Sin prueba práctica de sus cuentas o servicios. Ficha de la idea conversada y propuesta de piloto, sin afirmar producto activo, usuarios, ventas ni alianzas existentes para Turciti. Siguen pendientes la diferenciación, el pago, la frecuencia, el retorno comercial y la operación sostenible.
