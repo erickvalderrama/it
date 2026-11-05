@@ -1,0 +1,73 @@
+54. MisionDeBarrio
+
+Revisión documental: 5 de noviembre de 2026. Propuesta sin construir ni validar. Precios y metas hipotéticos.
+
+1. Título
+MisiónDeBarrio: ganar dinero por comprobar cosas en comercios cercanos.
+
+2. Necesidad / Problema a solucionar
+La persona quiere un ingreso extra aprovechando un recorrido habitual. Marcas, distribuidores y negocios con varios puntos necesitan comprobar que sus productos, precios y promociones aparecen como acordaron. Hay que demostrar que pagarían por esa información.
+
+3. Argumentos
+Una web muestra encargos cercanos con recompensa, instrucciones, duración estimada y fecha de pago.
+Ejemplo: una marca encarga comprobar un aviso en una tienda participante. La persona reserva la tarea, fotografía el aviso y contesta dos preguntas. Recibe $5.000 COP si cumple las reglas publicadas.
+- El MVP no exige comprar, adelantar dinero ni pagar para participar.
+- La reserva protege el cupo durante la tarea. Aprobación, corrección y rechazo tienen criterios claros; no dependen de que al cliente le guste el resultado.
+- El informe es privado: no se pagan reseñas positivas, visitas o likes falsos.
+- Las misiones pueden resultar entretenidas; el beneficio principal es dinero por una comprobación útil.
+- Si la recompensa es $5.000 y el transporte adicional cuesta $2.000, quedan $3.000 antes de valorar el tiempo.
+MVP: una zona de Santa Marta, dos empresas pagadoras y puntos autorizados. El fundador construye la web y automatiza; las visitas las hacen los participantes.
+Diferencia frente a Turciti: el usuario cobra por un encargo, sin comprar para coleccionar. Frente a PrecioDeMiCuadra: reportes encargados y financiados por empresas.
+Público amplio de adultos con celular. Uso casi diario solo si hay suficientes tareas cercanas; no se verificó esa frecuencia. Registrados no equivale a trabajo disponible.
+
+4. Cómo ganar dinero
+Quién paga: EMPRESAS. El usuario común no paga; recibe la recompensa anunciada.
+Hipótesis por tarea aprobada: empresa paga $10.000, participante recibe $5.000 y quedan $5.000 de diferencia bruta ANTES de recaudo, dispersión, impuestos, revisión, fraude, reclamos y operación. No es utilidad neta ni una tarifa validada.
+Las empresas financian campañas antes de publicar tareas. La reserva para recompensas no es ingreso disponible. No descontar cargos ocultos al participante ni bloquear saldos indefinidamente detrás de mínimos: presupuestar una fecha de liquidación de cualquier saldo aprobado.
+Agrupar pagos por beneficiario puede ayudar; una transferencia por tarea pequeña puede consumir el margen. ePayco Payouts es una posibilidad investigada, sin admisión de este modelo ni integración confirmadas. Exige verificar beneficiarios, condiciones y costos; el dinero pasa primero por el saldo de la plataforma.
+Referencia: investigaciones/Turciti-pagos-Colombia-2026-11-05.md.
+Antes de construir pagos, conseguir una empresa dispuesta a financiar una campaña y definir contrato y reglas de remuneración.
+
+5. Competidores en Colombia
+- Mobijob: competidor directo, con reportes en tiendas y hogares, fotos, precios y promociones; publica pagos de trabajos aprobados a DaviPlata.
+  Web: https://mobijob.co/
+  App oficial: https://play.google.com/store/apps/details?id=co.mobijob
+- SmartSpotter: su ficha oficial incluye Colombia y tareas pagadas de exhibiciones, precios y promociones, con revisión de evidencias.
+  Web: https://www.smartspotter.com/
+  App oficial: https://play.google.com/store/apps/details?id=com.smartspotter.app
+No se probaron tareas, retiros ni tarifas para empresas.
+
+6. Competidores en Santa Marta
+Mobijob y SmartSpotter son alternativas para Colombia; no se verificaron encargos activos en Santa Marta ni su ausencia. Comparar también con empleados del negocio o verificadores contratados directamente. Comprobar la oferta local antes del piloto.
+
+7. Competidores en el mundo
+- Field Agent: su app describe auditorías, fotos y opiniones pagadas para personas comunes en Estados Unidos.
+  Web de participantes: https://app.fieldagent.net/
+  App oficial: https://play.google.com/store/apps/details?id=net.fieldagent
+  La antigua web comercial https://www.fieldagent.net/ redirige a https://storesight.com/; eso no demuestra que desapareciera la app.
+- SmartSpotter: enumera países como Países Bajos, Reino Unido y Australia. Ofrece comprobaciones de promociones, precios y disponibilidad.
+  https://www.smartspotter.com/solutions
+Documentan una necesidad internacional, no demanda validada para esta propuesta.
+
+8. Nuestra ventaja
+Océano azul: BAJO. La mecánica ya existe en Colombia.
+Posible foco: campañas pequeñas de distribuidores y cadenas locales, con tareas cortas y pago claro. No se verificó que los rivales desatiendan ese segmento. El mapa o la apariencia de juego no bastan.
+
+Filtro de LLM gratuitos, revisión documental vigente al 5 de noviembre de 2026:
+Claude Free ofrece búsqueda, memoria, código y conexiones con herramientas: https://claude.com/pricing
+Un LLM puede crear el formulario, analizar fotos y redactar el informe. El valor adicional exige participantes reales, visitas autorizadas, evidencia actual, un cliente que financie el encargo y pagos cumplidos. Un asistente puede utilizar una red externa que ya haga esto; esa red compite.
+Comparar también con WhatsApp, formularios gratuitos y transferencias del cliente. Si resuelven sus encargos con poco esfuerzo, descartarla. No se hizo una prueba práctica de todos los LLM gratuitos.
+
+9. Riesgos
+Falta de empresas pagadoras; pocas tareas cercanas; tiempo o transporte que hacen insignificante la recompensa; fotos antiguas o generadas, GPS falseado y cuentas duplicadas; revisión manual costosa; rechazos injustos y pagos tardíos.
+GPS y cámara no prueban autenticidad por sí solos. Usar puntos participantes, respetar permisos y evitar fotografiar personas o datos innecesarios. Definir contratos, datos y obligaciones de remuneración según el país; no se verificó una clasificación laboral aplicable.
+Prueba propuesta: dos empresas financian 15 tareas cada una; 10 adultos participan durante cuatro semanas en un área pequeña. Medir dinero recibido, tiempo, transporte, errores, costo por reporte y minutos de revisión.
+Continuar solo si una empresa vuelve a comprar, al participante le compensa y queda contribución positiva después de todos los costos. Son criterios de prueba, no resultados. No prometer trabajo diario ni un sueldo.
+
+10. Internacionalización
+MEDIA. Necesidad documentada, rivales fuertes y operación local por ciudad. Colombia primero; después estudiar México y Perú, adaptando pagos, contratos y reglas. Abrir zonas solo con presupuesto para encargos y capacidad de revisión y pago.
+
+11. Problemas para 1 sola persona
+El desarrollo encaja con la experiencia del fundador en frontend, backend, servidores e infraestructura. Ventas, revisión antifraude y reclamos son los límites.
+Nota: APTA CON CUIDADO para un piloto pequeño; DIFÍCIL a escala masiva sin apoyo operativo.
+Estandarizar tareas, limitar campañas y atender en horarios definidos. Si exige diseñar cada investigación, perseguir clientes para cobrar o revisar todo a mano, no cumple la operación individual.
