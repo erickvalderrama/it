@@ -1,0 +1,80 @@
+53. CompraEnParche
+
+Revisada el 5 de noviembre de 2026. Propuesta sin construir ni validar; los precios y metas siguientes son hipótesis.
+
+1. Título
+CompraEnParche: comprar una cantidad normal, pagando precio de grupo.
+
+2. Necesidad / Problema a solucionar
+Una persona quiere ahorrar en productos habituales sin comprar una caja completa ni adelantar el dinero de sus vecinos. Un comercio necesita vender volumen confirmado y planear sus pedidos. El descuento solo sirve si el precio final y el desplazamiento cuestan menos que una compra equivalente disponible cerca.
+
+3. Argumentos
+Una web reúne compras individuales de personas de una misma zona para alcanzar una oferta de volumen de UN comercio. No exige conocer a los otros compradores ni invitarlos.
+- El negocio publica producto exacto, marca, cantidad por persona, existencias reservadas, mínimo de compras pagadas, plazo y lugar de recogida.
+- La persona ve el precio final y se une a una campaña abierta. Primero puede expresar interés gratis; eso NO cuenta como venta.
+- Se abre una ventana de pago. Solo cuentan pagos aprobados y conciliados. Al completar el mínimo, cada persona recibe su propio código y recoge su propia compra.
+- Si no se completa antes del cierre, se cancela y devuelve íntegramente lo pagado. Deben informarse plazos por medio de pago; no prometer devolución instantánea ni comisiones reembolsadas por la pasarela.
+La parte entretenida sería completar juntos una meta de ahorro, con un contador verdadero. No requiere premios al azar ni que el usuario publique datos de otros.
+MVP: un barrio de Santa Marta, dos comercios, pocos productos cerrados de aseo o despensa no perecedera; el comercio conserva, separa y entrega cada pedido. El fundador desarrolla y automatiza; no compra inventario, reparte ni abre paquetes.
+Diferencia frente a Turciti: el descuento nace del volumen de pedidos conjuntos confirmados. Frente a PaseDiario: compra actual de productos, sin prepagar consumos futuros. Frente a PrecioDeMiCuadra: ejecuta compras, no solo compara precios.
+Frecuencia: necesidad recurrente y público amplio de hogares. En este MVP la compra probablemente sería semanal o quincenal; consultar ofertas diariamente no demuestra uso diario útil. Es un encaje parcial con ese criterio. Si el uso diario individual es indispensable, descartarla.
+
+4. Cómo ganar dinero
+Quién paga: PERSONAS. La persona paga una compra con cargo de plataforma incluido y visible; el comercio recibe el importe pactado. No cobrar por mirar ni por expresar interés.
+
+Ejemplo hipotético de una campaña completada por 20 compradores:
+- Mismo combo disponible normalmente cerca: $40.000 COP.
+- Precio final dentro de CompraEnParche: $33.000, con cargos e impuestos que correspondan incluidos.
+- Importe pactado para el comercio: $29.000 por combo.
+- Diferencia bruta de plataforma: $4.000 por compra.
+- Ahorro del comprador: $7.000 (17,5%) si no tiene un desplazamiento adicional. Si ese desplazamiento cuesta $2.000, el ahorro baja a $5.000.
+El comercio debe confirmar que $29.000 cubre sus costos y margen. No se verificó ese precio, un acuerdo ni que pueda sostenerse ese descuento.
+
+Con la tarifa publicada de ePayco para cuenta Davivienda, una compra con tarjeta de $33.000 tendría comisión de ($33.000 × 2,64% + $690) × 1,19 = $1.857,83. Una dispersión bancaria de $2.856, repartida entre esos 20 pedidos del mismo negocio, añade $142,80 por pedido. De la diferencia de $4.000 quedarían unos $1.999,37 ANTES de impuestos propios, retenciones, GMF cuando aplique, devoluciones, fraude, soporte y operación; no es utilidad neta ni cálculo tributario completo. Con PSE menor a $60.000, la tarifa publicada de $2.380 deja $1.477,20 bajo el mismo supuesto de dispersión. Agrupar la dispersión no elimina el cobro de cada pago individual.
+La tarifa de dispersión con IVA proviene de la captura del panel aportada por el usuario, revisada el 5 de noviembre de 2026. Ver también investigaciones/Turciti-pagos-Colombia-2026-11-05.md. Las condiciones contractuales, tributarias y de devoluciones deben definirse antes de cobrar.
+Fuente de recaudo: https://epayco.com/tarifas/
+
+Reutilizar el flujo investigado de recaudo y Payouts exige admisión del marketplace y verificación de beneficiarios. El dinero pasa primero por el saldo de la plataforma, luego se dispersa al negocio; no es pago directo del comprador al banco del comercio. No se verificó una función nativa que resuelva la campaña colectiva.
+
+5. Competidores en Colombia
+- Makro: alternativa fuerte para ahorrar sin organizar grupos; anuncia compra por unidad sin pasaporte. Web y compra: https://makro.com.co/CompraMakro y https://tienda.makro.com.co/
+- Olímpica: precios y promociones de compra individual. https://www.olimpica.com/
+- Rappi: compras y promociones de comercios; sustituto para conseguir el producto con menos espera. Web: https://www.rappi.com.co/ App oficial: https://play.google.com/store/apps/details?id=com.grability.rappi
+- Grupos de WhatsApp y trato directo con un comercio: alternativa barata para coordinar compras pequeñas. Hay que demostrar una mejora suficiente frente a ese proceso.
+No se verificó en esta revisión una plataforma colombiana idéntica con operación comprobada en Santa Marta. Esto no demuestra ausencia de competencia.
+
+6. Competidores en Santa Marta
+Olímpica documenta puntos Aluna y Bavaria en Santa Marta. Rappi lista comercios Olímpica en la ciudad; la cobertura depende de la dirección. Son sustitutos reales y el precio local debe comprobarse antes de cada campaña.
+https://www.olimpica.com/olimpica-abre-dos-nuevas-tiendas-en-santa-marta
+https://www.rappi.com.co/santa-marta/tiendas/marca-olimpica-express
+No se hicieron visitas ni compras de comparación.
+
+7. Competidores en el mundo
+- Accessin Market, Argentina: compras agrupadas entre residentes, mínimos de volumen y proveedores externos. Competidor directo del mecanismo, aunque limitado a comunidades habilitadas. Web: https://accessin.net/market/ Términos: https://accessin.net/terms_and_conditions_market App oficial: https://play.google.com/store/apps/details?id=com.accessin.app
+- SABE, Chile: compras y beneficios colectivos para edificios y condominios. App oficial: https://apps.apple.com/cl/app/sabe-app/id6756894904 y https://play.google.com/store/apps/details?id=com.sabe.app
+Estos casos documentan la oferta de ahorro colectivo en otros países; no prueban demanda local ni rentabilidad de esta propuesta. No se trasladan sus porcentajes comerciales de ahorro al ejemplo de Santa Marta.
+
+8. Nuestra ventaja
+Océano azul: BAJO. El mecanismo de compra colectiva ya existe.
+Hipótesis de nicho: campañas abiertas por cercanía, también para personas que no pertenecen a un edificio afiliado; compra pequeña y recogida individual próxima. Debe superar precio, esfuerzo y disponibilidad de las alternativas, no solo tener otro nombre.
+
+Filtro de LLM gratuitos, revisión documental del 5 de noviembre de 2026: Claude Free ofrece búsqueda, código, memoria y conexiones con herramientas. No basta alegar que un chat no coordina, no recuerda o no crea aplicaciones.
+https://claude.com/pricing
+ChatGPT, Gemini u otro asistente gratuito pueden ayudar a comparar ofertas y organizar un grupo. El valor adicional propuesto requiere comercios reales con precios pactados, existencias comprometidas, compradores reales, confirmación de pagos y entrega. Un asistente puede utilizar servicios externos que ya den ese resultado; esos servicios también son competencia. Si WhatsApp más una oferta pública obtiene lo mismo con menos esfuerzo, descartarla. Esta fue una revisión de documentación, no una prueba comparativa práctica de todas las cuentas gratuitas.
+
+9. Riesgos
+- No reunir suficientes compradores cerca y a tiempo; interés no equivale a pagos.
+- Que Makro, Olímpica u otra tienda ya sean más baratos sin esperar ni desplazarse más.
+- Que el consumidor compre cosas innecesarias por completar la meta.
+- Cancelaciones y reembolsos con costos de recaudo posiblemente no recuperables: la plataforma necesita una reserva propia; no financiarla reteniendo el reembolso del usuario.
+- El ahorro desaparece si se cambia marca, cantidad, calidad o costo de recogida.
+- Comercio sin margen, stock incumplido o ventas habituales trasladadas al precio rebajado.
+- Fraude de pagos, disputas, conciliación y responsabilidades de consumo y datos.
+Antes de programar pagos colectivos: probar ofertas reales con los dos comercios. Después, piloto limitado de cuatro semanas y seis campañas, con dinero solo al tener contratos y flujo de reembolso definido. Metas propuestas: cuatro campañas completadas, ahorro neto mediano de al menos 10%, repetición de 30% en el mes y contribución positiva después de campañas fallidas. Son umbrales de decisión inventados para el piloto, no resultados ni estadísticas del mercado. Abandonar si solo funciona subsidiando descuentos o ignorando soporte.
+
+10. Internacionalización
+ALTA para la necesidad; operación por país, no lanzamiento simultáneo. Colombia primero; después estudiar México y Perú. Adaptar moneda, pasarela, normas y comercios. Chile y Argentina muestran competidores, no territorios libres. Cada zona necesita su propia densidad de compradores y acuerdos; traducir la web no crea esa red.
+
+11. Problemas para 1 sola persona
+La programación encaja con los conocimientos del fundador. Lo difícil es conseguir ofertas mejores que las cadenas, captar compradores por zona y resolver faltantes y reembolsos.
+Nota: APTA CON CUIDADO para un piloto pequeño, DIFÍCIL como marketplace masivo sin apoyo operativo. Limitar campañas simultáneas y horarios, automatizar estados y conciliación, y dejar la entrega al comercio. Si exige revisar cada pedido manualmente, repartir o dar soporte permanente, no cumple el criterio de operación individual.
