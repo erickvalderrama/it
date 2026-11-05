@@ -1,15 +1,21 @@
-50. "Turciti" - Explorar la ciudad con misiones, medallas y experiencias que valgan la pena
+50. "Turciti" - Explorar la ciudad con beneficios económicos y medallas opcionales
 
 Necesidad/Problema a solucionar:
 - Ayudar a residentes y visitantes a encontrar un plan entretenido para compartir y descubrir lugares.
 - Idea trabajada previamente: misiones, medallas públicas y privadas, QR + GPS, rankings y álbum anual por sectores o zonas. Dominio recordado: turciti.com; no se verificó su estado.
 - Debilidad principal: coleccionar medallas puede resultar agradable sin justificar un pago ni un regreso.
+- Validación exploratoria reportada por el usuario el 5 de noviembre de 2026: habló con DOS personas. Ambas dijeron que no irían a un lugar a comprar solo para coleccionar medallas; considerarían hacerlo si reciben un descuento o acumulan un descuento para otra compra.
+- Son dos opiniones declaradas, no compras observadas, una muestra representativa ni demanda comprobada. No generalizar que nadie quiera medallas.
+- Cambio de prioridad para el componente comercial: probar ahorro real, inmediato o acumulable, como beneficio principal. Mantener medallas, personaje y álbum como complementos opcionales; no tratarlos como motivo de compra ya validado.
 - La frecuencia del turista depende de su estancia. Incluir residentes no demuestra uso diario: ese criterio sigue sin cumplirse de forma comprobada.
 - Questo comercializa exploraciones con acertijos en distintas ciudades: evidencia de oferta internacional, no de demanda o rentabilidad para Turciti.
   https://questoapp.com/faq
 
 Argumentos:
-- Núcleo gratuito propuesto: "Tu paseo de hoy". Explorar y completar el álbum público debe ser una experiencia útil y entretenida sin comprar ni entrar en un comercio.
+- Bucle económico a probar: ver un beneficio concreto y su precio final, elegirlo, acudir al negocio, comprar o canjear con confirmación del comercio y, cuando corresponda, acumular un descuento claramente definido para volver.
+- Mostrar ahorro frente a un precio habitual verificable, condiciones, cupos, fechas y restricciones antes de que la persona se desplace. Un recargo de Turciti puede consumir el ahorro y debe entrar en el precio final mostrado.
+- Comparar dos ofertas: descuento inmediato y descuento acumulado para una compra posterior. Definir quién financia el beneficio, cuándo se obtiene, dónde se usa y qué ocurre ante devolución; no crear promesas de dinero o saldo convertible sin diseño y aprobación.
+- Diseño gratuito previo, aún por validar: "Tu paseo de hoy". Explorar y completar el álbum público sigue como opción sin comprar ni entrar en un comercio. Las dos entrevistas no prueban que ese paseo funcione, pero tampoco lo descartan.
   1) Elegir cuánto tiempo quiere salir: 10, 20 o 30 minutos.
   2) Ver un recorrido estimado con dos o tres puntos públicos cercanos, tomados de un catálogo revisado. Mostrar distancia y condiciones conocidas antes de empezar.
   3) Llegar a cada punto, confirmar ubicación y resolver una observación breve sobre el lugar. No exigir fotografías de personas ni QR instalados para completar el paseo público.
@@ -20,7 +26,7 @@ Argumentos:
 - Se puede jugar solo desde el primer día; compartir una misión con amigos es una opción posterior. No depender de una comunidad grande para que el primer paseo tenga sentido.
 - Los negocios son paradas opcionales: pueden ofrecer un beneficio o plan identificado como comercial. Comprar, reservar o entrar al local no desbloquea el progreso público obligatorio.
 - Mantener la visión de medallas públicas y privadas, álbum anual por zonas y campañas. Las medallas privadas pueden exigir validación del establecimiento, con condiciones visibles; una visita no demuestra una compra.
-- MVP en Flutter, de acuerdo con la tecnología indicada por el usuario: una zona de Santa Marta, cinco puntos públicos revisados, tres recorridos combinables, medallas y progreso semanal. Los dos comercios opcionales se incorporan para probar conversión, sin ser requisito para lanzar el paseo gratuito.
+- MVP de paseos planteado antes de la validación comercial, en Flutter, de acuerdo con la tecnología indicada por el usuario: una zona de Santa Marta, cinco puntos públicos revisados, tres recorridos combinables, medallas y progreso semanal. Los dos comercios opcionales se incorporan para probar conversión, sin ser requisito para lanzar el paseo gratuito.
 - Como hipótesis posterior, ofrecer experiencias especiales autoguiadas de 60–90 minutos para parejas o grupos, con avance compartido y beneficios acordados. No cobrar por terminar el ciclo gratuito.
 - Tu experiencia permite construir el sistema; revisar lugares y conseguir aliados siguen exigiendo tiempo. Esta revisión define el diseño, no acredita una implementación.
 Cómo ganar dinero:
@@ -29,7 +35,21 @@ Cómo ganar dinero:
 - Posponer suscripción mensual y créditos hasta demostrar que alguien compra una segunda experiencia. El turista ocasional no justifica por sí mismo una mensualidad.
 - Negocios: probar campañas opcionales de duración y cupos definidos, con beneficios o planes reales para quienes quieran visitar el comercio. Medir compras confirmadas y margen; ofrecer suscripción solo si hay valor recurrente. No prometer ventas por contabilizar caminantes cercanos.
 - Principio trabajado: "No te pago por medallas; te pago si me traes clientes". Separar escaneos, visitas, canjes y ventas; no presentar todos como clientes nuevos.
-- Cobrar por experiencias especiales y servicios comerciales propios, conservando el núcleo gratuito. El comercio vende sus productos directamente y confirma el beneficio pactado; Turciti no cobra esas ventas para repartirlas.
+- Nuevo flujo solicitado por el usuario: comprar productos o experiencias dentro de Turciti y transferir al negocio su parte. La investigación de ePayco permite evaluar cobro más dispersión bancaria; sustituye para este experimento la restricción anterior de cobrar únicamente los servicios propios.
+- ePayco Split Payments exige cuentas de los participantes verificadas y asociadas. Para evitar que cada local abra una cuenta en esa pasarela, la alternativa investigada es Payouts: Turciti cobra, recibe el saldo y ordena el pago a la cuenta bancaria del negocio. El dinero no va directamente del comprador al banco del local en este modelo.
+- Registrar al negocio como beneficiario bancario con los datos exigidos y verificar la titularidad. Confirmar con ePayco la admisión del marketplace, la activación, acceso API, disponibilidad de fondos, impuestos y responsabilidades.
+- Tarifa publicada de cobro ePayco con Davivienda vinculada: 2,64% + $690 + IVA. Payout bancario confirmado en la captura del panel aportada por el usuario: $2.400 + IVA = $2.856. Mensualidad de Payouts: $0. Las transferencias a cuentas ePayco se anuncian gratis, pero requieren esa cuenta y no cumplen la preferencia de usar solo la cuenta bancaria del local.
+- La comparación con Wompi, Kushki y otras alternativas, las simulaciones, los impuestos y las fuentes se guardan en investigaciones/Turciti-pagos-Colombia-2026-11-05.md.
+- Se exploraron recargos del 10% y del 20% al comprador como HIPÓTESIS, sin reducir el precio base acordado con el negocio. No son porcentajes aprobados ni utilidad neta. El 20% se propuso para un piloto con compras desde $20.000 y abonos agrupados por negocio de al menos $100.000, sujetos al contrato y plazo acordado.
+- Agrupar varias ventas del MISMO negocio en una transferencia reduce el costo fijo por abono. Enviar un lote con transferencias separadas no elimina ese costo. No prometer abono diario o inmediato sin ventas y fondos disponibles.
+- Medir margen de contribución, caja tras retenciones, facturación e impuestos por separado. No presentar retenciones como gastos definitivos ni un saldo antes de renta y operación como ganancia.
+- Precio medio de $30.000 para el negocio y $36.000 al comprador con un recargo del 20%: supuesto de planificación, no promedio medido de Turciti. Las cantidades de ventas conversadas también son escenarios, no pronósticos.
+- Fuentes principales:
+  https://epayco.com/tarifas/
+  https://epayco.com/payouts/tarifas/
+  https://docs.epayco.com/docs/split-descripcion
+  https://epayco.com/terminos-y-condiciones-generales-2026/
+- Estado: capacidad del proveedor investigada y tarifas documentadas; no se hizo una integración, activación comercial, compra de prueba, transferencia ni alianza para Turciti.
 - Patrocinios de eventos pueden ser una vía, pero no equivalen a ingresos diarios ni a demanda B2C comprobada.
 
 Competidores en Colombia:
@@ -73,8 +93,8 @@ Competidores en el mundo:
 
 Nuestra ventaja y filtro frente a LLM gratuitos:
 - Nivel de océano azul: BAJO. Medallas, QR, GPS, álbumes y rankings ya existen. La diferencia tendría que comprobarse en la calidad del juego, la distribución local y el beneficio cumplido.
-- Posicionamiento a probar: paseos cortos y gratuitos para descubrir Santa Marta, con lugares revisados y una colección local; ofertas comerciales opcionales. Novaturis destaca fotografías y álbum; Pikmin Bloom ya ofrece caminar y coleccionar. Verificar el solapamiento antes de anunciar exclusividad y comprobar si el contenido local justifica elegir Turciti.
-- Prioridad: demostrar que las personas salen, completan paseos y regresan por iniciativa propia; después comprobar compras y retorno comercial. El nombre, las medallas y una interfaz distinta no bastan como defensa.
+- Posicionamiento actualizado a probar: beneficios económicos cumplidos por una red de negocios de Santa Marta, con compra o canje y regreso incentivado por descuentos; paseos, personaje y colección como opciones. El diseño anterior de paseos cortos gratuitos también sigue como hipótesis. Novaturis destaca fotografías y álbum; Pikmin Bloom ya ofrece caminar y coleccionar. Verificar el solapamiento antes de anunciar exclusividad y comprobar si el contenido local justifica elegir Turciti.
+- Prioridad tras las dos entrevistas: comprobar elección del descuento, compra o canje real y regreso del cliente; estudiar por separado si los paseos y las medallas añaden valor. El nombre, las medallas y una interfaz distinta no bastan como defensa.
 - Un asistente gratuito puede proponer rutas, escribir acertijos, generar un álbum y producir código. Claude Free documenta búsqueda web, archivos, ejecución de código y conectores.
   https://claude.com/pricing
 - El núcleo gratuito debe compararse con rutas y retos generados por un asistente y con apps gratuitas de exploración. Mantener visitas y progreso persistente no demuestra por sí solo una ventaja suficiente. En las funciones comerciales, los beneficios y canjes requieren aceptación real del negocio, pero son opcionales para el paseo.
@@ -83,6 +103,10 @@ Nuestra ventaja y filtro frente a LLM gratuitos:
 - La documentación permite identificar alternativas; no demuestra que Turciti supere el filtro. No se realizó prueba práctica.
 
 Riesgos y decisiones para reducirlos:
+- Dos personas piden descuentos, pero todavía no han validado un precio, una compra o la repetición. Probar ofertas con dinero y condiciones reales antes de atribuir tracción al proyecto.
+- El descuento puede atraer una compra aislada sin generar retorno rentable. Comparar margen del comercio y de Turciti después de beneficios, tarifas y devoluciones.
+- Recaudar y pagar a terceros añade conciliación, comprobantes, retenciones, contracargos, fraude y obligaciones de conocimiento del beneficiario. La capacidad de Payouts no constituye por sí sola autorización para el modelo de marketplace.
+- La dispersión fija de $2.856 puede hacer inviable cada compra pequeña si se transfiere por separado. No compensarla prometiendo ventas inexistentes ni llamando ganancia a la caja provisional.
 - Paseos sin repetición: medir recorridos completados y regresos voluntarios; si las medallas no motivan otra salida, replantear el juego antes de ampliar el catálogo.
 - Usuarios gratuitos sin ingresos: medir por separado adopción, conversión comercial y costo de servirlos. Caminar cerca de un negocio no acredita una venta ni hace sostenible el modelo.
 - Falta de usuarios y comercios al comienzo: probar una ruta que sea divertida por sí misma y solo dos beneficios acordados. Buscar distribución con un alojamiento o comercio aliado, sin depender de una red grande.
@@ -101,8 +125,8 @@ Internacionalización:
 Problemas para 1 sola persona:
 - Nota: APTA CON CUIDADO para el piloto; DIFÍCIL como red amplia de comercios y ciudades operada directamente.
 - Automatizar alta, pagos del servicio propio, progreso, vencimientos y cobros de campañas. Limitar el catálogo y los horarios de atención.
-- Piloto gratuito propuesto de cuatro semanas con 30 adultos, distinguiendo residentes y visitantes: medir cuántos empiezan, completan y repiten paseos en días diferentes sin acompañamiento del fundador. Para residentes, estudiar regreso en al menos cuatro días semanales como objetivo por validar; no presentarlo como resultado ni como una prescripción de ejercicio.
-- Validación comercial posterior y separada: con usuarios recurrentes, probar los dos negocios opcionales y registrar compras confirmadas. Las experiencias especiales de pago se evalúan después de demostrar interés en ellas.
+- Diseño previo de piloto gratuito de paseos, no realizado: cuatro semanas con 30 adultos, distinguiendo residentes y visitantes: medir cuántos empiezan, completan y repiten paseos en días diferentes sin acompañamiento del fundador. Para residentes, estudiar regreso en al menos cuatro días semanales como objetivo por validar; no presentarlo como resultado ni como una prescripción de ejercicio.
+- Siguiente validación comercial propuesta: dos comercios con ofertas comprobables y un grupo pequeño de adultos; comparar descuento inmediato y acumulable, registrar compras, ahorro final, repetición, canjes fallidos y margen. No exigir primero una comunidad de coleccionistas. Las dos personas entrevistadas no se presentan como participantes de un piloto de compras.
 - Son umbrales de decisión propuestos, no resultados obtenidos ni prueba estadística de un mercado masivo.
 - Comparación pendiente con Novaturis: confirmar qué puede probarse gratis y en qué destinos. Comparar experiencias disponibles con necesidades, tiempo y presupuesto semejantes. Si no existe un recorrido comparable en Santa Marta, registrar esa limitación; no concluir que Turciti es superior.
 - Preguntar por qué vuelven a pasear: descubrimiento, colección o compañía. Contrastar respuestas con recorridos repetidos. En la prueba comercial, registrar por qué eligieron el negocio y si compraron otra vez.
@@ -112,4 +136,4 @@ Problemas para 1 sola persona:
 - Evaluar con las cuatro perspectivas trabajadas: fundador, inversionista, negocio y usuario. Comprobar diversión, retorno comercial y operación sostenible.
 - No desarrollar la plataforma completa antes del piloto. Si solo funciona con descuentos costosos, atención permanente o visitas comerciales continuas, reducir el alcance o descartarlo.
 
-Actualización de diseño: 4 de noviembre de 2026. Se incorpora el núcleo gratuito de paseos y la referencia de Pikmin Bloom. Investigación de Novaturis realizada el 3 de noviembre de 2026. Fuentes públicas consultadas; declaraciones del proveedor separadas de los registros del dominio. Sin prueba práctica de sus cuentas o servicios. Ficha de la idea conversada y propuesta de piloto, sin afirmar producto activo, usuarios, ventas ni alianzas existentes para Turciti. Siguen pendientes la diferenciación, el pago, la frecuencia, el retorno comercial y la operación sostenible.
+Actualización: 5 de noviembre de 2026, hora de Colombia. Se registran dos entrevistas exploratorias reportadas por el usuario y la investigación de cobro más dispersión bancaria; descuentos inmediatos o acumulables pasan a ser la prioridad de la prueba comercial. Se conserva el diseño previo de paseos gratuitos y la investigación de Novaturis y Pikmin Bloom. No se afirma que Turciti tenga integración activa, compradores, ventas, aliados o rentabilidad comprobados. La validación de compra, repetición, impuestos y operación sigue pendiente.

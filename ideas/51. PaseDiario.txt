@@ -1,0 +1,91 @@
+51. "Pase diario" - Abonos de consumos cotidianos con descuento en una red de negocios
+
+Necesidad/Problema a solucionar:
+- Quienes compran café, desayuno o almuerzo fuera con frecuencia pueden ahorrar si un local ofrece un paquete que realmente les convenga y les queda en su recorrido habitual.
+- El negocio necesita visitas recurrentes y previsibilidad; no basta con entregar insignias.
+- Público potencial amplio entre consumidores habituales, pero no todo el mundo puede o quiere pagar por adelantado. Uso buscado: cuatro o cinco días por semana; falta comprobarlo.
+- Hay oferta internacional real: MealPal vende membresías para reservar comidas de restaurantes y Panera ofrece un plan de bebidas con canjes limitados. Son precedentes y competidores, no validación de demanda local.
+  https://www.mealpal.com/
+  https://www.mealpal.com/terms-and-conditions/
+  https://www.panerabread.com/en-us/mypanera/subscription/terms-and-conditions.html
+
+Argumentos:
+- Idea: una web que reúne abonos de muchos negocios para comparar y comprar consumos habituales con ahorro comprobable.
+  1) Elegir un negocio cercano y ver producto, cantidad, precio habitual, precio final del pase, sedes, días y horarios.
+  2) Pagar una sola vez un paquete concreto.
+  3) Mostrar un código que el comercio valida al entregar cada consumo. Ver cuántos usos quedan.
+- MVP con tres cafeterías de una zona de Santa Marta: cada pase pertenece a UN negocio elegido. El catálogo reúne muchos comercios; no empezar con un saldo indistinto para gastar en toda la red.
+- Prueba posterior: un pase aceptado por varios negocios, solo con precios, cupos, acuerdos, conciliación y abonos definidos. No asumir que la misma tarifa de consumo sirve en todos.
+- Aprovecha las dimensiones diseñadas o investigadas en Turciti: alta de negocios, catálogo, cobro, códigos, historial, límites de uso, beneficios, reportes y Payouts bancarios. No son módulos operativos ya comprobados.
+- Distinta de Turciti: se compra el ahorro en un consumo que la persona YA necesita repetir; no depende de explorar la ciudad, completar una misión o coleccionar medallas. Distinta de PanSorpresa: no depende de excedentes variables.
+- La experiencia del fundador permite construir el control central de usos y la conciliación. Los comercios preparan y entregan; el fundador no cocina, almacena ni reparte.
+- El componente principal es utilidad y ahorro, sin forzar una mecánica lúdica. La preferencia por ideas frescas y divertidas no obliga a presentar esta suscripción como una invención.
+
+Cómo ganar dinero:
+- Quién paga: PERSONAS.
+- La persona paga el precio final del paquete; el comercio acuerda su parte y la plataforma cobra por la intermediación o gestión, según contrato y factura.
+- Ejemplo HIPOTÉTICO, pendiente de negociar: 20 cafés definidos en un local, máximo uno por día durante 30 días, por $120.000. Si cada café normalmente cuesta $8.000, usar los 20 equivaldría a $160.000 y ahorraría $40.000. Con 15 consumos iguala el precio habitual; con menos puede salir más caro.
+- Si al negocio se le asignan $100.000 y la diferencia bruta es $20.000, un único cobro con tarjeta ePayco-Davivienda de $120.000 cuesta $4.591,02 con IVA, y un Payout $2.856. Restan $12.552,98 antes de las demás liquidaciones fiscales, retenciones, devoluciones y operación. NO es ganancia neta ni una cotización aceptada.
+- Concentrar muchos consumos en un cobro reduce cargos fijos frente a cobrar cada café; no elimina las comisiones ni los impuestos. En una red con varios beneficiarios también se multiplican los abonos: calcularlo con ventas reales.
+- Recaudo más Payouts solo si ePayco admite este modelo y activa sus capacidades. Los locales reciben en su cuenta bancaria con los datos y diligencia exigidos; no prometer fondos directos e instantáneos ni omitir la verificación de titularidad.
+- Definir cuándo se paga al comercio, qué reserva cubre reembolsos y qué pasa si cierra o no entrega. El dinero asignado a futuros consumos no se considera caja libre del fundador.
+- Empezar con compra puntual del pase, sin renovación automática. Mostrar reglas de vigencia, cancelación y consumos restantes antes del pago.
+- Fuentes de pagos y detalle de impuestos:
+  https://epayco.com/tarifas/
+  https://epayco.com/payouts/tarifas/
+  https://epayco.com/terminos-y-condiciones-generales-2026/
+  investigaciones/Turciti-pagos-Colombia-2026-11-05.md
+
+Competidores en Colombia:
+- La Parla WorkCafe comercializa Coffee Pass y Coffee Pass Plus: competencia real en consumos prepagados. Su denominación "ilimitadas" no se traslada a nuestra oferta ni demuestra vigencia mensual sin leer las condiciones del pase concreto.
+  https://laparla.com.co/
+- Entretiempo vende suscripción de café en grano o molido con entregas: alternativa para quien busca ahorrar o facilitar su café en casa, aunque no sea un canje en cafeterías.
+  https://entretiempo.co/suscripciones/
+- Los bonos, paquetes y ventas directas del propio comercio también compiten. No afirmar que la persona necesite otra aplicación para comprar un abono.
+- No se verificó una app oficial separada de estos proveedores; no atribuirles fichas homónimas.
+
+Competidores en Santa Marta:
+- Las mismas compras directas y posibles bonos de cafeterías y restaurantes. Verificar las ofertas concretas de los tres aliados elegidos; una búsqueda pública sin resultados no demuestra mercado vacío.
+- No se confirmó una red local idéntica con abonos intercambiables ni cobertura de MealPal. No anunciar exclusividad local.
+- Comprobar primero si el local ya vende el mismo paquete por WhatsApp con igual o mejor precio.
+
+Competidores en el mundo:
+- MealPal: membresías para reservar y recoger comidas de comercios asociados, con planes y condiciones variables por mercado.
+  https://www.mealpal.com/
+  https://www.mealpal.com/terms-and-conditions/
+- MyPanera+ Sip Club: plan de bebidas en establecimientos participantes de EE. UU. Sus términos actuales limitan a 30 canjes por periodo desde agosto de 2026; no llamarlo ilimitado ni atribuirle espresso o capuchino incluidos.
+  https://www.panerabread.com/en-us/mypanera/subscription/terms-and-conditions.html
+- Son referencias de compra recurrente internacional, no una comparación práctica de sus precios, operación o rentabilidad. Usar sus canales oficiales; no se verificaron enlaces de tienda de apps para esta ficha.
+
+Nuestra ventaja y filtro frente a LLM gratuitos:
+- Nivel de océano azul: BAJO. Los abonos y suscripciones de comida y bebidas existen. La ventaja por probar sería una red concreta de negocios cotidianos, ahorro real, canjes simples y condiciones cumplidas.
+- El resultado indispensable es un acuerdo aceptado por el comercio, un consumo prepagado real y un registro central que evite canjear la misma unidad dos veces.
+- ChatGPT Free y Gemini gratuito pueden investigar, comparar, generar archivos, código y usar funciones conectadas disponibles. No vender esas capacidades como exclusivas ni afirmar que nunca pueden comprar mediante servicios externos.
+  https://help.openai.com/en/articles/9275245-chatgpt-free-tier-faq
+  https://gemini.google/subscriptions/
+- Un chat puede ayudar a usar un proveedor externo: ese proveedor es competencia. Generar un cupón sin la aceptación y entrega del negocio no sustituye el resultado.
+- Comparar con asistente gratuito + compra directa + abonos existentes, con iguales comercios y consumos. Si el ahorro y control ya son equivalentes gratis, descartar esa versión.
+- Revisión documental del 5 de noviembre de 2026; sin prueba práctica de asistentes, compras o canjes.
+
+Riesgos:
+- Necesitar pagar por adelantado limita el público. El ahorro desaparece si la persona no consume lo suficiente; mostrar el punto de equilibrio y no basar el negocio en ocultar usos que caducan.
+- La comisión y las tarifas pueden consumir el descuento. Validar que el precio final sea menor que comprar lo mismo directamente.
+- El local puede cerrar, cambiar productos o incumplir; el prepago genera obligaciones de entrega y devolución.
+- Fraude y códigos compartidos: validación de un uso en servidor, historial y manejo de anulaciones; un QR estático no prueba una entrega.
+- Preparación, ingredientes y alérgenos requieren información y responsabilidades claras. No sustituirla por una etiqueta de "café".
+- Coordinar muchos negocios y liquidaciones puede aumentar soporte. Limitar catálogo y cupos; no prometer una gran red operativa desde el primer día.
+
+Internacionalización:
+- MEDIA: los consumos habituales y abonos tienen precedentes en otros países; el software se reutiliza, pero acuerdos y condiciones se negocian localmente.
+- Plan: una zona de Santa Marta, otra zona colombiana y después una comunidad en México o Perú con aliado operativo.
+- Adaptar moneda, productos, impuestos, cancelaciones y proveedor de pagos. No asumir que ePayco cubre de la misma forma otros países.
+
+Problemas para 1 sola persona:
+- Nota: APTA CON CUIDADO para tres negocios; DIFÍCIL si exige vender, cobrar o resolver cada canje manualmente.
+- MVP web antes de Flutter completo: catálogo, un tipo de pase, pago confirmado, canje validado, consumos restantes y conciliación por negocio.
+- Prueba de seis semanas con tres locales y 30 adultos que ya compren ese producto cerca: durante el primer mes buscar diez pases pagados y uso en cuatro días semanales; observar cinco renovaciones voluntarias al terminar el ciclo. Son umbrales propuestos, no resultados ni una muestra representativa.
+- Comprobar que el comercio publique y valide por sí mismo, que la persona ahorre con los usos reales y que quede margen tras costos completos.
+- Descartar si solo funciona con subsidiar consumos, conseguir siempre nuevos comercios a mano o dar atención humana permanente.
+- Automatizar códigos, límites, confirmaciones, cobros y reportes; el fundador se ocupa de excepciones en horario definido. Preparar continuidad y soporte durante ausencias.
+
+Revisión documental: 5 de noviembre de 2026, hora de Colombia. No se contactaron comercios, negociaron precios, vendieron pases ni construyó el producto. Tarifas y ejemplo no acreditan aprobación comercial ni rentabilidad. Las dos entrevistas de Turciti orientan una hipótesis de beneficio económico; no validan esta nueva idea.

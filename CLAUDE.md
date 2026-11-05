@@ -1,12 +1,27 @@
 # Proyecto: ideas de negocio
 
-Carpeta `ideas/` con una idea de negocio por archivo `.txt`, numerados en orden de creación: `N. Nombre.txt` (ej. `1. Mascotas.txt`). El título dentro del archivo empieza con el mismo número. Idea nueva = siguiente número (hoy van 50: Turciti).
+Carpeta `ideas/` con una idea de negocio por archivo `.txt`, numerados en orden de creación: `N. Nombre.txt` (ej. `1. Mascotas.txt`). El título dentro del archivo empieza con el mismo número. Idea nueva = siguiente número (hoy van 51: PaseDiario).
 
 ## Perfil técnico del fundador
 
 - El usuario tiene conocimientos amplios de servidores, frontend, backend e infraestructura en general.
 - Tener en cuenta esta experiencia al proponer y evaluar ideas: la configuración de servidores y el desarrollo de frontend, backend e infraestructura no son barreras básicas de aprendizaje para él.
 - Las ideas pueden aprovechar esa capacidad técnica. Seguir evaluando el tiempo, los costos, el soporte y la viabilidad de construir, vender y operar el negocio siendo una sola persona.
+
+## Capacidades reutilizables de Turciti para explorar nuevas ideas
+
+Actualizado el 5 de noviembre de 2026 por indicación del usuario. Buscar también negocios que aprovechen estas dimensiones, especialmente redes con MUCHOS comercios; es una línea preferente, no una obligación para todas las ideas.
+
+- Catálogo de negocios, productos, experiencias, ofertas y campañas; condiciones por fechas, horarios, cupos y zonas.
+- Usuarios, códigos QR o códigos de canje, validación del comercio, historial y control de usos. GPS, rutas, medallas, álbum y personaje son dimensiones opcionales según el beneficio real.
+- Compra dentro de la aplicación y cobro con distintos medios; confirmación desde servidor, conciliación y seguimiento del estado.
+- Capacidad investigada del proveedor ePayco: recaudo más Payouts a cuentas bancarias de comercios beneficiarios. El flujo evita exigirles una cuenta ePayco para recibir una transferencia bancaria; la empresa operadora sí debe vincularse y cumplir las condiciones, y el modelo de marketplace requiere admisión.
+- En recaudo más Payouts, el saldo pasa primero por la cuenta de la plataforma en la pasarela. No confundirlo con un split directo ni con transferencias gratuitas o instantáneas garantizadas.
+- Confirmar y verificar los datos del beneficiario, el acceso API, los costos, impuestos, plazos, reembolsos y responsabilidades. No interpretar "sin cuenta en la pasarela" como ausencia de diligencia o verificación.
+- La experiencia del fundador permite construir frontend, backend, infraestructura y automatización para estas redes. Estado actual de estas capacidades: diseño o investigación; NO se verificó una implementación operativa en Turciti.
+- Señal exploratoria de Turciti: DOS personas consultadas por el usuario dijeron que no comprarían por coleccionar medallas; sí considerarían un descuento inmediato o acumulable. Registrar esta señal sin generalizarla al mercado ni llamarla demanda validada.
+- Detalle y fuentes: ideas/50. Turciti.txt e investigaciones/Turciti-pagos-Colombia-2026-11-05.md.
+- Al proponer otra idea con estas capacidades, comprobar qué cambia en la necesidad y el modelo de negocio; no reciclar Turciti cambiándole solo el nombre.
 
 ## Reglas para cada idea nueva
 
