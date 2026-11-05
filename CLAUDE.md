@@ -10,11 +10,11 @@ Carpeta `ideas/` con una idea de negocio por archivo `.txt`, numerados en orden 
 
 ## Capacidades reutilizables de Turciti para explorar nuevas ideas
 
-Actualizado el 5 de noviembre de 2026 por indicación del usuario. Línea de búsqueda actual: resolver un problema real de un negocio mediante una experiencia que entretenga a las personas. Aprovechar las dimensiones de Turciti cuando aporten valor, sin forzarlas en todas las ideas.
+Actualizado el 5 de noviembre de 2026 por indicación del usuario. Línea de búsqueda actual: ofrecer un beneficio concreto al USUARIO COMÚN y resolver un problema real del negocio cuando participe uno. La diversión puede acompañar ese beneficio; entretener por sí solo no basta para las nuevas ideas. Aprovechar las dimensiones de Turciti cuando aporten valor, sin forzarlas en todas las ideas.
 
 - Puede participar un solo negocio o una red de MUCHOS comercios.
 - El pago puede ser individual o de VARIAS PERSONAS por algo; son opciones independientes, no requisitos simultáneos. También puede pagar el negocio si es quien recibe el valor.
-- El mecanismo de pago no define la idea. Identificar primero el problema del negocio, qué entretiene a la persona y el beneficio concreto para ambas partes.
+- El mecanismo de pago no define la idea. Identificar primero qué gana el usuario común, cómo se comprueba y qué problema resuelve para el negocio. Evaluar el entretenimiento como complemento.
 - Si la idea incluye compras conjuntas o aportes, distinguirlos de una calculadora para dividir cuentas. No se verificó un botón nativo de ePayco que resuelva todo el pago colectivo: estados, consentimiento, fallos y devoluciones requieren diseño y validación.
 
 - Catálogo de negocios, productos, experiencias, ofertas y campañas; condiciones por fechas, horarios, cupos y zonas.
@@ -27,6 +27,36 @@ Actualizado el 5 de noviembre de 2026 por indicación del usuario. Línea de bú
 - Señal exploratoria de Turciti: DOS personas consultadas por el usuario dijeron que no comprarían por coleccionar medallas; sí considerarían un descuento inmediato o acumulable. Registrar esta señal sin generalizarla al mercado ni llamarla demanda validada.
 - Detalle y fuentes: ideas/50. Turciti.txt e investigaciones/Turciti-pagos-Colombia-2026-11-05.md.
 - Al proponer otra idea con estas capacidades, comprobar qué cambia en la necesidad y el modelo de negocio; no reciclar Turciti cambiándole solo el nombre.
+
+## Beneficios exigidos para el usuario común
+
+Indicación del usuario, 5 de noviembre de 2026: al hablar del beneficio para el "cliente", se refiere a la PERSONA COMÚN que utiliza la experiencia, no al negocio. Lo que gana el comercio y lo que gana la plataforma se evalúan por separado.
+
+Catálogo de beneficios para explorar:
+1. Ahorrar dinero: menor precio final, descuentos y compras que realmente cuestan menos.
+2. Recibir más por el mismo dinero: extras, cantidades o prestaciones útiles que la persona valora.
+3. Recuperar dinero o valor: cashback, devoluciones, bonos o descuentos acumulables con condiciones claras.
+4. Generar ingresos: vender algo que ya no utiliza o cobrar por una habilidad o recurso que ofrece.
+5. Ahorrar tiempo: menos tiempo invertido en filas, búsquedas, coordinación o trámites.
+6. Evitar desplazamientos innecesarios: confirmar disponibilidad, condiciones o atención antes de salir.
+7. Asegurar disponibilidad: obtener una reserva, un producto o un cupo confirmado cuando lo necesita.
+8. Reducir esfuerzo: completar una gestión o tarea con menos pasos y trabajo.
+9. Compartir gastos fácilmente: que cada persona pague su parte sin que otra tenga que adelantar todo.
+10. Comprar con más confianza: conocer responsable, producto, condiciones y costo final, con respaldo verificable.
+11. Tener flexibilidad: cambiar, reprogramar o elegir condiciones que se ajusten a su situación.
+12. Resolver problemas de verdad: conseguir un cambio, devolución, reparación o atención, según corresponda.
+13. Tener control y claridad: conocer el estado real de una compra, pago, pedido o compromiso.
+14. Aprender algo útil: desarrollar una habilidad o capacidad que pueda demostrar y aplicar.
+15. Conseguir compañía o conexión real: encontrar personas para una actividad que desea hacer y no logra organizar.
+
+Aplicación a las próximas ideas:
+- Elegir al menos UN beneficio principal para el usuario común, concreto y comprensible desde el primer uso. El entretenimiento puede sumarse; no sustituye ese beneficio.
+- Explicar qué mejora recibe, cuándo la obtiene, qué necesita hacer y cómo se comprobaría. Distinguir una hipótesis de un resultado observado.
+- Calcular el ahorro con precio final, cargos, desplazamientos y condiciones. Distinguir dinero recibido de un descuento condicionado a otra compra.
+- Más ventas, retención o datos para el negocio no cuentan por sí solos como beneficio del usuario. Una medalla o un punto sin utilidad definida tampoco cumple este criterio.
+- Si participa un negocio, explicar también su problema y su retorno, sin confundirlos con lo que recibe la persona.
+- El catálogo es una guía de motivaciones, no una lista de ideas automáticamente aprobadas. Mantener el filtro de LLM gratuitos, facilidad, frecuencia, competencia y operación por una sola persona.
+- Por petición del usuario, en este paso se presenta primero la lista de beneficios; no se crea una idea adicional hasta continuar la búsqueda.
 
 ## Reglas para cada idea nueva
 
