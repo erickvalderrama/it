@@ -1,0 +1,91 @@
+52. "Espera jugando" - Turnos visibles y juegos cortos para clientes que esperan
+
+Necesidad/Problema a solucionar:
+- Cuando no saben quién sigue o cuánto ha avanzado la fila, los clientes preguntan al personal, se aburren y algunos pueden irse antes de ser atendidos.
+- El negocio necesita ordenar la atención y medir esperas y abandonos. El cliente quiere saber cuándo le toca y hacer algo agradable mientras tanto.
+- Los sistemas de filas de Waitwhile, Qminder y Digiturno son evidencia de oferta internacional y colombiana para ese problema; no prueban que nuestros juegos reduzcan abandonos.
+  https://waitwhile.com/solutions/queue-management-system/
+  https://www.qminder.com/
+  https://www.cielingenieria.com/
+- Público potencial amplio entre visitantes de restaurantes, barberías, autolavados y comercios. El negocio podría usarlo diariamente, pero eso NO demuestra que una misma persona lo use casi a diario. Este criterio es un punto débil por validar.
+
+Argumentos:
+- Idea: el cliente escanea un QR, ve su posición real en la fila y puede jugar una ronda breve mientras llega su atención.
+  1) Entrar por QR y recibir un número o alias.
+  2) Ver cuántas personas tiene delante, según el estado que actualiza el local.
+  3) Elegir un juego de memoria, habilidad o preguntas ligeras, individual o con otros clientes presentes.
+  4) Ver el aviso cuando se acerca su turno. El juego se puede interrumpir sin perder la atención.
+- Ejemplo: una barbería tiene seis clientes esperando. Desde su celular cada uno consulta su posición y puede participar en rondas de memoria de un minuto. El barbero marca "siguiente" desde un panel.
+- El personal mantiene la fuente real de la fila: el juego no calcula turnos imaginados ni promete una hora exacta sin datos.
+- Como opción comercial, el local puede ofrecer un beneficio FIJO y visible para otra visita a quien participe, por ejemplo $2.000 de descuento. Es una hipótesis que debe financiar el negocio y validarse con compras reales; no hay premio económico aleatorio ni se compra el derecho a jugar.
+- Jugar es opcional y no adelanta, retrasa ni altera prioridades de atención. Mantener atención para quienes no usen celular.
+- Empezar con una barbería o restaurante de Santa Marta, un panel y un juego reutilizable. Probar una red de locales después; no hace falta construirla para el primer cliente.
+- Aprovecha usuarios, QR, validación, beneficios e historial diseñados en Turciti y la experiencia del fundador en frontend, backend e infraestructura. No se afirma que exista una implementación operativa.
+- Distinta de la idea 3: atiende la espera y fila presencial de hoy, no agenda citas por WhatsApp. Distinta de Turciti: resuelve la atención dentro del local; no exige explorar ni visitar negocios para coleccionar.
+
+Cómo ganar dinero:
+- Quién paga: EMPRESAS.
+- Personas: consultar turno y jugar gratis; pagan el producto o servicio al propio comercio.
+- Negocio: hipótesis de $79.900 COP al mes por local para turnos, un juego y reportes. Validar precio final, impuestos, mensajes, alojamiento, soporte y margen antes de vender.
+- Un plan posterior podría incluir varias sedes y campañas de retorno, si hay una mejora medible que justifique pagar.
+- ePayco puede evaluarse para cobrar la mensualidad del servicio propio. No es necesario recaudar y dispersar cada corte de pelo o café del local para este MVP.
+- Medir atención completada, abandonos registrados, interrupciones al personal y canjes. Un juego abierto no demuestra una venta recuperada ni un retorno causado por el producto.
+
+Competidores en Colombia:
+- Ciel Ingeniería / Digiturno: proveedor de gestión de atención y turnos en Colombia.
+  https://www.cielingenieria.com/
+- Los sistemas propios de negocios, turnos impresos, el cuaderno y la llamada verbal son alternativas.
+- No se confirmó una ficha móvil oficial específica de Digiturno para esta comparación; usar los canales del proveedor. No confundir productos de terceros que empleen la misma palabra.
+
+Competidores en Santa Marta:
+- Las alternativas disponibles en línea y cualquier sistema ya instalado en el local elegido. Comprobar cuál utiliza y si de verdad pierde clientes por espera.
+- No se verificaron instalaciones o compras de estos proveedores en negocios concretos de la ciudad. No afirmar que no haya competencia local.
+- TikTok, WhatsApp, música y juegos del celular ya entretienen gratis; el cliente no necesita nuestro juego solo porque esté esperando.
+
+Competidores en el mundo:
+- Waitwhile: listas virtuales, avisos y gestión de visitas. Publica un plan gratuito de 50 visitas mensuales; puede bastar para un local pequeño.
+  Web: https://waitwhile.com/
+  Tarifas: https://waitwhile.com/pricing/
+  iPhone: https://apps.apple.com/es/app/waitwhile/id1601375220
+- Qminder: turnos, comunicaciones, panel y reportes. También ofrece integraciones y MCP; no atribuirle ausencia de conexión con asistentes.
+  https://www.qminder.com/
+  App de pantalla de espera: https://help.qminder.com/qminder-on-waitlist-tv
+- Drimify: herramientas para juegos y campañas de marca, competencia en el componente de entretenimiento y beneficios.
+  https://help.drimify.com/es/category/juegos-y-experiencias-1yk47p8/
+- No se probaron cuentas, juegos o funciones de pago; no confundir una prueba temporal con un plan gratuito permanente.
+
+Nuestra ventaja y filtro frente a LLM gratuitos:
+- Nivel de océano azul: BAJO. Gestión de filas y juegos promocionales ya existen; combinarlos no demuestra innovación ni demanda.
+- Hipótesis: turno visible más entretenimiento voluntario y un beneficio cumplido mejora la espera y el regreso en un local concreto.
+- Un LLM gratuito puede generar juegos, cuestionarios y código; esa parte aislada se descarta como ventaja. ChatGPT Free también tiene grupos y Gemini funciones conectadas.
+  https://help.openai.com/en/articles/9275245-chatgpt-free-tier-faq
+  https://openai.com/index/group-chats-in-chatgpt/
+  https://gemini.google/subscriptions/
+- El resultado completo necesita estado real de atención actualizado por el personal, avisos sincronizados y aceptación del beneficio por el negocio. Puede obtenerse con otro proveedor conectado: esa alternativa también compite.
+- Comparar con Waitwhile gratuito + juegos ya disponibles, y con un asistente gratuito usando herramientas equivalentes. Si el local consigue igual resultado y prefiere esa opción, descartar esta versión.
+- Revisión documental del 5 de noviembre de 2026, sin prueba práctica de rendimiento, abandonos o asistentes.
+
+Riesgos:
+- El juego puede distraer, aburrir o hacer perder una llamada. Mantener el estado de la fila visible y pausar la ronda al avisar.
+- Entretener no aumenta por sí mismo la capacidad del negocio ni reduce la espera real. No usarlo para ocultar demoras.
+- El personal puede olvidar actualizar la fila; entonces el producto pierde su utilidad. Medir carga operativa y fiabilidad antes de añadir funciones.
+- El beneficio puede costar más que el retorno. Mostrar condiciones y limitar usos sin alterar el orden de atención.
+- Privacidad: usar número o alias y datos mínimos; no exponer teléfonos o identificaciones en una pantalla pública.
+- La llegada oportuna de avisos depende del dispositivo y permisos. Mantener la llamada habitual del local como respaldo; no prometer notificaciones infalibles.
+- La frecuencia individual y la voluntad de pagar por parte del negocio siguen sin probarse.
+
+Internacionalización:
+- ALTA para el software; MEDIA para vender y dar soporte a muchos locales.
+- Los proveedores internacionales confirman que la gestión de espera existe en varios mercados; la utilidad y diversión de nuestra combinación deben medirse en cada segmento.
+- Plan: un negocio de Santa Marta, tres locales de la misma zona y después una prueba comercial en México o Perú.
+- Adaptar idioma, zona horaria, moneda y comunicaciones. El software reutilizable no elimina la captación y el soporte.
+
+Problemas para 1 sola persona:
+- Nota: APTA CON CUIDADO como herramienta pequeña; difícil si cada local exige juegos y pantallas hechos a medida o asistencia permanente.
+- MVP web sin instalación: cola sencilla, panel del empleado, vista del cliente y un solo juego. No integrar cajas registradoras o hardware propio al inicio.
+- Prueba de cuatro semanas: comparar días similares con turno visible solo y con turno más juego, registrando carga y atención. Si se prueba descuento, distinguir su efecto del efecto del juego.
+- Buscar que el local use el panel por sí mismo, que los clientes elijan jugar y que haya una mejora por la que el dueño pague un mes real. Después comprobar renovación.
+- Verificar frecuencia por persona; uso diario del empleado no permite declarar resuelto el requisito B2C casi diario.
+- Automatizar salas, cierres, avisos, reportes y cobros. Ofrecer soporte en horario definido y preparar continuidad durante ausencias.
+
+Revisión documental: 5 de noviembre de 2026, hora de Colombia. No se construyó, instaló, vendió o probó en locales. Precio, diversión, mejora operativa y retorno comercial son hipótesis. La capacidad investigada de ePayco no equivale a una integración activa.

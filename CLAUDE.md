@@ -1,6 +1,6 @@
 # Proyecto: ideas de negocio
 
-Carpeta `ideas/` con una idea de negocio por archivo `.txt`, numerados en orden de creación: `N. Nombre.txt` (ej. `1. Mascotas.txt`). El título dentro del archivo empieza con el mismo número. Idea nueva = siguiente número (hoy van 51: PaseDiario).
+Carpeta `ideas/` con una idea de negocio por archivo `.txt`, numerados en orden de creación: `N. Nombre.txt` (ej. `1. Mascotas.txt`). El título dentro del archivo empieza con el mismo número. Idea nueva = siguiente número (hoy van 52: EsperaJugando).
 
 ## Perfil técnico del fundador
 
@@ -10,7 +10,12 @@ Carpeta `ideas/` con una idea de negocio por archivo `.txt`, numerados en orden 
 
 ## Capacidades reutilizables de Turciti para explorar nuevas ideas
 
-Actualizado el 5 de noviembre de 2026 por indicación del usuario. Buscar también negocios que aprovechen estas dimensiones, especialmente redes con MUCHOS comercios; es una línea preferente, no una obligación para todas las ideas.
+Actualizado el 5 de noviembre de 2026 por indicación del usuario. Línea de búsqueda actual: resolver un problema real de un negocio mediante una experiencia que entretenga a las personas. Aprovechar las dimensiones de Turciti cuando aporten valor, sin forzarlas en todas las ideas.
+
+- Puede participar un solo negocio o una red de MUCHOS comercios.
+- El pago puede ser individual o de VARIAS PERSONAS por algo; son opciones independientes, no requisitos simultáneos. También puede pagar el negocio si es quien recibe el valor.
+- El mecanismo de pago no define la idea. Identificar primero el problema del negocio, qué entretiene a la persona y el beneficio concreto para ambas partes.
+- Si la idea incluye compras conjuntas o aportes, distinguirlos de una calculadora para dividir cuentas. No se verificó un botón nativo de ePayco que resuelva todo el pago colectivo: estados, consentimiento, fallos y devoluciones requieren diseño y validación.
 
 - Catálogo de negocios, productos, experiencias, ofertas y campañas; condiciones por fechas, horarios, cupos y zonas.
 - Usuarios, códigos QR o códigos de canje, validación del comercio, historial y control de usos. GPS, rutas, medallas, álbum y personaje son dimensiones opcionales según el beneficio real.
