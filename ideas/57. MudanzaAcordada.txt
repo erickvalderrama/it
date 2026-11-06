@@ -1,0 +1,81 @@
+57. MudanzaAcordada: de un punto a otro con ofertas claras
+
+Propuesta añadida el 6 de noviembre de 2026 por indicación del usuario. Sin construir ni validar. Distinta de la idea 32, CajasMudanza: aquella organiza cajas; esta permite contratar el traslado.
+
+Necesidad/Problema a solucionar:
+- Una persona que se muda o necesita mover muebles quiere saber quién puede llevarlos de A a B, cuánto cobra y qué incluye.
+- Cotizar solo por distancia deja fuera volumen, pisos, cargadores, embalaje, espera y cuidado de objetos.
+- Transportadores y empresas de mudanzas necesitan pedidos que encajen con su vehículo, recorrido y capacidad.
+- Beneficio del usuario: comparar ofertas completas y contratar un traslado. Beneficio del prestador: ingreso por trabajo; su utilidad depende de combustible, personal, mantenimiento y demás costos.
+- Necesidad masiva pero OCASIONAL para la misma persona. Los prestadores pueden usarlo diariamente; eso no convierte al consumidor en usuario diario.
+
+Argumentos:
+1) El usuario marca ORIGEN A y DESTINO B en el mapa, fecha y ventana horaria.
+2) Añade fotos o lista de cosas, volumen aproximado, objetos delicados, pisos/ascensor, acceso y si necesita solo vehículo, cargue/descargue, desmontaje, armado o embalaje.
+3) Indica presupuesto inicial, como en la mecánica propuesta de inDrive. El sistema no convierte ese importe en precio obligatorio ni calcula el total definitivo por kilómetros.
+4) Prestadores compatibles ven la solicitud y aceptan ese presupuesto o proponen otro precio. El cliente ve ofertas en pantalla, perfiles, vehículo/capacidad, disponibilidad, ayudantes e inclusiones.
+5) El cliente elige y confirma a uno. Diferenciar cotización cerrada, estimación y visita de valoración; no cobrar como precio definitivo lo que aún depende de revisar la carga.
+6) Se registra inventario/estado acordado antes de recoger y recepción en destino. Definir cómo reportar faltantes o daños.
+- Cada oferta indica TRANSPORTE SOLO o TRANSPORTE + PERSONAL, número de ayudantes, tiempos, materiales de empaque incluidos o excluidos, desmontaje/armado, peajes, parqueo, espera y posibles cargos por escaleras.
+- Mostrar total con cargo de plataforma e impuestos que correspondan, y cuánto se asigna al prestador. Nada de añadir servicios o comprar materiales sin aprobación previa y nuevo total registrado.
+- Publicar zona aproximada; direcciones exactas y datos de acceso solo a participantes autorizados.
+- Empresas de mudanzas y transportadores que cumplan las condiciones pueden ofrecer. Mueblerías y otros comercios pueden referir o solicitar traslados, sin intermediario obligatorio.
+- Piloto con traslados programados dentro de una zona de Santa Marta; sin flota, bodega, empaque ni cuadrilla del fundador.
+- Reutilizar publicaciones, mapa y ofertas de otras ideas es una posibilidad de arquitectura, no prueba de que existan módulos implementados ni de que sea sencillo operar todas las categorías.
+
+Cómo ganar dinero:
+- Quién paga: PERSONAS.
+- Comisión o cargo visible por contratación cumplida; probar monto y quién lo asume antes de fijar tarifa. El prestador debe conocer su importe antes de aceptar.
+- Ejemplo HIPOTÉTICO: el usuario propone $250.000. Un proveedor acepta solo vehículo; otro ofrece $300.000 con dos ayudantes y sin materiales de empaque. El cliente compara alcance y total, no solo quién cobra menos.
+- Si se pactaran $300.000 al cliente y $270.000 para el prestador, los $30.000 restantes serían diferencia BRUTA antes de pasarela, dispersión, impuestos, cancelaciones, daños, fraude y soporte. No son ganancia neta ni tarifa local verificada.
+- Posible plan empresarial solo después de demostrar pedidos útiles. Evitar depender de vender contactos sin calidad.
+- Recaudo más Payouts sujeto a admisión del proveedor y verificación del beneficiario; el dinero pasa por el saldo de plataforma. No equivale a custodia regulada ni pago directo comprador-banco del prestador.
+- Costos y límites de pagos: investigaciones/Turciti-pagos-Colombia-2026-11-05.md.
+
+Competidores en Colombia:
+- inDrive publica Fletes y una mecánica de proponer tarifa, recibir aceptaciones u ofertas más altas y elegir. Competidor directo; no se confirmó cobertura de Fletes en todas las ciudades.
+  https://indrive.com/es-co/delivery
+  App oficial: usar los botones de descarga de esa página; no se verificó aquí una ficha específica de tienda.
+- Mudanti anuncia solicitudes y propuestas de empresas de mudanzas por WhatsApp, gratis para quien cotiza. El parecido con nuestra idea es alto.
+  https://mudanti.com/
+  https://mudanti.com/trasteos-santa-marta
+- Empresas de mudanzas que cotizan directamente por teléfono o WhatsApp también resuelven la necesidad. No se verificó app propia de Mudanti.
+
+Competidores en Santa Marta:
+- Mudanti tiene página local y anuncia varias propuestas por WhatsApp. Eso acredita oferta publicada, no una contratación probada por nosotros.
+  https://mudanti.com/trasteos-santa-marta
+- Más Metros anuncia traslado local, inventario, empaque y cargue según pisos, ascensor y volumen.
+  https://masmetros.com.co/mudanzas-locales/trasteos-santa-marta/
+- No asumir que inDrive Fletes esté disponible en Santa Marta sin comprobarlo dentro del servicio. No se contactaron estas empresas ni se verificaron sus tiempos o precios.
+
+Competidores en el mundo:
+- Shiply reúne solicitudes de transporte y cotizaciones de empresas, incluidas mudanzas y muebles.
+  https://www.shiply.com/
+- uShip permite publicar envíos y comparar transportadores.
+  https://www.uship.com/
+- Prueban que el problema y el mecanismo existen internacionalmente; no son evidencia de demanda o rentabilidad para nuestro piloto.
+
+Nuestra ventaja:
+- Nivel de océano azul: BAJO. Mapa, origen-destino y ofertas ya existen en competidores.
+- Posible nicho por validar: traslados pequeños con inventario y alcance comparables, respuesta local y precio cumplido. No declarar ese nicho libre sin probar las alternativas.
+- Valor adicional a LLM gratuitos: disponibilidad real de vehículos y personal, ofertas aceptadas y ejecución del traslado. Una IA puede buscar, comparar y usar servicios conectados; la contratación externa existente también cuenta como competencia.
+- Comparar con asistente gratuito + inDrive/Mudanti + cotización directa. Una pantalla más clara no basta si el resultado es equivalente.
+
+Riesgos:
+- Daños, faltantes, vehículo insuficiente, escaleras no declaradas, cancelaciones y retrasos. El mapa no resuelve estos problemas.
+- Verificar quién presta y responde, condiciones de transporte, documentación y cobertura efectiva; no prometer seguro o reposición automática sin tenerlos.
+- El prestador puede necesitar revisar el inventario antes de cerrar precio. Todo cambio debe aceptarse antes de ejecutarse.
+- La baja frecuencia del cliente aumenta el costo de conseguir nuevas ventas. Negocios que piden traslados repetidos serían un segmento distinto por probar.
+
+Internacionalización:
+- MEDIA. El problema se repite, pero oferta, reglas, cobros y responsabilidad se construyen localmente.
+- Plan: Santa Marta, otra ciudad colombiana y después un piloto en México o Perú con prestadores y condiciones revisados. No es solo traducir la app.
+
+Problemas para 1 sola persona:
+- Nota: APTA CON CUIDADO para cotizaciones programadas en un piloto limitado; DIFÍCIL para operar una red completa y atender incidentes.
+- Tu experiencia cubre frontend, backend e infraestructura. Captar prestadores fiables y resolver daños o incumplimientos pesa más que desarrollar el mapa.
+- Automatizar ofertas, selección, cambios y estados; horarios y continuidad definidos, sin prometer atención urgente permanente.
+- No tener flota propia reduce inversión, pero no elimina reclamos ni coordinación.
+- Si hay que despachar manualmente cada traslado o supervisar entregas, el alcance no sirve para operar solo.
+
+Revisión documental: 6 de noviembre de 2026. Ejemplos y modelo económico son hipótesis. No hay prestadores inscritos, cotizaciones recibidas ni traslados realizados.

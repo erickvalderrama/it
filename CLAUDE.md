@@ -1,6 +1,6 @@
 # Proyecto: ideas de negocio
 
-Carpeta `ideas/` con una idea de negocio por archivo `.txt`, numerados en orden de creación: `N. Nombre.txt` (ej. `1. Mascotas.txt`). El título dentro del archivo empieza con el mismo número. Idea nueva = siguiente número (hoy van 56: ManosDelBarrio).
+Carpeta `ideas/` con una idea de negocio por archivo `.txt`, numerados en orden de creación: `N. Nombre.txt` (ej. `1. Mascotas.txt`). El título dentro del archivo empieza con el mismo número. Idea nueva = siguiente número (hoy van 57: MudanzaAcordada).
 
 ## Perfil técnico del fundador
 
@@ -33,6 +33,23 @@ Indicación del usuario, 6 de noviembre de 2026: ampliar la idea a trabajos del 
 - La plataforma muestra el precio inicial y cada respuesta, con el total y los cargos visibles para el cliente y el importe que recibiría el prestador. No modifica la propuesta sin consentimiento, ni calcula un precio definitivo desde una foto, ni asigna automáticamente al más barato. El cliente puede ajustar su oferta si no consigue una respuesta adecuada.
 - La visión admite múltiples oficios. Definir requisitos de competencia y verificación por categoría, especialmente gas y electricidad; un piloto gradual no debe convertir la idea otra vez en solo armado de muebles.
 - Mantener la numeración 56 y actualizar su archivo al evolucionar la propuesta, sin crear una idea nueva por cada aclaración.
+
+## Actualización: mascotas, mudanzas y reciclaje con mapa y ofertas
+
+Indicación del usuario, 6 de noviembre de 2026:
+- Idea 1, Mascotas: conservar la adopción y añadir TRANSPORTE EXCLUSIVO DE MASCOTAS entre origen y destino, además de BAÑO, LIMPIEZA, PELUQUERÍA Y BELLEZA DE MASCOTAS A DOMICILIO.
+- Transporte de mascotas: puntos A→B, fecha, condiciones del animal, recogida/entrega, equipamiento y alcance. Belleza a domicilio: un punto de atención y servicios/insumos incluidos; no necesita un destino artificial.
+- Idea 57, MudanzaAcordada: crear solicitudes de mudanza o traslado con A→B, inventario/fotos, volumen, fecha, pisos, ascensor y acceso. Ofertas de transportadores o empresas; indicar vehículo, ayudantes, empaque/materiales, cargue/descargue, espera y demás inclusiones. La idea 32, CajasMudanza, sigue siendo inventario de cajas y no se sustituye.
+- En mascotas y mudanzas el cliente puede proponer presupuesto; los prestadores aceptan o contraofertan. La solicitud aparece a prestadores compatibles por zona, y el cliente ve respuestas, compara alcance y total y CONFIRMA a uno, siguiendo la mecánica solicitada tipo inDrive. Aceptar el precio no asigna automáticamente el trabajo.
+- Idea 14, Reciclaje: personas y negocios publican material, fotos, tipo, estado, cantidad/peso aproximado, disponibilidad y punto de recogida en el mapa. Empresas, recicladores y otras personas compradoras ofrecen un precio; el dueño acepta o rechaza.
+- En reciclaje EL COMPRADOR PAGA AL DUEÑO DEL MATERIAL. Mostrar COP/kg o por lote, condiciones de calidad y peso, costos de recogida y cuánto recibe el dueño. El valor final se confirma con el pesaje y aceptación de cambios. Un lote no garantiza precio positivo ni recogida gratis.
+- No forzar idéntico formulario o sentido del pago para las tres categorías. En reciclaje el destino es opcional según la operación; en belleza basta una dirección.
+- Compartir como arquitectura posible: solicitudes, mapa, zonas, ofertas/contraofertas, perfiles, disponibilidad, selección, cambios aprobados, estados y calificaciones. Son capacidades propuestas, no módulos operativos comprobados.
+- Mostrar zona aproximada antes de contratar y compartir dirección exacta solo con participantes autorizados. La presencia por GPS no demuestra entrega ni ejecución.
+- Mostrar total con cargos e impuestos aplicables e inclusiones/exclusiones, y requerir aprobación previa de adicionales. Un presupuesto pendiente de revisión no se presenta como precio cerrado.
+- Mantener competencia y frecuencia honestas: mapa + ofertas ya existen. Una persona no necesita mudarse ni transportar a su mascota todos los días. El uso diario del prestador no satisface el uso diario del cliente.
+- Evaluar cada vertical por separado: confianza, prestadores, cobertura, pagos, incidentes y responsabilidades no se resuelven por compartir código. Evitar lanzar simultáneamente todos los mercados.
+- Evaluación de las 57 ideas: evaluaciones/Top-10-ideas-2026-11-06.md. El orden es un juicio para priorizar validación; no implica demanda ni rentabilidad demostradas.
 
 ## Capacidades reutilizables de Turciti para explorar nuevas ideas
 

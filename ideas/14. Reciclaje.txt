@@ -1,94 +1,87 @@
-14. "Recoge mi reciclaje" - Conecta casas y negocios con recicladores de oficio por WhatsApp, con kilos medidos para las empresas
+14. Recoge mi reciclaje: publicar material y recibir ofertas de compra
+
+Actualizada el 6 de noviembre de 2026 por indicación del usuario. Evoluciona la idea de recogida y rutas: ahora una persona o negocio publica qué tiene y compradores ofrecen cuánto pagan. Propuesta sin validar.
 
 Necesidad/Problema a solucionar:
-- Santa Marta está en crisis de basuras: el relleno Palangana tiene la licencia vencida
-  (mayo 2026) y recibe unas 475 toneladas al día. Se recicla muy poco
-  (unas 400 toneladas al MES en 2021).
-- Colombia recicla solo cerca del 16% de sus residuos.
-- La gente que SÍ separa no sabe a quién entregar el reciclaje ni cuándo pasan.
-  Termina en la misma bolsa de basura.
-- Los recicladores de oficio caminan horas buscando material en bolsas rotas,
-  ganan poco y no tienen clientes fijos.
-- Las empresas que fabrican envases están OBLIGADAS por ley a recuperar parte de lo
-  que venden (Responsabilidad Extendida del Productor), y necesitan datos confiables
-  de cuánto se recogió y dónde.
-- Hoteles y restaurantes generan mucho cartón, vidrio y plástico y no tienen ruta fija.
-- Problema INTERNACIONAL (con evidencia):
-  - Hay millones de recicladores informales en el mundo (Latinoamérica, India, África).
-  - Brasil, México, Perú, Chile, India y la Unión Europea tienen leyes de
-    Responsabilidad Extendida del Productor: las marcas deben pagar por recuperar envases.
-  - Rellenos sanitarios llenos o vencidos: en Colombia se habla de que se "agotaron".
+- Hogares y comercios que separan materiales necesitan encontrar quién los aprovecha, si tienen valor de venta y cuánto recibirían realmente.
+- Recicladores, asociaciones y compradores necesitan material compatible, suficiente y cerca, sin recorrer direcciones donde no hay una carga útil.
+- Beneficio económico: el dueño vende cuando hay comprador y valor suficiente; el comprador obtiene material con margen después de recoger, separar y revender o procesar.
+- No todo residuo tiene comprador ni precio positivo. Un cobro por recogida es un servicio distinto, no ingreso para quien entrega.
+- Uso doméstico posiblemente semanal o mensual; para un generador comercial puede ser más frecuente. La recurrencia diaria por persona no está demostrada.
 
 Argumentos:
-
-- Idea: bot de WhatsApp + panel web.
-  - Casa o negocio: "tengo reciclaje" → elige día → le llega el nombre y foto del
-    reciclador que pasa. Califica el servicio.
-  - Reciclador: recibe por WhatsApp su ruta del día con direcciones fijas.
-    Registra los kilos con una foto de la báscula.
-  - Empresa / marca: ve en un panel cuántos kilos de su tipo de envase se recogieron,
-    en qué barrio, con fotos y fechas (trazabilidad).
-- Por qué funciona: todos ganan. La casa se libra del reciclaje, el reciclador
-  gana más caminando menos, la marca cumple la ley con datos confiables, y la
-  ciudad manda menos basura al relleno.
-- Ojo legal: en Colombia el aprovechamiento lo hacen los recicladores de oficio
-  y sus organizaciones. La idea NO los reemplaza: es su herramienta.
-- Por qué sirve para 1 persona:
-  - Solo WhatsApp + web. No hay camiones ni bodegas propias.
-  - Se trabaja con 1 o 2 asociaciones de recicladores de Santa Marta (ellos ponen la gente).
-  - Empezar con hoteles y edificios de El Rodadero y Bello Horizonte (mucho material junto).
+1) La persona publica cartón, papel, metales, plásticos u otros materiales admitidos, con fotos, estado, separación, cantidad/peso aproximado, horario y punto de recogida en el MAPA.
+2) Recicladores, empresas u otras personas compradoras compatibles ven las publicaciones por zona y envían una oferta: precio por kilo o por lote, condiciones de calidad, mínimo y fecha de recogida.
+3) La pantalla compara qué ofrecen y cuánto RECIBIRÍA el dueño, después de transporte y cargos explícitos. El dueño acepta, rechaza o negocia; no se adjudica al mayor precio sin su confirmación.
+4) Se confirma recogida y pesaje en presencia de las partes o con evidencia aceptada. Registrar peso bruto, tara cuando corresponda, peso útil, precio y deducciones pactadas.
+5) Si cambia el peso estimado, material aceptado o importe, mostrar el cálculo y pedir aceptación antes del cierre. Permitir rechazar si no hay acuerdo; no aplicar descuentos sorpresa.
+6) Confirmar entrega y pago, y calificar la operación.
+- El punto principal es la RECOGIDA. Si se requiere una ruta A→B, mostrar destino autorizado del comprador; no exigir dos puntos públicos a quien solo ofrece material en casa.
+- Mostrar zona aproximada al público y dirección exacta al participante confirmado; no publicar horarios y direcciones completas de hogares en un mapa abierto.
+- Flujo de dinero diferente de mascotas o mudanzas: aquí EL COMPRADOR DEL MATERIAL PAGA AL DUEÑO; no el hogar al recogedor, salvo un servicio separado aceptado.
+- Empezar con pocas categorías limpias y no peligrosas, cantidades mínimas acordadas y compradores reales. Asociaciones y recicladores de oficio pueden ser compradores y prestadores, no actores que se dan por sustituidos.
+- La propuesta original de rutas programadas para negocios y registro de cantidades puede añadirse después; no comprar camiones, almacenar ni comerciar material por cuenta propia en el piloto.
 
 Cómo ganar dinero:
-- Negocios (hoteles, restaurantes, edificios, colegios): mensualidad por ruta fija
-  + certificado de cuántos kilos reciclaron (les sirve para sus reportes y su imagen).
-- Marcas y planes colectivos de envases: pagan por los datos de trazabilidad
-  (kilos certificados con foto, fecha y lugar) para cumplir la ley.
-- Asociaciones de recicladores: plan pequeño para manejar sus rutas y reportes.
-- Casas: gratis (son la fuente del material).
-- Después: venta del material directamente a la industria (con la asociación).
+- Quién paga: MIXTO.
+- Personas compradoras: posible cargo visible por una compraventa cumplida, solo si el valor del lote lo permite. Personas que publican: propuesta inicial gratuita.
+- Empresas, acopiadores y asociaciones: probar mensualidad por oportunidades útiles, planificación y registro de operaciones. Es hipótesis; no se ha verificado disposición a pagar.
+- Ejemplo HIPOTÉTICO: 15 kg aceptados × $1.000 = $15.000; recogida expresamente descontada de $3.000; dueño recibe $12.000. Si el peso aceptado resulta 12 kg, el cálculo sería $9.000 netos bajo las mismas condiciones y debe aceptarse. Son números ilustrativos, no precios del reciclaje en Santa Marta.
+- Si se cobra comisión, también debe restarse y mostrarse antes de aceptar. No llamar ganancia neta a venta bruta, ni valorar material sin conocer tipo, limpieza, volumen y mercado.
+- La dispersión bancaria individual puede consumir buena parte de un lote pequeño. Evaluar cobro de plan a compradores y liquidaciones agrupadas por el MISMO beneficiario cuando proceda; no suponer que todos los vendedores caben en un único Payout.
+- Si administramos el pago, validar admisión del modelo, beneficiarios, conciliación y costos antes de usar recaudo más Payouts. No ofrecer custodia o escrow por tener una pasarela.
+- Referencia de pagos e impuestos: investigaciones/Turciti-pagos-Colombia-2026-11-05.md.
+- No vender fotos de básculas o registros propios como certificados oficiales ni como prueba suficiente de cumplimiento de obligaciones ambientales.
 
 Competidores en Colombia:
-- Asociaciones de recicladores y empresas de aseo (rutas selectivas), sin app.
-- Programas de las marcas para recuperar envases (beneficiaron 36.700 recicladores en 2025).
-  Noticia: https://www.publimetro.co/estilo-vida/2026/08/25/colombia-aumenta-el-reciclaje-de-envases-y-recupera-4400-toneladas-durante-2025/
-- No se encontró una app conocida que conecte casas + recicladores + marcas en Colombia.
+- Ciclonecta publica un marketplace de excedentes industriales: publicación de lotes, ofertas y aceptación o rechazo. Es competencia conceptual directa, principalmente empresarial.
+  https://ciclonecta.com/
+  https://ciclonecta.com/como-funciona
+  La página consultada menciona transporte por definir con el lanzamiento; no se verificaron transacciones ni cobertura operativa en Santa Marta.
+- RutaReciclo anuncia recogida y recompensas; Ecobox anuncia conexión con recicladores y trazabilidad. Sus recompensas no equivalen necesariamente a dinero ofrecido al dueño.
+  https://www.rutareciclo.app/
+  https://www.myecobox.io/
+- RecyApp anuncia conexión entre generadores y recicladores; su web la presenta en desarrollo. No tratarla como una red activa comprobada.
+  https://recyapp.org/
+- No usar recypuntos.org como evidencia actual de funcionamiento: al abrirlo el 6 de noviembre no se obtuvo una página vigente del servicio de reciclaje.
+- Contratación directa con recicladores y centros de compra es un sustituto real. No se verificaron fichas oficiales de apps para todas estas marcas.
 
 Competidores en Santa Marta:
-- Essmar: rutas selectivas en 165 barrios, sin app ni horario por casa.
-  Documento: https://essmar.gov.co/wp-content/uploads/ACCIONES-COLABORATIVAS.pdf
-- Organizaciones de recicladores locales (unas 600 familias viven del reciclaje).
+- Recicladores, asociaciones y puntos de compra existentes: falta identificar cuáles reciben cada material, sus mínimos, precios y rutas mediante cotizaciones reales.
+- Ningún aliado, comprador ni volumen local está confirmado. No afirmar que la ciudad carezca de oferta por no encontrar una app.
+- Se retiran las antiguas cifras locales y afirmaciones de exclusividad como fundamento comercial: no fueron revalidadas en esta actualización.
 
 Competidores en el mundo:
-- Cataki (Brasil, app que conecta personas con "catadores").
-  Web: https://www.cataki.org
-- Ecolana (México, mapa de centros de reciclaje).
-  Web: https://www.ecolana.com.mx
-- Rubicon y Recycle Coach (EE.UU., gestión de residuos para ciudades y empresas).
-  Web: https://www.rubicon.com
+- Cataki conecta generadores con recicladores; pide remunerar la recogida. No confundirlo con garantizar pago al dueño del material.
+  https://www.cataki.org/
+- Ecolana es una referencia mexicana del mapa de reciclaje; verificar las funciones concretas antes de compararlas como compraventa.
+  https://www.ecolana.com.mx/
+- La presencia de estas propuestas muestra una necesidad internacional, no prueba rentabilidad del modelo de subasta local.
 
-Nuestra ventaja: Cataki y Ecolana solo conectan o muestran un mapa; no le dan
-datos certificados a las marcas, que son las que pagan. Nosotros: WhatsApp para
-casas y recicladores (sin app) + kilos con foto para las marcas que deben cumplir la ley.
-Nivel de océano azul: ALTO en Colombia y Santa Marta, MEDIO afuera (Cataki en Brasil).
+Nuestra ventaja:
+- Nivel de océano azul: BAJO. Ya hay conexión, recogida y propuestas de compra de materiales; el mapa y las ofertas por sí solos no diferencian.
+- Hipótesis de ventaja: lotes suficientes por zona, compradores que responden y cálculo transparente del dinero recibido tras pesaje y recogida.
+- Frente a LLM gratuitos, el valor exige compradores reales, capacidad de recoger, aceptación del precio y transferencia efectiva. Un chat puede buscar alternativas y usar plataformas externas; eso cuenta como competencia.
+- Comparar con asistente gratuito + llamada al comprador habitual + servicios existentes. Si resuelven igual el lote, no hay motivo suficiente para otra plataforma.
 
 Riesgos:
-- Recicladores sin celular o sin datos: empezar con las asociaciones organizadas,
-  y que el líder registre por el grupo.
-- Kilos falsos para cobrar más: foto de báscula + revisión al azar.
-- Ley y política del reciclaje en Colombia es compleja: hablar con Superservicios,
-  Essmar y las asociaciones antes de empezar.
-- Las marcas tardan en pagar y deciden lento: empezar cobrando a hoteles y edificios.
-- Revisar en detalle la Resolución 1407 de 2018 (y sus cambios) sobre envases.
+- Poco dinero por hogar frente a desplazamiento, pesaje y pagos; sin densidad y volumen no hay negocio.
+- Básculas, contaminación o diferencias de calidad pueden generar disputas. Las fotos no garantizan peso ni composición.
+- Excluir inicialmente residuos peligrosos, sanitarios y categorías que requieran un tratamiento no preparado.
+- Revisar con organizaciones locales el alcance comercial, de aprovechamiento y los requisitos aplicables antes de operar. Un reporte interno no otorga autorización ni reemplaza obligaciones ambientales.
+- Robos de material, uso indebido de direcciones y recogidas incumplidas.
+- No prometer ingresos a hogares por el solo hecho de separar residuos.
 
-Internacionalización (se puede llevar a otros países): SÍ, ALTA
-- Recicladores informales + leyes de envases existen en Brasil, México, Perú,
-  Chile, Ecuador, Argentina, India, Sudáfrica, Kenia.
-- Mismo sistema; cambia idioma, ley de envases y las organizaciones locales.
-- Plan: 1) Santa Marta  2) Barranquilla, Cartagena, Bogotá
-  3) Perú, Chile, México (leyes de envases fuertes)  4) Brasil e India.
+Internacionalización:
+- MEDIA. Se reutilizan publicaciones, ofertas y registro, pero cambian compradores, categorías, transporte, pagos y reglas locales.
+- Plan: una zona de Santa Marta con compradores confirmados, después otra ciudad colombiana y un piloto pequeño en México o Perú.
+- Integrarse con actores locales; no asumir que tener el mapa crea una red de aprovechamiento.
 
-Problemas para 1 sola persona: DIFÍCIL
-- Coordinar rutas con recicladores todos los días.
-- Política del reciclaje (Essmar, asociaciones, Superservicios): reuniones largas.
-- Vender datos a marcas grandes toma meses.
-- Revisar que los kilos reportados sean reales.
+Problemas para 1 sola persona:
+- Nota: DIFÍCIL para una red doméstica abierta; APTA CON CUIDADO para un piloto pequeño con generadores de volumen y compradores autónomos.
+- Tu experiencia permite construir la plataforma. Densidad, ventas a compradores, pesajes y reclamos son el reto.
+- No coordinar manualmente cada ruta ni verificar cada kilo. Limitar categorías, zona, ventanas y tamaños mínimos.
+- Si el ingreso depende de certificar cumplimiento, almacenar material o visitar cada recogida, descartar ese alcance inicial.
+- Primero probar compraventas y beneficio neto de las partes; después considerar rutas, reportes y contratos mayores.
+
+Revisión documental: 6 de noviembre de 2026. No se contactaron compradores, acordaron precios, verificaron requisitos ni realizaron compraventas.

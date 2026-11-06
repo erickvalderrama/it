@@ -1,79 +1,84 @@
-1. Mascotas para adoptar perros
+1. Mascotas: adopción, transporte exclusivo y belleza a domicilio
+
+Actualizada el 6 de noviembre de 2026 por indicación del usuario. Propuesta sin construir ni validar. Se conserva la adopción original y se añaden servicios pagados; el ranking evalúa principalmente estos servicios.
 
 Necesidad/Problema a solucionar:
-- Hay muchos perros en la calle y en refugios llenos (solo en Santa Marta, unas 72 fundaciones).
-- Quien quiere adoptar no sabe dónde buscar: los perros están regados en redes sociales,
-  WhatsApp y formularios de cada alcaldía.
-- No existe una app móvil para adoptar en todo el país.
+- Quien no puede trasladar a su mascota necesita alguien preparado para llevarla a la veterinaria, peluquería, guardería u otra dirección.
+- Otras personas prefieren baño, limpieza y peluquería de la mascota EN SU CASA, evitando trasladarla.
+- Transportadores especializados y peluqueros necesitan conseguir servicios y ocupar horarios disponibles.
+- La adopción sigue conectando refugios y adoptantes. No se supone que los refugios tengan presupuesto ni que adoptar genere uso diario.
+- Transporte: ocasional. Baño y belleza: periódicos, según la mascota; no son servicios diarios por persona. La demanda local y los precios están pendientes.
 
 Argumentos:
-
-- Idea: app/web que conecta refugios con personas que quieren adoptar perros.
-- Por qué funciona: muchos perros sin hogar y mucha gente que quiere una mascota pero no sabe dónde buscar.
+- Una web permite elegir TRANSPORTE DE MASCOTAS o BAÑO / LIMPIEZA / BELLEZA A DOMICILIO.
+- Transporte exclusivo de mascotas, no mensajería general ni transporte genérico de pasajeros:
+  1) Marcar recogida A y destino B en el mapa; indicar fecha, horario, mascota, tamaño/peso aproximado, necesidades y responsable que entrega y recibe. Especificar ida, regreso y espera.
+  2) Proponer cuánto se quiere pagar.
+  3) Prestadores compatibles cercanos ven la solicitud y aceptan el presupuesto o envían su precio y condiciones, como la mecánica propuesta de inDrive.
+  4) Comparar total, perfil, vehículo/equipamiento, disponibilidad y experiencia. Elegir y confirmar a uno; recibir una aceptación no asigna automáticamente el servicio.
+  5) Registrar recogida y entrega con confirmación de las personas responsables. Estar cerca por GPS no demuestra entrega.
+- Belleza a domicilio: UN punto de atención, no un viaje artificial A→B. Indicar especie, tamaño, pelaje, fotos opcionales, servicio deseado y condiciones del espacio. Aclarar agua, electricidad, limpieza posterior y quién aporta equipo, champú y otros insumos.
+- Cada oferta distingue transporte solo, baño, corte u otros servicios; muestra inclusiones, exclusiones, cargos y total. Un cambio de alcance o costo necesita aceptación previa del dueño.
+- Revelar solo zona aproximada antes de contratar; direcciones exactas a los participantes autorizados. El mapa muestra solicitudes y cobertura, no promete prestadores instantáneos.
+- Veterinarias, peluquerías y guarderías pueden prestar o referir servicios; no son intermediarios obligatorios. El dueño gana tiempo y claridad; el prestador obtiene ingresos, descontando sus costos.
+- Piloto de servicios programados con pocos prestadores y horarios definidos, sin flota propia. No ofrecer urgencias ni procedimientos veterinarios desde la categoría de belleza.
+- Mantener el módulo original de adopción separado: fichas y contacto con refugios, sin convertir la adopción en venta de animales.
 
 Cómo ganar dinero:
-- Cuota pequeña a refugios por publicar perros destacados (salen primero).
-- Comisión por venta de "kit de adopción" (comida, collar, cama, vacunas) con tiendas aliadas.
-- Publicidad de veterinarias, tiendas de mascotas y peluquerías caninas.
-- Plan premium para refugios: estadísticas, formularios de adopción y seguimiento.
-- Donaciones dentro de la app (se cobra un % pequeño por gestión).
+- Quién paga: PERSONAS.
+- Cobro por el servicio con comisión o cargo de plataforma visible, acordado antes de contratar. Probar disposición a pagar y costos antes de fijar porcentaje.
+- Ejemplo HIPOTÉTICO: el dueño ofrece $40.000 por A→B; un prestador acepta y otro propone $48.000 con regreso. Mostrar que los alcances difieren; no llamarlo comparación del mismo servicio.
+- La diferencia entre lo cobrado y lo asignado al prestador es ingreso bruto de intermediación, no utilidad neta: descontar pagos, impuestos aplicables, reclamos y soporte.
+- Alternativa posterior: plan para prestadores con demanda real; no cobrar por prometer clientes inexistentes.
+- Adopción: posibles comisiones de kits vendidos y entregados por tiendas, campañas patrocinadas claramente identificadas y donaciones solo con condiciones revisadas. No depender de cobrar a refugios ni almacenar productos.
+- Si se usa recaudo más Payouts, confirmar admisión y verificación de beneficiarios. No es split bancario directo ni dispersión gratuita. Referencia: investigaciones/Turciti-pagos-Colombia-2026-11-05.md.
 
 Competidores en Colombia:
-- SabueSOS (Medellín, aliada con la Alcaldía).
-  Web: https://www.sabuesos.com.co
-  App (iPhone): https://apps.apple.com/co/app/id6624294814
-  App (Android): buscar "SabueSOS" en Play Store
-  Noticia: https://www.medellin.gov.co/es/sala-de-prensa/noticias/en-medellin-es-mas-facil-recibir-el-amor-en-casa-con-una-aplicacion-o-en-internet-se-podran-adoptar-perros-y-gatos/
-- App La Perla (refugio de Medellín). Hoy sus perros se adoptan por SabueSOS.
-  Noticia: https://www.elespectador.com/colombia/medellin/en-medellin-estrenan-una-aplicacion-para-adoptar-animales-del-refugio-la-perla-article-873767/
-- Distrito Appnimal (Alcaldía de Bogotá).
-  App (Android): https://play.google.com/store/apps/details?id=com.idpyba.distrito_appnimal
-  Noticia: https://bogota.gov.co/mi-ciudad/ambiente/app-de-animales
-- PeluApp (Pereira, estilo "Tinder" de mascotas). No se encontró link oficial.
-  Noticia: https://www.lafm.com.co/colombia/crean-aplicacion-que-funciona-como-tinder-para-adoptar-perros-y-gatos-abandonados
-- Huellas que salvan (de Gabrica, fundaciones en 6 ciudades).
-  Web: https://www.adopciongabrica.com
-  Noticia: https://cambiocolombia.com/mascotas/articulo/2025/6/plataforma-conecta-perros-y-gatos-sin-hogar-con-adoptantes-de-mascotas
-- Pedigree Adóptame (de la marca Pedigree).
-  Web: https://www.pedigreeadoptame.co
-  Noticia: https://www.enter.co/?p=255126
+- PetBacker anuncia taxi para mascotas, peluquería y solicitudes con varias ofertas. Su propuesta ya se parece al nuevo flujo.
+  https://www.petbacker.es/
+  Página de taxi en Santa Marta: https://www.petbacker.es/s/servicio-de-recogida-y-transporte-de-animales/santa-marta--colombia
+  Usar los enlaces de descarga del sitio oficial; no se verificó aquí una ficha específica de tienda.
+- Para adopción, conservar como referencias de la idea original SabueSOS y Distrito Appnimal. Sus alcances y disponibilidad actuales deben revalidarse antes de una comparación comercial.
+  https://www.sabuesos.com.co
+  https://play.google.com/store/apps/details?id=com.idpyba.distrito_appnimal
+- WhatsApp y la contratación directa con veterinarias o peluqueros también compiten. Tener app móvil no es por sí solo una ventaja.
 
 Competidores en Santa Marta:
-- Alcaldía de Santa Marta: formulario web "Adopta un amigo" (no es app).
-  Web: https://bit.ly/AdoptaUnAmigoSMR
-  Trámite: https://www.santamarta.gov.co/node/13077
-- Unas 72 fundaciones y hogares de paso (la Alcaldía les da comida). Adoptan por redes sociales y WhatsApp.
-  Noticia: https://www.elespectador.com/la-red-zoocial/entregan-alimentos-a-mas-de-70-fundaciones-de-animales-en-santa-marta-noticias-hoy/
-- Fundación Alma Perruna (rescata perros de la calle).
-  Noticia: https://www.publimetro.co/noticias/2022/10/24/terrible-denuncia-en-santa-marta-fundacion-encontro-perritos-en-la-calle-sin-la-mitad-de-su-cara-o-sin-ojos/
+- Clivet publica grooming, atención a domicilio y transporte de mascotas. Su página no prueba que toda la peluquería se haga en casa.
+  https://clivetsantamarta.wixsite.com/clivetsantamarta
+- EcoVet ofrece baño y peluquería canina y felina con cita en Santa Marta; no se confirmó servicio a domicilio.
+  https://www.ecovet.com.co/servicios/peluqueria-canina/
+- PetBacker tiene una página para la ciudad; esto NO confirma cantidad de prestadores activos, respuestas ni reservas disponibles.
+- No se llamó a estos negocios ni se pidió una cotización.
 
-Competidores en el mundo (webs oficiales):
-- Petfinder (EE.UU., de Purina).
-  https://www.petfinder.com
-- Adopt-a-Pet (EE.UU.).
-  https://www.adoptapet.com
-- PetRescue (Australia).
-  https://www.petrescue.com.au
+Competidores en el mundo:
+- PetBacker publica la misma combinación de cuidado, peluquería y taxi para mascotas.
+  https://www.petbacker.es/
+- Para la línea original de adopción: Petfinder y Adopt-a-Pet son referencias internacionales, sin asumir cobertura colombiana.
+  https://www.petfinder.com/
+  https://www.adoptapet.com/
 
-Nuestra ventaja: NO existe una app móvil de adopción para todo el país.
-- Las apps que hay son de una sola ciudad (Medellín, Bogotá, Pereira).
-- Las nacionales (Huellas que salvan, Pedigree Adóptame) son solo páginas web.
-- En Santa Marta no hay app: solo un formulario de la Alcaldía y redes sociales.
-- La mayoría son gratis o del gobierno y no buscan ganar dinero.
-Nosotros: primera app móvil nacional (empezando por Santa Marta) + tienda + servicios para refugios.
+Nuestra ventaja:
+- Nivel de océano azul: BAJO. Ni el transporte de mascotas ni recibir varias ofertas son novedades.
+- Hipótesis por probar: prestadores locales que responden, servicios compatibles, precios completos y recontratación sencilla.
+- El valor fuera de un LLM gratuito depende de una red REAL que acepte y cumpla servicios, disponibilidad confirmada y seguimiento del acuerdo.
+- Un asistente puede investigar, comparar y contratar mediante servicios conectados cuando estén disponibles. Comparar con asistente gratuito + PetBacker + trato directo; si el resultado ya es equivalente, descartar ese segmento.
+- No confundir documentación pública de competidores con validación de nuestra demanda.
 
+Riesgos:
+- Escape, lesiones, estrés o incompatibilidad de la mascota con el vehículo o tratamiento. Revisar competencia del prestador, equipamiento, condiciones sanitarias, responsabilidad y cobertura efectiva antes del piloto.
+- No prometer seguro, certificación, atención clínica ni traslado de cualquier animal sin confirmarlos. Definir especies y casos admitidos.
+- Cancelaciones, retrasos, confianza al ingresar al hogar y desacuerdos sobre pelo, tamaño o insumos. Dejar alcance, contactos, entrega y cambios por escrito.
+- La plataforma debe manejar incidentes; que el prestador sea independiente no elimina ese trabajo.
 
+Internacionalización:
+- MEDIA. La necesidad y oferta tienen precedentes internacionales; se reutiliza software, pero hay que conseguir prestadores, revisar condiciones y adaptar pagos en cada ciudad.
+- Plan: una zona de Santa Marta; después otra ciudad colombiana y un piloto en México o Perú. Sin prometer red internacional desde el lanzamiento.
 
+Problemas para 1 sola persona:
+- Nota: APTA CON CUIDADO para belleza programada con pocos prestadores; DIFÍCIL para transporte amplio e incidentes.
+- Tu capacidad técnica permite construir mapa, ofertas y reservas; el cuello de botella es confianza, oferta disponible y soporte.
+- Empezar por una categoría pagada, automatizar solicitudes y estados y definir continuidad durante ausencias. No lanzar adopción, transporte y belleza con operación completa simultáneamente.
+- Si exige despachar cada viaje, inspeccionar cada servicio o atender urgencias permanentemente, ese alcance no sirve para operar solo.
 
-Internacionalización (se puede llevar a otros países): MEDIA
-- Perros sin hogar hay en toda Latinoamérica, y la mayoría de países no tiene una
-  app nacional de adopción (Petfinder es solo EE.UU. y Canadá).
-- La app es la misma, solo se agregan refugios de cada país.
-- Ojo: los refugios casi no tienen plata, así que en cada país la plata viene
-  de tiendas de mascotas y veterinarias, no de los refugios.
-
-Problemas para 1 sola persona: DIFÍCIL
-- Conseguir y mantener refugios en todo el país = mucho trabajo de calle y llamadas.
-- Una app móvil (iPhone + Android) es más trabajo que una web + WhatsApp.
-- Tienda de kits = logística (inventario, envíos): mejor solo enlazar tiendas aliadas.
-- Los refugios casi no pagan: la plata llega lento y hay que vender publicidad uno mismo.
+Revisión documental: 6 de noviembre de 2026. Precios de ejemplo, prestadores, permisos, seguros, pagos y demanda pendientes de validación; no hay servicios contratados ni implementación verificada.
