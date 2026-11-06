@@ -1,82 +1,100 @@
 56. ManosDelBarrio
 
-Revisión: 6 de noviembre de 2026. Idea sin construir ni validar; montos y acuerdos hipotéticos.
+Actualizada el 6 de noviembre de 2026 por indicación del usuario. Idea sin construir ni validar; precios, comisiones y acuerdos son hipótesis.
 
 1. Título
-ManosDelBarrio: personas que cobran por resolver trabajos concretos para otras personas, conectadas desde comercios cercanos.
+ManosDelBarrio: publica el problema de tu casa, recibe propuestas con precio y contrata a quien lo resuelva.
 
 2. Necesidad / Problema a solucionar
-Alguien compra un mueble y necesita que lo armen, pero no tiene herramientas, tiempo o una persona de confianza. Otra persona sabe hacerlo y busca trabajos pagados. Una tienda que solo vende el producto podría ofrecer el servicio complementario y cobrar por una reserva completada.
-Partir de Santa Marta; probar si ese problema queda insatisfecho con los servicios existentes, que sí tienen oferta en la ciudad.
+Una persona necesita resolver un problema de plomería, muebles, gas, electricidad, pintura, limpieza, mantenimiento u otro oficio, y quiere encontrar a alguien disponible y saber cuánto cobra. Otra persona tiene la experiencia necesaria y busca trabajos pagados.
+La publicación nace del problema del cliente; no exige saber cuál es la reparación ni comprar antes en una tienda. Santa Marta sería el primer mercado de prueba.
 
 3. Argumentos
-MVP limitado al armado de ciertos muebles, mediante citas y personas con experiencia comprobable:
-- El comercio entrega un enlace o QR junto con la compra.
-- El cliente envía foto, modelo o manual, zona y horario. Un prestador confirma alcance y precio final antes de reservar.
-- El cliente elige a la persona por disponibilidad, experiencia y precio. El prestador lleva sus herramientas.
-- Ambas partes registran inicio, resultado y conformidad o incidencia. Los cambios de alcance se aceptan antes de ejecutarlos.
-El prestador gana por su trabajo. El cliente obtiene el montaje y puede evitar comprar herramientas para un uso puntual. El negocio cobra por una reserva atribuida a su recomendación; el efecto sobre sus ventas debe medirse.
-No cobrar solo por permitir postularse ni prometer trabajo a quien se registra. No afirmar que saber hacerlo equivale a estar certificado.
-Empezar con dos mueblerías o ferreterías, cinco prestadores y una zona. La plataforma coordina; no arma muebles, transporta mercancía ni mantiene una cuadrilla propia.
-Diferencia frente a MisionDeBarrio: una persona contrata trabajo físico para su propia necesidad. Frente a CotizacionesHogar (idea 30): se contrata y completa el servicio; no es comparar documentos.
-Puede producir encargos frecuentes para un prestador con suficiente demanda. Para cada hogar, el armado es ocasional; no presentarlo como uso diario masivo comprobado. No se fuerza una mecánica de juego.
+Flujo propuesto:
+1) Publicar gratis: descripción, fotos o video opcional, categoría o ayuda para clasificarla, zona aproximada y fecha deseada. Presupuesto opcional. La dirección exacta se comparte solo cuando corresponde para el trabajo.
+2) Prestadores de la categoría y zona ven la solicitud, pueden aclarar dudas y envían una oferta con su precio, alcance y disponibilidad.
+3) El cliente ve tarjetas comparables y elige por precio, experiencia, calificaciones, acreditaciones pertinentes y horario.
+4) Se confirma una propuesta y sus condiciones. Los cambios de trabajo o precio se aceptan antes de ejecutarlos.
+5) Se registra el resultado, se atienden incidencias y se liquida el pago según el esquema aprobado. Ambas partes califican la operación real.
+
+Cada tarjeta debe mostrar: total al cliente con cargos visibles; mano de obra, materiales y desplazamiento incluidos o excluidos; qué se realizará; duración estimada; disponibilidad y perfil del prestador.
+Distinguir tres modalidades: PRECIO CERRADO, ESTIMADO sujeto a condiciones y VISITA DE DIAGNÓSTICO con precio propio. Nunca presentar el costo de la visita como precio de toda la reparación.
+Ejemplo ficticio: para cambiar un grifo aportado por el cliente, tres prestadores ofrecen $70.000, $85.000 y $100.000 finales por el mismo alcance. Son ofertas ilustrativas, no precios investigados. Si hace falta diagnóstico, se muestra esa condición.
+El precio lo propone cada prestador; la plataforma calcula y muestra cargos aplicables. No inventa una cotización definitiva a partir de una foto ni obliga a elegir al más barato.
+
+Beneficios: el cliente obtiene opciones y control del costo; el prestador puede generar ingresos por su oficio. Una empresa local también puede pedir trabajos para su establecimiento o prestar servicios con su equipo. Comercios pueden aportar referidos o vender materiales; su participación es opcional.
+La visión incluye múltiples oficios. Un piloto gradual por zona o capacidad operativa no reduce la definición a muebles. Gas y electricidad forman parte del alcance, con requisitos de competencia y verificación específicos antes de activar esos encargos.
+Distinta de CotizacionesHogar (idea 30): aquí se buscan prestadores, reciben ofertas y contrata la ejecución. Distinta de MisionDeBarrio: el cliente contrata para su necesidad, no para reportar información a una marca.
+La variedad puede generar trabajo frecuente para prestadores; la frecuencia de cada hogar debe medirse. No equivale a uso diario individual probado ni requiere juego.
 
 4. Cómo ganar dinero
-Quién paga: PERSONAS que necesitan el trabajo; quien lo realiza recibe su remuneración.
-Ejemplo hipotético de un armado por $80.000 COP finales:
-- Prestador: $60.000 brutos, de los que salen su transporte, herramientas, tiempo y obligaciones.
-- Comercio: $5.000 brutos por la reserva completada que originó.
-- Plataforma: $15.000 brutos para cubrir cobros, dispersión, impuestos, soporte e incidencias.
-No es una tarifa obtenida de trabajadores ni un precio que hayan aceptado clientes. No se promete ser más barato que la instalación de una cadena.
+Quién paga: PERSONAS que contratan; los prestadores reciben la remuneración pactada. Negocios también pueden contratar cuando tengan la misma necesidad.
+Publicación y recepción de ofertas sin cobro inicial. Hipótesis: cobrar por el servicio contratado, sin vender oportunidades vacías ni prometer trabajos a quien se registre. Mostrar al cliente el total y al prestador cuánto recibirá antes de confirmar.
 
-Usando las tarifas investigadas de ePayco para cuenta Davivienda, el cobro con tarjeta sería ($80.000 × 2,64% + $690) × 1,19 = $3.334,38. Dos dispersiones de $2.856 dejan $5.953,62 de los $15.000 ANTES de impuestos propios, retenciones, GMF cuando corresponda, verificación, reclamos y operación. No es utilidad neta ni una liquidación tributaria completa.
-El costo bancario con IVA se apoya en la captura del usuario del 5 de noviembre. Tarifa pública revisada el 6 de noviembre:
+Ejemplo directo hipotético, sin comercio intermediario:
+- Oferta total al cliente: $100.000 COP.
+- Importe pactado para el prestador: $85.000 brutos, antes de sus gastos y obligaciones.
+- Cargo de plataforma: $15.000 brutos, antes de cobros, impuestos, incidencias y operación.
+La tarifa puede variar con complejidad; no se fijó un porcentaje definitivo.
+
+Con la tarifa investigada de ePayco para cuenta Davivienda, un cobro con tarjeta de $100.000 tendría costo de ($100.000 × 2,64% + $690) × 1,19 = $3.962,70. Una dispersión bancaria de $2.856 deja $8.181,30 de los $15.000 ANTES de impuestos propios, retenciones, GMF cuando aplique, verificación, soporte y devoluciones. No es utilidad neta ni liquidación tributaria completa. El medio de pago puede cambiar el costo.
+Si se pacta una comisión por referido para un negocio, definir de dónde sale sin alterar lo acordado al trabajador. No imponerla en todas las operaciones. Más beneficiarios pueden añadir dispersiones y consumir el margen.
+Tarifas revisadas el 6 de noviembre:
 https://epayco.com/tarifas/
 https://epayco.com/payouts/tarifas/
-Detalle: investigaciones/Turciti-pagos-Colombia-2026-11-05.md.
-Confirmar admisión del marketplace, beneficiarios, plazos y tratamiento de cancelaciones. El saldo pasa primero por la plataforma; no asumir escrow, retenciones automáticas hasta aceptación ni un split directo. Ninguna integración quedó verificada. Agrupar pagos por beneficiario puede ayudar, sin borrar el costo de cada recaudo.
+El IVA de la dispersión se apoya en la captura del panel aportada por el usuario el 5 de noviembre. Detalle: investigaciones/Turciti-pagos-Colombia-2026-11-05.md.
+Confirmar admisión del modelo, beneficiarios, conciliación, disponibilidad de fondos y cancelaciones. El saldo pasa primero por la plataforma. No se verificaron escrow, protección de pago, seguro ni integración operativa; no copiar esas promesas de competidores.
 
 5. Competidores en Colombia
-- Homecenter ofrece armado con técnicos y herramientas.
-  Web: https://www.homecenter.com.co/homecenter-co/content/_LND-Servicios-hogar_y_jardin-muebles/
-  App oficial: https://play.google.com/store/apps/details?id=com.jfr.homecenter.app
-- RTA publica servicio de armado, cobertura y precios.
-  https://www.rta.com.co/servicio-de-armado/
-- AYDA ofrece armado mediante especialistas. El precio anunciado de visita de cotización no debe confundirse con el costo de ejecutar todo el armado.
-  https://ayda.com.co/servicios/instalacion-armados/cotizacion-armados
-- Vecino anuncia servicios entre personas del barrio.
+- Vecino anuncia publicación de necesidades, propuestas de vecinos, comparación de precios y servicios del hogar, incluidos plomería y electricidad.
   https://vecinoapp.co/
-  No se verificaron sus cifras comerciales, app publicada ni operaciones en Santa Marta.
-- Referidos directos y WhatsApp: alternativa que puede resolver el problema sin pagar otra plataforma.
+  No se verificaron sus cifras, app publicada o actividad en Santa Marta.
+- Homecenter ofrece distintos servicios y presupuestos para proyectos.
+  https://www.homecenter.com.co/homecenter-co/content/Landing-Servicios-Proyectos_a_medida/
+  App oficial: https://play.google.com/store/apps/details?id=com.jfr.homecenter.app
+- AYDA ofrece especialistas para servicios del hogar; su armado incluye una fase de cotización. El precio de la visita no es el de todo el trabajo.
+  https://ayda.com.co/servicios/instalacion-armados/cotizacion-armados
+- Referidos directos, prestadores conocidos y WhatsApp compiten por precio y facilidad. No se comprobó un nicho libre.
 
 6. Competidores en Santa Marta
-RTA enumera Santa Marta en su cobertura. AYDA también la incluye, sujeta a disponibilidad. Homecenter publica la ciudad en fichas de servicios de armado:
+RTA publica armado y cobertura en Santa Marta:
+https://www.rta.com.co/servicio-de-armado/
+AYDA enumera Santa Marta para el servicio revisado, sujeto a disponibilidad. Homecenter la incluye en algunas fichas de instalación, sin asegurar agenda actual:
 https://www.homecenter.com.co/homecenter-co/product/511811/armado-de-mueble-entre-180001-a-350000-marca-rta/511811/
-La ficha consultada aparecía sin stock: cobertura declarada no garantiza cita disponible. No se hicieron reservas o pruebas de calidad ni se verificaron tiempos reales. Los comercios mencionados no son aliados.
+Son evidencia de oferta en categorías concretas, no cobertura confirmada de todos los oficios. No se hicieron contrataciones, pruebas de calidad ni comparación local de precios. No hay alianzas confirmadas.
 
 7. Competidores en el mundo
-Taskrabbit conecta clientes con personas que ensamblan muebles y llevan herramientas. Además, anuncia una alianza oficial de armado con IKEA: colaborar con tiendas tampoco es una mecánica nueva.
-Web: https://www.taskrabbit.com/services/handyman/assemble-furniture
-App oficial: https://play.google.com/store/apps/details?id=com.taskrabbit.droid.consumer
-Documenta la necesidad internacional; no prueba demanda insatisfecha en Santa Marta.
+- Airtasker es un competidor directo del flujo: publicar tarea, recibir ofertas y elegir prestador.
+  https://www.airtasker.com/us/how-it-works/
+  App oficial: https://play.google.com/store/apps/details?id=au.com.airtasker
+  Su documentación exige explicar el precio y alcance de la oferta; sus reglas no son idénticas a la modalidad de diagnóstico propuesta aquí.
+  https://support.airtasker.com/hc/en-gb/articles/360020896011-As-a-Tasker-what-should-I-know-before-making-an-offer
+- Taskrabbit conecta con prestadores por habilidades, reseñas y precio, y cubre categorías del hogar.
+  https://www.taskrabbit.com/
+  App oficial: https://play.google.com/store/apps/details?id=com.taskrabbit.droid.consumer
+Estos casos documentan una necesidad internacional, no demanda insatisfecha ni rentabilidad local.
 
 8. Nuestra ventaja
-Océano azul: BAJO, con competencia local directa.
-Hipótesis: comercios pequeños pueden activar encargos para una red cercana, con precio confirmado y una reserva vinculada a la compra. No se verificó que las alternativas desatiendan ese segmento. Tiene que mejorar disponibilidad, calidad o esfuerzo de contratación, no solo cambiar la interfaz.
+Océano azul: BAJO. El modelo de publicar un trabajo y recibir ofertas ya existe.
+Hipótesis: reunir oferta confiable en Santa Marta, hacer comparables los precios y atender bien el proceso. Probar disponibilidad, cumplimiento y esfuerzo de contratación frente a alternativas; la interfaz sola no basta.
 
 Filtro de LLM gratuitos, revisión documental del 6 de noviembre:
-Claude Free incluye búsqueda, memoria, código y conexión con herramientas: https://claude.com/pricing
-Un LLM puede explicar cómo armar el mueble y ayudar a contratar servicios externos. El resultado adicional exige una persona real que acuda con herramientas, complete el montaje y responda por lo pactado. Si el cliente puede y quiere hacerlo con instrucciones gratuitas, no necesita esta plataforma. Un asistente que usa un servicio existente no elimina la competencia de ese servicio. No se hizo una prueba práctica exhaustiva de todos los LLM.
+Claude Free incluye búsqueda, memoria, código y conexiones: https://claude.com/pricing
+Airtasker documenta una integración con ChatGPT para publicar, comparar y contratar, anunciada para Australia, Reino Unido y Estados Unidos. No se confirmó acceso desde todos los planes gratuitos ni desde Colombia:
+https://support.airtasker.com/hc/en-gb/articles/61373201542937-How-to-get-things-done-with-Airtasker-on-ChatGPT
+Por tanto, no alegar que un asistente no puede conseguir profesionales. El valor propuesto depende de una red real disponible en la zona, condiciones aceptadas y ejecución física. Los servicios que use un asistente también compiten. Si una alternativa gratuita con cobertura equivalente resuelve lo mismo, descartar. No se hizo una prueba práctica exhaustiva de asistentes y cuentas.
 
 9. Riesgos
-Ingresos que no compensen transporte y tiempo; pocos trabajos por zona; clientes y prestadores que acuerden directamente; faltantes de fábrica que se confundan con mal servicio; ausencias, daños, entrada de desconocidos al hogar y disputas.
-Verificar identidad y experiencia sin prometer riesgo cero. Definir alcance, materiales, cancelaciones, garantía, responsabilidad y obligaciones de remuneración con los participantes. No incluir urgencias, gas, electricidad, obras estructurales o trabajos fuera de la competencia demostrada en el piloto.
-Prueba propuesta: diez servicios pagados en cuatro semanas con dos comercios. Medir remuneración después de gastos del prestador, tiempo del cliente, conversión desde cada tienda, incidencias y contribución después de costos. Continuar solo si compensa para las partes y algún comercio genera nuevas reservas. Son metas, no resultados.
+Pocas ofertas por solicitud; precios incomparables; cotizaciones muy bajas con extras posteriores; diagnósticos mal explicados; ingresos que no compensen transporte y materiales; ausencias, daños, pagos o trabajos discutidos; contratación fuera de la plataforma.
+Definir identidad, experiencia, competencias y acreditaciones verificables por oficio. Para gas, electricidad y otras labores técnicas, verificar requisitos aplicables al trabajo y responsable antes de habilitar contratación. Esa revisión y el eventual seguro están pendientes; la categoría no se excluye de la visión.
+La app de citas y cotizaciones no demuestra capacidad para atender emergencias: definir alcance y atención por categoría, sin prometer disponibilidad permanente.
+Definir garantías, aprobación de adicionales, privacidad, cancelaciones y obligaciones de remuneración. Ningún sello promete riesgo cero.
+Piloto propuesto: una zona de Santa Marta, prestadores evaluados por oficio y comercios opcionales. Medir solicitudes que reciben ofertas, tiempo hasta respuesta, trabajos pagados, ingreso del prestador después de gastos, reclamaciones y contribución después de costos. Los objetivos y la demanda siguen sin validar.
 
 10. Internacionalización
-MEDIA. La necesidad existe en otros países y hay rivales establecidos. Santa Marta primero; después estudiar Barranquilla y Cartagena. Fuera, evaluar México o Perú con prestadores, comercios, contratos y pagos locales. No escalar sin controlar cumplimiento y soporte.
+MEDIA. Misma necesidad en otros países y competencia establecida. Santa Marta primero; estudiar otras ciudades solo tras comprobar oferta, cumplimiento y soporte. Adaptar acreditaciones, contratos, moneda y pagos por país; no basta traducir.
 
 11. Problemas para 1 sola persona
-El desarrollo encaja con la experiencia en frontend, backend, servidores e infraestructura del fundador. Reclutar y evaluar prestadores, conseguir tiendas y resolver reclamos concentra el trabajo.
-Nota: APTA CON CUIDADO para un piloto acotado; DIFÍCIL a escala masiva sin apoyo operativo.
-Usar pocas tareas y citas programadas con atención en horario definido. Si el fundador debe supervisar cada visita, garantizar disponibilidad permanente o reemplazar personalmente a quien falte, no cumple la operación individual.
+La experiencia en frontend, backend, servidores e infraestructura facilita construir el sistema. Evaluar prestadores de varios oficios y resolver reclamos es el límite operativo.
+Nota: APTA CON CUIDADO para un piloto acotado; DIFÍCIL a escala masiva sin apoyo.
+La plataforma puede admitir varias categorías en su visión y activarlas gradualmente con requisitos reales. Estandarizar publicaciones, ofertas y atención; evitar que el fundador supervise o ejecute cada trabajo. La amplitud aumenta los tipos de incidentes y no elimina la necesidad de soporte.

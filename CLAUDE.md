@@ -21,6 +21,17 @@ Indicación del usuario, 6 de noviembre de 2026:
 - Mantener facilidad, preferencia por algo fresco o divertido, alcance amplio, frecuencia real de uso y valor adicional a LLM gratuitos. El uso diario de la plataforma o del comercio no demuestra que cada persona la necesite diariamente.
 - Evaluar operación para un solo fundador: no suponer que delegar una entrega, verificación o custodia a un negocio elimina sus costos, conflictos y responsabilidad. Comprobarlos antes de llamar viable a la idea.
 
+### Actualización de la idea 56: ManosDelBarrio
+
+Indicación del usuario, 6 de noviembre de 2026: ampliar la idea a trabajos del hogar en general, incluidos plomería, muebles, gas, electricidad y otros oficios. El armado de muebles fue un ejemplo inicial, no el alcance completo.
+- El usuario publica un problema de su casa con descripción, fotos o video, zona y fecha; no tiene que conocer la solución técnica ni fijar un presupuesto para empezar.
+- Prestadores del oficio se postulan y envían propuestas reales con su precio. El usuario ve las ofertas en pantalla y elige.
+- Cada oferta muestra total al cliente, mano de obra, materiales y desplazamiento incluidos o excluidos, disponibilidad, duración estimada, perfil y calificaciones. Diferenciar precio cerrado, estimado y visita de diagnóstico; aprobar los cambios antes de ejecutarlos.
+- Las personas pueden contratar directamente desde la publicación. Ferreterías, mueblerías y otros negocios pueden referir usuarios, ofrecer sus servicios o vender materiales; no son un paso obligatorio ni cobran por defecto en todos los trabajos.
+- La plataforma no calcula un precio definitivo a partir de una foto ni asigna automáticamente al más barato. Cada prestador responde por su propuesta y el cliente decide.
+- La visión admite múltiples oficios. Definir requisitos de competencia y verificación por categoría, especialmente gas y electricidad; un piloto gradual no debe convertir la idea otra vez en solo armado de muebles.
+- Mantener la numeración 56 y actualizar su archivo al evolucionar la propuesta, sin crear una idea nueva por cada aclaración.
+
 ## Capacidades reutilizables de Turciti para explorar nuevas ideas
 
 Actualizado el 5 de noviembre de 2026 por indicación del usuario. Línea de búsqueda actual: ofrecer un beneficio concreto al USUARIO COMÚN y resolver un problema real del negocio cuando participe uno. La diversión puede acompañar ese beneficio; entretener por sí solo no basta para las nuevas ideas. Aprovechar las dimensiones de Turciti cuando aporten valor, sin forzarlas en todas las ideas.
@@ -117,6 +128,13 @@ Fuente oficial:
 - Fuente adicional de OpenAI: https://learn.chatgpt.com/docs/pricing
 
 **No confundir superficies:** una restricción de imágenes en Work/Codex no demuestra que ChatGPT Free no genere imágenes en Chat. El plan de un asistente tampoco hace gratuita una API, el alojamiento de una app o un servicio externo. Verificar cada costo por separado.
+
+### Actualización puntual: contratación de trabajos desde un asistente
+
+**6 de noviembre de 2026:** Airtasker documenta una integración con ChatGPT para publicar trabajos, comparar ofertas y contratar prestadores mediante su red, con disponibilidad anunciada en Australia, Reino Unido y Estados Unidos. La fuente no confirmó aquí el acceso desde todos los planes gratuitos ni desde Colombia. No afirmar que los asistentes no pueden ejecutar contrataciones: comparar la red, la cobertura y el resultado completo, no solo la interfaz de chat.
+
+Fuente del proveedor:
+- https://support.airtasker.com/hc/en-gb/articles/61373201542937-How-to-get-things-done-with-Airtasker-on-ChatGPT
 
 ### Cómo aplicar este filtro
 
