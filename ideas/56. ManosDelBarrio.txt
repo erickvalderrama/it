@@ -1,0 +1,82 @@
+56. ManosDelBarrio
+
+Revisión: 6 de noviembre de 2026. Idea sin construir ni validar; montos y acuerdos hipotéticos.
+
+1. Título
+ManosDelBarrio: personas que cobran por resolver trabajos concretos para otras personas, conectadas desde comercios cercanos.
+
+2. Necesidad / Problema a solucionar
+Alguien compra un mueble y necesita que lo armen, pero no tiene herramientas, tiempo o una persona de confianza. Otra persona sabe hacerlo y busca trabajos pagados. Una tienda que solo vende el producto podría ofrecer el servicio complementario y cobrar por una reserva completada.
+Partir de Santa Marta; probar si ese problema queda insatisfecho con los servicios existentes, que sí tienen oferta en la ciudad.
+
+3. Argumentos
+MVP limitado al armado de ciertos muebles, mediante citas y personas con experiencia comprobable:
+- El comercio entrega un enlace o QR junto con la compra.
+- El cliente envía foto, modelo o manual, zona y horario. Un prestador confirma alcance y precio final antes de reservar.
+- El cliente elige a la persona por disponibilidad, experiencia y precio. El prestador lleva sus herramientas.
+- Ambas partes registran inicio, resultado y conformidad o incidencia. Los cambios de alcance se aceptan antes de ejecutarlos.
+El prestador gana por su trabajo. El cliente obtiene el montaje y puede evitar comprar herramientas para un uso puntual. El negocio cobra por una reserva atribuida a su recomendación; el efecto sobre sus ventas debe medirse.
+No cobrar solo por permitir postularse ni prometer trabajo a quien se registra. No afirmar que saber hacerlo equivale a estar certificado.
+Empezar con dos mueblerías o ferreterías, cinco prestadores y una zona. La plataforma coordina; no arma muebles, transporta mercancía ni mantiene una cuadrilla propia.
+Diferencia frente a MisionDeBarrio: una persona contrata trabajo físico para su propia necesidad. Frente a CotizacionesHogar (idea 30): se contrata y completa el servicio; no es comparar documentos.
+Puede producir encargos frecuentes para un prestador con suficiente demanda. Para cada hogar, el armado es ocasional; no presentarlo como uso diario masivo comprobado. No se fuerza una mecánica de juego.
+
+4. Cómo ganar dinero
+Quién paga: PERSONAS que necesitan el trabajo; quien lo realiza recibe su remuneración.
+Ejemplo hipotético de un armado por $80.000 COP finales:
+- Prestador: $60.000 brutos, de los que salen su transporte, herramientas, tiempo y obligaciones.
+- Comercio: $5.000 brutos por la reserva completada que originó.
+- Plataforma: $15.000 brutos para cubrir cobros, dispersión, impuestos, soporte e incidencias.
+No es una tarifa obtenida de trabajadores ni un precio que hayan aceptado clientes. No se promete ser más barato que la instalación de una cadena.
+
+Usando las tarifas investigadas de ePayco para cuenta Davivienda, el cobro con tarjeta sería ($80.000 × 2,64% + $690) × 1,19 = $3.334,38. Dos dispersiones de $2.856 dejan $5.953,62 de los $15.000 ANTES de impuestos propios, retenciones, GMF cuando corresponda, verificación, reclamos y operación. No es utilidad neta ni una liquidación tributaria completa.
+El costo bancario con IVA se apoya en la captura del usuario del 5 de noviembre. Tarifa pública revisada el 6 de noviembre:
+https://epayco.com/tarifas/
+https://epayco.com/payouts/tarifas/
+Detalle: investigaciones/Turciti-pagos-Colombia-2026-11-05.md.
+Confirmar admisión del marketplace, beneficiarios, plazos y tratamiento de cancelaciones. El saldo pasa primero por la plataforma; no asumir escrow, retenciones automáticas hasta aceptación ni un split directo. Ninguna integración quedó verificada. Agrupar pagos por beneficiario puede ayudar, sin borrar el costo de cada recaudo.
+
+5. Competidores en Colombia
+- Homecenter ofrece armado con técnicos y herramientas.
+  Web: https://www.homecenter.com.co/homecenter-co/content/_LND-Servicios-hogar_y_jardin-muebles/
+  App oficial: https://play.google.com/store/apps/details?id=com.jfr.homecenter.app
+- RTA publica servicio de armado, cobertura y precios.
+  https://www.rta.com.co/servicio-de-armado/
+- AYDA ofrece armado mediante especialistas. El precio anunciado de visita de cotización no debe confundirse con el costo de ejecutar todo el armado.
+  https://ayda.com.co/servicios/instalacion-armados/cotizacion-armados
+- Vecino anuncia servicios entre personas del barrio.
+  https://vecinoapp.co/
+  No se verificaron sus cifras comerciales, app publicada ni operaciones en Santa Marta.
+- Referidos directos y WhatsApp: alternativa que puede resolver el problema sin pagar otra plataforma.
+
+6. Competidores en Santa Marta
+RTA enumera Santa Marta en su cobertura. AYDA también la incluye, sujeta a disponibilidad. Homecenter publica la ciudad en fichas de servicios de armado:
+https://www.homecenter.com.co/homecenter-co/product/511811/armado-de-mueble-entre-180001-a-350000-marca-rta/511811/
+La ficha consultada aparecía sin stock: cobertura declarada no garantiza cita disponible. No se hicieron reservas o pruebas de calidad ni se verificaron tiempos reales. Los comercios mencionados no son aliados.
+
+7. Competidores en el mundo
+Taskrabbit conecta clientes con personas que ensamblan muebles y llevan herramientas. Además, anuncia una alianza oficial de armado con IKEA: colaborar con tiendas tampoco es una mecánica nueva.
+Web: https://www.taskrabbit.com/services/handyman/assemble-furniture
+App oficial: https://play.google.com/store/apps/details?id=com.taskrabbit.droid.consumer
+Documenta la necesidad internacional; no prueba demanda insatisfecha en Santa Marta.
+
+8. Nuestra ventaja
+Océano azul: BAJO, con competencia local directa.
+Hipótesis: comercios pequeños pueden activar encargos para una red cercana, con precio confirmado y una reserva vinculada a la compra. No se verificó que las alternativas desatiendan ese segmento. Tiene que mejorar disponibilidad, calidad o esfuerzo de contratación, no solo cambiar la interfaz.
+
+Filtro de LLM gratuitos, revisión documental del 6 de noviembre:
+Claude Free incluye búsqueda, memoria, código y conexión con herramientas: https://claude.com/pricing
+Un LLM puede explicar cómo armar el mueble y ayudar a contratar servicios externos. El resultado adicional exige una persona real que acuda con herramientas, complete el montaje y responda por lo pactado. Si el cliente puede y quiere hacerlo con instrucciones gratuitas, no necesita esta plataforma. Un asistente que usa un servicio existente no elimina la competencia de ese servicio. No se hizo una prueba práctica exhaustiva de todos los LLM.
+
+9. Riesgos
+Ingresos que no compensen transporte y tiempo; pocos trabajos por zona; clientes y prestadores que acuerden directamente; faltantes de fábrica que se confundan con mal servicio; ausencias, daños, entrada de desconocidos al hogar y disputas.
+Verificar identidad y experiencia sin prometer riesgo cero. Definir alcance, materiales, cancelaciones, garantía, responsabilidad y obligaciones de remuneración con los participantes. No incluir urgencias, gas, electricidad, obras estructurales o trabajos fuera de la competencia demostrada en el piloto.
+Prueba propuesta: diez servicios pagados en cuatro semanas con dos comercios. Medir remuneración después de gastos del prestador, tiempo del cliente, conversión desde cada tienda, incidencias y contribución después de costos. Continuar solo si compensa para las partes y algún comercio genera nuevas reservas. Son metas, no resultados.
+
+10. Internacionalización
+MEDIA. La necesidad existe en otros países y hay rivales establecidos. Santa Marta primero; después estudiar Barranquilla y Cartagena. Fuera, evaluar México o Perú con prestadores, comercios, contratos y pagos locales. No escalar sin controlar cumplimiento y soporte.
+
+11. Problemas para 1 sola persona
+El desarrollo encaja con la experiencia en frontend, backend, servidores e infraestructura del fundador. Reclutar y evaluar prestadores, conseguir tiendas y resolver reclamos concentra el trabajo.
+Nota: APTA CON CUIDADO para un piloto acotado; DIFÍCIL a escala masiva sin apoyo operativo.
+Usar pocas tareas y citas programadas con atención en horario definido. Si el fundador debe supervisar cada visita, garantizar disponibilidad permanente o reemplazar personalmente a quien falte, no cumple la operación individual.
