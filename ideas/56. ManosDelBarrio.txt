@@ -11,13 +11,23 @@ La publicación nace del problema del cliente; no exige saber cuál es la repara
 
 3. Argumentos
 Flujo propuesto:
-1) Publicar gratis: descripción, fotos o video opcional, categoría o ayuda para clasificarla, zona aproximada, fecha deseada y PRECIO INICIAL QUE EL CLIENTE PROPONE PAGAR. La dirección exacta se comparte solo cuando corresponde para el trabajo.
+1) Publicar gratis: descripción, fotos o video opcional, categoría o ayuda para clasificarla, zona aproximada, fecha deseada y PRECIO INICIAL QUE EL CLIENTE PROPONE PAGAR. El cliente indica si ya tiene los materiales, necesita que los aporte el prestador o todavía no sabe cuáles hacen falta; también aclara qué pretende cubrir con el precio propuesto. La dirección exacta se comparte solo cuando corresponde para el trabajo.
 2) Prestadores de la categoría y zona ven el problema y el precio propuesto. Pueden aclarar dudas, ACEPTAR ese importe o enviar una CONTRAOFERTA con otro precio, alcance y disponibilidad.
 3) El cliente ve su precio inicial y tarjetas con cada aceptación o contraoferta. Elige por precio, experiencia, calificaciones, acreditaciones pertinentes y horario. Una aceptación de precio no asigna el trabajo por sí sola: el cliente confirma a quién contrata.
 4) Se confirma una propuesta y sus condiciones. Los cambios de trabajo o precio se aceptan antes de ejecutarlos.
 5) Se registra el resultado, se atienden incidencias y se liquida el pago según el esquema aprobado. Ambas partes califican la operación real.
 
 Cada tarjeta debe mostrar: total al cliente con cargos visibles; mano de obra, materiales y desplazamiento incluidos o excluidos; qué se realizará; duración estimada; disponibilidad y perfil del prestador.
+
+Desglose de mano de obra y materiales, añadido por indicación del usuario:
+- Cada proponente elige SOLO MANO DE OBRA o MANO DE OBRA + MATERIALES. La elección aparece en su tarjeta junto al precio, antes de contratar.
+- SOLO MANO DE OBRA: muestra el valor del trabajo y especifica qué materiales debe aportar el cliente. Aclarar quién compra y lleva cada elemento.
+- MANO DE OBRA + MATERIALES: muestra por separado el trabajo y los materiales; detalla piezas o insumos, cantidades y costo. Indicar marca, referencia o calidad cuando influya en lo que se ofrece.
+- Mostrar subtotales de mano de obra, materiales, desplazamiento y cargos de la app, con los impuestos que correspondan incluidos o identificados, y el TOTAL AL CLIENTE. No sumar cargos ocultos después de elegir.
+- Si un material o su cantidad depende de revisar el problema, marcarlo POR CONFIRMAR y mostrar el importe como ESTIMADO, con las condiciones pendientes. El costo de diagnóstico, si existe, se identifica por separado; no se anuncia el estimado como total cerrado de toda la reparación.
+- Cualquier material adicional, sustitución que cambie lo acordado o gasto extra requiere aprobación explícita del cliente ANTES de comprarlo o ejecutar ese trabajo. Registrar el detalle, el nuevo total y la aceptación dentro de la app; sin aprobación se mantiene el alcance aceptado.
+- Al comparar propuestas, destacar quién aporta materiales y qué incluye cada precio, para no presentar una oferta de solo mano de obra como equivalente a otra con materiales.
+
 Distinguir tres modalidades: PRECIO CERRADO, ESTIMADO sujeto a condiciones y VISITA DE DIAGNÓSTICO con precio propio. Nunca presentar el costo de la visita como precio de toda la reparación.
 Ejemplo ficticio: el cliente publica «Necesito cambiar un grifo; yo pongo el repuesto; ofrezco $80.000 en total». Un prestador acepta $80.000, otro contraoferta $95.000 y otro $110.000 para el mismo alcance. El cliente compara y confirma al que prefiera. Son importes ilustrativos, no precios de mercado ni ofertas reales.
 El cliente propone primero el precio y los prestadores negocian mediante aceptación o contraoferta. La plataforma muestra cargos e importe a recibir antes de confirmar. No sube el total publicado sin consentimiento, inventa una cotización definitiva desde una foto ni obliga a elegir al más barato. Si no consigue una respuesta adecuada, el cliente puede modificar el precio o las condiciones.
