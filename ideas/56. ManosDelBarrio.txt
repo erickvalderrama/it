@@ -42,7 +42,7 @@ La variedad puede generar trabajo frecuente para prestadores; la frecuencia de c
 Quién paga: PERSONAS que contratan; los prestadores reciben la remuneración pactada. Negocios también pueden contratar cuando tengan la misma necesidad.
 Publicar un problema e indicar cuánto se ofrece no genera un cobro ni una contratación automática. Publicación y recepción de respuestas sin cobro inicial. Hipótesis: cobrar por el servicio contratado, sin vender oportunidades vacías ni prometer trabajos a quien se registre. Mostrar al cliente el total y al prestador cuánto recibirá antes de confirmar.
 
-Ejemplo directo hipotético de una propuesta aceptada, sin comercio intermediario; no es un precio único para todos los trabajos:
+Ejemplo ANTERIOR de recaudo completo por trabajo, conservado como alternativa de cálculo; no es una tarifa definitiva ni se combina automáticamente con comisiones prepagadas:
 - Oferta total al cliente: $100.000 COP.
 - Importe pactado para el prestador: $85.000 brutos, antes de sus gastos y obligaciones.
 - Cargo de plataforma: $15.000 brutos, antes de cobros, impuestos, incidencias y operación.
@@ -55,6 +55,16 @@ https://epayco.com/tarifas/
 https://epayco.com/payouts/tarifas/
 El IVA de la dispersión se apoya en la captura del panel aportada por el usuario el 5 de noviembre. Detalle: investigaciones/Turciti-pagos-Colombia-2026-11-05.md.
 Confirmar admisión del modelo, beneficiarios, conciliación, disponibilidad de fondos y cancelaciones. El saldo pasa primero por la plataforma. No se verificaron escrow, protección de pago, seguro ni integración operativa; no copiar esas promesas de competidores.
+
+Recargas para cargos pequeños, añadidas por indicación del usuario:
+- Referencia principal: el prestador recarga saldo para cubrir comisiones de la app en varios trabajos, como la mecánica de cartera para conductores de inDrive. Quien paga un cargo propio también puede prepagarlo si se habilita esa modalidad.
+- Definir quién soporta la comisión y el evento de cobro antes de confirmar; reservar o descontar contra un trabajo identificable y revertir cuando corresponda. No descontarla a la vez del saldo y del abono.
+- Si se usa un recargo al cliente para conservar el precio del prestador, mostrar ambos importes y su liquidación. No asumir que cobrar al prestador desde su saldo mantiene intacto su ingreso sin compensar ese cargo.
+- Una variante es pago del cliente directamente al prestador y comisión desde saldo; requiere verificar pago y ejecución. Es una alternativa, no sustitución general del pago dentro de la app.
+- Si el cliente recarga para pagar el trabajo completo dentro de la app, separar dinero del prestador y cargo propio. Mantener el costo de Payout y sus obligaciones; una recarga no elimina automáticamente cada transferencia.
+- Registrar saldo, reservas, comisiones, cancelaciones y devoluciones, con mínimos por validar. Lo no consumido no es utilidad de la plataforma.
+- El objetivo es amortizar cargos fijos de recaudo; no desaparecer porcentajes, impuestos o costos de terceros. Probar aceptación y costos antes de imponer recarga.
+- Detalle común con Mascotas y fuentes: investigaciones/Mascotas-ManosDelBarrio-recargas-2026-11-06.md.
 
 5. Competidores en Colombia
 - inDrive es el referente de negociación indicado por el usuario. Su web oficial en Colombia describe proponer tarifa y recibir aceptación o una tarifa alternativa:
@@ -100,6 +110,7 @@ https://support.airtasker.com/hc/en-gb/articles/61373201542937-How-to-get-things
 Por tanto, no alegar que un asistente no puede conseguir profesionales. El valor propuesto depende de una red real disponible en la zona, condiciones aceptadas y ejecución física. Los servicios que use un asistente también compiten. Si una alternativa gratuita con cobertura equivalente resuelve lo mismo, descartar. No se hizo una prueba práctica exhaustiva de asistentes y cuentas.
 
 9. Riesgos
+Las recargas añaden conciliación, saldos remanentes y reembolsos; el doble cobro de una comisión debe prevenirse. Confirmar el modelo con el proveedor antes del piloto real.
 Pocas ofertas por solicitud; precios incomparables; cotizaciones muy bajas con extras posteriores; diagnósticos mal explicados; ingresos que no compensen transporte y materiales; ausencias, daños, pagos o trabajos discutidos; contratación fuera de la plataforma.
 Definir identidad, experiencia, competencias y acreditaciones verificables por oficio. Para gas, electricidad y otras labores técnicas, verificar requisitos aplicables al trabajo y responsable antes de habilitar contratación. Esa revisión y el eventual seguro están pendientes; la categoría no se excluye de la visión.
 La app de citas y cotizaciones no demuestra capacidad para atender emergencias: definir alcance y atención por categoría, sin prometer disponibilidad permanente.

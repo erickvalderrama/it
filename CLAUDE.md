@@ -63,6 +63,21 @@ Indicación del usuario, 6 de noviembre de 2026:
 - Evaluar cada vertical por separado: confianza, prestadores, cobertura, pagos, incidentes y responsabilidades no se resuelven por compartir código. Evitar lanzar simultáneamente todos los mercados.
 - Evaluación de las 57 ideas: evaluaciones/Top-10-ideas-2026-11-06.md. El orden es un juicio para priorizar validación; no implica demanda ni rentabilidad demostradas.
 
+## Recargas como opción general de monetización
+
+Indicación del usuario, 6 de noviembre de 2026: guardar las recargas como IDEA GENERAL reutilizable para futuras propuestas, además de Mascotas y ManosDelBarrio.
+- Evaluar saldo prepago cuando existan cargos pequeños y repetidos: una recarga puede pagar varias comisiones, publicaciones premium o usos de funciones. Es una opción, no requisito de todas las ideas.
+- Referencia tipo inDrive: el PRESTADOR recarga para pagar cargos de la plataforma. Separar esta modalidad de la del CLIENTE que recarga para comprar el servicio completo.
+- En cada idea precisar quién recarga, qué cubre el saldo, quién paga la comisión, cuándo se descuenta y cuánto recibe cada parte. Evitar doble cargo desde saldo y abono.
+- Las recargas amortizan el cargo fijo por recaudo; no eliminan el porcentaje de pasarela, impuestos, pagos al prestador ni Payouts cuando correspondan. Agrupar transferencias del mismo beneficiario es una decisión adicional, con fechas aceptadas.
+- No reemplazar automáticamente la preferencia de pago dentro de la app por efectivo o transferencia directa. Si se propone ese flujo, describirlo como alternativa y definir confirmación y responsabilidades.
+- Probar mínimo, frecuencia y aceptación; recargar mucho antes del primer beneficio puede reducir conversión. No fijar una obligación universal de recarga ni renovarla sin autorización.
+- Mantener saldo disponible/reservado, consumos, devolución y conciliación, con operaciones verificadas. El saldo no consumido no se trata como utilidad libre; revisar facturación e impuestos por separado.
+- No confundir el saldo o bolsillo de ePayco del COMERCIO con una cartera operativa ya aprobada para usuarios de nuestras apps. Confirmar encaje con el proveedor y condiciones aplicables antes de cobrar.
+- En Mascotas conservar ADOPCIÓN, TRANSPORTE EXCLUSIVO A→B y SERVICIOS PARA MASCOTAS. Las PUBLICACIONES DE ADOPCIÓN PREMIUM son un servicio propio: el publicante paga a la APP por destacar el anuncio. No hay Payout a un prestador por esa publicación; sí costos de recaudo, impuestos y operación. No es venta del animal ni garantía de adopción.
+- Aplicaciones iniciales: ideas/1. Mascotas.txt y ideas/56. ManosDelBarrio.txt. Desarrollo y fuentes: investigaciones/Mascotas-ManosDelBarrio-recargas-2026-11-06.md.
+- Ayuda oficial de inDrive Colombia: https://indrive.com/es-co/help/drivers/how-to-top-up-your-indrive-account. No copiar un porcentaje de comisión o mínimo como si fuera universal.
+
 ## Capacidades reutilizables de Turciti para explorar nuevas ideas
 
 Actualizado el 5 de noviembre de 2026 por indicación del usuario. Línea de búsqueda actual: ofrecer un beneficio concreto al USUARIO COMÚN y resolver un problema real del negocio cuando participe uno. La diversión puede acompañar ese beneficio; entretener por sí solo no basta para las nuevas ideas. Aprovechar las dimensiones de Turciti cuando aporten valor, sin forzarlas en todas las ideas.

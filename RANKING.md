@@ -18,6 +18,7 @@ Este es el archivo vigente para consultar y actualizar el ranking del repositori
 | Fecha | Cambio | Efecto sobre el orden |
 | --- | --- | --- |
 | 2026-11-06 | Se establece este archivo vigente a partir de la evaluación completa de las 57 ideas, por petición del usuario. | Se conserva el top 10 ya presentado. |
+| 2026-11-06 | Se añaden publicaciones de adopción premium como ingreso de Mascotas y recargas como opción general, aplicada a las ideas 1 y 56. | Se mantienen los puestos 1 y 2: son modelos propuestos, sin ventas o validación nuevas; revisar aceptación y costos. |
 
 ## Evaluación vigente
 
@@ -44,8 +45,8 @@ No se aceptaron como prueba las frases antiguas «no existe», «sin competencia
 
 | Puesto | Idea | Motivo principal | Principal freno |
 | --- | --- | --- | --- |
-| 1 | [56. ManosDelBarrio](ideas/56.%20ManosDelBarrio.txt) | Resuelve trabajos del hogar; ingreso para quien sabe hacerlos y comparación de alcance/precio para quien contrata. | Confianza, calidad, diagnósticos, materiales y reclamos. Competencia directa de redes de oficios. |
-| 2 | [1. Mascotas: servicios](ideas/1.%20Mascotas.txt) | Traslado exclusivo y baño/belleza a domicilio; trabajo para prestadores y tiempo recuperado para dueños. | Seguridad de animales, confianza en el hogar y oferta local. PetBacker y servicios locales ya existen. |
+| 1 | [56. ManosDelBarrio](ideas/56.%20ManosDelBarrio.txt) | Resuelve trabajos del hogar; ingreso por oficios y comparación de alcance/precio. Recargas propuestas para amortizar cargos pequeños. | Confianza, calidad, materiales y reclamos. Las recargas requieren aceptación, conciliación y cargos sin duplicados; competencia de redes de oficios. |
+| 2 | [1. Mascotas: servicios y publicaciones premium](ideas/1.%20Mascotas.txt) | Traslado exclusivo A→B y servicios para mascotas; publicaciones de adopción premium generan ingreso propio de la app por visibilidad. | Seguridad, oferta local y competencia. Disposición a pagar por destacados y recargas sin validar; el saldo añade conciliación y reembolsos. |
 | 3 | [17. Cotiza tu moto](ideas/17.%20Motos.txt) | Comparar talleres y presupuestos para reducir búsquedas y tiempo sin un vehículo que puede generar ingresos. | Diagnóstico presencial, repuestos, cumplimiento del precio y respuesta de talleres. MotoSmart ya ofrece red y descuentos. |
 | 4 | [51. PaseDiario](ideas/51.%20PaseDiario.txt) | Ahorro en consumos habituales y visitas previsibles para el comercio. | Prepago, usos que vencen, incumplimiento del comercio y margen después de cobros. Menos uso puede salir más caro. |
 | 5 | [3. Citas](ideas/3.%20Citas.txt) | Reservar hora sin intercambiar muchos mensajes; negocio cobra una mensualidad por una agenda real. | Competencia muy fuerte de AgendaPro y otros; WhatsApp por sí solo no es ventaja. Adopción, recordatorios y soporte cuestan. |
@@ -66,13 +67,13 @@ Los tamaños siguientes son propuestas de piloto, no resultados, previsiones de 
 ### 1. 56. ManosDelBarrio
 
 - Frecuencia: Ocasional por hogar; más frecuente para prestadores.
-- Primera prueba: En una zona, conseguir seis prestadores de varios oficios con requisitos claros y probar diez trabajos pagados; medir precio cumplido, resolución y soporte.
+- Primera prueba: En una zona, conseguir seis prestadores de varios oficios y probar diez trabajos pagados; medir precio cumplido, resolución y soporte. Evaluar aceptación y consumo de saldo para comisiones, sin doble cobro ni reemplazar automáticamente el pago dentro de la app.
 - Condición: continuar solo si se observa beneficio real, cobro sostenible y un nivel de soporte que pueda atender una persona.
 
-### 2. 1. Mascotas: servicios
+### 2. 1. Mascotas: servicios y publicaciones premium
 
 - Frecuencia: Belleza periódica; transporte ocasional.
-- Primera prueba: Elegir primero belleza programada o transporte, con tres prestadores; probar diez servicios pagados. La adopción por sí sola no justifica este puesto.
+- Primera prueba: Elegir belleza programada o transporte exclusivo A→B con tres prestadores y probar diez servicios pagados. Probar por separado publicaciones de adopción premium, midiendo pagos y visibilidad entregada; no suponer que los refugios pagarán.
 - Condición: continuar solo si se observa beneficio real, cobro sostenible y un nivel de soporte que pueda atender una persona.
 
 ### 3. 17. Cotiza tu moto
@@ -130,7 +131,7 @@ Para todos: anotar solicitudes recibidas, ofertas útiles, contratos/pagos cumpl
 
 | Idea | Qué queda guardado | Flujo de dinero | Evaluación |
 | --- | --- | --- | --- |
-| 1. Mascotas | Adopción original y nuevos servicios: transporte exclusivo A→B; baño, limpieza y belleza a domicilio. Presupuesto y ofertas con inclusiones claras. | Dueño paga al prestador; intermediación visible si se acuerda. | TOP 2 por los servicios. Belleza programada permite un piloto más acotado que una red de transporte amplio. |
+| 1. Mascotas | Adopción con publicaciones premium; transporte exclusivo A→B; baño, limpieza y belleza a domicilio. Recargas para cargos pequeños. | Premium: el publicante paga a la APP, sin Payout a un prestador. Servicios: pago y comisión según modalidad aceptada. | TOP 2. El premium añade ingreso propio potencial; probar disposición a pagar y saldo sin declarar demanda validada. |
 | 57. MudanzaAcordada | Origen y destino, inventario, acceso, fecha y ofertas que distinguen vehículo, ayudantes y materiales. Se conserva la 32 de inventario de cajas. | Persona que se muda paga al transportador; intermediación visible si se acuerda. | Fuera del top 10 inicial: baja frecuencia por persona, daños/reclamos y alternativas muy parecidas. |
 | 14. Reciclaje | Material y cantidad aproximada en mapa, compradores ofertan, dueño acepta o rechaza; pesaje y neto recibido confirmados. | Comprador del material paga al dueño; no garantizar ingreso por cualquier residuo. | Fuera del top 10 inicial: poco valor por lote doméstico, recogida, calidad/peso, densidad y pagos pueden consumir el beneficio. |
 
@@ -148,6 +149,15 @@ Se pueden compartir solicitudes, mapa, perfiles, ofertas, cambios aprobados y es
 
 Todas las finalistas tienen sustitutos y competencia. En las nuevas fichas se califica océano azul BAJO; este ranking no depende de atribuir exclusividad a ninguna.
 
+## Publicaciones premium y recargas: revisión del 6 de noviembre
+
+Actualización solicitada por el usuario:
+- Mascotas mantiene adopciones, transporte exclusivo A→B y servicios. Pagar por destacar una adopción es ingreso propio de la app, sin dispersión a otro prestador por esa publicación; sigue teniendo recaudo, impuestos y costos.
+- En Mascotas y ManosDelBarrio se propone saldo prepago para cargos pequeños. La referencia tipo inDrive es recarga del PRESTADOR para comisiones; se distingue de recarga del CLIENTE para compras completas.
+- Agrupar cobros amortiza cargos fijos, no porcentajes, impuestos o abonos pendientes. Si se recauda el servicio completo y se transfiere al prestador, el Payout sigue costando.
+- Mantener el orden: las recargas y los premium son hipótesis de monetización, no resultados comerciales. Las nuevas pruebas deben medir compra, consumo de saldo, beneficio entregado, devoluciones, margen y soporte.
+- Detalle y fuentes: [publicaciones premium y recargas](investigaciones/Mascotas-ManosDelBarrio-recargas-2026-11-06.md).
+
 ## Filtro de LLM gratuitos
 
 Se aplicó el marco guardado en CLAUDE.md, incluidas fuentes oficiales de planes y la actualización del 6 de noviembre sobre contratación mediante Airtasker en ChatGPT. No se realizaron aquí pruebas prácticas exhaustivas de todos los asistentes, planes o cuentas.
@@ -164,7 +174,7 @@ Pasan el filtro solo CONDICIONALMENTE las finalistas: deben aportar el resultado
 
 | N.º | Idea | Decisión | Razón |
 | --- | --- | --- | --- |
-| 1 | [Mascotas](ideas/1.%20Mascotas.txt) | TOP 2 | Los servicios añadidos tienen pagador y prestador reales; adopción sola tiene monetización débil. Riesgo de transporte y calidad. |
+| 1 | [Mascotas](ideas/1.%20Mascotas.txt) | TOP 2 | Servicios para mascotas y transporte exclusivo A→B; premium por destacar adopciones paga a la app. Recargas propuestas; aceptación, margen y operación pendientes. |
 | 2 | [Gyms](ideas/2.%20Gyms.txt) | Relegada | Comparar gimnasios y asistencia no establece por sí solo pago recurrente. Datos locales y alternativas gratuitas pesan. |
 | 3 | [Citas](ideas/3.%20Citas.txt) | TOP 5 | Agenda persistente y cobro empresarial claros; competencia fuerte y usuario individual de frecuencia periódica. |
 | 4 | [Turismo](ideas/4.%20Turismo.txt) | Relegada | Reservas de guías y actividades sí ejecutan algo real, pero conseguir oferta, cancelaciones y operación turística pesan para trabajar solo. |
@@ -219,7 +229,7 @@ Pasan el filtro solo CONDICIONALMENTE las finalistas: deben aportar el resultado
 | 53 | [CompraEnParche](ideas/53.%20CompraEnParche.txt) | TOP 8 | Ahorro de volumen para cantidades normales; mínimos, devoluciones y margen por cobro condicionan la viabilidad. |
 | 54 | [MisionDeBarrio](ideas/54.%20MisionDeBarrio.txt) | Reserva | Ingreso por tareas reales, pero hace falta comprador empresarial que pague. Fraude, revisión y cobros compiten con Mobijob y SmartSpotter. |
 | 55 | [AlquilaEntreVecinos](ideas/55.%20AlquilaEntreVecinos.txt) | Reserva; operación alta | Dueños ganan y otros evitan comprar; custodia en comercios, inspección, daño y varios pagos reducen margen. No desaparece la responsabilidad. |
-| 56 | [ManosDelBarrio](ideas/56.%20ManosDelBarrio.txt) | TOP 1 | Mejor encaje actual entre personas con necesidad y oficios que generan ingresos. Debe probar precio, cumplimiento y soporte. |
+| 56 | [ManosDelBarrio](ideas/56.%20ManosDelBarrio.txt) | TOP 1 | Necesidad y oficios con ingresos; recargas de comisiones como opción para cargos pequeños. Probar precio, cumplimiento, consumo de saldo y soporte. |
 | 57 | [MudanzaAcordada](ideas/57.%20MudanzaAcordada.txt) | Reserva; fuera del top 10 | Necesidad clara, pero uso ocasional y reclamos pesados; inDrive Fletes y Mudanti ya publican mecanismos similares. |
 
 ## Lectura de márgenes y validación
