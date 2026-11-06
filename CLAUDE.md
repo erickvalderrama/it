@@ -24,11 +24,11 @@ Indicación del usuario, 6 de noviembre de 2026:
 ### Actualización de la idea 56: ManosDelBarrio
 
 Indicación del usuario, 6 de noviembre de 2026: ampliar la idea a trabajos del hogar en general, incluidos plomería, muebles, gas, electricidad y otros oficios. El armado de muebles fue un ejemplo inicial, no el alcance completo.
-- El usuario publica un problema de su casa con descripción, fotos o video, zona y fecha; no tiene que conocer la solución técnica ni fijar un presupuesto para empezar.
-- Prestadores del oficio se postulan y envían propuestas reales con su precio. El usuario ve las ofertas en pantalla y elige.
+- El usuario publica un problema de su casa con descripción, fotos o video, zona, fecha y el PRECIO QUE PROPONE PAGAR, siguiendo la mecánica que indicó el usuario: «como inDrive». No necesita conocer la solución técnica, pero sí indica un importe inicial.
+- Prestadores del oficio pueden ACEPTAR el importe propuesto o enviar una CONTRAOFERTA con otro precio y condiciones. El cliente ve aceptaciones y contraofertas en pantalla y elige; aceptar el precio no asigna el trabajo hasta que el cliente confirme a quién contrata.
 - Cada oferta muestra total al cliente, mano de obra, materiales y desplazamiento incluidos o excluidos, disponibilidad, duración estimada, perfil y calificaciones. Diferenciar precio cerrado, estimado y visita de diagnóstico; aprobar los cambios antes de ejecutarlos.
 - Las personas pueden contratar directamente desde la publicación. Ferreterías, mueblerías y otros negocios pueden referir usuarios, ofrecer sus servicios o vender materiales; no son un paso obligatorio ni cobran por defecto en todos los trabajos.
-- La plataforma no calcula un precio definitivo a partir de una foto ni asigna automáticamente al más barato. Cada prestador responde por su propuesta y el cliente decide.
+- La plataforma muestra el precio inicial y cada respuesta, con el total y los cargos visibles para el cliente y el importe que recibiría el prestador. No modifica la propuesta sin consentimiento, ni calcula un precio definitivo desde una foto, ni asigna automáticamente al más barato. El cliente puede ajustar su oferta si no consigue una respuesta adecuada.
 - La visión admite múltiples oficios. Definir requisitos de competencia y verificación por categoría, especialmente gas y electricidad; un piloto gradual no debe convertir la idea otra vez en solo armado de muebles.
 - Mantener la numeración 56 y actualizar su archivo al evolucionar la propuesta, sin crear una idea nueva por cada aclaración.
 

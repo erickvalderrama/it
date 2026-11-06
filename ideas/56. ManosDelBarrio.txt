@@ -3,7 +3,7 @@
 Actualizada el 6 de noviembre de 2026 por indicación del usuario. Idea sin construir ni validar; precios, comisiones y acuerdos son hipótesis.
 
 1. Título
-ManosDelBarrio: publica el problema de tu casa, recibe propuestas con precio y contrata a quien lo resuelva.
+ManosDelBarrio: publica el problema de tu casa, propón cuánto pagas y elige entre aceptaciones y contraofertas.
 
 2. Necesidad / Problema a solucionar
 Una persona necesita resolver un problema de plomería, muebles, gas, electricidad, pintura, limpieza, mantenimiento u otro oficio, y quiere encontrar a alguien disponible y saber cuánto cobra. Otra persona tiene la experiencia necesaria y busca trabajos pagados.
@@ -11,16 +11,17 @@ La publicación nace del problema del cliente; no exige saber cuál es la repara
 
 3. Argumentos
 Flujo propuesto:
-1) Publicar gratis: descripción, fotos o video opcional, categoría o ayuda para clasificarla, zona aproximada y fecha deseada. Presupuesto opcional. La dirección exacta se comparte solo cuando corresponde para el trabajo.
-2) Prestadores de la categoría y zona ven la solicitud, pueden aclarar dudas y envían una oferta con su precio, alcance y disponibilidad.
-3) El cliente ve tarjetas comparables y elige por precio, experiencia, calificaciones, acreditaciones pertinentes y horario.
+1) Publicar gratis: descripción, fotos o video opcional, categoría o ayuda para clasificarla, zona aproximada, fecha deseada y PRECIO INICIAL QUE EL CLIENTE PROPONE PAGAR. La dirección exacta se comparte solo cuando corresponde para el trabajo.
+2) Prestadores de la categoría y zona ven el problema y el precio propuesto. Pueden aclarar dudas, ACEPTAR ese importe o enviar una CONTRAOFERTA con otro precio, alcance y disponibilidad.
+3) El cliente ve su precio inicial y tarjetas con cada aceptación o contraoferta. Elige por precio, experiencia, calificaciones, acreditaciones pertinentes y horario. Una aceptación de precio no asigna el trabajo por sí sola: el cliente confirma a quién contrata.
 4) Se confirma una propuesta y sus condiciones. Los cambios de trabajo o precio se aceptan antes de ejecutarlos.
 5) Se registra el resultado, se atienden incidencias y se liquida el pago según el esquema aprobado. Ambas partes califican la operación real.
 
 Cada tarjeta debe mostrar: total al cliente con cargos visibles; mano de obra, materiales y desplazamiento incluidos o excluidos; qué se realizará; duración estimada; disponibilidad y perfil del prestador.
 Distinguir tres modalidades: PRECIO CERRADO, ESTIMADO sujeto a condiciones y VISITA DE DIAGNÓSTICO con precio propio. Nunca presentar el costo de la visita como precio de toda la reparación.
-Ejemplo ficticio: para cambiar un grifo aportado por el cliente, tres prestadores ofrecen $70.000, $85.000 y $100.000 finales por el mismo alcance. Son ofertas ilustrativas, no precios investigados. Si hace falta diagnóstico, se muestra esa condición.
-El precio lo propone cada prestador; la plataforma calcula y muestra cargos aplicables. No inventa una cotización definitiva a partir de una foto ni obliga a elegir al más barato.
+Ejemplo ficticio: el cliente publica «Necesito cambiar un grifo; yo pongo el repuesto; ofrezco $80.000 en total». Un prestador acepta $80.000, otro contraoferta $95.000 y otro $110.000 para el mismo alcance. El cliente compara y confirma al que prefiera. Son importes ilustrativos, no precios de mercado ni ofertas reales.
+El cliente propone primero el precio y los prestadores negocian mediante aceptación o contraoferta. La plataforma muestra cargos e importe a recibir antes de confirmar. No sube el total publicado sin consentimiento, inventa una cotización definitiva desde una foto ni obliga a elegir al más barato. Si no consigue una respuesta adecuada, el cliente puede modificar el precio o las condiciones.
+Si el alcance exige diagnóstico, el cliente y el prestador distinguen el importe ofrecido por la visita de una reparación completa; cualquier cambio se aprueba antes de ejecutarse.
 
 Beneficios: el cliente obtiene opciones y control del costo; el prestador puede generar ingresos por su oficio. Una empresa local también puede pedir trabajos para su establecimiento o prestar servicios con su equipo. Comercios pueden aportar referidos o vender materiales; su participación es opcional.
 La visión incluye múltiples oficios. Un piloto gradual por zona o capacidad operativa no reduce la definición a muebles. Gas y electricidad forman parte del alcance, con requisitos de competencia y verificación específicos antes de activar esos encargos.
@@ -29,9 +30,9 @@ La variedad puede generar trabajo frecuente para prestadores; la frecuencia de c
 
 4. Cómo ganar dinero
 Quién paga: PERSONAS que contratan; los prestadores reciben la remuneración pactada. Negocios también pueden contratar cuando tengan la misma necesidad.
-Publicación y recepción de ofertas sin cobro inicial. Hipótesis: cobrar por el servicio contratado, sin vender oportunidades vacías ni prometer trabajos a quien se registre. Mostrar al cliente el total y al prestador cuánto recibirá antes de confirmar.
+Publicar un problema e indicar cuánto se ofrece no genera un cobro ni una contratación automática. Publicación y recepción de respuestas sin cobro inicial. Hipótesis: cobrar por el servicio contratado, sin vender oportunidades vacías ni prometer trabajos a quien se registre. Mostrar al cliente el total y al prestador cuánto recibirá antes de confirmar.
 
-Ejemplo directo hipotético, sin comercio intermediario:
+Ejemplo directo hipotético de una propuesta aceptada, sin comercio intermediario; no es un precio único para todos los trabajos:
 - Oferta total al cliente: $100.000 COP.
 - Importe pactado para el prestador: $85.000 brutos, antes de sus gastos y obligaciones.
 - Cargo de plataforma: $15.000 brutos, antes de cobros, impuestos, incidencias y operación.
@@ -46,6 +47,10 @@ El IVA de la dispersión se apoya en la captura del panel aportada por el usuari
 Confirmar admisión del modelo, beneficiarios, conciliación, disponibilidad de fondos y cancelaciones. El saldo pasa primero por la plataforma. No se verificaron escrow, protección de pago, seguro ni integración operativa; no copiar esas promesas de competidores.
 
 5. Competidores en Colombia
+- inDrive es el referente de negociación indicado por el usuario. Su web oficial en Colombia describe proponer tarifa y recibir aceptación o una tarifa alternativa:
+  https://indrive.com/es-co/fair-services
+  La República documentó el lanzamiento de inDrive Servicios para trabajos como plomería, limpieza y reparaciones en Colombia el 1 de junio de 2023, también con aceptación, contraoferta o rechazo. Es antecedente directo, no solo una analogía con transporte. No se confirmó su oferta actual de esos oficios ni disponibilidad en Santa Marta en 2026.
+  https://www.larepublica.co/empresas/usuarios-de-indrive-ahora-podran-pedir-servicios-y-entregas-a-traves-de-la-plataforma-3627767
 - Vecino anuncia publicación de necesidades, propuestas de vecinos, comparación de precios y servicios del hogar, incluidos plomería y electricidad.
   https://vecinoapp.co/
   No se verificaron sus cifras, app publicada o actividad en Santa Marta.
@@ -64,7 +69,7 @@ https://www.homecenter.com.co/homecenter-co/product/511811/armado-de-mueble-entr
 Son evidencia de oferta en categorías concretas, no cobertura confirmada de todos los oficios. No se hicieron contrataciones, pruebas de calidad ni comparación local de precios. No hay alianzas confirmadas.
 
 7. Competidores en el mundo
-- Airtasker es un competidor directo del flujo: publicar tarea, recibir ofertas y elegir prestador.
+- Airtasker es un competidor directo del flujo: el cliente publica una tarea y un presupuesto, recibe ofertas y elige prestador.
   https://www.airtasker.com/us/how-it-works/
   App oficial: https://play.google.com/store/apps/details?id=au.com.airtasker
   Su documentación exige explicar el precio y alcance de la oferta; sus reglas no son idénticas a la modalidad de diagnóstico propuesta aquí.
@@ -75,7 +80,7 @@ Son evidencia de oferta en categorías concretas, no cobertura confirmada de tod
 Estos casos documentan una necesidad internacional, no demanda insatisfecha ni rentabilidad local.
 
 8. Nuestra ventaja
-Océano azul: BAJO. El modelo de publicar un trabajo y recibir ofertas ya existe.
+Océano azul: BAJO. Publicar un trabajo con un importe inicial y recibir aceptaciones o contraofertas tiene antecedentes directos; no presentarlo como una mecánica nueva frente a inDrive Servicios o Airtasker.
 Hipótesis: reunir oferta confiable en Santa Marta, hacer comparables los precios y atender bien el proceso. Probar disponibilidad, cumplimiento y esfuerzo de contratación frente a alternativas; la interfaz sola no basta.
 
 Filtro de LLM gratuitos, revisión documental del 6 de noviembre:
