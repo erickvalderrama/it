@@ -36,7 +36,7 @@ Cómo ganar dinero:
 
 Recargas, añadidas por indicación del usuario:
 - Permitir prepagar saldo para varios cargos pequeños de la app. El publicante puede usarlo en destacados de adopción; el prestador puede recargar para comisiones, siguiendo la referencia de los conductores de inDrive.
-- Distinguir ese saldo de un posible saldo del cliente para comprar el servicio completo. Definir quién paga la comisión y descontarla una sola vez; no cambiar silenciosamente el precio pactado con el prestador.
+- PRIORIZAR también el saldo del CLIENTE para COMPRAS PEQUEÑAS: una recarga permite varias compras de servicios o publicaciones habilitadas. Distinguirlo del saldo del prestador para comisiones. Definir quién paga cada cargo y descontarlo una sola vez; conservar el precio pactado con el prestador.
 - Si el cliente paga servicios dentro de la app, siguen existiendo recaudo y abonos a prestadores. Las recargas no hacen gratis cada Payout; agrupar por el mismo beneficiario solo con condiciones acordadas.
 - Montos mínimos y precios de los premium por probar; no exigir una recarga alta a quien solo necesita una publicación o servicio.
 - Una recarga no consumida representa obligaciones pendientes; registrar saldo, consumos, cancelaciones y devoluciones. No declarar toda la recarga como ganancia.

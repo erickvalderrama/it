@@ -1,0 +1,102 @@
+58. Beauky: marketplace de tiendas de belleza, productos y artistas de maquillaje
+
+Añadida el 6 de noviembre de 2026 por indicación del usuario. Se registra el alcance definido hoy; no se verificó implementación, inventario, tiendas afiliadas ni ventas en este repositorio.
+
+1. Título
+Beauky: encontrar productos de diferentes tiendas de belleza, comprar y descubrir tiendas y artistas de maquillaje mejor valorados.
+
+2. Necesidad / Problema a solucionar
+La persona quiere encontrar un producto concreto, tono, presentación y precio sin recorrer muchas tiendas o escribir a todas. También quiere elegir una tienda o artista con información que pueda contrastar.
+Una tienda necesita mostrar su catálogo y conseguir ventas; un artista necesita mostrar su trabajo y que posibles clientes lo encuentren.
+Beneficio principal para el usuario común: ahorrar búsquedas y desplazamientos, comparar el precio final y conocer disponibilidad confirmada. Ahorrar dinero dependerá de la oferta real; tener un top no demuestra mejor precio ni calidad absoluta.
+La compra de belleza puede repetirse, pero reposición y servicios suelen ser periódicos. Explorar a diario no demuestra compras diarias.
+
+3. Argumentos
+Funciones solicitadas:
+- Cada tienda tiene perfil, ubicación, horarios y catálogo propio de productos.
+- Buscador general de TODAS las tiendas por nombre, marca y categoría; filtros por precio final, tienda, ubicación y disponibilidad. Para comparar el mismo artículo, distinguir tono, tamaño, referencia y presentación.
+- Página principal con productos de varias tiendas, novedades y ofertas reales; acceso al buscador, tiendas y categorías.
+- TOP DE MEJORES TIENDAS y TOP DE MEJORES ARTISTAS DE MAQUILLAJE como secciones independientes.
+- Perfil de artista con portafolio autorizado, especialidades y forma de contacto. La búsqueda de productos sigue siendo parte central; no convertir Beauky en solo una agenda de salones.
+
+Flujo propuesto: buscar producto → comparar ofertas equivalentes → elegir tienda y entrega o recogida → ver total y existencia confirmada → pagar → seguir pedido y recepción.
+La tienda mantiene precio y existencias y confirma la preparación. Mostrar última actualización y reservar stock antes de confirmar una compra; no llamar “disponible” a un dato antiguo sin respaldo.
+Piloto: tres tiendas de una zona de Santa Marta, catálogo pequeño y recogida o entrega gestionada por cada tienda, sin inventario, bodega ni reparto del fundador. Los artistas publican sus perfiles; la contratación completa de sus servicios puede evaluarse después, sin ser requisito de la compra de productos.
+
+Tops:
+- Explicar qué se mide, zona, periodo, cantidad de opiniones y reglas de participación; no presentar el orden como verdad universal.
+- Diferenciar opiniones de compras de productos y de atención de maquillaje. Vincular la etiqueta “verificada” a evidencia de la operación; un perfil sin operaciones verificadas no recibe una puntuación inventada.
+- Considerar cantidad y actualidad de valoraciones, además de su promedio. Permitir ver y reportar opiniones y resolver abusos.
+- Los espacios pagados se identifican como PATROCINADOS y no compran una posición en el ranking orgánico de “mejores”.
+
+Recargas para compras pequeñas:
+- El CLIENTE puede recargar saldo y usarlo en varias compras dentro de Beauky. No confundirlo con el prestador que recarga para comisiones.
+- Ejemplo HIPOTÉTICO: recarga $50.000 y hace compras con precios finales de $5.000, $10.000 y $15.000, con recogida sin cargo adicional en este ejemplo; conserva $20.000 de saldo.
+- Mostrar saldo disponible, importe reservado y consumido, total por compra y devoluciones. Cada compra mantiene identidad de su tienda, productos, existencias y beneficiario.
+- Probar mínimos y aceptación; no imponer una recarga grande para una sola compra pequeña.
+- La recarga amortiza cobros fijos de pasarela. Porcentajes, entrega, impuestos y Payouts al comercio siguen siendo costos; agrupar abonos del mismo comercio es otra decisión que requiere acuerdo.
+- Validar admisión del modelo y sus condiciones antes de cobros reales. Diseño común y fuentes: investigaciones/Mascotas-ManosDelBarrio-recargas-2026-11-06.md.
+
+4. Cómo ganar dinero
+Quién paga: MIXTO.
+- Personas: pagan sus productos y los cargos visibles que se hayan definido. Buscar y comparar puede ser gratuito.
+- Comisión o cargo de intermediación por pedido cumplido; decidir y mostrar si lo paga la tienda, la persona o se reparte. No cobrarlo dos veces.
+- Ejemplo HIPOTÉTICO: la persona paga $60.000, la tienda tiene asignados $50.000 y la app $10.000 brutos. Faltan pasarela, abono, impuestos, entrega si corresponde, soporte y devoluciones. No es tarifa adoptada, precio de mercado ni ganancia neta. Comparar contra comprar directamente el mismo artículo: un recargo puede eliminar el atractivo.
+- Tiendas: posible mensualidad por herramientas de catálogo y pedidos una vez demostrado valor; no se confirmó un plan o precio.
+- Publicidad identificada de tiendas o productos. Perfiles de artistas con funciones premium pueden evaluarse, manteniendo independientes los tops orgánicos.
+- El saldo recargado no consumido implica obligaciones pendientes; no se registra todo como ganancia. Distinguir dinero de la app y del comercio y revisar facturación y causación de impuestos.
+
+5. Competidores en Colombia
+- Cromantic y Blind: tiendas de belleza con comercio electrónico; sustitutos de compra directa, no se afirma que sean marketplaces de tiendas independientes.
+  https://www.cromantic.com/
+  https://www.blind.com.co/maquillaje
+- Falabella Marketplace: registro de vendedores y catálogo de múltiples comercios; competidor del modelo multitienda.
+  https://www.falabella.com.co/falabella-co/page/vender-en-falabella
+- Rappi: catálogo de comercios y compra de productos; disponibilidad por dirección.
+  https://www.rappi.com.co/tiendas/marca-cromantic-market
+  App oficial Android: https://play.google.com/store/apps/details?id=com.grability.rappi
+- Fresha y AgendaPro: búsqueda de establecimientos y artistas/servicios de belleza, con perfiles y valoraciones; compiten con el descubrimiento de profesionales, no equivalen por ello a nuestro catálogo multitienda.
+  https://www.fresha.com/
+  https://agendapro.com/mp/co/maquillaje-santa-marta
+No se atribuyen fichas de apps homónimas a los otros proveedores; usar sus enlaces oficiales.
+
+6. Competidores en Santa Marta
+- Rappi publica una página de Cromantic en Santa Marta; no se verificaron compra, inventario ni cobertura para una dirección concreta.
+  https://www.rappi.com.co/santa-marta/tiendas/900258057-cromantic-market-nc
+- Fresha publica establecimientos locales y reseñas; AgendaPro tiene listado de maquillaje en la ciudad. No se verificó que todos acepten reservas actualmente.
+  https://www.fresha.com/lp/es/co-santa-marta
+  https://agendapro.com/mp/co/maquillaje-santa-marta
+- Venta directa de tiendas y artistas por sus canales también compite. No hay comercios aliados confirmados para Beauky en esta evaluación.
+
+7. Competidores en el mundo
+- Sephora: catálogo de maquillaje, marcas, filtros y reseñas; alternativa minorista, no se presenta como marketplace idéntico ni se supone cobertura colombiana.
+  https://www.sephora.com/shop/makeup-cosmetics
+- Fresha: descubrimiento de artistas de maquillaje y establecimientos de belleza.
+  https://www.fresha.com/lp/es/tt/servicio-de-maquillaje
+La oferta internacional demuestra que el problema y sus soluciones existen, no demanda insatisfecha para Beauky.
+
+8. Nuestra ventaja
+Océano azul: BAJO. Buscador de belleza, reseñas, venta multitienda y descubrimiento de artistas tienen competencia fuerte.
+Hipótesis por probar: reunir tiendas locales que mantengan catálogo y stock fiable, precios finales comparables, recogida cercana y tops transparentes.
+Filtro frente a LLM gratuitos: un asistente puede buscar productos, comparar tiendas y opiniones y usar comercios conectados. Los tops y las recomendaciones por sí solos no superan ese filtro.
+La diferencia exige inventario real comprometido, una compra aceptada por la tienda, seguimiento y entrega. Comparar con asistente gratuito + tiendas directas + Rappi/Falabella/Fresha; si el resultado ya es equivalente, descartar ese alcance.
+El filtro se basa en CLAUDE.md y documentación de competidores; no se hizo una prueba práctica exhaustiva ni se validó una ventaja exclusiva.
+
+9. Riesgos
+Catálogo o stock desactualizado, tonos mal descritos, productos de origen dudoso o vencidos, entregas, cancelaciones y devoluciones; revisar información y requisitos aplicables por producto sin garantizar seguridad por una reseña.
+Reseñas manipuladas, poco volumen para un top fiable o publicidad confundida con calidad.
+Cargos de pago, envío y abono pueden consumir el margen de artículos baratos. La recarga no crea ahorro en el producto por sí sola.
+Mantener dos comunidades —tiendas y artistas— eleva captación y moderación. No prometer clientes por abrir un perfil.
+
+10. Internacionalización
+MEDIA. La compra de belleza y búsqueda de artistas tienen precedentes internacionales; catálogo y buscador se reutilizan, pero hay que conseguir oferta, condiciones de productos, pagos y entrega locales.
+Plan: zona de Santa Marta, otra ciudad colombiana y después piloto en México o Perú. Adaptar moneda, categorías, tonos, impuestos, devoluciones y proveedor de pagos.
+
+11. Problemas para 1 sola persona
+Nota: APTA CON CUIDADO para tres tiendas autónomas; DIFÍCIL para catálogo amplio, entregas y atención constante.
+La experiencia del fundador en frontend, backend e infraestructura facilita construir la plataforma; conseguir catálogo fiable, compradores y cumplimiento será el reto.
+Automatizar altas, búsquedas, reserva de stock, confirmaciones, saldo y conciliación. Tiendas gestionan catálogo y preparación; artistas sus portafolios. No suponer que eso elimina reclamos.
+No operar bodega, entregas propias ni revisar cada publicación manualmente. Definir soporte y continuidad durante ausencias.
+Piloto propuesto: tres tiendas, catálogo pequeño y diez pedidos pagados; observar existencia cumplida, precio final frente a alternativa directa, recompra, aceptación de recarga, margen y minutos de soporte. Son metas por probar, no ventas logradas.
+
+Fuentes consultadas el 6 de noviembre de 2026. Sin entrevistas, acuerdos, compras ni comprobación de implementación de Beauky.

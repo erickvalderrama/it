@@ -61,7 +61,7 @@ Recargas para cargos pequeños, añadidas por indicación del usuario:
 - Definir quién soporta la comisión y el evento de cobro antes de confirmar; reservar o descontar contra un trabajo identificable y revertir cuando corresponda. No descontarla a la vez del saldo y del abono.
 - Si se usa un recargo al cliente para conservar el precio del prestador, mostrar ambos importes y su liquidación. No asumir que cobrar al prestador desde su saldo mantiene intacto su ingreso sin compensar ese cargo.
 - Una variante es pago del cliente directamente al prestador y comisión desde saldo; requiere verificar pago y ejecución. Es una alternativa, no sustitución general del pago dentro de la app.
-- Si el cliente recarga para pagar el trabajo completo dentro de la app, separar dinero del prestador y cargo propio. Mantener el costo de Payout y sus obligaciones; una recarga no elimina automáticamente cada transferencia.
+- PRIORIZAR saldo del CLIENTE para COMPRAS PEQUEÑAS o servicios de bajo importe: una recarga puede usarse en varias contrataciones confirmadas. Separar dinero del prestador y cargo propio, con total y saldo restante visibles. Mantener costo de Payout, cancelaciones y devoluciones; una recarga no elimina automáticamente cada transferencia.
 - Registrar saldo, reservas, comisiones, cancelaciones y devoluciones, con mínimos por validar. Lo no consumido no es utilidad de la plataforma.
 - El objetivo es amortizar cargos fijos de recaudo; no desaparecer porcentajes, impuestos o costos de terceros. Probar aceptación y costos antes de imponer recarga.
 - Detalle común con Mascotas y fuentes: investigaciones/Mascotas-ManosDelBarrio-recargas-2026-11-06.md.

@@ -1,6 +1,6 @@
 # Ranking de ideas de negocio
 
-Última actualización: **6 de noviembre de 2026**. Ideas evaluadas: **57**.
+Última actualización: **6 de noviembre de 2026**. Ideas evaluadas: **58**.
 
 Este es el archivo vigente para consultar y actualizar el ranking del repositorio. Mantiene el top 10, los criterios, las pruebas propuestas y la valoración individual de todas las ideas. La [evaluación inicial del 6 de noviembre de 2026](evaluaciones/Top-10-ideas-2026-11-06.md) se conserva como antecedente.
 
@@ -19,6 +19,7 @@ Este es el archivo vigente para consultar y actualizar el ranking del repositori
 | --- | --- | --- |
 | 2026-11-06 | Se establece este archivo vigente a partir de la evaluación completa de las 57 ideas, por petición del usuario. | Se conserva el top 10 ya presentado. |
 | 2026-11-06 | Se añaden publicaciones de adopción premium como ingreso de Mascotas y recargas como opción general, aplicada a las ideas 1 y 56. | Se mantienen los puestos 1 y 2: son modelos propuestos, sin ventas o validación nuevas; revisar aceptación y costos. |
+| 2026-11-06 | Se añade la idea 58, Beauky: catálogo de tiendas de belleza, búsqueda de productos y tops de tiendas/artistas. Se priorizan recargas de clientes para compras pequeñas. | 58 ideas evaluadas; Beauky queda en reserva por competencia, stock, captación y operación pendientes. Top 10 sin cambios. |
 
 ## Evaluación vigente
 
@@ -26,7 +27,7 @@ Fecha: 6 de noviembre de 2026. Contexto: fundador único con experiencia en fron
 
 ## Alcance y criterio
 
-Se revisaron los 56 archivos existentes y las ampliaciones solicitadas de mascotas y reciclaje, más la nueva idea 57 de mudanzas. Se incluye una valoración individual de las 57 al final. No se borraron ideas ni se cambiaron los números anteriores.
+La evaluación inicial cubrió 57 ideas, incluidas las ampliaciones de Mascotas y Reciclaje y la idea 57 de mudanzas. En esta revisión se incorpora la idea 58, Beauky, y se priorizan recargas del cliente para compras pequeñas. Se mantiene una valoración individual de las 58 al final; no se borran ideas ni se cambian sus números.
 
 Este orden es un juicio para elegir QUÉ VALIDAR PRIMERO, con la información disponible. No estima tamaño de mercado, probabilidad de éxito ni rentabilidad demostrada. No hay entrevistas nuevas, contratos, reservas, servicios realizados o costos operativos medidos en esta revisión. Los ejemplos económicos de las fichas siguen siendo hipótesis.
 
@@ -37,7 +38,7 @@ Se prioriza, por este orden:
 4. Frecuencia de la necesidad, sencillez y posibilidad de obtener una segunda compra.
 5. Competencia, alternativas gratuitas, captación de ambos lados y oportunidad local por demostrar.
 
-La preferencia por algo fresco o divertido sigue vigente cuando acompaña utilidad real. Los criterios tienen tensiones: las mejores redes de oficios producen ingresos, pero un hogar no contrata cada día. Citas y Recepcionista tienen pagador empresarial y operación digital más acotable; por eso entran aunque no lideren el intercambio entre personas. No se presenta ninguna de las 57 como ganadora simultánea en todos los criterios.
+La preferencia por algo fresco o divertido sigue vigente cuando acompaña utilidad real. Los criterios tienen tensiones: las mejores redes de oficios producen ingresos, pero un hogar no contrata cada día. Citas y Recepcionista tienen pagador empresarial y operación digital más acotable; por eso entran aunque no lideren el intercambio entre personas. No se presenta ninguna de las 58 como ganadora simultánea en todos los criterios.
 
 No se aceptaron como prueba las frases antiguas «no existe», «sin competencia» u «océano azul alto». Las fichas previas que las contengan no sustituyen una comprobación actual. Se revalidaron fuentes primarias decisivas para mascotas, mudanzas, reciclaje, agendas, hoteles, talleres y excedentes; las demás observaciones se basan en el alcance escrito de las fichas y referencias ya documentadas. No se auditó en campo a todos los competidores.
 
@@ -158,6 +159,20 @@ Actualización solicitada por el usuario:
 - Mantener el orden: las recargas y los premium son hipótesis de monetización, no resultados comerciales. Las nuevas pruebas deben medir compra, consumo de saldo, beneficio entregado, devoluciones, margen y soporte.
 - Detalle y fuentes: [publicaciones premium y recargas](investigaciones/Mascotas-ManosDelBarrio-recargas-2026-11-06.md).
 
+## Idea 58 y compras pequeñas: revisión del 6 de noviembre
+
+[Beauky](ideas/58.%20Beauky.txt) se registra por petición del usuario con buscador de productos de diferentes tiendas de belleza, página principal multitienda, top de tiendas y top de artistas de maquillaje. Se incorpora saldo del CLIENTE para varias compras pequeñas; la recarga del prestador para comisiones sigue siendo otra modalidad.
+
+Decisión: RESERVA; se mantiene el top 10. La compra de productos y los perfiles tienen una necesidad reconocible, pero hay competencia de tiendas directas, marketplaces y plataformas de belleza. No se demostró demanda, inventario fiable, cumplimiento, margen ni una ventaja suficiente frente a alternativas gratuitas y proveedores existentes. La experiencia técnica permite construirlo; mantener catálogo, entregas, reclamaciones y tops fiables puede exigir mucha operación.
+
+- Cromantic y Blind compiten en compra directa; Falabella y Rappi en oferta comercial, y Fresha/AgendaPro en descubrir profesionales. Son sustitutos distintos; no se afirma que todos ofrezcan exactamente el mismo producto.
+- Rappi publica un catálogo de Cromantic en Santa Marta y Fresha/AgendaPro listados locales de belleza. No se comprobaron pedidos, stock o reservas reales.
+- El top y un buscador por sí solos no superan el filtro de LLM gratuitos. La hipótesis requiere oferta local real, existencias comprometidas y pedidos cumplidos.
+- Primera prueba propuesta: tres tiendas y catálogo acotado; diez pedidos pagados, con comparación de precio final, cumplimiento de stock, recompra, aceptación de saldo y minutos de soporte. Los artistas pueden mostrar perfiles y portafolios; no hace falta lanzar simultáneamente reservas de servicios.
+- La prioridad general de recargas se amplía: el cliente carga saldo para varias COMPRAS PEQUEÑAS. Se separan costo de recaudo, dinero del vendedor, comisiones y Payouts. No se estima ahorro universal ni se hace obligatorio prepagar para todas las ideas.
+
+Fuentes documentales del 6 de noviembre: https://www.cromantic.com/tiendas ; https://www.blind.com.co/maquillaje ; https://www.falabella.com.co/falabella-co/page/vender-en-falabella ; https://www.rappi.com.co/santa-marta/tiendas/900258057-cromantic-market-nc ; https://www.fresha.com/lp/es/co-santa-marta ; https://agendapro.com/mp/co/maquillaje-santa-marta ; https://www.sephora.com/shop/makeup-cosmetics .
+
 ## Filtro de LLM gratuitos
 
 Se aplicó el marco guardado en CLAUDE.md, incluidas fuentes oficiales de planes y la actualización del 6 de noviembre sobre contratación mediante Airtasker en ChatGPT. No se realizaron aquí pruebas prácticas exhaustivas de todos los asistentes, planes o cuentas.
@@ -231,12 +246,13 @@ Pasan el filtro solo CONDICIONALMENTE las finalistas: deben aportar el resultado
 | 55 | [AlquilaEntreVecinos](ideas/55.%20AlquilaEntreVecinos.txt) | Reserva; operación alta | Dueños ganan y otros evitan comprar; custodia en comercios, inspección, daño y varios pagos reducen margen. No desaparece la responsabilidad. |
 | 56 | [ManosDelBarrio](ideas/56.%20ManosDelBarrio.txt) | TOP 1 | Necesidad y oficios con ingresos; recargas de comisiones como opción para cargos pequeños. Probar precio, cumplimiento, consumo de saldo y soporte. |
 | 57 | [MudanzaAcordada](ideas/57.%20MudanzaAcordada.txt) | Reserva; fuera del top 10 | Necesidad clara, pero uso ocasional y reclamos pesados; inDrive Fletes y Mudanti ya publican mecanismos similares. |
+| 58 | [Beauky](ideas/58.%20Beauky.txt) | Reserva; fuera del top 10 | Catálogo y compra multitienda con tops de tiendas y artistas; recargas para compras pequeñas. Competencia fuerte, inventario, cumplimiento y ventaja frente a alternativas por validar. |
 
 ## Lectura de márgenes y validación
 
 - El ingreso del prestador o vendedor no es su utilidad: tiene costos propios.
 - Comisión bruta de plataforma menos pasarela y dispersión todavía no es ganancia neta. Incluir impuestos y retenciones aplicables, cancelaciones, devoluciones, fraude, captación y soporte.
-- No asumir una dispersión gratuita por tener Davivienda. Agrupar pagos del mismo beneficiario puede amortizar un cargo; no elimina el cobro por cada compra ni reúne varios beneficiarios en una sola transferencia.
+- No asumir una dispersión gratuita por tener Davivienda. Agrupar pagos del mismo beneficiario puede amortizar un cargo; no reúne varios beneficiarios en una sola transferencia. Pagar varias compras con saldo recargado puede evitar repetir el cargo fijo de recaudo por compra, pero el porcentaje de pasarela, la entrega y las obligaciones al comercio siguen existiendo.
 - El pago investigado con ePayco pasa por saldo de plataforma antes del Payout. Su admisión comercial, acceso API y verificación de destinatarios siguen pendientes.
 - Para detalle y fuentes de pagos: [investigación de Turciti](investigaciones/Turciti-pagos-Colombia-2026-11-05.md).
 - Las dos opiniones obtenidas para Turciti orientan hacia descuentos inmediatos o acumulables; no validan las otras ideas ni predicen compras.

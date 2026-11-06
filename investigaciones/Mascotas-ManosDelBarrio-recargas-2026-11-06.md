@@ -14,7 +14,7 @@ El publicante puede pagar una publicación o usar saldo previamente recargado pa
 
 ## 2. Recargas como opción general
 
-El usuario pide guardar las recargas como una herramienta reutilizable para futuras ideas, no como obligación de todas las propuestas. Sirven para concentrar pagos pequeños y consumir saldo por uso.
+El usuario pide guardar las recargas como una herramienta reutilizable para futuras ideas, no como obligación de todas las propuestas. Prioridad aclarada el 6 de noviembre: SOBRE TODO COMPRAS PEQUEÑAS. El cliente recarga una vez y usa saldo en varias compras; no limitarlo a cargos de prestadores. También se incorpora esta opción en la idea 58, Beauky.
 
 Antes de fijar un modelo, decir:
 - Quién recarga: prestador, publicante o cliente.
@@ -37,6 +37,13 @@ Para la modalidad de comisiones prepagadas, una alternativa es que el cliente pa
 Si el cliente sigue pagando el servicio completo mediante la pasarela, ese recaudo también cuesta y puede requerir Payout. Una recarga adicional del prestador no elimina por sí sola esos costos.
 
 En todos los modelos, mostrar el costo final y el importe efectivo del prestador. Si el objetivo es que conserve un precio B y existe un cargo C, explicar quién paga C: un recargo al cliente, una comisión asumida por el prestador u otro acuerdo. No descontar C al prestador y afirmar a la vez que mantiene B íntegro.
+
+### Prioridad: saldo del comprador para compras pequeñas
+
+- El cliente elige recarga, confirma pago y ve el saldo. Al comprar, se reserva y descuenta el total aceptado; si hay cancelación, se procesa la liberación o devolución que corresponda. No forzar que todo reembolso quede encerrado en saldo sin revisar la condición aplicable.
+- Ejemplo HIPOTÉTICO: recarga $50.000; tres compras con precios finales de $5.000, $10.000 y $15.000 dejan $20.000. Cada compra conserva su vendedor, impuestos/cargos y comprobante; si hay envíos se añaden antes de aceptar el total, no después.
+- Llevar por separado saldo del comprador, cargo ganado por la app y dinero por pagar a cada vendedor. El costo de transferir sigue existiendo; agrupar por beneficiario es una decisión adicional.
+- Aplicación añadida: [58. Beauky](../ideas/58.%20Beauky.txt), marketplace con productos de varias tiendas de belleza. Validar alcance comercial y aceptación del saldo antes del cobro real.
 
 ## 4. Referencia documentada de inDrive
 

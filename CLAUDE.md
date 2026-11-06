@@ -1,6 +1,6 @@
 # Proyecto: ideas de negocio
 
-Carpeta `ideas/` con una idea de negocio por archivo `.txt`, numerados en orden de creación: `N. Nombre.txt` (ej. `1. Mascotas.txt`). El título dentro del archivo empieza con el mismo número. Idea nueva = siguiente número (hoy van 57: MudanzaAcordada).
+Carpeta `ideas/` con una idea de negocio por archivo `.txt`, numerados en orden de creación: `N. Nombre.txt` (ej. `1. Mascotas.txt`). El título dentro del archivo empieza con el mismo número. Idea nueva = siguiente número (hoy van 58: Beauky).
 
 ## Ranking vigente y actualización continua
 
@@ -66,7 +66,8 @@ Indicación del usuario, 6 de noviembre de 2026:
 ## Recargas como opción general de monetización
 
 Indicación del usuario, 6 de noviembre de 2026: guardar las recargas como IDEA GENERAL reutilizable para futuras propuestas, además de Mascotas y ManosDelBarrio.
-- Evaluar saldo prepago cuando existan cargos pequeños y repetidos: una recarga puede pagar varias comisiones, publicaciones premium o usos de funciones. Es una opción, no requisito de todas las ideas.
+- PRIORIZAR las recargas SOBRE TODO PARA COMPRAS PEQUEÑAS, por indicación del usuario. El CLIENTE puede cargar saldo una vez y utilizarlo en varias compras dentro de la aplicación. Extenderlo a comisiones, publicaciones premium y funciones cuando aporte valor; no restringir la idea a saldo de prestadores.
+- Propuesta: elegir una recarga, pagarla por un medio admitido, ver saldo y descontar el total de cada compra confirmada. Mostrar saldo restante, reservas, devoluciones y destinatario de cada pago. Mínimos y necesidad de recargar se validan; no es obligación para toda idea.
 - Referencia tipo inDrive: el PRESTADOR recarga para pagar cargos de la plataforma. Separar esta modalidad de la del CLIENTE que recarga para comprar el servicio completo.
 - En cada idea precisar quién recarga, qué cubre el saldo, quién paga la comisión, cuándo se descuenta y cuánto recibe cada parte. Evitar doble cargo desde saldo y abono.
 - Las recargas amortizan el cargo fijo por recaudo; no eliminan el porcentaje de pasarela, impuestos, pagos al prestador ni Payouts cuando correspondan. Agrupar transferencias del mismo beneficiario es una decisión adicional, con fechas aceptadas.
@@ -77,6 +78,16 @@ Indicación del usuario, 6 de noviembre de 2026: guardar las recargas como IDEA 
 - En Mascotas conservar ADOPCIÓN, TRANSPORTE EXCLUSIVO A→B y SERVICIOS PARA MASCOTAS. Las PUBLICACIONES DE ADOPCIÓN PREMIUM son un servicio propio: el publicante paga a la APP por destacar el anuncio. No hay Payout a un prestador por esa publicación; sí costos de recaudo, impuestos y operación. No es venta del animal ni garantía de adopción.
 - Aplicaciones iniciales: ideas/1. Mascotas.txt y ideas/56. ManosDelBarrio.txt. Desarrollo y fuentes: investigaciones/Mascotas-ManosDelBarrio-recargas-2026-11-06.md.
 - Ayuda oficial de inDrive Colombia: https://indrive.com/es-co/help/drivers/how-to-top-up-your-indrive-account. No copiar un porcentaje de comisión o mínimo como si fuera universal.
+
+## Idea 58: Beauky
+
+Indicación del usuario, 6 de noviembre de 2026:
+- Marketplace para TIENDAS DE BELLEZA con perfil y catálogo propio; buscador que encuentra productos de diferentes tiendas y página principal que los muestra.
+- Incluir TOP DE MEJORES TIENDAS y TOP DE MEJORES ARTISTAS DE MAQUILLAJE, con perfiles y criterios claros. Mantener separados ambos tops y las opiniones de productos frente a servicios.
+- No convertir la propuesta en solo agenda de salones ni omitir el buscador y la compra de productos.
+- Distinguir valoraciones verificadas de publicidad; una posición orgánica no se vende como si demostrara calidad.
+- Aplicar la opción de recargas para compras pequeñas: saldo del comprador para varios pedidos, separado de dinero que debe recibir cada tienda y de comisiones del prestador.
+- Archivo: ideas/58. Beauky.txt. Demanda, inventario, acuerdos, precios y ventaja por probar; este repositorio no acredita una implementación operativa.
 
 ## Capacidades reutilizables de Turciti para explorar nuevas ideas
 
