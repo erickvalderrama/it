@@ -20,6 +20,7 @@ Este es el archivo vigente para consultar y actualizar el ranking del repositori
 | 2026-11-06 | Se establece este archivo vigente a partir de la evaluación completa de las 57 ideas, por petición del usuario. | Se conserva el top 10 ya presentado. |
 | 2026-11-06 | Se añaden publicaciones de adopción premium como ingreso de Mascotas y recargas como opción general, aplicada a las ideas 1 y 56. | Se mantienen los puestos 1 y 2: son modelos propuestos, sin ventas o validación nuevas; revisar aceptación y costos. |
 | 2026-11-06 | Se añade la idea 58, Beauky: catálogo de tiendas de belleza, búsqueda de productos y tops de tiendas/artistas. Se priorizan recargas de clientes para compras pequeñas. | 58 ideas evaluadas; Beauky queda en reserva por competencia, stock, captación y operación pendientes. Top 10 sin cambios. |
+| 2026-11-06 | El usuario elige comenzar Mascotas con backend .NET y PostgreSQL; frontend híbrido pendiente. | Se mantiene el orden por falta de evidencia comercial nueva. La elección de proyecto queda registrada sin convertir la recomendación de frontend en decisión. |
 
 ## Evaluación vigente
 
@@ -41,6 +42,12 @@ Se prioriza, por este orden:
 La preferencia por algo fresco o divertido sigue vigente cuando acompaña utilidad real. Los criterios tienen tensiones: las mejores redes de oficios producen ingresos, pero un hogar no contrata cada día. Citas y Recepcionista tienen pagador empresarial y operación digital más acotable; por eso entran aunque no lideren el intercambio entre personas. No se presenta ninguna de las 58 como ganadora simultánea en todos los criterios.
 
 No se aceptaron como prueba las frases antiguas «no existe», «sin competencia» u «océano azul alto». Las fichas previas que las contengan no sustituyen una comprobación actual. Se revalidaron fuentes primarias decisivas para mascotas, mudanzas, reciclaje, agendas, hoteles, talleres y excedentes; las demás observaciones se basan en el alcance escrito de las fichas y referencias ya documentadas. No se auditó en campo a todos los competidores.
+
+## Proyecto seleccionado por el usuario
+
+El 6 de noviembre de 2026 el usuario decide comenzar [1. Mascotas](ideas/1.%20Mascotas.txt), con backend .NET y PostgreSQL. Quiere frontend híbrido/multiplataforma, aún por elegir. Ionic + Angular + Capacitor es una recomendación inicial; se comparan React Native + Expo y Flutter y se propone validar la ubicación del transportador en segundo plano.
+
+Esta selección no cambia la evidencia comercial ni el orden provisional del top 10. Priorizar las siguientes tareas de implementación de Mascotas según la decisión del usuario.
 
 ## Top 10
 

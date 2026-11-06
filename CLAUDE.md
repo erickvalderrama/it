@@ -14,6 +14,17 @@ Indicación del usuario, 6 de noviembre de 2026: guardar la evaluación en el re
 - Fundamentar los cambios en beneficio para la persona, ingresos o ahorro real, valor fuera de LLM gratuitos, pagador, facilidad, frecuencia, competencia y operación por un fundador. Mantener las preferencias vigentes del proyecto.
 - Separar hipótesis y evidencia observada. No interpretar una posición como rentabilidad demostrada; revalidar las fuentes decisivas que puedan haber cambiado.
 
+## Aplicación elegida para comenzar: Mascotas
+
+Decisión del usuario, 6 de noviembre de 2026:
+- Quiere comenzar la aplicación de la idea 1, Mascotas.
+- Backend: .NET. Base de datos: PostgreSQL.
+- Busca frontend híbrido/multiplataforma y todavía NO ha elegido framework.
+- Recomendación inicial del asistente: Ionic + Angular + Capacitor por su experiencia en Angular; alternativas React Native + Expo y Flutter. Registrar recomendaciones como propuestas, sin dar por elegida ninguna.
+- Validar el seguimiento del prestador con pantalla bloqueada y permisos de ubicación antes de cerrar la tecnología de la parte de transporte; no asumir que mostrar un mapa resuelve el seguimiento en segundo plano.
+- Mantener adopciones y publicaciones premium, transporte exclusivo A→B, servicios para mascotas y recargas para compras pequeñas.
+- El repositorio de ideas registra estas decisiones; no acredita un backend, app o integración operativa. Archivo: ideas/1. Mascotas.txt.
+
 ## Perfil técnico del fundador
 
 - El usuario tiene conocimientos amplios de servidores, frontend, backend e infraestructura en general.

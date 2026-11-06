@@ -10,7 +10,25 @@ Necesidad/Problema a solucionar:
 - Transporte: ocasional. Baño y belleza: periódicos, según la mascota; no son servicios diarios por persona. La demanda local y los precios están pendientes.
 
 Argumentos:
-- Una web permite elegir ADOPCIONES, TRANSPORTE EXCLUSIVO DE MASCOTAS A→B o SERVICIOS PARA MASCOTAS, incluidos BAÑO / LIMPIEZA / BELLEZA A DOMICILIO.
+Decisiones técnicas e inicio del desarrollo — 6 de noviembre de 2026:
+- El usuario elige comenzar la aplicación de Mascotas.
+- Backend CONFIRMADO: .NET. Diseñar la API de la app con ASP.NET Core; versión y estructura concreta por definir.
+- Base de datos CONFIRMADA: PostgreSQL.
+- Preferencia del usuario: frontend HÍBRIDO / MULTIPLATAFORMA. Framework todavía PENDIENTE de su elección; no registrarlo como decidido por una recomendación.
+- Recomendación inicial del asistente: Ionic + Angular + Capacitor, por la experiencia del usuario en Angular y el aprovechamiento de tecnologías web para móvil.
+- Alternativas evaluadas: React Native + Expo y Flutter. Todos pueden consumir la API .NET; el lenguaje del backend no obliga a una tecnología de UI.
+- Antes de cerrar el frontend para transporte: probar mapa, envío de ubicación y recepción de estados, especialmente seguimiento del prestador con pantalla bloqueada, permisos y consumo de batería en Android/iOS. No basta probar un mapa en navegador.
+- El plugin oficial de geolocalización de Capacitor no ofrece directamente seguimiento en segundo plano; requiere evaluar una solución específica. Expo también documenta permisos, builds y límites por sistema. Ninguna opción garantiza continuidad cuando el sistema o el usuario termina la app.
+- Esta decisión no construye el backend ni confirma funcionalidades ya implementadas; se registra el stack elegido y la comparación pendiente.
+
+Fuentes oficiales consultadas el 6 de noviembre:
+https://ionicframework.com/docs/angular/overview
+https://capacitorjs.com/docs/apis/geolocation
+https://docs.expo.dev/versions/latest/sdk/location/
+https://reactnative.dev/docs/intro-react-native-components
+https://docs.flutter.dev/resources/architectural-overview
+
+- La aplicación permite elegir ADOPCIONES, TRANSPORTE EXCLUSIVO DE MASCOTAS A→B o SERVICIOS PARA MASCOTAS, incluidos BAÑO / LIMPIEZA / BELLEZA A DOMICILIO.
 - Transporte exclusivo de mascotas, no mensajería general ni transporte genérico de pasajeros:
   1) Marcar recogida A y destino B en el mapa; indicar fecha, horario, mascota, tamaño/peso aproximado, necesidades y responsable que entrega y recibe. Especificar ida, regreso y espera.
   2) Proponer cuánto se quiere pagar.
