@@ -2,6 +2,18 @@
 
 Carpeta `ideas/` con una idea de negocio por archivo `.txt`, numerados en orden de creación: `N. Nombre.txt` (ej. `1. Mascotas.txt`). El título dentro del archivo empieza con el mismo número. Idea nueva = siguiente número (hoy van 57: MudanzaAcordada).
 
+## Ranking vigente y actualización continua
+
+Indicación del usuario, 6 de noviembre de 2026: guardar la evaluación en el repositorio para seguir actualizando el ranking.
+- Archivo principal: [RANKING.md](RANKING.md). Contiene el top 10 vigente, criterios, valoración de todas las ideas, riesgos y pruebas propuestas.
+- Antecedente: [evaluación inicial de las 57 ideas](evaluaciones/Top-10-ideas-2026-11-06.md). Conservarla como evaluación fechada; consultar el archivo principal para el orden actual.
+- Antes de proponer o evaluar otra idea, leer este marco, RANKING.md y las fichas pertinentes.
+- En cada sesión en que se cree o amplíe una idea, llegue evidencia de validación o cambien las prioridades, revisar el efecto y actualizar RANKING.md junto con los archivos afectados.
+- Comparar las ideas nuevas o modificadas con las finalistas y mantener la revisión de TODAS las ideas, aunque no entren al top 10. Mantener fecha de revisión, cantidad evaluada, enlaces y números originales.
+- Explicar y registrar cada cambio de posición, entrada o salida; si el orden se mantiene, anotar el motivo de la revisión. Conservar el historial anterior.
+- Fundamentar los cambios en beneficio para la persona, ingresos o ahorro real, valor fuera de LLM gratuitos, pagador, facilidad, frecuencia, competencia y operación por un fundador. Mantener las preferencias vigentes del proyecto.
+- Separar hipótesis y evidencia observada. No interpretar una posición como rentabilidad demostrada; revalidar las fuentes decisivas que puedan haber cambiado.
+
 ## Perfil técnico del fundador
 
 - El usuario tiene conocimientos amplios de servidores, frontend, backend e infraestructura en general.
