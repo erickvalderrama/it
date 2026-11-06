@@ -1,12 +1,25 @@
 # Proyecto: ideas de negocio
 
-Carpeta `ideas/` con una idea de negocio por archivo `.txt`, numerados en orden de creación: `N. Nombre.txt` (ej. `1. Mascotas.txt`). El título dentro del archivo empieza con el mismo número. Idea nueva = siguiente número (hoy van 54: MisionDeBarrio).
+Carpeta `ideas/` con una idea de negocio por archivo `.txt`, numerados en orden de creación: `N. Nombre.txt` (ej. `1. Mascotas.txt`). El título dentro del archivo empieza con el mismo número. Idea nueva = siguiente número (hoy van 55: AlquilaEntreVecinos).
 
 ## Perfil técnico del fundador
 
 - El usuario tiene conocimientos amplios de servidores, frontend, backend e infraestructura en general.
 - Tener en cuenta esta experiencia al proponer y evaluar ideas: la configuración de servidores y el desarrollo de frontend, backend e infraestructura no son barreras básicas de aprendizaje para él.
 - Las ideas pueden aprovechar esa capacidad técnica. Seguir evaluando el tiempo, los costos, el soporte y la viabilidad de construir, vender y operar el negocio siendo una sola persona.
+
+## Línea de búsqueda: beneficio económico entre usuarios
+
+Indicación del usuario, 6 de noviembre de 2026:
+- Priorizar ideas ENTRE USUARIOS: personas comunes que intercambian servicios, tiempo, habilidades, objetos u otros recursos para cubrir una necesidad concreta.
+- Buscar un beneficio económico para las personas: ingresos por aportar algo útil y/o ahorro real para quien lo necesita. Explicar por separado qué gana cada participante; no confundir ingreso bruto, ganancia neta, ahorro y descuentos condicionados.
+- Los negocios o empresas participantes también deben obtener una utilidad concreta y comprobable: un servicio que necesitan, ventas, uso de capacidad disponible o remuneración por una tarea. Su participación debe tener sentido, sin añadir un intermediario artificial.
+- Partir de necesidades observables que puedan probarse desde Santa Marta: vida de barrio, comercio, turismo, hogares y actividades cotidianas. La necesidad también debe existir en otras ciudades y países.
+- Tomar MisionDeBarrio como referencia del motivador económico y la utilidad de una actividad real; no restringir la búsqueda a fotos, videos, encuestas o estudios para empresas.
+- Describir un ejemplo sencillo: quién necesita algo, quién lo aporta, quién paga, cuánto recibe cada uno, qué hace el negocio y de dónde sale el ingreso de la plataforma. Los montos iniciales son hipótesis hasta validarlos.
+- Distinguir una red realmente entre personas de una plataforma donde solo las empresas encargan tareas a usuarios. La línea actual busca también intercambios y beneficios entre las propias personas.
+- Mantener facilidad, preferencia por algo fresco o divertido, alcance amplio, frecuencia real de uso y valor adicional a LLM gratuitos. El uso diario de la plataforma o del comercio no demuestra que cada persona la necesite diariamente.
+- Evaluar operación para un solo fundador: no suponer que delegar una entrega, verificación o custodia a un negocio elimina sus costos, conflictos y responsabilidad. Comprobarlos antes de llamar viable a la idea.
 
 ## Capacidades reutilizables de Turciti para explorar nuevas ideas
 

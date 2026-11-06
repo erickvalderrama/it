@@ -1,0 +1,78 @@
+55. AlquilaEntreVecinos
+
+Revisión: 6 de noviembre de 2026. Propuesta sin construir ni validar; precios, acuerdos y metas son hipótesis.
+
+1. Título
+AlquilaEntreVecinos: ganar con objetos que usas poco, mediante un comercio cercano.
+
+2. Necesidad / Problema a solucionar
+Una persona tiene objetos guardados que podría alquilar; otra los necesita por un día y quiere evitar comprarlos. Coordinar horarios, entrega y devolución entre desconocidos cuesta esfuerzo. Un comercio con espacio y horario podría cobrar por facilitar ese intercambio.
+Hipótesis inicial para Santa Marta: artículos sencillos para paseos y reuniones de residentes o visitantes. No se comprobó cuántos pagarían ni su precio aceptable.
+
+3. Argumentos
+- El dueño registra su objeto, disponibilidad y precio, y acuerda dejarlo en un comercio participante durante un periodo definido.
+- Quien lo necesita elige fecha, ve el precio final y las condiciones, reserva y recoge allí.
+- El local registra fotos del estado, entrega y devolución con código y lista de revisión; cobra por ese trabajo.
+- El dueño recibe el importe pactado tras el cumplimiento del alquiler. Las partes conocen cómo se atienden daños, retrasos y reclamos antes de pagar.
+Ejemplo: una nevera portátil y dos sillas plegables de un residente se alquilan para un paseo de otra familia. El propietario obtiene ingreso bruto; quien alquila evita una compra ocasional; el local cobra por custodiar y entregar. Comprar hielo o bebidas allí sería una venta adicional posible, no garantizada.
+MVP: dos comercios con espacio, diez propietarios y veinte objetos sencillos, de valor limitado y fáciles de revisar. La plataforma no compra inventario ni hace repartos. Excluir del piloto equipos médicos, de seguridad, vehículos y objetos que exijan mantenimiento especializado.
+Puede acompañar planes divertidos, sin convertir una medalla en el motivo de pago.
+Diferencia frente a Playa (idea 10): no es pedir productos a vendedores desde una carpa; es alquilar bienes de otros usuarios. Frente a Arriendos (idea 6): objetos por periodos cortos, no vivienda.
+Público potencial amplio, pero uso probablemente ocasional para quien alquila. La rotación diaria de distintos clientes no cumple por sí sola el criterio de uso diario individual.
+
+4. Cómo ganar dinero
+Quién paga: PERSONAS. Quien alquila paga un precio final con remuneración del dueño, servicio del comercio y cargo de plataforma visibles.
+
+Reparto hipotético de $45.000 COP por un día:
+- Dueño: $30.000 brutos; debe considerar limpieza, desgaste y traslado al punto.
+- Comercio: $5.000 brutos por custodia, entrega y devolución; debe comprobar que compensa espacio y trabajo.
+- Plataforma: $10.000 brutos para cubrir procesamiento, dispersión, impuestos, incidencias y operación.
+
+Ejemplo limitado de costos: con ePayco y cuenta Davivienda, un cobro con tarjeta de $45.000 costaría ($45.000 × 2,64% + $690) × 1,19 = $2.234,82. Dos dispersiones bancarias de $2.856, una al dueño y otra al local, dejan $2.053,18 de los $10.000 ANTES de impuestos propios, retenciones, GMF cuando corresponda, verificación, devoluciones, pérdidas y soporte. No es utilidad neta ni simulación tributaria completa. Un depósito o seguro no están incluidos en ese cálculo.
+La tarifa bancaria con IVA se apoya en la captura del panel aportada por el usuario el 5 de noviembre; la web pública muestra $2.400 sin aclarar IVA. Agrupar pagos por beneficiario puede reducir costos fijos, sujeto a acuerdos y plazos; no elimina las comisiones de cada cobro.
+Fuentes revisadas: https://epayco.com/tarifas/ y https://epayco.com/payouts/tarifas/
+Detalle previo: investigaciones/Turciti-pagos-Colombia-2026-11-05.md.
+
+El proveedor debe admitir este marketplace y verificar beneficiarios. El saldo pasa primero por la plataforma y después se dispersa; no es un pago directo comprador-dueño. No se verificaron depósitos en garantía, preautorizaciones ni un seguro aplicable. Un depósito no es ingreso ni sustituye cobertura de pérdidas.
+
+5. Competidores en Colombia
+- Evorios presenta una web orientada a Colombia para alquiler entre vecinos, con reservas, QR y verificación. Es un competidor del concepto; la página no prueba inventario o transacciones reales en Santa Marta.
+  Web: https://evorios.com/es-co/
+  Aplicación web: https://app.evorios.com/
+- Renttu es un antecedente colombiano documentado por Forbes en julio de 2022. Su operación y app actuales no quedaron confirmadas; no trasladar cifras antiguas a 2026.
+  Fuente: https://forbes.co/actualidad/esta-app-colombiana-permite-poner-a-rentar-cualquier-cosa
+- Préstamos entre conocidos y acuerdos directos por WhatsApp: alternativas baratas que pueden bastar para intercambios ocasionales.
+
+6. Competidores en Santa Marta
+- iRent publica alquiler de equipo de viajes y aventura y una dirección en Santa Marta. Compite por resolver la necesidad de equipo temporal, aunque la oferta revisada no demuestra un modelo entre particulares.
+  https://irentcolombia.com/
+  https://irentcolombia.com/contacto/
+- Elsa Acosta Pérez publica alquiler de mobiliario y artículos para eventos en Santa Marta; sustituto parcial para reuniones.
+  https://www.elsaacostaperez.com/alquiler-de-mobiliario
+No se visitaron comercios, verificaron existencias ni compararon precios finales. Ninguno de estos negocios es un aliado confirmado.
+
+7. Competidores en el mundo
+- FriendWithA: marketplace entre personas con alquiler de equipo, fechas y entrega pactada; se observaron anuncios en ciudades de Estados Unidos.
+  Web de reservas: https://friendwitha.com/rentals/equipment/
+- AlquilaloTu: su ficha describe alquiler entre personas, pagos y reputación; el desarrollador se identifica en Bolivia, no en Colombia.
+  App oficial: https://play.google.com/store/apps/details?id=com.davidsilvbv.AlquilaloTu
+La oferta internacional muestra el problema de acceso temporal y aprovechamiento de objetos, no demanda local comprobada. No se copian promesas de ingresos ni coberturas de otros países.
+
+8. Nuestra ventaja
+Océano azul: BAJO. El alquiler entre personas ya existe.
+Hipótesis de enfoque: entrega y devolución en comercios próximos con revisión estandarizada, para evitar coordinar dos encuentros con el dueño. No se verificó que sea un nicho libre; hay que probar que el servicio vale su costo.
+Filtro de LLM gratuitos, revisión documental del 6 de noviembre: Claude Free ya incluye búsqueda, memoria, código y conexión con herramientas: https://claude.com/pricing
+Un asistente puede recomendar equipo, comparar precios, crear un formulario o usar servicios de alquiler externos. El valor adicional exige propietarios reales, disponibilidad comprometida, custodia, entrega y cobro cumplidos. Esa operación no se obtiene solo conversando. Los servicios externos y la coordinación directa también compiten. No se hizo una prueba práctica exhaustiva de todos los LLM gratuitos.
+
+9. Riesgos
+Pérdida, robo, daño o demora; fraude de identidad; desacuerdos sobre el estado; poca demanda por objeto; que un alquiler profesional sea más barato o cómodo; depósitos que hagan inaccesible la operación.
+El comercio necesita espacio y personal: no es un punto de entrega gratuito. Definir custodia, limpieza, horarios, compensaciones y responsabilidad. No prometer cobertura sin un contrato real que la respalde. El MVP no requiere instalar puestos ni ocupar espacio público en playas.
+Validación propuesta: cuatro semanas, dos puntos y diez alquileres completados. Medir ingreso recibido por dueño, costo total para el cliente frente a alternativas equivalentes, trabajo del local y soporte del fundador. Continuar solo si el beneficio compensa para las tres partes y queda contribución después de costos e incidencias. Son metas propuestas, no resultados.
+
+10. Internacionalización
+MEDIA. Colombia primero: probar una zona de Santa Marta y después estudiar Cartagena y Barranquilla. Fuera, evaluar ciudades de México o Perú con demanda comparable. Cada lugar requiere puntos de entrega, oferta, contratos y medios de pago; no basta traducir la app.
+
+11. Problemas para 1 sola persona
+El desarrollo encaja con la experiencia del fundador en frontend, backend, servidores e infraestructura. Conseguir comercios, resolver daños y conciliar pagos es lo difícil.
+Nota: APTA CON CUIDADO para un piloto pequeño; DIFÍCIL a escala masiva sin apoyo operativo.
+Limitar objetos y reservas, usar puntos con horario y registrar estado. Si el fundador debe guardar, limpiar, transportar objetos o atender incidentes continuamente, no cumple la operación individual.
