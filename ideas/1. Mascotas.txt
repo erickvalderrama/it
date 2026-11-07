@@ -12,21 +12,21 @@ Necesidad/Problema a solucionar:
 Argumentos:
 Decisiones técnicas e inicio del desarrollo — 6 de noviembre de 2026:
 - El usuario elige comenzar la aplicación de Mascotas.
-- Backend CONFIRMADO: .NET. Diseñar la API de la app con ASP.NET Core; versión y estructura concreta por definir.
+- Backend CONFIRMADO: C# con .NET / ASP.NET Core Web API.
 - Base de datos CONFIRMADA: PostgreSQL.
-- Preferencia del usuario: frontend HÍBRIDO / MULTIPLATAFORMA. Framework todavía PENDIENTE de su elección; no registrarlo como decidido por una recomendación.
-- Recomendación inicial del asistente: Ionic + Angular + Capacitor, por la experiencia del usuario en Angular y el aprovechamiento de tecnologías web para móvil.
-- Alternativas evaluadas: React Native + Expo y Flutter. Todos pueden consumir la API .NET; el lenguaje del backend no obliga a una tecnología de UI.
-- Antes de cerrar el frontend para transporte: probar mapa, envío de ubicación y recepción de estados, especialmente seguimiento del prestador con pantalla bloqueada, permisos y consumo de batería en Android/iOS. No basta probar un mapa en navegador.
-- El plugin oficial de geolocalización de Capacitor no ofrece directamente seguimiento en segundo plano; requiere evaluar una solución específica. Expo también documenta permisos, builds y límites por sistema. Ninguna opción garantiza continuidad cuando el sistema o el usuario termina la app.
-- Esta decisión no construye el backend ni confirma funcionalidades ya implementadas; se registra el stack elegido y la comparación pendiente.
+- Frontend híbrido/multiplataforma CONFIRMADO por el usuario: Flutter con Dart. Versiones concretas por definir según compatibilidad.
+- Aplicar ARQUITECTURA LIMPIA en backend y frontend, con dominio, casos de uso, infraestructura/datos y presentación separados.
+- Archivos de código fuente MENORES DE 700 LÍNEAS: máximo 699, incluidos widgets, páginas, pruebas y migraciones; contar comentarios y líneas vacías. Extraer responsabilidades sin minificar ni hacer divisiones artificiales.
+- REGLA DE ORO: respetar el MODELO ENTIDAD-RELACIÓN aprobado. No inventar tablas, campos, claves o relaciones para resolver pantallas o imponer patrones. Si un cambio está autorizado, actualizar modelo, mapeos y migración de manera coordinada.
+- El modelo aún no se aportó en este repositorio; su ruta en la plantilla queda PENDIENTE DE IDENTIFICAR. No crear un esquema ficticio ni confundir los módulos del alcance con autorización para nuevas tablas.
+- Plantilla lista para el CLAUDE.md del futuro proyecto: prompts/Mascotas-CLAUDE.md. No sustituye la memoria del repositorio general de ideas.
+- Primer riesgo técnico por validar: seguimiento durante un transporte activo con pantalla bloqueada, permisos, batería y pérdida de conexión en Android/iOS. Flutter requiere un plugin y configuración nativa; no basta mostrar un mapa ni se garantiza continuidad al terminar la app.
+- Esta actualización define reglas y stack; no construye ni prueba una aplicación.
 
-Fuentes oficiales consultadas el 6 de noviembre:
-https://ionicframework.com/docs/angular/overview
-https://capacitorjs.com/docs/apis/geolocation
-https://docs.expo.dev/versions/latest/sdk/location/
-https://reactnative.dev/docs/intro-react-native-components
+Fuentes de referencia técnica documentadas durante la comparación:
 https://docs.flutter.dev/resources/architectural-overview
+https://pub.dev/packages/geolocator
+https://pub.dev/packages/flutter_background_geolocation
 
 - La aplicación permite elegir ADOPCIONES, TRANSPORTE EXCLUSIVO DE MASCOTAS A→B o SERVICIOS PARA MASCOTAS, incluidos BAÑO / LIMPIEZA / BELLEZA A DOMICILIO.
 - Transporte exclusivo de mascotas, no mensajería general ni transporte genérico de pasajeros:

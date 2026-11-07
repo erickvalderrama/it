@@ -16,14 +16,18 @@ Indicación del usuario, 6 de noviembre de 2026: guardar la evaluación en el re
 
 ## Aplicación elegida para comenzar: Mascotas
 
-Decisión del usuario, 6 de noviembre de 2026:
+Decisiones del usuario, 6 de noviembre de 2026:
 - Quiere comenzar la aplicación de la idea 1, Mascotas.
-- Backend: .NET. Base de datos: PostgreSQL.
-- Busca frontend híbrido/multiplataforma y todavía NO ha elegido framework.
-- Recomendación inicial del asistente: Ionic + Angular + Capacitor por su experiencia en Angular; alternativas React Native + Expo y Flutter. Registrar recomendaciones como propuestas, sin dar por elegida ninguna.
-- Validar el seguimiento del prestador con pantalla bloqueada y permisos de ubicación antes de cerrar la tecnología de la parte de transporte; no asumir que mostrar un mapa resuelve el seguimiento en segundo plano.
+- Backend CONFIRMADO: C# con .NET / ASP.NET Core Web API. Base de datos: PostgreSQL.
+- Frontend móvil multiplataforma CONFIRMADO: Flutter con Dart. La comparación anterior con Ionic y React Native no es la elección vigente.
+- Arquitectura limpia en backend y Flutter, con capas y responsabilidades separadas.
+- Regla obligatoria: archivos de código fuente MENORES DE 700 LÍNEAS, máximo 699, incluidos widgets, páginas, pruebas y migraciones. Dividir por responsabilidades; no minificar para evadir el límite.
+- REGLA DE ORO: respetar el modelo entidad-relación aprobado como fuente de verdad. No inventar tablas, campos o relaciones ni introducir cambios de esquema sin respaldo en el modelo y autorización para el cambio.
+- El modelo entidad-relación del proyecto aún no se aportó en este repositorio. No tratar una estructura propuesta como un modelo ya aprobado.
+- Plantilla solicitada para la memoria del futuro proyecto: [CLAUDE.md de Mascotas](prompts/Mascotas-CLAUDE.md). Copiar su contenido al CLAUDE.md de la raíz del proyecto cuando se cree; este repositorio conserva su memoria general de ideas.
+- Validar seguimiento del prestador con pantalla bloqueada, permisos, batería y red en dispositivos reales. Flutter requiere configuración y plugin específicos; no asumir seguimiento garantizado si el sistema o el usuario termina la app.
 - Mantener adopciones y publicaciones premium, transporte exclusivo A→B, servicios para mascotas y recargas para compras pequeñas.
-- El repositorio de ideas registra estas decisiones; no acredita un backend, app o integración operativa. Archivo: ideas/1. Mascotas.txt.
+- Esta actualización guarda decisiones e instrucciones; no acredita backend, app ni integración operativa. Archivo de alcance: ideas/1. Mascotas.txt.
 
 ## Perfil técnico del fundador
 

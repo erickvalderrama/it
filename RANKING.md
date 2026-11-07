@@ -21,6 +21,7 @@ Este es el archivo vigente para consultar y actualizar el ranking del repositori
 | 2026-11-06 | Se añaden publicaciones de adopción premium como ingreso de Mascotas y recargas como opción general, aplicada a las ideas 1 y 56. | Se mantienen los puestos 1 y 2: son modelos propuestos, sin ventas o validación nuevas; revisar aceptación y costos. |
 | 2026-11-06 | Se añade la idea 58, Beauky: catálogo de tiendas de belleza, búsqueda de productos y tops de tiendas/artistas. Se priorizan recargas de clientes para compras pequeñas. | 58 ideas evaluadas; Beauky queda en reserva por competencia, stock, captación y operación pendientes. Top 10 sin cambios. |
 | 2026-11-06 | El usuario elige comenzar Mascotas con backend .NET y PostgreSQL; frontend híbrido pendiente. | Se mantiene el orden por falta de evidencia comercial nueva. La elección de proyecto queda registrada sin convertir la recomendación de frontend en decisión. |
+| 2026-11-06 | Se confirma Flutter junto a C#/.NET y PostgreSQL y se prepara la plantilla CLAUDE.md: arquitectura limpia, máximo 699 líneas por archivo y modelo entidad-relación como regla de oro. | Se conserva el top 10; la decisión técnica no equivale a validación comercial ni a aplicación implementada. |
 
 ## Evaluación vigente
 
@@ -45,7 +46,7 @@ No se aceptaron como prueba las frases antiguas «no existe», «sin competencia
 
 ## Proyecto seleccionado por el usuario
 
-El 6 de noviembre de 2026 el usuario decide comenzar [1. Mascotas](ideas/1.%20Mascotas.txt), con backend .NET y PostgreSQL. Quiere frontend híbrido/multiplataforma, aún por elegir. Ionic + Angular + Capacitor es una recomendación inicial; se comparan React Native + Expo y Flutter y se propone validar la ubicación del transportador en segundo plano.
+El 6 de noviembre de 2026 el usuario decide comenzar [1. Mascotas](ideas/1.%20Mascotas.txt). Stack confirmado: C# con .NET, PostgreSQL y Flutter. Solicita arquitectura limpia, archivos de código fuente de máximo 699 líneas y respeto al modelo entidad-relación como regla de oro. Plantilla para la memoria del futuro proyecto: [CLAUDE.md de Mascotas](prompts/Mascotas-CLAUDE.md). El modelo aprobado todavía no se aportó; seguimiento en segundo plano e implementación siguen por validar.
 
 Esta selección no cambia la evidencia comercial ni el orden provisional del top 10. Priorizar las siguientes tareas de implementación de Mascotas según la decisión del usuario.
 
