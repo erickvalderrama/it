@@ -16,20 +16,19 @@ Indicación del usuario, 6 de noviembre de 2026: guardar la evaluación en el re
 
 ## Aplicación elegida para comenzar — Mascotas
 
-Decisiones vigentes al 9 de noviembre de 2026.
+Decisiones vigentes al 9 de noviembre de 2026. Ejecutar las entregas y sus pruebas de salida en el orden del [plan de trabajo](prompts/mascotas/work-plan.md).
 
-- C# con .NET y ASP.NET Core Web API, PostgreSQL y Flutter con Dart. La interfaz Flutter debe adaptarse a web, Android e iOS desde una base común. Riverpod es la opción inicial de estado.
-- Arquitectura limpia en backend y Flutter, con un máximo de 699 líneas por archivo de código, incluidos widgets, pruebas y migraciones.
-- El modelo entidad-relación aprobado gobierna la persistencia. Su ruta está pendiente de identificar. Mantener entidades, relaciones, mapeos y migraciones alineados con ese modelo.
-- Todo el código en inglés, incluidos nombres, comentarios, contratos API, pruebas y textos base. Centralizar los textos visibles en constantes y conservar documentos legales y posibles traducciones como recursos separados.
-- Detallar los layouts por ancho, estados de carga y error, navegación y accesibilidad en web y móvil. Las pruebas unitarias y la seguridad son requisitos de entrega.
-- Superadmin administra toda la aplicación con acciones sensibles auditadas. Business paga una suscripción mensual para montar y operar su tienda de artículos y gestionar su propio domicilio. Foundation publica y gestiona sus adopciones.
-- Mantener el cobro al publicante por publicaciones de adopción pagadas, el transporte exclusivo A→B, el pago de baño, lavado y limpieza a domicilio o por reserva y las recargas para compras pequeñas.
-- Identificar quién realiza la venta o el servicio. Mascotas facilita y cobra por las funciones informadas. Tiendas, fundaciones y prestadores ejecutan lo que les corresponde. Cada parte conserva sus obligaciones de servicio, soporte, pagos y datos según su participación.
-- Publicar los términos y la política de privacidad aprobados en web y móvil, con versión, vigencia y registro de aceptación y autorización cuando corresponda. Completar los datos del operador y revisar los borradores para Colombia antes de publicarlos.
-- Validar el seguimiento del prestador en Android e iOS con pantalla bloqueada, permisos y pérdida de conexión. Mostrar en web la última ubicación autorizada del trayecto.
+1. **Adopciones.** Registro breve con Colombia preseleccionado, catálogo oficial DIVIPOLA y múltiples ciudades. Publicaciones básicas y premium, con filtro por ciudad y por publicante particular o Business. User, Business y Superadmin pueden pagar un destacado. Confirmar el pago en ePayco antes de enviar el premium a la IA. La IA revisa texto y todas las fotos, incluido el texto visible en ellas. Aprueba contenido conforme, solicita correcciones y rechaza versiones con vulgaridad o contenido sexual. El reenvío de una corrección conserva el pago. Los casos dudosos pasan a Superadmin. Incluir facturación electrónica de los cobros propios, métricas de registrados y activos y panel de revisión.
+2. **Tiendas y servicios.** Venta de artículos con domicilio propio de la tienda y servicios de baño, lavado y limpieza a domicilio o por reserva. ePayco Payouts para abonos verificados. Recargas para compras pequeñas y saldo separado para comisiones, con validación previa del modelo.
+3. **Transporte A→B.** Business habilitados, solicitudes y ofertas, entrega confirmada, seguimiento autorizado y recargas para cargos pequeños. Cerrar modalidad, requisitos del operador, bienestar y custodia, cobertura e incidentes antes de cobrar viajes.
+
+- Roles User, Business y Superadmin. Foundation y Store son tipos de perfil Business. Elegir tienda o fundación al registrar o convertir la cuenta. Para inscribir o habilitar tienda, solicitar cédula y RUT a persona natural o NIT y RUT a persona jurídica.
+- Alta gratuita promocional para organizaciones, fundaciones y futuros comercios. El plazo es configurable y un año es el ejemplo inicial. Después ofrecer la mensualidad asignada para aceptación expresa. Una tabla separada conserva las versiones de precio y cada pago o publicación queda vinculado a la versión exacta y el total aceptados.
+- Versionar términos y política de privacidad. Mostrar los términos nuevos y exigir aceptación explícita para nuevas operaciones. Conservar historial de versiones y relación de cada usuario con la versión más reciente aceptada. El publicante, la tienda y el prestador responden por lo que ofrecen y ejecutan. Mascotas atiende sus funciones, cobros, datos y obligaciones aplicables.
+- Stack C# con .NET y ASP.NET Core Web API, PostgreSQL y Flutter para web, Android e iOS. Riverpod es la opción inicial de estado. Arquitectura limpia, máximo 699 líneas por archivo fuente, código y textos base en inglés, textos de interfaz centralizados en constantes, pruebas unitarias y seguridad. El modelo entidad-relación aprobado gobierna la persistencia y su ruta está pendiente.
+- Mantener layouts adaptables y accesibles. En fase 3 validar seguimiento con pantalla bloqueada, permisos y pérdida de conexión en Android e iOS, con la última ubicación autorizada visible en web.
 - Copiar la plantilla en inglés al CLAUDE.md del proyecto al crearlo. [Plantilla de Mascotas](prompts/Mascotas-CLAUDE.md)
-- Consultar el alcance y los textos de revisión. [Idea 1](ideas/1.%20Mascotas.txt) · [Términos y condiciones](prompts/mascotas/legal/terms-and-conditions.md) · [Política de privacidad](prompts/mascotas/legal/privacy-policy.md)
+- Completar los datos del operador y revisar los textos antes de publicar. [Idea 1](ideas/1.%20Mascotas.txt) · [Catálogo DANE](prompts/mascotas/data/README.md) · [Términos](prompts/mascotas/legal/terms-and-conditions.md) · [Privacidad](prompts/mascotas/legal/privacy-policy.md)
 
 ## Perfil técnico del fundador
 

@@ -1,6 +1,6 @@
 1. Mascotas: adopción con publicaciones premium, transporte exclusivo y servicios
 
-Actualizada el 9 de noviembre de 2026 por indicación del usuario. Mascotas reúne adopciones, publicaciones de adopción pagadas, transporte exclusivo A→B, servicios para mascotas y tiendas de artículos con suscripción Business. El modelo de ingresos y la demanda están en fase de validación.
+Actualizada el 9 de noviembre de 2026 por indicación del usuario. La primera salida de Mascotas es adopciones, con anuncios básicos y premium. Después se habilitan tiendas y servicios para mascotas y, en tercer lugar, transporte exclusivo A→B. El modelo de ingresos y la demanda se prueban por fase.
 
 Necesidad/Problema a solucionar:
 - Quien no puede trasladar a su mascota necesita alguien preparado para llevarla a la veterinaria, peluquería, guardería u otra dirección.
@@ -23,21 +23,26 @@ Decisiones técnicas e inicio del desarrollo — 6 de noviembre de 2026:
 - REGLA DE ORO: respetar el MODELO ENTIDAD-RELACIÓN aprobado. No inventar tablas, campos, claves o relaciones para resolver pantallas o imponer patrones. Si un cambio está autorizado, actualizar modelo, mapeos y migración de manera coordinada.
 - El modelo aún no se aportó en este repositorio; su ruta en la plantilla queda PENDIENTE DE IDENTIFICAR. No crear un esquema ficticio ni confundir los módulos del alcance con autorización para nuevas tablas.
 - Plantilla lista para el CLAUDE.md del futuro proyecto: prompts/Mascotas-CLAUDE.md. No sustituye la memoria del repositorio general de ideas.
-- Primer riesgo técnico por validar: seguimiento durante un transporte activo con pantalla bloqueada, permisos, batería y pérdida de conexión en Android/iOS. Flutter requiere un plugin y configuración nativa; no basta mostrar un mapa ni se garantiza continuidad al terminar la app.
-- Esta actualización define reglas y stack; no construye ni prueba una aplicación.
+- En fase 3 validar seguimiento durante un transporte activo con pantalla bloqueada, permisos, batería y pérdida de conexión en Android/iOS. Flutter requiere capacidades nativas y pruebas por plataforma.
 
 Fuentes de referencia técnica documentadas durante la comparación:
 https://docs.flutter.dev/resources/architectural-overview
 https://pub.dev/packages/geolocator
 https://pub.dev/packages/flutter_background_geolocation
 
-Roles y alcance de la plataforma
+Plan de lanzamiento y roles
 
-- Superadmin administra todos los módulos de la aplicación y registra sus acciones sensibles.
-- Business paga mensualmente para montar y operar una tienda de artículos para mascotas. Gestiona catálogo, stock, ventas y sus propios domicilios. La tienda atiende sus pedidos, entregas y garantías.
-- Foundation crea y gestiona las publicaciones y solicitudes de adopción de su propia fundación.
-- Cliente y prestador independiente son perfiles operativos para comprar, reservar o prestar los servicios descritos. Su representación y permisos se ajustan al modelo entidad-relación aprobado.
-- La aplicación ofrece adopciones, tiendas, transporte exclusivo A→B y servicios para mascotas, incluidos baño, lavado, limpieza y belleza a domicilio o mediante reserva.
+- Fase 1. Adopciones multicidad, anuncios básicos y premium, alta y mensualidad Business, facturación electrónica y ePayco. Registro personal con nombre, correo, contraseña, país y ciudad. Colombia preseleccionada y catálogo oficial de departamentos y localidades DANE.
+- Fase 2. Tiendas con domicilio propio y servicios a domicilio o por reserva. Incorporar ePayco Payouts y recargas para compras o comisiones pequeñas según el modelo aprobado.
+- Fase 3. Transporte exclusivo de mascotas A→B por Business habilitados, con recargas para pagos o comisiones pequeñas. Confirmar modalidad, operador, bienestar y custodia, cobertura y obligaciones antes de viajes pagados.
+- User, Business y Superadmin son los roles. Superadmin gestiona y audita sus acciones sensibles. User, Business y Superadmin pueden pagar una publicación premium. Filtrar por particular o Business según la representación al publicar.
+- Foundation y Store son tipos de perfil Business. Preguntar si es tienda o fundación al registrarse como Business o al convertir una cuenta. Un Business puede operar sin tienda. Para registrar o activar tienda, pedir cédula y RUT a persona natural o NIT y RUT a persona jurídica. Cada tienda gestiona catálogo, stock, ventas y sus propios domicilios.
+- Alta promocional gratuita para fundaciones, organizaciones y futuros comercios, con plazo configurable y un año como ejemplo. Al vencer, ofrecer la mensualidad asignada para aceptación y pago. Una tabla independiente registra las versiones de precio. Asociar cada pago o publicación al precio exacto aceptado.
+- El pago de un anuncio premium se confirma antes de enviar a la IA. La IA revisa texto y todas las fotos, incluido texto dentro de las imágenes. Aprueba si todo cumple, solicita correcciones con reenvío usando el pago original y rechaza versiones con vulgaridad o contenido sexual. Superadmin revisa los casos dudosos. El destacado empieza al aprobarse y activarse.
+- Panel Superadmin con usuarios registrados y activos, moderación y estados de pagos y facturas. Para facturar, pedir los datos fiscales permitidos por DIAN en el checkout. Teléfono y dirección se usan por separado para contacto o prestación cuando correspondan.
+- Plan y criterios de salida en prompts/mascotas/work-plan.md.
+
+Flujos de tiendas, adopciones, servicios y transporte
 - Transporte exclusivo de mascotas, no mensajería general ni transporte genérico de pasajeros:
   1) Marcar recogida A y destino B en el mapa; indicar fecha, horario, mascota, tamaño/peso aproximado, necesidades y responsable que entrega y recibe. Especificar ida, regreso y espera.
   2) Proponer cuánto se quiere pagar.
@@ -48,12 +53,12 @@ Roles y alcance de la plataforma
 - Cada oferta distingue transporte solo, baño, corte u otros servicios; muestra inclusiones, exclusiones, cargos y total. Un cambio de alcance o costo necesita aceptación previa del dueño.
 - Revelar solo zona aproximada antes de contratar; direcciones exactas a los participantes autorizados. El mapa muestra solicitudes y cobertura, no promete prestadores instantáneos.
 - Veterinarias, peluquerías y guarderías pueden prestar o referir servicios; no son intermediarios obligatorios. El dueño gana tiempo y claridad; el prestador obtiene ingresos, descontando sus costos.
-- Piloto de servicios programados con pocos prestadores y horarios definidos, sin flota propia. No ofrecer urgencias ni procedimientos veterinarios desde la categoría de belleza.
+- En fase 2, piloto de servicios programados con pocos prestadores y horarios definidos. Limitar la categoría de belleza a los servicios autorizados para ese flujo.
 - Adopciones con publicación básica y anuncio pagado, identificado como premium o con la denominación comercial aprobada. El publicante paga a Mascotas por publicar o destacar el anuncio con precio, duración y prestaciones visibles. La fundación o el publicante autorizado gestiona el proceso de adopción.
 
 Cómo ganar dinero:
 - Quién paga: MIXTO.
-- El negocio Business paga a Mascotas una suscripción mensual para montar y operar su tienda. El negocio recibe el importe de sus ventas según las condiciones aceptadas y gestiona su domicilio.
+- La organización Business paga a Mascotas una mensualidad al aceptar su tarifa después de la promoción. Si habilita una tienda, recibe el importe de sus ventas según las condiciones aceptadas y gestiona su domicilio.
 - Las publicaciones de adopción pagadas generan un cobro de Mascotas al publicante por el espacio o la visibilidad ofrecida. El importe corresponde a la app. La adopción del animal se tramita por separado.
 - Identificar en la confirmación el proveedor, el total, los cargos de uso y el destino del pago de cada venta, transporte o reserva.
 - Cobro por el servicio con comisión o cargo de plataforma visible, acordado antes de contratar. Probar disposición a pagar y costos antes de fijar porcentaje.
@@ -63,8 +68,8 @@ Cómo ganar dinero:
 - Adopción: posibles comisiones de kits vendidos y entregados por tiendas, campañas patrocinadas claramente identificadas y donaciones solo con condiciones revisadas. No depender de cobrar a refugios ni almacenar productos.
 - Si se usa recaudo más Payouts, confirmar admisión y verificación de beneficiarios. No es split bancario directo ni dispersión gratuita. Referencia: investigaciones/Turciti-pagos-Colombia-2026-11-05.md.
 
-Recargas, añadidas por indicación del usuario:
-- Permitir prepagar saldo para varios cargos pequeños de la app. El publicante puede usarlo en destacados de adopción; el prestador puede recargar para comisiones, siguiendo la referencia de los conductores de inDrive.
+Recargas para las fases 2 y 3:
+- Permitir prepagar saldo para varios cargos pequeños de la app. El prestador puede recargar para comisiones, siguiendo la referencia de los conductores de inDrive. Evaluar si los destacados de adopción pueden consumirse desde ese saldo después de la primera fase.
 - PRIORIZAR también el saldo del CLIENTE para COMPRAS PEQUEÑAS: una recarga permite varias compras de servicios o publicaciones habilitadas. Distinguirlo del saldo del prestador para comisiones. Definir quién paga cada cargo y descontarlo una sola vez; conservar el precio pactado con el prestador.
 - Si el cliente paga servicios dentro de la app, siguen existiendo recaudo y abonos a prestadores. Las recargas no hacen gratis cada Payout; agrupar por el mismo beneficiario solo con condiciones acordadas.
 - Montos mínimos y precios de los premium por probar; no exigir una recarga alta a quien solo necesita una publicación o servicio.
@@ -74,7 +79,7 @@ Recargas, añadidas por indicación del usuario:
 Términos, privacidad y responsabilidades
 
 - Mascotas facilita publicaciones, reservas y pagos y cobra por las funciones informadas. La tienda entrega sus artículos, el prestador ejecuta el servicio y la fundación gestiona la adopción. El operador atiende sus propias obligaciones y ofrece canales trazables de soporte, reclamo y devolución.
-- Publicar los textos revisados en web y móvil. Registrar su versión, vigencia y aceptación y la autorización de tratamiento que corresponda.
+- Publicar los textos revisados en web y móvil. Conservar versiones, vigencia, historial de aceptación y versión más reciente aceptada por usuario. Mostrar los términos nuevos y pedir aceptación expresa antes de nuevas publicaciones o pagos. Guardar por separado la autorización de tratamiento que corresponda.
 - Revisar los borradores para Colombia y completar operador, atención, prácticas de datos y reglas comerciales antes de publicar.
   prompts/mascotas/legal/terms-and-conditions.md
   prompts/mascotas/legal/privacy-policy.md
@@ -121,12 +126,12 @@ Riesgos:
 
 Internacionalización:
 - MEDIA. La necesidad y oferta tienen precedentes internacionales; se reutiliza software, pero hay que conseguir prestadores, revisar condiciones y adaptar pagos en cada ciudad.
-- Plan: una zona de Santa Marta; después otra ciudad colombiana y un piloto en México o Perú. Sin prometer red internacional desde el lanzamiento.
+- Plan: catálogo multicidad desde la fase 1 con captación inicial propuesta en Santa Marta. Validar otra ciudad colombiana antes de una expansión internacional.
 
 Problemas para 1 sola persona:
 - Nota: APTA CON CUIDADO para belleza programada con pocos prestadores; DIFÍCIL para transporte amplio e incidentes.
 - Tu capacidad técnica permite construir mapa, ofertas y reservas; el cuello de botella es confianza, oferta disponible y soporte.
-- Empezar por una categoría pagada, automatizar solicitudes y estados y definir continuidad durante ausencias. No lanzar adopción, transporte y belleza con operación completa simultáneamente.
+- Empezar por adopciones, automatizar revisión y estados y definir continuidad durante ausencias. Medir publicación, contacto y aceptación del destacado antes de abrir tiendas y servicios.
 - Si exige despachar cada viaje, inspeccionar cada servicio o atender urgencias permanentemente, ese alcance no sirve para operar solo.
 
-Revisión documental del 9 de noviembre de 2026. Validar suscripción Business, logística de las tiendas, prestadores, seguridad, pagos y aceptación de los servicios en el piloto.
+Revisión documental del 9 de noviembre de 2026. Validar en el piloto inicial la publicación de adopciones, conversión a premium, aceptación de membresías y operación de cobros, devoluciones y facturación.

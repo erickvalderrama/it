@@ -50,47 +50,76 @@ Design each screen once around the same use case and controller. Compose layouts
 - Isolate platform capabilities behind adapters. Confirm camera, uploads, location, maps, and payment flows on the supported targets. Show an actionable fallback where a capability is unavailable. Web users can follow a trip and see the last authorized position. Enable location collection in the background on supported mobile devices after validation.
 - Review each changed screen at compact and wide widths. Include long content, enlarged text, empty data, errors, and asynchronous loading. Validate navigation and the primary action end to end on web and mobile.
 
-## Roles and authorization
+## Release plan and roles
+
+Ship the adoption release first. Use the work plan for dependencies, acceptance checks, release gates, and the Colombia pilot. Follow the approved entity relationship model when implementing these requirements. [Mascotas work plan](https://github.com/erickvalderrama/it/blob/main/prompts/mascotas/work-plan.md)
 
 | Role | Scope |
 | --- | --- |
-| Superadmin | Administers all application modules, users and roles, stores, subscriptions, foundations, publications, services, complaints, and approved financial actions. Require strong authentication and audit sensitive actions. |
-| Business | Pays a monthly subscription to operate a store for pet supplies. Manages its own catalog, inventory, prices, orders, delivery coverage, and delivery service. Its own staff or chosen delivery provider fulfills its orders. |
-| Foundation | Creates and manages its own adoption listings, requests, and adoption decisions. Can purchase a paid listing or visibility benefit under the advertised conditions. |
+| User | Manages their personal account and adoption listings. Can buy paid adoption visibility and use the available customer flows. |
+| Business | Manages an authorized organization profile, membership, and its own resources. Can publish paid adoption listings and enable the approved store, service, or transport capabilities as those phases open. |
+| Superadmin | Administers all application modules, including users, organization enrollment, moderation, prices, terms, and authorized financial actions. Can publish and pay for its own adoption listing. Require strong authentication and audit sensitive actions. |
 
-Customer and independent provider describe the operational profiles in the existing flows. Map their privileges and the three named roles to the approved model and role assignments.
-Authorize every operation in the backend by role, permission, and resource scope. Superadmin has global application scope. Scope store and foundation data to their accounts and verify ownership or participation for customer and provider operations. Apply the same checks to lists, searches, downloads, and individual resources. Derive client capabilities from authorized state and use them to present relevant actions.
-A confirmed and active monthly Business subscription enables storefront setup, publication, and sales. Define start, expiration, renewal, and cancellation from the confirmed payment and the accepted plan. Preserve access needed to fulfill and handle existing orders. Use the approved rules to decide which new actions require an active plan.
-Record privileged actions with actor, action, target, timestamp, and relevant reason. Apply privacy and financial integrity checks to administrative operations.
+Use one Business role for both Foundation and Store profile types. A Business can operate without a store. Authorize role, capability, and resource scope in the backend for every operation, including lists, searches, downloads, and direct resource access. Scope Business operations to the authorized organization and preserve account and operation history during profile conversion. Audit sensitive actions with actor, action, target, timestamp, and reason.
 
-## Product flows and screen requirements
+## Phase 1 — Adoptions
 
-### Adoption listings
+### Registration, locations, and Business enrollment
 
-Show basic listings and paid adoption listings with a clear label and the advertised visibility, price, duration, and moderation conditions. The publisher pays Mascotas for the listing or promotion. The foundation or authorized adopter contact handles the adoption process and decides the outcome. Keep the publication charge distinct from the adoption of the animal.
-Show the listing, foundation or authorized publisher, and the application or contact action. Provide a separate management view for the foundation's own listings and requests.
+Ask for name, email, password, country, and city at personal registration. Preselect Colombia and enable it as the initial country. Use the approved location catalog to support several cities from launch and future countries through configuration. Group Colombian locations by department in the selector. Keep official DIVIPOLA codes as text and validate country, department, and location on the server. Store a listing's location independently from the account's city. [DANE catalog and import notes](https://github.com/erickvalderrama/it/tree/main/prompts/mascotas/data)
 
-### Stores and monthly subscriptions
+Start Business enrollment with a choice of store or foundation for both new accounts and conversions of existing accounts. Request store identity evidence when the person enrolls as a store or later enables a storefront. For a natural person request a Colombian identity card and RUT. For a legal entity request NIT and RUT, with representation checks where applicable. Keep these documents private, restrict verification access, and minimize retention. Apply the same Business membership rules to both profile types.
 
-Give Business a store dashboard with subscription status, current period, catalog, orders, and delivery settings. Publish merchant name, availability, product details, price, delivery cost, and expected delivery before checkout.
-A checkout and its receipt identify the seller and delivery organizer. The store fulfills the sale and runs its own delivery, warranty, and product support. Mascotas handles its platform charges and the collection or support functions it undertakes.
+Support free promotional enrollment for eligible foundations and future stores with configurable eligibility, start, and end dates. A free year from Business activation is a pilot proposal. Offer the assigned monthly price and require explicit acceptance and confirmed payment at renewal. Show status, benefits, expiry, and next price in the Business profile. Start with manual monthly renewal as proposed in the plan. Honor existing obligations after membership expiry.
 
-### Pet transport
+### Adoption listing, filters, and review
 
-Capture pickup A, destination B, pet requirements, date and time, pickup and delivery contacts, and the customer's proposed budget. Providers can accept the proposal or submit counteroffers. Show inclusions, one-way or return arrangements, waiting conditions, total, and the provider the customer explicitly selects before confirmation. Show reservation or request, payment status, accepted offer, pickup, active trip, delivery, and cancellation consistently.
-Share exact addresses and active location only with authorized participants. Start tracking from an explicit action for an active trip and stop on completion or cancellation. Show the last received position and time. Test locked screen, permission changes, loss of connectivity, retries, and recovery on supported mobile devices. Confirm pickup and delivery through the responsible participants.
+Provide basic and paid adoption listings. User, Business, and Superadmin can buy paid listings. Record whether the publisher acted as an individual or for an organization at publication time. Preserve that source after role or profile changes and filter public results by city and publisher type. Show the publisher, pet profile, adoption contact or application action, and listing status. Allow publishers to manage their own listings and adoption requests. The authorized publisher decides the adoption and handles the animal's handover.
 
-### Bathing, washing, cleaning, and grooming
+Show the fee, benefits, duration, content rules, and refund conditions for the paid listing. Mascotas receives the charge for the listing or its visibility. The publisher handles the adoption separately. For a paid listing, charge first and submit its exact revision for review after server-side ePayco confirmation. Make the listing visible and start the paid period only after approval. Track review, publication, payment, invoicing, and refund as separate states.
 
-Support payment for pet bathing, washing, cleaning, grooming, and beauty at home or through a scheduled booking, according to the provider's offer. Display the service, location, provider, date and time, available slot, inclusions, total, and cancellation terms. For at-home service, use the service address.
-Hold a slot according to the approved booking rules and reconcile the hold with confirmed payment. Handle expired holds, late payment confirmation, failure, cancellation, and refunds without duplicate reservations. Keep booking and payment states separately visible.
+Use an approved multimodal AI provider such as OpenAI API behind a backend port. Review the listing text, each image, and visible text within images. Send only the necessary sanitized content and strip image metadata. Use approved moderation rules and structured, validated assessments. Verify policy coverage for each input type and require a result for every submitted image. Keep identity documents, billing data, and private contact details outside the review request.
 
-### Payments and small purchases
+- Approve automatically when all required text and images pass the rules.
+- Request corrections for fixable issues. Identify the field or photo and explain how to fix it. Let the publisher revise and resubmit the same paid listing using the original payment and accepted price.
+- Reject the submitted revision for clear vulgarity, any sexual content in text or images, or another clear policy violation. Keep the revision hidden and tell the publisher why. Allow a clean replacement where the policy permits it.
+- Route uncertainty, unreadable or missing image review, inconsistent responses, and persistent provider failure to Superadmin. Record the decision and its reason.
 
-Show the complete total before confirmation, including platform charge, provider or seller amount, delivery, and applicable charges. Preserve the accepted price and the party responsible for fulfillment in the confirmation.
-Use ePayco through a backend adapter. Validate provider notifications using the documented verification mechanism and reconcile amount, currency, reference, and operation. Treat redirections as navigation and use backend verification for the final result.
-Use exact monetary representation with explicit rounding. Make subscriptions, listing activation, payments, wallet charges, refunds, and payouts idempotent. Protect balance and inventory operations against retries and concurrent requests.
-Prioritize customer top-ups for several small purchases. Treat provider top-ups for commissions as a separate balance and charge each agreed fee once. Keep available, reserved, and spent balance distinct and separate company fees from money owed to sellers or providers. Apply the approved refund and payout rules and record evidence of changes.
+Re-review all content in each submitted revision. Keep unapproved new listings private and prevent stale review results from activating another revision. Record content revision, policy version, assessment by input, provider, outcome, and human decision. Minimize retention of prohibited material and keep it out of notifications. The pilot proposes a full refund for final rejection before activation. Confirm supported refund methods and publish the correction and refund terms before charging. Link each refund and applicable invoice adjustment to the original transaction and apply it once.
+
+### Versioned prices, ePayco, and electronic invoicing
+
+Keep a dedicated history of immutable price versions, with amounts, currency, product or membership scope, effective dates, and assigned Business where applicable. Create a new version when a price changes. Record the exact version, accepted total, currency, applicable benefits, timestamp, and actor for each publication or payment, including zero-price offers. Link the listing, payment, membership period, and invoice to the corresponding accepted offer. Support querying the latest accepted price while retaining every prior acceptance. Validate and freeze an accepted quote server-side for its stated lifetime. Resolve quote expiry and late payment confirmations explicitly.
+
+Use ePayco for listing and Business charges through a backend adapter. Verify each notification using the provider's documented mechanism and reconcile amount, currency, reference, and operation. Use the authenticated server result for the final status. Apply a confirmation once even if it arrives repeatedly or concurrently.
+
+For named invoices, ask for the permitted buyer identification data at checkout and offer the applicable final-consumer flow. Keep phone and address separate when needed for an operational purpose and apply current DIAN requirements to invoice issuance. Issue electronic invoices for Mascotas listing and membership charges through the approved DIAN-enabled flow. Keep the ePayco payment confirmation and electronic invoice linked with separate identifiers and states. Record issuance, validation, delivery, retries, and applicable corrections. Use an authorized refund flow when required.
+
+The pilot proposal starts paid listings and memberships on responsive web. Review Apple and Google Play rules for digital purchases before enabling them in store-distributed mobile apps. Treat physical service and product checkout as a separate review.
+
+### Phase 1 screens and administration
+
+Deliver registration, city and publisher filters, a shareable listing detail, listing draft and preview, review and payment status, Business enrollment and membership, terms acceptance, invoice access, and a Superadmin dashboard. Reuse the same states and controls on compact and wide layouts. Show registered, enabled, and active user counts, filterable by city, role, and period. Display the definition and period of the active user count. Include review, Business enrollment, pricing, terms versions, and payment or invoice recovery in the dashboard. Keep administrative capabilities audited.
+
+## Phase 2 — Stores and pet services
+
+Give a verified Business a store dashboard with subscription status, catalog, stock, orders, and its own delivery settings. Publish merchant name, availability, product details, price, delivery cost, and expected delivery before checkout. The store fulfills the order and handles delivery and product support. Mascotas handles the platform charges and functions it undertakes. Preserve access needed to fulfill orders already accepted.
+
+Support paid pet bathing, washing, cleaning, grooming, and beauty at home or through a scheduled booking. Display service, location, provider, date, time slot, inclusions, total, and cancellation terms. Reconcile slot holds with confirmed payment. Handle expiry, late confirmations, failure, cancellation, and refunds with consistent booking and payment states.
+
+Integrate ePayco Payouts for eligible verified beneficiaries and reconcile each payout with the underlying operation. Show the complete total and the party responsible for fulfillment before confirmation. Use exact monetary representation, explicit rounding, and idempotent payment, refund, inventory, balance, and payout operations.
+
+Support customer top-ups for eligible small purchases and separate Business top-ups for commissions. Keep available, reserved, and consumed balance and provider payables traceable. Apply each agreed fee once. Obtain approval for the custody, terms, billing, refund, and provider rules before enabling balances.
+
+## Phase 3 — Pet transport from A to B
+
+Add the transport capability to Business after applicable operator, vehicle, and coverage verification. Before paid trips, resolve the Colombian transport modality and authorization for the actual service, contract, animal welfare and custody, insurance coverage, and incident protocol.
+
+Capture pickup A, destination B, pet requirements, time, pickup and delivery contacts, and the customer's proposed budget. Providers can accept the proposal or submit counteroffers. Show inclusions, one-way or return arrangements, waiting conditions, price, and the provider selected by the customer. Show request, accepted offer, payment, pickup, active trip, delivery, and cancellation consistently. Confirm pickup and delivery with the responsible participants.
+
+Share exact addresses and active location with authorized participants. Start tracking from an explicit action during an active trip and stop on completion or cancellation. Show the last received position and time. Test locked screens, permission changes, loss of connectivity, retries, and recovery on supported mobile devices.
+
+Reconcile the trip charge, platform commission, provider amount, payout, and refund where applicable. Support approved small-payment or commission top-ups with separate, auditable balances.
 
 ## Security priority
 
@@ -103,15 +132,19 @@ Treat authorization, data protection, and payment integrity as acceptance criter
 
 ## Terms, privacy, and user consent
 
-Provide versioned Terms and Conditions and a Privacy Policy on web and mobile. Make them accessible for reading and download from onboarding, checkout or booking, and account settings. Load the approved legal documents as resources with their effective date, version, and operator contact. Register the version, user, and date accepted in the backend according to the approved model. Collect authorization for personal data separately when required.
-Explain the operator's paid platform functions and identify the independent seller, foundation, or provider responsible for each operation. Maintain the offerer's identification and notification details for authorized complaints and applicable authority requests. State the operator's own duties and preserve mandatory consumer and data rights. Describe subscription renewal, delivery, paid listings, service booking, charges, cancellations, applicable refunds, and tracked complaints.
-Use the reviewed versions at docs/legal/terms-and-conditions.md and docs/legal/privacy-policy.md in the future project. Complete operator identity, support channels, effective dates, retention, and actual payment and data practices before publishing. Initial drafts for Colombia are stored in the ideas repository:
-- Terms and conditions draft. https://github.com/erickvalderrama/it/blob/main/prompts/mascotas/legal/terms-and-conditions.md
-- Privacy policy draft. https://github.com/erickvalderrama/it/blob/main/prompts/mascotas/legal/privacy-policy.md
+Keep immutable versions of the Terms and Conditions and Privacy Policy with language, text, version, and effective date. Make them accessible for reading and download from onboarding, relevant transactions, and account settings. Record the exact document version, user, and acceptance time in the backend. Preserve the full history and the latest accepted version for each document. Collect personal data authorization separately when required.
+
+When updated Terms apply, present them at sign-in or before a protected flow. Require explicit acceptance and enforce it server-side before new publications and payments. Preserve access to legal documents, existing operations, and support. Associate each accepted operation with the legal version applicable to it.
+
+In the legal copy, specify that Mascotas provides the advertised digital tools and is responsible for the functions and charges it undertakes. The publisher manages and is responsible for the adoption information and handover, the store handles its sale and delivery, and the independent provider performs the agreed service. Identify the responsible party in each flow and preserve mandatory consumer and data rights. Describe AI-assisted moderation, membership pricing, renewals, complaints, cancellations, and refunds as they apply to the enabled features.
+
+Use the reviewed versions at docs/legal/terms-and-conditions.md and docs/legal/privacy-policy.md in the future project. Complete operator identity, support channels, effective dates, retention, and actual payment and data practices before publishing. Use the initial Colombia drafts for legal review.
+- [Terms and conditions draft](https://github.com/erickvalderrama/it/blob/main/prompts/mascotas/legal/terms-and-conditions.md)
+- [Privacy policy draft](https://github.com/erickvalderrama/it/blob/main/prompts/mascotas/legal/privacy-policy.md)
 
 ## Required tests and delivery checks
 
-Write unit tests in C# and Dart for new and changed behavior. Cover role and ownership rules, use cases, Riverpod state transitions, monetary calculations, subscription eligibility, listing activation, booking, cancellation, and duplicate notifications when touched.
+Write unit tests in C# and Dart for new and changed behavior. Cover role and ownership rules, use cases, Riverpod state transitions, monetary calculations, membership eligibility, location validation, per-image and text moderation, sexual and vulgar content rejection, corrections with the original payment, price and Terms version changes, listing activation, refunds, invoice retry, booking, cancellation, and duplicate notifications when touched.
 Use API and PostgreSQL integration tests where a regression depends on authorization across resources, constraints, transactions, or concurrent payments. Add Flutter widget tests for changed responsive views, critical actions, error states, and text or layout overflow.
 Before delivery, run the relevant dotnet build and test checks, dart format, flutter analyze, flutter test, and web and mobile builds available in the environment. Check the line limit, English code, centralized copy, and agreement with the entity relationship model. Record the checks performed and their actual outcomes.
 Read the existing code and approved model before starting a task. Preserve user changes, implement the authorized slice, and report concrete blockers and remaining verification.

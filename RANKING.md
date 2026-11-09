@@ -23,6 +23,7 @@ Este es el archivo vigente para consultar y actualizar el ranking del repositori
 | 2026-11-06 | El usuario elige comenzar Mascotas con backend .NET y PostgreSQL; frontend híbrido pendiente. | Se mantiene el orden por falta de evidencia comercial nueva. La elección de proyecto queda registrada sin convertir la recomendación de frontend en decisión. |
 | 2026-11-06 | Se confirma Flutter junto a C#/.NET y PostgreSQL y se prepara la plantilla CLAUDE.md: arquitectura limpia, máximo 699 líneas por archivo y modelo entidad-relación como regla de oro. | Se conserva el top 10; la decisión técnica no equivale a validación comercial ni a aplicación implementada. |
 | 2026-11-09 | Mascotas incorpora Flutter web y móvil, código en inglés, pruebas unitarias, roles, suscripción Business con domicilio propio y borradores legales. | Puesto 2. Validar suscripciones, cumplimiento de las tiendas y contratación de servicios. |
+| 2026-11-09 | Mascotas prioriza adopciones con cobro premium antes de moderación, Business unificado, promoción configurable, precios y términos versionados y catálogo DANE. | Puesto 2. Validar conversión a premium y membresía Business en el primer piloto. |
 
 ## Evaluación vigente
 
@@ -49,14 +50,14 @@ No se aceptaron como prueba las frases antiguas «no existe», «sin competencia
 
 Mascotas usa C# con .NET, PostgreSQL y Flutter para web, Android e iOS, con Riverpod como opción inicial. El proyecto exige arquitectura limpia, código en inglés, textos base en constantes, máximo 699 líneas por archivo, pruebas unitarias y seguridad. El modelo entidad-relación aprobado gobierna la persistencia. [Idea 1](ideas/1.%20Mascotas.txt) · [CLAUDE.md de Mascotas](prompts/Mascotas-CLAUDE.md)
 
-La ampliación incorpora los roles Superadmin, Business y Foundation. Business paga mensualmente por su tienda y gestiona sus domicilios. Mascotas cobra por las publicaciones de adopción pagadas y por las funciones de plataforma informadas. El transporte A→B y el lavado o limpieza a domicilio o por reserva se ejecutan por terceros. Validar disposición a pagar, entrega, disponibilidad y soporte en el piloto. [Términos](prompts/mascotas/legal/terms-and-conditions.md) · [Privacidad](prompts/mascotas/legal/privacy-policy.md)
+La fase 1 lanza adopciones multicidad, cobro premium con ePayco antes de moderación y facturación electrónica. Superadmin, User y Business pueden pagar destacados. Tienda y fundación comparten el rol Business, con alta promocional y mensualidad asignada. La fase 2 habilita tiendas, servicios, recargas y Payouts. La fase 3 habilita transporte A→B tras su validación legal. [Plan de trabajo](prompts/mascotas/work-plan.md) [Términos](prompts/mascotas/legal/terms-and-conditions.md) · [Privacidad](prompts/mascotas/legal/privacy-policy.md)
 
 ## Top 10
 
 | Puesto | Idea | Motivo principal | Principal freno |
 | --- | --- | --- | --- |
 | 1 | [56. ManosDelBarrio](ideas/56.%20ManosDelBarrio.txt) | Resuelve trabajos del hogar; ingreso por oficios y comparación de alcance/precio. Recargas propuestas para amortizar cargos pequeños. | Confianza, calidad, materiales y reclamos. Las recargas requieren aceptación, conciliación y cargos sin duplicados; competencia de redes de oficios. |
-| 2 | [1. Mascotas](ideas/1.%20Mascotas.txt) | Transporte A→B, servicios para mascotas, publicaciones de adopción pagadas y tiendas con suscripción mensual y domicilio propio. | Validar seguridad, oferta, entregas, disposición a pagar y operación de recargas y reembolsos. |
+| 2 | [1. Mascotas](ideas/1.%20Mascotas.txt) | Adopciones multicidad, anuncios premium y alta Business. En fases posteriores, tiendas, servicios y transporte A→B. | Validar oferta de adopciones, conversión a premium, membresías, moderación y devoluciones. |
 | 3 | [17. Cotiza tu moto](ideas/17.%20Motos.txt) | Comparar talleres y presupuestos para reducir búsquedas y tiempo sin un vehículo que puede generar ingresos. | Diagnóstico presencial, repuestos, cumplimiento del precio y respuesta de talleres. MotoSmart ya ofrece red y descuentos. |
 | 4 | [51. PaseDiario](ideas/51.%20PaseDiario.txt) | Ahorro en consumos habituales y visitas previsibles para el comercio. | Prepago, usos que vencen, incumplimiento del comercio y margen después de cobros. Menos uso puede salir más caro. |
 | 5 | [3. Citas](ideas/3.%20Citas.txt) | Reservar hora sin intercambiar muchos mensajes; negocio cobra una mensualidad por una agenda real. | Competencia muy fuerte de AgendaPro y otros; WhatsApp por sí solo no es ventaja. Adopción, recordatorios y soporte cuestan. |
@@ -80,11 +81,11 @@ Los tamaños siguientes son propuestas de piloto, no resultados, previsiones de 
 - Primera prueba: En una zona, conseguir seis prestadores de varios oficios y probar diez trabajos pagados; medir precio cumplido, resolución y soporte. Evaluar aceptación y consumo de saldo para comisiones, sin doble cobro ni reemplazar automáticamente el pago dentro de la app.
 - Condición: continuar solo si se observa beneficio real, cobro sostenible y un nivel de soporte que pueda atender una persona.
 
-### 2. 1. Mascotas: servicios y publicaciones premium
+### 2. 1. Mascotas: adopciones y publicaciones premium
 
-- Frecuencia: Belleza periódica; transporte ocasional.
-- Primera prueba: Elegir belleza programada o transporte exclusivo A→B con tres prestadores y probar diez servicios pagados. Probar por separado publicaciones de adopción premium, midiendo pagos y visibilidad entregada; no suponer que los refugios pagarán.
-- Condición: continuar solo si se observa beneficio real, cobro sostenible y un nivel de soporte que pueda atender una persona.
+- Frecuencia. Publicaciones y búsquedas de adopción puntuales, recurrentes para fundaciones. Belleza periódica y transporte ocasional en fases posteriores.
+- Primera prueba. Alta asistida de fundaciones y publicación en más de una ciudad, con captación inicial propuesta en Santa Marta. Medir anuncios que completan revisión, solicitudes de adopción y conversión a premium. Probar cobro, reenvío de correcciones, devolución y factura.
+- Condición. Validar que el anuncio genera contactos útiles y que puede operarse su moderación, cobro y soporte. Probar la disposición a aceptar una mensualidad Business después de la promoción. [Plan de trabajo](prompts/mascotas/work-plan.md)
 
 ### 3. 17. Cotiza tu moto
 
@@ -198,7 +199,7 @@ Pasan el filtro solo CONDICIONALMENTE las finalistas: deben aportar el resultado
 
 | N.º | Idea | Decisión | Razón |
 | --- | --- | --- | --- |
-| 1 | [Mascotas](ideas/1.%20Mascotas.txt) | TOP 2 | Transporte A→B, servicios por reserva, adopciones con publicaciones pagadas y tiendas Business con domicilio propio. Validar suscripciones, demanda, margen y operación. |
+| 1 | [Mascotas](ideas/1.%20Mascotas.txt) | TOP 2 | Primera salida con adopciones, publicaciones pagadas y membresía Business. Validar conversión, moderación, devoluciones y operación antes de servicios, tiendas y transporte. |
 | 2 | [Gyms](ideas/2.%20Gyms.txt) | Relegada | Comparar gimnasios y asistencia no establece por sí solo pago recurrente. Datos locales y alternativas gratuitas pesan. |
 | 3 | [Citas](ideas/3.%20Citas.txt) | TOP 5 | Agenda persistente y cobro empresarial claros; competencia fuerte y usuario individual de frecuencia periódica. |
 | 4 | [Turismo](ideas/4.%20Turismo.txt) | Relegada | Reservas de guías y actividades sí ejecutan algo real, pero conseguir oferta, cancelaciones y operación turística pesan para trabajar solo. |
