@@ -1,109 +1,117 @@
-# CLAUDE.md — Proyecto Mascotas
+# CLAUDE.md — Mascotas Project
 
-## Objetivo y contexto
-Eres un colaborador senior de desarrollo. Implementa cambios mantenibles, comprobables y ajustados al alcance solicitado.
-El fundador tiene experiencia en C#, .NET, frontend, backend, servidores e infraestructura. Responde en español, breve y directo.
+## Project and stack
 
-## Stack confirmado
-- Backend: C# con ASP.NET Core Web API.
-- Base de datos: PostgreSQL; acceso con Entity Framework Core y Npgsql.
-- Aplicación móvil multiplataforma: Flutter con Dart, para Android e iOS.
-- Gestión de estado: respeta la existente; si el proyecto aún no tiene una definida, usa Riverpod como propuesta inicial.
-- Antes de instalar dependencias, comprueba versiones existentes y compatibilidad en documentación oficial. Registra versiones concretas en la configuración del proyecto.
+Build the requested change in small, verifiable increments. Mascotas connects people with adoption foundations, independent pet service providers, and pet supply stores.
+Use C# with ASP.NET Core Web API, PostgreSQL, Entity Framework Core, and Npgsql.
+Use one Flutter and Dart application for web, Android, and iOS. Use Riverpod as the initial state management choice and respect a state solution already approved for the project.
+Check existing dependency versions and official compatibility guidance before introducing or upgrading packages.
 
-## Regla de oro: modelo entidad-relación
-El modelo entidad-relación aprobado es la fuente de verdad de la persistencia y tiene prioridad sobre preferencias de arquitectura o convenciones.
-1. Localiza el modelo vigente y registra aquí su ruta. Ruta del modelo aprobado: PENDIENTE DE IDENTIFICAR.
-2. Respeta entidades, tablas, columnas, tipos, precisión, nulabilidad, claves, relaciones, cardinalidades, restricciones y reglas de borrado definidas.
-3. No inventes tablas, campos, relaciones o valores persistidos para facilitar una pantalla, una librería o un patrón.
-4. No agregues automáticamente tablas de autenticación, auditoría, saldo, seguimiento o borrado lógico si no están contempladas.
-5. Puedes adaptar nombres de clases y DTOs mediante mapeos explícitos, conservando los nombres y contratos de la base de datos.
-6. Si falta el modelo para una tarea de persistencia, identifica el bloqueo y solicita ese insumo; avanza solo en trabajo independiente que no invente el esquema.
-7. Si una funcionalidad requiere cambiarlo, explica el cambio concreto y su impacto antes de implementarlo. Con autorización ya existente, actualiza modelo, entidades, mapeos, migración y pruebas de forma coordinada; no pidas otra confirmación por el mismo cambio.
-8. Si el modelo, las migraciones y la base existente discrepan, reporta la diferencia. No elijas silenciosamente una versión ni sobrescribas datos.
-9. No ejecutes borrados, recreaciones o migraciones sobre bases reales sin autorización para esa operación. No uses EnsureCreated para sustituir migraciones en producción.
-10. Los módulos funcionales de este documento NO autorizan crear tablas fuera del modelo.
+## Golden rule — Approved entity relationship model
 
-## Arquitectura limpia del backend
-Empieza con un monolito modular y estas responsabilidades:
-- Mascotas.Domain: entidades, objetos de valor, invariantes y reglas de negocio. Sin referencias a EF Core, ASP.NET, proveedores externos o Flutter.
-- Mascotas.Application: casos de uso, contratos, DTOs, validación e interfaces de servicios y persistencia. Depende de Domain.
-- Mascotas.Infrastructure: DbContext, mapeos Fluent API, repositorios, migraciones e integraciones externas. Implementa los contratos de Application.
-- Mascotas.Api: endpoints, autenticación/autorización HTTP, validación de entrada y traducción de errores. Invoca Application; registra Infrastructure en el punto de composición de dependencias.
-- Tests: pruebas relevantes de dominio, casos de uso e integración con PostgreSQL.
+The approved entity relationship model governs persistence. Record its path here when available. Approved model path is pending.
+- Match entities, columns, types, precision, nullability, keys, cardinalities, constraints, and deletion rules.
+- Derive mappings and migrations from the approved model. Treat the functional modules and role names below as requirements for behavior.
+- Use English code identifiers and explicit mappings for physical database names required by the model. Resolve schema naming conflicts with the approved model before generating a migration.
+- When the approved model is unavailable for a persistence change, identify the missing input and continue work independent of the schema.
+- For a feature that requires an unapproved table, field, relationship, enum value, or change to a constraint, document the exact model change and its impact. Continue independent work and apply a coordinated model, mapping, migration, and test change once authorized.
+- Reconcile any discrepancy between the model, migrations, and existing database before altering persistence. Apply real database migrations or destructive operations only within the user's authorized scope.
 
-Mantén reglas de negocio fuera de controllers, endpoints y repositorios.
-Organiza por funcionalidad dentro de cada capa. Añade abstracciones cuando resuelvan una necesidad concreta.
-No expongas entidades de persistencia como contratos públicos de la API.
-Usa operaciones asíncronas para E/S, CancellationToken donde aplique, manejo uniforme de errores y consultas paginadas.
-Evita consultas N+1; proyecta solo lo necesario. Las optimizaciones deben conservar el modelo aprobado.
+## English throughout the codebase
 
-## Arquitectura limpia de Flutter
-Organiza por funcionalidades:
-- lib/app: arranque, navegación, composición de dependencias y tema.
-- lib/core: infraestructura y componentes realmente compartidos.
-- lib/features/<funcionalidad>/domain: modelos de dominio, contratos de repositorios y casos de uso necesarios, sin dependencias de widgets, HTTP o almacenamiento.
-- lib/features/<funcionalidad>/data: DTOs, serialización, fuentes de datos y repositorios que implementan los contratos del dominio.
-- lib/features/<funcionalidad>/presentation: páginas, widgets, estado y controladores de presentación.
+Use English for all authored code, filenames, directories, namespaces, classes, methods, variables, constants, comments, API routes, DTOs, error codes, fixtures, and test names. Use English names in new database models and migration code while preserving approved physical mappings.
+Use English for base interface copy. Keep any future translations in dedicated localization resources, separate from source code. Preserve user-entered content and the product name Mascotas.
+Store all base UI copy in named English constants. Keep common copy in a shared catalog such as AppStrings and feature-specific copy in that feature's catalog. Render labels through references such as Text(AppStrings.checkoutTitle). Include titles, labels, hints, actions, dialogs, validation messages, and loading, empty, and error states.
+Use templates with parameters for changing values such as prices, dates, and counts. Render business data supplied by the API and map stable API error codes to centralized user messages. Keep environment URLs, secrets, rates, and plan values in their proper configuration or data source.
 
-La UI no llama directamente al cliente HTTP ni decide reglas financieras o de negocio.
-Separa modelos de API, dominio y presentación cuando sus responsabilidades difieran.
-Mantén estado fuera de widgets visuales; usa estado local solo para interacción visual local.
-Diseña estados de carga, vacío, error, reintento y éxito.
-Reutiliza widgets pequeños por responsabilidad; comparte entre funcionalidades solo lo que tenga un uso real.
+## Clean architecture and file limit
 
-## Límite obligatorio de archivos
-- Cada archivo de código fuente debe tener MENOS DE 700 LÍNEAS: máximo 699.
-- Incluye widgets, páginas, controllers, casos de uso, entidades, mapeos, pruebas y migraciones.
-- Cuenta también comentarios y líneas vacías.
-- Si un archivo va a superar el límite, divídelo por responsabilidades antes de terminar el cambio.
-- No eludas la regla minificando, acumulando instrucciones en una línea o creando divisiones sin sentido.
-- No edites código generado para aparentar cumplimiento; ajusta sus fuentes o generación. Si no puede cumplir, informa el bloqueo concreto, sin declarar cumplida la regla.
-- Dependencias externas, binarios y cachés no son código fuente propio.
-- Incorpora una comprobación automática del límite en las verificaciones del proyecto.
-- Una pantalla compuesta por varios widgets debe ser legible; no traslades toda su complejidad a otro archivo monolítico.
+Organize the backend as a modular monolith.
+- Domain owns entities, value objects, and invariants. Keep it independent of persistence, HTTP, and payment providers.
+- Application owns use cases, DTOs, validation, and ports. It depends on Domain.
+- Infrastructure implements persistence and external integrations. Put EF Core mappings, migrations, and ePayco adapters here.
+- API composes dependencies, authorizes requests, translates errors, and invokes use cases. Return API DTOs and keep business decisions in Domain and Application.
+- Use asynchronous I/O, cancellation, pagination, and projections where relevant. Keep related state transitions consistent in transactions.
 
-## Alcance funcional de Mascotas
-- Adopciones: publicaciones básicas, perfiles e información de contacto.
-- Publicaciones de adopción premium: el publicante paga a la app por destacar un anuncio. Definir precio, duración y beneficio; no es venta del animal ni garantía de adopción.
-- Transporte exclusivo de mascotas: origen A, destino B, fecha, condiciones de la mascota, presupuesto, aceptaciones o contraofertas y elección explícita del cliente.
-- Servicios para mascotas: baño, limpieza, peluquería y belleza a domicilio. La atención en casa necesita una ubicación; no fuerces un destino de transporte.
-- Perfiles de clientes y prestadores, ofertas con inclusiones, seguimiento de estados y valoraciones de operaciones reales.
-- Recargas: priorizar saldo del cliente para varias compras pequeñas. Separarlo del saldo del prestador que prepaga comisiones.
-Implementa por entregas pequeñas. No incorpores funcionalidad adicional solo porque parezca habitual en un marketplace.
+Organize Flutter by feature. Place app startup, routing, and theme in lib/app and truly shared infrastructure and components in lib/core. Keep domain contracts and use cases, data sources and repository implementations, and presentation widgets and controllers separate within each feature.
+Widgets render state and send user actions to Riverpod controllers. Controllers invoke use cases and expose the resulting state. Keep business calculations and HTTP access in their own layers.
+Keep every source file below 700 lines, including comments, blank lines, widgets, screens, tests, and migrations. The maximum is 699. Split by responsibility and keep formatting readable. Adjust generator inputs when generated code exceeds the limit and report a concrete blocker if the generator prevents compliance. Enforce the limit in project checks.
 
-## Pagos, saldo y consistencia
-- El backend calcula y valida importes, cargos, permisos y transiciones. Flutter muestra el resultado autorizado.
-- Usa representación monetaria exacta y reglas explícitas de moneda y redondeo, coherentes con el modelo y el contrato de API; no uses punto flotante para cálculos de dinero.
-- Confirma pagos desde el backend con el mecanismo documentado del proveedor. No aceptes redirecciones o capturas como prueba suficiente.
-- Haz idempotentes confirmaciones, recargas, consumos, devoluciones y órdenes de abono. Protege actualizaciones concurrentes con operaciones atómicas acordes al modelo.
-- Separa saldo disponible, reservado y consumido; dinero que corresponde a la app y al prestador. Si el modelo no permite representarlo, plantea la modificación antes de persistir.
-- No cobres la misma comisión desde el saldo y desde el abono al prestador.
-- Las recargas no eliminan porcentajes de pasarela, impuestos ni costos de dispersión. El saldo sin consumir no es utilidad libre.
-- Mantén ePayco como integración desacoplada; activación, condiciones comerciales y cobro por canal deben confirmarse antes de producción.
-- Usa datos de prueba y sandbox mientras corresponda; no declares una integración operativa sin verificarla.
+## Flutter interface for web and mobile
 
-## Transporte y ubicación
-- El seguimiento del prestador comienza mediante una acción explícita asociada a un servicio activo y termina al finalizarlo o cancelarlo.
-- Solicita únicamente los permisos y la precisión que necesita cada rol.
-- Evalúa el plugin, compatibilidad y licencia antes de incorporarlo. Flutter no elimina las restricciones de Android/iOS.
-- Prueba en dispositivos reales: pantalla bloqueada, segundo plano, pérdida de red, recuperación de conexión y finalización del servicio.
-- Diseña envío con reintentos y control de duplicados; muestra cuándo fue la última ubicación recibida.
-- No garantices seguimiento continuo si el sistema o el usuario termina la app.
-- Compartir ubicación no demuestra recogida o entrega: registra la confirmación de los responsables.
+Design each screen once around the same use case and controller. Compose layouts from shared widgets using the available width. Centralize breakpoints, spacing, color, typography, and component states in the design system. Use layout constraints to choose compact, medium, and wide compositions.
+- Compact screens use a single readable content column, accessible navigation, and reachable primary actions. Respect safe areas and keep inputs visible when the keyboard opens.
+- Wider screens use side navigation, bounded reading widths, or list and detail panels where useful. Make tables and forms usable at narrower widths by wrapping or adapting content and keeping key actions visible.
+- Keep navigation and deep links consistent. Handle browser refresh, back and forward navigation, keyboard focus, and tab order. Support touch, mouse, and keyboard where relevant.
+- Use consistent components for forms, cards, status, and actions. Show status in text as well as color. Keep the primary action reachable and give icon-only actions accessible labels.
+- Verify focus, contrast, text scaling, wrapping, and scroll behavior. Reserve space for long names, translated copy, large amounts, and validation messages.
+- Define loading, empty, error, retry, offline, unauthorized, and success states for each data-driven screen. Preserve form data on recoverable errors and display messages next to the affected fields.
+- Separate view states from transaction states. Disable repeat submission while a request is pending. Use the backend result to display payment, reservation, subscription, or delivery confirmation.
+- Isolate platform capabilities behind adapters. Confirm camera, uploads, location, maps, and payment flows on the supported targets. Show an actionable fallback where a capability is unavailable. Web users can follow a trip and see the last authorized position. Enable location collection in the background on supported mobile devices after validation.
+- Review each changed screen at compact and wide widths. Include long content, enlarged text, empty data, errors, and asynchronous loading. Validate navigation and the primary action end to end on web and mobile.
 
-## Seguridad y calidad
-- Autoriza por operación y por recurso: conocer un ID no permite consultar o modificar datos de otro usuario.
-- Guarda secretos en configuración segura del entorno; no en Git, widgets o logs.
-- Protege direcciones, ubicación y datos de pago. Evita registrar información sensible.
-- Implementa pruebas que comprueben reglas reales: permisos, estados, contratos, persistencia y pagos sin duplicados. No añadas pruebas que solo repitan la implementación.
-- Ejecuta las comprobaciones disponibles y pertinentes: dotnet build/test, dart format, flutter analyze y flutter test.
-- Informa qué ejecutaste, qué pasó y qué no pudiste comprobar; no inventes resultados.
+## Roles and authorization
 
-## Forma de trabajar
-Antes de cambiar código, lee este archivo, instrucciones aplicables, modelo entidad-relación y código relacionado.
-Resuelve decisiones rutinarias dentro del alcance autorizado y conserva los cambios existentes del usuario.
-Para cada tarea: identifica el impacto en capas y modelo, implementa una entrega concreta y verifica compilación, comportamiento relevante y límite de líneas.
-Mantén sincronizados documentación, contratos y migraciones cuando el cambio los afecte.
-No construyas toda la aplicación por iniciativa propia al recibir este archivo: espera una tarea concreta y ejecútala dentro de estas reglas.
-Al terminar, resume qué cambió, archivos principales, validaciones y bloqueos reales.
+| Role | Scope |
+| --- | --- |
+| Superadmin | Administers all application modules, users and roles, stores, subscriptions, foundations, publications, services, complaints, and approved financial actions. Require strong authentication and audit sensitive actions. |
+| Business | Pays a monthly subscription to operate a store for pet supplies. Manages its own catalog, inventory, prices, orders, delivery coverage, and delivery service. Its own staff or chosen delivery provider fulfills its orders. |
+| Foundation | Creates and manages its own adoption listings, requests, and adoption decisions. Can purchase a paid listing or visibility benefit under the advertised conditions. |
+
+Customer and independent provider describe the operational profiles in the existing flows. Map their privileges and the three named roles to the approved model and role assignments.
+Authorize every operation in the backend by role, permission, and resource scope. Superadmin has global application scope. Scope store and foundation data to their accounts and verify ownership or participation for customer and provider operations. Apply the same checks to lists, searches, downloads, and individual resources. Derive client capabilities from authorized state and use them to present relevant actions.
+A confirmed and active monthly Business subscription enables storefront setup, publication, and sales. Define start, expiration, renewal, and cancellation from the confirmed payment and the accepted plan. Preserve access needed to fulfill and handle existing orders. Use the approved rules to decide which new actions require an active plan.
+Record privileged actions with actor, action, target, timestamp, and relevant reason. Apply privacy and financial integrity checks to administrative operations.
+
+## Product flows and screen requirements
+
+### Adoption listings
+
+Show basic listings and paid adoption listings with a clear label and the advertised visibility, price, duration, and moderation conditions. The publisher pays Mascotas for the listing or promotion. The foundation or authorized adopter contact handles the adoption process and decides the outcome. Keep the publication charge distinct from the adoption of the animal.
+Show the listing, foundation or authorized publisher, and the application or contact action. Provide a separate management view for the foundation's own listings and requests.
+
+### Stores and monthly subscriptions
+
+Give Business a store dashboard with subscription status, current period, catalog, orders, and delivery settings. Publish merchant name, availability, product details, price, delivery cost, and expected delivery before checkout.
+A checkout and its receipt identify the seller and delivery organizer. The store fulfills the sale and runs its own delivery, warranty, and product support. Mascotas handles its platform charges and the collection or support functions it undertakes.
+
+### Pet transport
+
+Capture pickup A, destination B, pet requirements, date and time, pickup and delivery contacts, and the customer's proposed budget. Providers can accept the proposal or submit counteroffers. Show inclusions, one-way or return arrangements, waiting conditions, total, and the provider the customer explicitly selects before confirmation. Show reservation or request, payment status, accepted offer, pickup, active trip, delivery, and cancellation consistently.
+Share exact addresses and active location only with authorized participants. Start tracking from an explicit action for an active trip and stop on completion or cancellation. Show the last received position and time. Test locked screen, permission changes, loss of connectivity, retries, and recovery on supported mobile devices. Confirm pickup and delivery through the responsible participants.
+
+### Bathing, washing, cleaning, and grooming
+
+Support payment for pet bathing, washing, cleaning, grooming, and beauty at home or through a scheduled booking, according to the provider's offer. Display the service, location, provider, date and time, available slot, inclusions, total, and cancellation terms. For at-home service, use the service address.
+Hold a slot according to the approved booking rules and reconcile the hold with confirmed payment. Handle expired holds, late payment confirmation, failure, cancellation, and refunds without duplicate reservations. Keep booking and payment states separately visible.
+
+### Payments and small purchases
+
+Show the complete total before confirmation, including platform charge, provider or seller amount, delivery, and applicable charges. Preserve the accepted price and the party responsible for fulfillment in the confirmation.
+Use ePayco through a backend adapter. Validate provider notifications using the documented verification mechanism and reconcile amount, currency, reference, and operation. Treat redirections as navigation and use backend verification for the final result.
+Use exact monetary representation with explicit rounding. Make subscriptions, listing activation, payments, wallet charges, refunds, and payouts idempotent. Protect balance and inventory operations against retries and concurrent requests.
+Prioritize customer top-ups for several small purchases. Treat provider top-ups for commissions as a separate balance and charge each agreed fee once. Keep available, reserved, and spent balance distinct and separate company fees from money owed to sellers or providers. Apply the approved refund and payout rules and record evidence of changes.
+
+## Security priority
+
+Treat authorization, data protection, and payment integrity as acceptance criteria.
+- Authenticate on the server and enforce least privilege on every resource. Validate object ownership and role changes, including direct requests made outside Flutter.
+- Protect account recovery, administrative access, authentication endpoints, and payment notifications. Require stronger authentication for privileged users and revoke access when roles or sessions change.
+- Store credentials in secure environment configuration. Use encrypted transport and restrict browser origins to the approved frontend origins.
+- Validate input, uploads, filenames, and outgoing integrations. Store only necessary personal data. Protect identity documents, private addresses, location, and payment references with restricted access.
+- Keep secrets and sensitive data out of code, responses, and logs. Record audit events and safe correlation references for investigations and refunds.
+
+## Terms, privacy, and user consent
+
+Provide versioned Terms and Conditions and a Privacy Policy on web and mobile. Make them accessible for reading and download from onboarding, checkout or booking, and account settings. Load the approved legal documents as resources with their effective date, version, and operator contact. Register the version, user, and date accepted in the backend according to the approved model. Collect authorization for personal data separately when required.
+Explain the operator's paid platform functions and identify the independent seller, foundation, or provider responsible for each operation. Maintain the offerer's identification and notification details for authorized complaints and applicable authority requests. State the operator's own duties and preserve mandatory consumer and data rights. Describe subscription renewal, delivery, paid listings, service booking, charges, cancellations, applicable refunds, and tracked complaints.
+Use the reviewed versions at docs/legal/terms-and-conditions.md and docs/legal/privacy-policy.md in the future project. Complete operator identity, support channels, effective dates, retention, and actual payment and data practices before publishing. Initial drafts for Colombia are stored in the ideas repository:
+- Terms and conditions draft. https://github.com/erickvalderrama/it/blob/main/prompts/mascotas/legal/terms-and-conditions.md
+- Privacy policy draft. https://github.com/erickvalderrama/it/blob/main/prompts/mascotas/legal/privacy-policy.md
+
+## Required tests and delivery checks
+
+Write unit tests in C# and Dart for new and changed behavior. Cover role and ownership rules, use cases, Riverpod state transitions, monetary calculations, subscription eligibility, listing activation, booking, cancellation, and duplicate notifications when touched.
+Use API and PostgreSQL integration tests where a regression depends on authorization across resources, constraints, transactions, or concurrent payments. Add Flutter widget tests for changed responsive views, critical actions, error states, and text or layout overflow.
+Before delivery, run the relevant dotnet build and test checks, dart format, flutter analyze, flutter test, and web and mobile builds available in the environment. Check the line limit, English code, centralized copy, and agreement with the entity relationship model. Record the checks performed and their actual outcomes.
+Read the existing code and approved model before starting a task. Preserve user changes, implement the authorized slice, and report concrete blockers and remaining verification.

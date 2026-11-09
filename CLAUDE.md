@@ -14,20 +14,22 @@ Indicación del usuario, 6 de noviembre de 2026: guardar la evaluación en el re
 - Fundamentar los cambios en beneficio para la persona, ingresos o ahorro real, valor fuera de LLM gratuitos, pagador, facilidad, frecuencia, competencia y operación por un fundador. Mantener las preferencias vigentes del proyecto.
 - Separar hipótesis y evidencia observada. No interpretar una posición como rentabilidad demostrada; revalidar las fuentes decisivas que puedan haber cambiado.
 
-## Aplicación elegida para comenzar: Mascotas
+## Aplicación elegida para comenzar — Mascotas
 
-Decisiones del usuario, 6 de noviembre de 2026:
-- Quiere comenzar la aplicación de la idea 1, Mascotas.
-- Backend CONFIRMADO: C# con .NET / ASP.NET Core Web API. Base de datos: PostgreSQL.
-- Frontend móvil multiplataforma CONFIRMADO: Flutter con Dart. La comparación anterior con Ionic y React Native no es la elección vigente.
-- Arquitectura limpia en backend y Flutter, con capas y responsabilidades separadas.
-- Regla obligatoria: archivos de código fuente MENORES DE 700 LÍNEAS, máximo 699, incluidos widgets, páginas, pruebas y migraciones. Dividir por responsabilidades; no minificar para evadir el límite.
-- REGLA DE ORO: respetar el modelo entidad-relación aprobado como fuente de verdad. No inventar tablas, campos o relaciones ni introducir cambios de esquema sin respaldo en el modelo y autorización para el cambio.
-- El modelo entidad-relación del proyecto aún no se aportó en este repositorio. No tratar una estructura propuesta como un modelo ya aprobado.
-- Plantilla solicitada para la memoria del futuro proyecto: [CLAUDE.md de Mascotas](prompts/Mascotas-CLAUDE.md). Copiar su contenido al CLAUDE.md de la raíz del proyecto cuando se cree; este repositorio conserva su memoria general de ideas.
-- Validar seguimiento del prestador con pantalla bloqueada, permisos, batería y red en dispositivos reales. Flutter requiere configuración y plugin específicos; no asumir seguimiento garantizado si el sistema o el usuario termina la app.
-- Mantener adopciones y publicaciones premium, transporte exclusivo A→B, servicios para mascotas y recargas para compras pequeñas.
-- Esta actualización guarda decisiones e instrucciones; no acredita backend, app ni integración operativa. Archivo de alcance: ideas/1. Mascotas.txt.
+Decisiones vigentes al 9 de noviembre de 2026.
+
+- C# con .NET y ASP.NET Core Web API, PostgreSQL y Flutter con Dart. La interfaz Flutter debe adaptarse a web, Android e iOS desde una base común. Riverpod es la opción inicial de estado.
+- Arquitectura limpia en backend y Flutter, con un máximo de 699 líneas por archivo de código, incluidos widgets, pruebas y migraciones.
+- El modelo entidad-relación aprobado gobierna la persistencia. Su ruta está pendiente de identificar. Mantener entidades, relaciones, mapeos y migraciones alineados con ese modelo.
+- Todo el código en inglés, incluidos nombres, comentarios, contratos API, pruebas y textos base. Centralizar los textos visibles en constantes y conservar documentos legales y posibles traducciones como recursos separados.
+- Detallar los layouts por ancho, estados de carga y error, navegación y accesibilidad en web y móvil. Las pruebas unitarias y la seguridad son requisitos de entrega.
+- Superadmin administra toda la aplicación con acciones sensibles auditadas. Business paga una suscripción mensual para montar y operar su tienda de artículos y gestionar su propio domicilio. Foundation publica y gestiona sus adopciones.
+- Mantener el cobro al publicante por publicaciones de adopción pagadas, el transporte exclusivo A→B, el pago de baño, lavado y limpieza a domicilio o por reserva y las recargas para compras pequeñas.
+- Identificar quién realiza la venta o el servicio. Mascotas facilita y cobra por las funciones informadas. Tiendas, fundaciones y prestadores ejecutan lo que les corresponde. Cada parte conserva sus obligaciones de servicio, soporte, pagos y datos según su participación.
+- Publicar los términos y la política de privacidad aprobados en web y móvil, con versión, vigencia y registro de aceptación y autorización cuando corresponda. Completar los datos del operador y revisar los borradores para Colombia antes de publicarlos.
+- Validar el seguimiento del prestador en Android e iOS con pantalla bloqueada, permisos y pérdida de conexión. Mostrar en web la última ubicación autorizada del trayecto.
+- Copiar la plantilla en inglés al CLAUDE.md del proyecto al crearlo. [Plantilla de Mascotas](prompts/Mascotas-CLAUDE.md)
+- Consultar el alcance y los textos de revisión. [Idea 1](ideas/1.%20Mascotas.txt) · [Términos y condiciones](prompts/mascotas/legal/terms-and-conditions.md) · [Política de privacidad](prompts/mascotas/legal/privacy-policy.md)
 
 ## Perfil técnico del fundador
 

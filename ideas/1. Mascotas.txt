@@ -1,11 +1,12 @@
 1. Mascotas: adopción con publicaciones premium, transporte exclusivo y servicios
 
-Actualizada el 6 de noviembre de 2026 por indicación del usuario. Propuesta sin construir ni validar. Se conservan adopciones, transporte exclusivo A→B y servicios para mascotas. Se añaden PUBLICACIONES DE ADOPCIÓN PREMIUM como ingreso propio de la app y recargas para cargos pequeños; el ranking evalúa el conjunto, con demanda todavía por probar.
+Actualizada el 9 de noviembre de 2026 por indicación del usuario. Mascotas reúne adopciones, publicaciones de adopción pagadas, transporte exclusivo A→B, servicios para mascotas y tiendas de artículos con suscripción Business. El modelo de ingresos y la demanda están en fase de validación.
 
 Necesidad/Problema a solucionar:
 - Quien no puede trasladar a su mascota necesita alguien preparado para llevarla a la veterinaria, peluquería, guardería u otra dirección.
 - Otras personas prefieren baño, limpieza y peluquería de la mascota EN SU CASA, evitando trasladarla.
 - Transportadores especializados y peluqueros necesitan conseguir servicios y ocupar horarios disponibles.
+- Las tiendas necesitan un canal para ofrecer artículos, cobrar sus pedidos y gestionar sus entregas.
 - La adopción sigue conectando refugios y adoptantes. No se supone que los refugios tengan presupuesto ni que adoptar genere uso diario.
 - Transporte: ocasional. Baño y belleza: periódicos, según la mascota; no son servicios diarios por persona. La demanda local y los precios están pendientes.
 
@@ -14,7 +15,9 @@ Decisiones técnicas e inicio del desarrollo — 6 de noviembre de 2026:
 - El usuario elige comenzar la aplicación de Mascotas.
 - Backend CONFIRMADO: C# con .NET / ASP.NET Core Web API.
 - Base de datos CONFIRMADA: PostgreSQL.
-- Frontend híbrido/multiplataforma CONFIRMADO por el usuario: Flutter con Dart. Versiones concretas por definir según compatibilidad.
+- Flutter con Dart comparte la interfaz y sus componentes entre web, Android e iOS. Riverpod es la opción inicial para el estado.
+- El código, sus nombres, comentarios, contratos, pruebas y textos base van en inglés. Los textos visibles se centralizan en constantes.
+- Verificar layouts compactos y amplios, estados de carga, error y éxito, accesibilidad y navegación. Las pruebas unitarias y la seguridad son requisitos de entrega.
 - Aplicar ARQUITECTURA LIMPIA en backend y frontend, con dominio, casos de uso, infraestructura/datos y presentación separados.
 - Archivos de código fuente MENORES DE 700 LÍNEAS: máximo 699, incluidos widgets, páginas, pruebas y migraciones; contar comentarios y líneas vacías. Extraer responsabilidades sin minificar ni hacer divisiones artificiales.
 - REGLA DE ORO: respetar el MODELO ENTIDAD-RELACIÓN aprobado. No inventar tablas, campos, claves o relaciones para resolver pantallas o imponer patrones. Si un cambio está autorizado, actualizar modelo, mapeos y migración de manera coordinada.
@@ -28,23 +31,31 @@ https://docs.flutter.dev/resources/architectural-overview
 https://pub.dev/packages/geolocator
 https://pub.dev/packages/flutter_background_geolocation
 
-- La aplicación permite elegir ADOPCIONES, TRANSPORTE EXCLUSIVO DE MASCOTAS A→B o SERVICIOS PARA MASCOTAS, incluidos BAÑO / LIMPIEZA / BELLEZA A DOMICILIO.
+Roles y alcance de la plataforma
+
+- Superadmin administra todos los módulos de la aplicación y registra sus acciones sensibles.
+- Business paga mensualmente para montar y operar una tienda de artículos para mascotas. Gestiona catálogo, stock, ventas y sus propios domicilios. La tienda atiende sus pedidos, entregas y garantías.
+- Foundation crea y gestiona las publicaciones y solicitudes de adopción de su propia fundación.
+- Cliente y prestador independiente son perfiles operativos para comprar, reservar o prestar los servicios descritos. Su representación y permisos se ajustan al modelo entidad-relación aprobado.
+- La aplicación ofrece adopciones, tiendas, transporte exclusivo A→B y servicios para mascotas, incluidos baño, lavado, limpieza y belleza a domicilio o mediante reserva.
 - Transporte exclusivo de mascotas, no mensajería general ni transporte genérico de pasajeros:
   1) Marcar recogida A y destino B en el mapa; indicar fecha, horario, mascota, tamaño/peso aproximado, necesidades y responsable que entrega y recibe. Especificar ida, regreso y espera.
   2) Proponer cuánto se quiere pagar.
   3) Prestadores compatibles cercanos ven la solicitud y aceptan el presupuesto o envían su precio y condiciones, como la mecánica propuesta de inDrive.
   4) Comparar total, perfil, vehículo/equipamiento, disponibilidad y experiencia. Elegir y confirmar a uno; recibir una aceptación no asigna automáticamente el servicio.
   5) Registrar recogida y entrega con confirmación de las personas responsables. Estar cerca por GPS no demuestra entrega.
-- Belleza a domicilio: UN punto de atención, no un viaje artificial A→B. Indicar especie, tamaño, pelaje, fotos opcionales, servicio deseado y condiciones del espacio. Aclarar agua, electricidad, limpieza posterior y quién aporta equipo, champú y otros insumos.
+- Baño, lavado, limpieza y belleza se pueden pagar a domicilio o por reserva. Indicar lugar, fecha, horario, disponibilidad, prestador, precio total, inclusiones y cancelación. En un servicio a domicilio se usa la dirección de atención. Confirmar cupo y pago en el backend y coordinar su liberación o devolución si falla la operación.
 - Cada oferta distingue transporte solo, baño, corte u otros servicios; muestra inclusiones, exclusiones, cargos y total. Un cambio de alcance o costo necesita aceptación previa del dueño.
 - Revelar solo zona aproximada antes de contratar; direcciones exactas a los participantes autorizados. El mapa muestra solicitudes y cobertura, no promete prestadores instantáneos.
 - Veterinarias, peluquerías y guarderías pueden prestar o referir servicios; no son intermediarios obligatorios. El dueño gana tiempo y claridad; el prestador obtiene ingresos, descontando sus costos.
 - Piloto de servicios programados con pocos prestadores y horarios definidos, sin flota propia. No ofrecer urgencias ni procedimientos veterinarios desde la categoría de belleza.
-- Adopciones: publicación básica y contacto con personas o refugios. Opción PREMIUM para destacar una publicación con precio, duración y prestaciones visibles. El publicante paga a la aplicación por visibilidad; no compra o vende el animal ni se garantiza una adopción.
+- Adopciones con publicación básica y anuncio pagado, identificado como premium o con la denominación comercial aprobada. El publicante paga a Mascotas por publicar o destacar el anuncio con precio, duración y prestaciones visibles. La fundación o el publicante autorizado gestiona el proceso de adopción.
 
 Cómo ganar dinero:
-- Quién paga: PERSONAS.
-- ADOPCIONES PREMIUM: quien publica paga por destacar su anuncio. El importe corresponde a la APP; no se dispersa a un transportador, peluquero o refugio por esa publicación. Descontar recaudo, impuestos y operación antes de hablar de utilidad. Es una línea de ingresos adicional a los servicios, no una venta de animales.
+- Quién paga: MIXTO.
+- El negocio Business paga a Mascotas una suscripción mensual para montar y operar su tienda. El negocio recibe el importe de sus ventas según las condiciones aceptadas y gestiona su domicilio.
+- Las publicaciones de adopción pagadas generan un cobro de Mascotas al publicante por el espacio o la visibilidad ofrecida. El importe corresponde a la app. La adopción del animal se tramita por separado.
+- Identificar en la confirmación el proveedor, el total, los cargos de uso y el destino del pago de cada venta, transporte o reserva.
 - Cobro por el servicio con comisión o cargo de plataforma visible, acordado antes de contratar. Probar disposición a pagar y costos antes de fijar porcentaje.
 - Ejemplo HIPOTÉTICO: el dueño ofrece $40.000 por A→B; un prestador acepta y otro propone $48.000 con regreso. Mostrar que los alcances difieren; no llamarlo comparación del mismo servicio.
 - La diferencia entre lo cobrado y lo asignado al prestador es ingreso bruto de intermediación, no utilidad neta: descontar pagos, impuestos aplicables, reclamos y soporte.
@@ -59,6 +70,14 @@ Recargas, añadidas por indicación del usuario:
 - Montos mínimos y precios de los premium por probar; no exigir una recarga alta a quien solo necesita una publicación o servicio.
 - Una recarga no consumida representa obligaciones pendientes; registrar saldo, consumos, cancelaciones y devoluciones. No declarar toda la recarga como ganancia.
 - Modelos, ejemplo de ahorro, fuentes y límites: investigaciones/Mascotas-ManosDelBarrio-recargas-2026-11-06.md.
+
+Términos, privacidad y responsabilidades
+
+- Mascotas facilita publicaciones, reservas y pagos y cobra por las funciones informadas. La tienda entrega sus artículos, el prestador ejecuta el servicio y la fundación gestiona la adopción. El operador atiende sus propias obligaciones y ofrece canales trazables de soporte, reclamo y devolución.
+- Publicar los textos revisados en web y móvil. Registrar su versión, vigencia y aceptación y la autorización de tratamiento que corresponda.
+- Revisar los borradores para Colombia y completar operador, atención, prácticas de datos y reglas comerciales antes de publicar.
+  prompts/mascotas/legal/terms-and-conditions.md
+  prompts/mascotas/legal/privacy-policy.md
 
 Competidores en Colombia:
 - PetBacker anuncia taxi para mascotas, peluquería y solicitudes con varias ofertas. Su propuesta ya se parece al nuevo flujo.
@@ -110,4 +129,4 @@ Problemas para 1 sola persona:
 - Empezar por una categoría pagada, automatizar solicitudes y estados y definir continuidad durante ausencias. No lanzar adopción, transporte y belleza con operación completa simultáneamente.
 - Si exige despachar cada viaje, inspeccionar cada servicio o atender urgencias permanentemente, ese alcance no sirve para operar solo.
 
-Revisión documental: 6 de noviembre de 2026. Precios de ejemplo, prestadores, permisos, seguros, pagos y demanda pendientes de validación; no hay servicios contratados ni implementación verificada.
+Revisión documental del 9 de noviembre de 2026. Validar suscripción Business, logística de las tiendas, prestadores, seguridad, pagos y aceptación de los servicios en el piloto.

@@ -1,6 +1,6 @@
 # Ranking de ideas de negocio
 
-Última actualización: **6 de noviembre de 2026**. Ideas evaluadas: **58**.
+Última actualización: **9 de noviembre de 2026**. Ideas evaluadas: **58**.
 
 Este es el archivo vigente para consultar y actualizar el ranking del repositorio. Mantiene el top 10, los criterios, las pruebas propuestas y la valoración individual de todas las ideas. La [evaluación inicial del 6 de noviembre de 2026](evaluaciones/Top-10-ideas-2026-11-06.md) se conserva como antecedente.
 
@@ -22,6 +22,7 @@ Este es el archivo vigente para consultar y actualizar el ranking del repositori
 | 2026-11-06 | Se añade la idea 58, Beauky: catálogo de tiendas de belleza, búsqueda de productos y tops de tiendas/artistas. Se priorizan recargas de clientes para compras pequeñas. | 58 ideas evaluadas; Beauky queda en reserva por competencia, stock, captación y operación pendientes. Top 10 sin cambios. |
 | 2026-11-06 | El usuario elige comenzar Mascotas con backend .NET y PostgreSQL; frontend híbrido pendiente. | Se mantiene el orden por falta de evidencia comercial nueva. La elección de proyecto queda registrada sin convertir la recomendación de frontend en decisión. |
 | 2026-11-06 | Se confirma Flutter junto a C#/.NET y PostgreSQL y se prepara la plantilla CLAUDE.md: arquitectura limpia, máximo 699 líneas por archivo y modelo entidad-relación como regla de oro. | Se conserva el top 10; la decisión técnica no equivale a validación comercial ni a aplicación implementada. |
+| 2026-11-09 | Mascotas incorpora Flutter web y móvil, código en inglés, pruebas unitarias, roles, suscripción Business con domicilio propio y borradores legales. | Puesto 2. Validar suscripciones, cumplimiento de las tiendas y contratación de servicios. |
 
 ## Evaluación vigente
 
@@ -46,16 +47,16 @@ No se aceptaron como prueba las frases antiguas «no existe», «sin competencia
 
 ## Proyecto seleccionado por el usuario
 
-El 6 de noviembre de 2026 el usuario decide comenzar [1. Mascotas](ideas/1.%20Mascotas.txt). Stack confirmado: C# con .NET, PostgreSQL y Flutter. Solicita arquitectura limpia, archivos de código fuente de máximo 699 líneas y respeto al modelo entidad-relación como regla de oro. Plantilla para la memoria del futuro proyecto: [CLAUDE.md de Mascotas](prompts/Mascotas-CLAUDE.md). El modelo aprobado todavía no se aportó; seguimiento en segundo plano e implementación siguen por validar.
+Mascotas usa C# con .NET, PostgreSQL y Flutter para web, Android e iOS, con Riverpod como opción inicial. El proyecto exige arquitectura limpia, código en inglés, textos base en constantes, máximo 699 líneas por archivo, pruebas unitarias y seguridad. El modelo entidad-relación aprobado gobierna la persistencia. [Idea 1](ideas/1.%20Mascotas.txt) · [CLAUDE.md de Mascotas](prompts/Mascotas-CLAUDE.md)
 
-Esta selección no cambia la evidencia comercial ni el orden provisional del top 10. Priorizar las siguientes tareas de implementación de Mascotas según la decisión del usuario.
+La ampliación incorpora los roles Superadmin, Business y Foundation. Business paga mensualmente por su tienda y gestiona sus domicilios. Mascotas cobra por las publicaciones de adopción pagadas y por las funciones de plataforma informadas. El transporte A→B y el lavado o limpieza a domicilio o por reserva se ejecutan por terceros. Validar disposición a pagar, entrega, disponibilidad y soporte en el piloto. [Términos](prompts/mascotas/legal/terms-and-conditions.md) · [Privacidad](prompts/mascotas/legal/privacy-policy.md)
 
 ## Top 10
 
 | Puesto | Idea | Motivo principal | Principal freno |
 | --- | --- | --- | --- |
 | 1 | [56. ManosDelBarrio](ideas/56.%20ManosDelBarrio.txt) | Resuelve trabajos del hogar; ingreso por oficios y comparación de alcance/precio. Recargas propuestas para amortizar cargos pequeños. | Confianza, calidad, materiales y reclamos. Las recargas requieren aceptación, conciliación y cargos sin duplicados; competencia de redes de oficios. |
-| 2 | [1. Mascotas: servicios y publicaciones premium](ideas/1.%20Mascotas.txt) | Traslado exclusivo A→B y servicios para mascotas; publicaciones de adopción premium generan ingreso propio de la app por visibilidad. | Seguridad, oferta local y competencia. Disposición a pagar por destacados y recargas sin validar; el saldo añade conciliación y reembolsos. |
+| 2 | [1. Mascotas](ideas/1.%20Mascotas.txt) | Transporte A→B, servicios para mascotas, publicaciones de adopción pagadas y tiendas con suscripción mensual y domicilio propio. | Validar seguridad, oferta, entregas, disposición a pagar y operación de recargas y reembolsos. |
 | 3 | [17. Cotiza tu moto](ideas/17.%20Motos.txt) | Comparar talleres y presupuestos para reducir búsquedas y tiempo sin un vehículo que puede generar ingresos. | Diagnóstico presencial, repuestos, cumplimiento del precio y respuesta de talleres. MotoSmart ya ofrece red y descuentos. |
 | 4 | [51. PaseDiario](ideas/51.%20PaseDiario.txt) | Ahorro en consumos habituales y visitas previsibles para el comercio. | Prepago, usos que vencen, incumplimiento del comercio y margen después de cobros. Menos uso puede salir más caro. |
 | 5 | [3. Citas](ideas/3.%20Citas.txt) | Reservar hora sin intercambiar muchos mensajes; negocio cobra una mensualidad por una agenda real. | Competencia muy fuerte de AgendaPro y otros; WhatsApp por sí solo no es ventaja. Adopción, recordatorios y soporte cuestan. |
@@ -140,7 +141,7 @@ Para todos: anotar solicitudes recibidas, ofertas útiles, contratos/pagos cumpl
 
 | Idea | Qué queda guardado | Flujo de dinero | Evaluación |
 | --- | --- | --- | --- |
-| 1. Mascotas | Adopción con publicaciones premium; transporte exclusivo A→B; baño, limpieza y belleza a domicilio. Recargas para cargos pequeños. | Premium: el publicante paga a la APP, sin Payout a un prestador. Servicios: pago y comisión según modalidad aceptada. | TOP 2. El premium añade ingreso propio potencial; probar disposición a pagar y saldo sin declarar demanda validada. |
+| 1. Mascotas | Adopciones, transporte A→B, baño y lavado a domicilio o por reserva, tiendas de artículos y recargas. | Publicaciones y suscripción Business generan cobros propios. Tiendas y prestadores reciben el valor acordado por su operación. | TOP 2. Probar disposición a pagar, logística de tienda y cumplimiento de reservas. |
 | 57. MudanzaAcordada | Origen y destino, inventario, acceso, fecha y ofertas que distinguen vehículo, ayudantes y materiales. Se conserva la 32 de inventario de cajas. | Persona que se muda paga al transportador; intermediación visible si se acuerda. | Fuera del top 10 inicial: baja frecuencia por persona, daños/reclamos y alternativas muy parecidas. |
 | 14. Reciclaje | Material y cantidad aproximada en mapa, compradores ofertan, dueño acepta o rechaza; pesaje y neto recibido confirmados. | Comprador del material paga al dueño; no garantizar ingreso por cualquier residuo. | Fuera del top 10 inicial: poco valor por lote doméstico, recogida, calidad/peso, densidad y pagos pueden consumir el beneficio. |
 
@@ -197,7 +198,7 @@ Pasan el filtro solo CONDICIONALMENTE las finalistas: deben aportar el resultado
 
 | N.º | Idea | Decisión | Razón |
 | --- | --- | --- | --- |
-| 1 | [Mascotas](ideas/1.%20Mascotas.txt) | TOP 2 | Servicios para mascotas y transporte exclusivo A→B; premium por destacar adopciones paga a la app. Recargas propuestas; aceptación, margen y operación pendientes. |
+| 1 | [Mascotas](ideas/1.%20Mascotas.txt) | TOP 2 | Transporte A→B, servicios por reserva, adopciones con publicaciones pagadas y tiendas Business con domicilio propio. Validar suscripciones, demanda, margen y operación. |
 | 2 | [Gyms](ideas/2.%20Gyms.txt) | Relegada | Comparar gimnasios y asistencia no establece por sí solo pago recurrente. Datos locales y alternativas gratuitas pesan. |
 | 3 | [Citas](ideas/3.%20Citas.txt) | TOP 5 | Agenda persistente y cobro empresarial claros; competencia fuerte y usuario individual de frecuencia periódica. |
 | 4 | [Turismo](ideas/4.%20Turismo.txt) | Relegada | Reservas de guías y actividades sí ejecutan algo real, pero conseguir oferta, cancelaciones y operación turística pesan para trabajar solo. |
