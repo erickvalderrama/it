@@ -81,6 +81,10 @@ Usar la especificación de implementación para convertir las entregas en tareas
 - [ ] **1A.1-01E** Guardar contraseñas solo como hash con el hasher de ASP.NET Core Identity o Argon2id. Probar que el hash nunca aparece en respuestas ni registros, el rehash al cambiar parámetros y el límite de intentos.
 - [ ] **1A.1-02** Crear los Dockerfiles de API y Flutter web y el Compose de los servicios de aplicación. Configurar servidor estático, rutas SPA y API pública. Comprobar `docker compose config`, `docker compose build`, `docker compose up -d` y `docker compose ps`.
 - [ ] **1A.1-03** Documentar variables de cada ambiente, ejemplos sin secretos y forma de inyectarlas. Configurar PostgreSQL externo, MinIO, origen web y puertos. Probar que la aplicación detecta valores ausentes o inválidos con errores que protegen datos sensibles.
+- [ ] **1A.1-03A** Configurar Google Maps Platform: cuenta de Google Cloud con facturación, keys separadas para Android (paquete y certificado), iOS (bundle ID) y web (dominios autorizados), cada una limitada a las APIs que usa, y cuotas con alertas de presupuesto.
+  - CA: las keys se inyectan por ambiente en el build y ninguna aparece en el repositorio.
+  - CA: una key de web usada desde un dominio no autorizado es rechazada por Google.
+  - CA: hay keys separadas para pruebas y producción, y la alerta de presupuesto está activa.
 - [ ] **1A.1-04** Validar desde el contenedor la conexión a PostgreSQL con su rol autorizado y a MinIO con su cuenta de aplicación. En el espacio de pruebas, crear, leer y eliminar un objeto sintético. Registrar el destino por ambiente sin guardar secretos.
 - [ ] **1A.1-04A** Recrear los contenedores de API y web y volver a abrir una ruta profunda. Comprobar el fallback de Flutter, la ruta de la API, la separación de configuración por ambiente y la conservación de un dato de prueba en PostgreSQL y MinIO.
 - [ ] **1A.1-05** Publicar OpenAPI, códigos de error y referencias de correlación. Implementar liveness del proceso y readiness con comprobaciones acotadas de sus dependencias. Verificar estado con servicios disponibles y con un fallo simulado.
@@ -186,6 +190,12 @@ Reglas del responsable, 11 de noviembre de 2026: la aplicación es multilenguaje
 
 - [ ] **1B.1-01** Implementar borrador editable con datos de mascota, ciudad propia del anuncio y contexto de publicación individual u organización. Validar propietario y concurrencia de edición al guardar.
 - [ ] **1B.1-01A** Restaurar el borrador desde otro inicio de sesión o tras recargar. Simular una edición en dos pestañas y mostrar cómo recuperar la revisión más reciente conservando el trabajo recuperable.
+- [ ] **1B.1-01B** Implementar la ubicación del sitio de adopción con un mapa de Google Maps en el borrador. El publicante busca o mueve el marcador, o parte de su ubicación actual con permiso, y el backend guarda latitud y longitud.
+  - CA: el marcador se puede colocar por búsqueda, arrastre o ubicación actual en web, Android e iOS; si se niega el permiso de ubicación, el mapa sigue funcionando con búsqueda manual.
+  - CA: el servidor valida rangos de latitud y longitud y que el punto corresponda al municipio DIVIPOLA elegido o esté cerca; si no coincide, muestra un aviso para corregir.
+  - CA: las coordenadas se guardan con precisión de 6 decimales o como punto PostGIS, con índice, mediante migración de EF Core.
+  - CA: la ficha pública muestra solo una zona aproximada calculada en servidor; la respuesta pública nunca incluye el punto exacto.
+  - CA: el mapa usa el idioma activo y estilo oscuro en modo oscuro; el filtro por ciudad funciona aunque el mapa no cargue.
 - [ ] **1B.1-02** Implementar carga de fotos a MinIO con formato y tamaño validados, orden y portada. Preparar derivados sin metadatos sensibles. Probar un fallo de una foto y su reintento sin perder las demás.
 - [ ] **1B.1-02A** Preparar miniaturas y versiones de detalle saneadas para el catálogo, con estados de carga y reintento por foto. Probar la limpieza de una carga incompleta en MinIO según la política definida.
 - [ ] **1B.1-03** Implementar vista previa con la proyección que será pública. Mostrar campos faltantes y el contexto del publicante. Verificar la visibilidad privada del borrador y sus fotos.
@@ -478,3 +488,4 @@ Revisar esta lista al terminar el trabajo ejecutable. Conservar solo las pregunt
 | 1C.1-06C | ¿Qué APIs de tokenización, clientes y cobro recurrente tiene habilitadas la cuenta de ePayco? |
 | 1E-08 | ¿Cuál es el umbral de datos para entrenar el primer modelo y qué evento cuenta como adopción exitosa? |
 | 1A.4-13 | ¿Qué idioma prevalece en términos y privacidad si hay diferencias entre español e inglés? ¿Quién revisa la traducción legal al inglés? |
+| 1A.1-03A | ¿Quién es el titular de la cuenta de Google Cloud y su facturación? ¿Cuál es el presupuesto mensual máximo para Google Maps? |

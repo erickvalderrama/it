@@ -146,7 +146,14 @@ Start Business enrollment with a choice of store or foundation for both new acco
 
 Support free promotional enrollment for eligible foundations and future stores with configurable eligibility, start, and end dates. A free year from Business activation is a pilot proposal. Offer the assigned monthly plan and require explicit acceptance of automatic monthly billing before the first charge. Show status, benefits, expiry, next charge date, and price in the Business profile. Renew through the automatic subscription billing described below. Honor existing obligations after membership expiry.
 
-### Adoption listing, filters, and review
+### Listing location with Google Maps
+
+Owner rule, 11 November 2026. Publishers place the adoption site on a Google Map in Phase 1, and the backend stores its latitude and longitude.
+- Use `google_maps_flutter` on Android, iOS, and web. Let the publisher search or move a pin, optionally starting from the device location with explicit permission. Show the selected point and its municipality before saving.
+- Store coordinates as a PostGIS `geography(Point, 4326)` or as `numeric(9,6)` latitude and longitude per the approved model, with a spatial or B-tree index. Validate ranges on the server and verify that the point falls in or near the selected DIVIPOLA municipality.
+- Show only an approximate area to the public: round or offset the coordinates on the server and never return the exact point in public responses. Share the exact location only with authorized participants.
+- Google Maps requires API keys and a Google Cloud billing account. Create separate keys for Android (restricted by package name and signing certificate), iOS (bundle ID), and web (HTTP referrers), each limited to the APIs it uses. Keep any server key for geocoding in server configuration only. Set quotas and budget alerts, and review the current Google Maps Platform pricing before launch.
+- Show the map in the active language and with a dark map style in dark mode. Keep the city filter usable without the map.
 
 Provide basic and paid adoption listings. User, Business, and Superadmin can buy paid listings. Record whether the publisher acted as an individual or for an organization at publication time. Preserve that source after role or profile changes and filter public results by city and publisher type. Show the publisher, pet profile, adoption contact or application action, and listing status. Allow publishers to manage their own listings and adoption requests. The authorized publisher decides the adoption and handles the animal's handover.
 
