@@ -1,5 +1,11 @@
 # CLAUDE.md — Mascotas Project
 
+## Working role and delivery
+
+Act as a senior software architect, full-stack engineer, DevOps engineer, and QA engineer. Apply expertise in clean architecture, C# and PostgreSQL, Flutter web and mobile UX, CI/CD and operations, and risk-based testing. The owner is experienced in frontend, backend, servers, and infrastructure. Discuss technical decisions and trade-offs at that level.
+
+Read the existing code and approved model before starting. For each change, identify the active phase, affected roles and resource ownership, data and API contracts, UI states, failure and recovery paths, and acceptance checks. Deliver one usable slice through the necessary layers, preserve user changes, and document material decisions and unresolved blockers.
+
 ## Project and stack
 
 Build the requested change in small, verifiable increments. Mascotas connects people with adoption foundations, independent pet service providers, and pet supply stores.
@@ -32,6 +38,8 @@ Organize the backend as a modular monolith.
 - Infrastructure implements persistence and external integrations. Put EF Core mappings, migrations, and ePayco adapters here.
 - API composes dependencies, authorizes requests, translates errors, and invokes use cases. Return API DTOs and keep business decisions in Domain and Application.
 - Use asynchronous I/O, cancellation, pagination, and projections where relevant. Keep related state transitions consistent in transactions.
+- Keep API contracts compatible with released mobile clients during rollout. Use stable error codes and safe correlation references, and test the contract shared by the API and Flutter.
+- Define transitions and allowed actors for each workflow. For payments, invoices, moderation, and other asynchronous work, persist the operation and its progress. Specify idempotency, duplicate or out-of-order messages, bounded retries, and authorized recovery before wiring external calls.
 
 Organize Flutter by feature. Place app startup, routing, and theme in lib/app and truly shared infrastructure and components in lib/core. Keep domain contracts and use cases, data sources and repository implementations, and presentation widgets and controllers separate within each feature.
 Widgets render state and send user actions to Riverpod controllers. Controllers invoke use cases and expose the resulting state. Keep business calculations and HTTP access in their own layers.
@@ -48,7 +56,7 @@ Design each screen once around the same use case and controller. Compose layouts
 - Define loading, empty, error, retry, offline, unauthorized, and success states for each data-driven screen. Preserve form data on recoverable errors and display messages next to the affected fields.
 - Separate view states from transaction states. Disable repeat submission while a request is pending. Use the backend result to display payment, reservation, subscription, or delivery confirmation.
 - Isolate platform capabilities behind adapters. Confirm camera, uploads, location, maps, and payment flows on the supported targets. Show an actionable fallback where a capability is unavailable. Web users can follow a trip and see the last authorized position. Enable location collection in the background on supported mobile devices after validation.
-- Review each changed screen at compact and wide widths. Include long content, enlarged text, empty data, errors, and asynchronous loading. Validate navigation and the primary action end to end on web and mobile.
+- Define the expected layout and key states of each critical screen in the design system. Review changed screens at compact, medium, and wide widths. Validate navigation and the primary action end to end on web and mobile.
 
 ## Release plan and roles
 
@@ -127,7 +135,7 @@ Treat authorization, data protection, and payment integrity as acceptance criter
 - Authenticate on the server and enforce least privilege on every resource. Validate object ownership and role changes, including direct requests made outside Flutter.
 - Protect account recovery, administrative access, authentication endpoints, and payment notifications. Require stronger authentication for privileged users and revoke access when roles or sessions change.
 - Store credentials in secure environment configuration. Use encrypted transport and restrict browser origins to the approved frontend origins.
-- Validate input, uploads, filenames, and outgoing integrations. Store only necessary personal data. Protect identity documents, private addresses, location, and payment references with restricted access.
+- Validate input, uploads, filenames, and outgoing integrations on the server. Verify image format and size, strip metadata from public and moderation copies, and remove abandoned uploads under the retention policy. Store only necessary personal data. Protect identity documents, private addresses, location, and payment references with restricted access.
 - Keep secrets and sensitive data out of code, responses, and logs. Record audit events and safe correlation references for investigations and refunds.
 
 ## Terms, privacy, and user consent
@@ -145,6 +153,30 @@ Use the reviewed versions at docs/legal/terms-and-conditions.md and docs/legal/p
 ## Required tests and delivery checks
 
 Write unit tests in C# and Dart for new and changed behavior. Cover role and ownership rules, use cases, Riverpod state transitions, monetary calculations, membership eligibility, location validation, per-image and text moderation, sexual and vulgar content rejection, corrections with the original payment, price and Terms version changes, listing activation, refunds, invoice retry, booking, cancellation, and duplicate notifications when touched.
-Use API and PostgreSQL integration tests where a regression depends on authorization across resources, constraints, transactions, or concurrent payments. Add Flutter widget tests for changed responsive views, critical actions, error states, and text or layout overflow.
-Before delivery, run the relevant dotnet build and test checks, dart format, flutter analyze, flutter test, and web and mobile builds available in the environment. Check the line limit, English code, centralized copy, and agreement with the entity relationship model. Record the checks performed and their actual outcomes.
-Read the existing code and approved model before starting a task. Preserve user changes, implement the authorized slice, and report concrete blockers and remaining verification.
+Run API and persistence integration tests against disposable PostgreSQL for authorization across resources, API contracts, migrations, constraints, transactions, and concurrent writes. Use Flutter widget tests for responsive components, validation, accessibility semantics, and recoverable UI states. Add a regression test for each fixed defect at the most direct layer that reproduces it.
+
+### End-to-end flow tests
+
+Run critical flows through the built Flutter app, API, PostgreSQL, and applicable background workers. Use Flutter `integration_test` or a compatible runner. Run web tests in a browser and mobile tests on emulators, simulators, or devices. Cover browser refresh, deep links, and checkout return on enabled targets. Verify system permissions and background behavior on the relevant mobile platforms. [Flutter integration testing](https://docs.flutter.dev/testing/integration-tests)
+
+Use synthetic fixtures, isolated test accounts and data, a controlled clock, and stable widget keys or accessible selectors. Wait for observable states with bounded timeouts. Simulate provider responses at the integration boundary in CI, including ePayco notifications, invoice issuance, and AI results per text and image. Run separate staging smoke checks against the authorized test environments available for each provider.
+
+- Phase 1 access and discovery. Register with Colombia preselected, select and change a valid DIVIPOLA location, and enroll each Business profile type. Verify that updated Terms are required before a new protected operation and that the previous acceptance remains available. Publish a basic adoption, filter by city and publisher type, and verify that one account cannot view or change another account's private records.
+- Phase 1 premium. Accept the versioned price, complete checkout, confirm payment on the server, review text and every photo, and verify visibility and the invoice. Cover payment pending or failed, duplicate or late confirmation, corrections and resubmission with the same payment, rejection for sexual or vulgar content, uncertain results sent to Superadmin, and invoice retry. Assert a single applied payment, the original accepted price, and no public listing before approval.
+- Phase 1 membership and administration. Cover Business promotion, expiry and renewal at the offered price, access to historical operations, and authorized review and payment or invoice recovery.
+- Phase 2 commerce. Cover a store order with delivery and stock changes, a booking with slot conflicts and cancellation, approved top-up and balance use, and payout or refund retry with reconciliation.
+- Phase 3 transport. Cover a request and counteroffer, acceptance, payment, pickup, delivery, and reconciliation. Verify authorized tracking, denied permissions, background and locked-screen behavior, connection loss, and recovery.
+
+### Visual regression and accessibility
+
+- Create reviewed golden images or equivalent screenshot baselines for critical screens and reusable components. Start with registration, adoption results and detail, checkout and review states, and the Superadmin queue. Capture compact, medium, and wide layouts and applicable loading, empty, error, and success states. [Flutter golden tests](https://api.flutter.dev/flutter/flutter_test/matchesGoldenFile.html)
+- Pin the rendering environment, fonts, viewport, pixel density, locale, theme, and test data. Store baselines with the tests and compare expected, actual, and diff images in CI. Review the visual difference and document intentional design changes before updating a baseline.
+- Check overflow, clipping, long labels, enlarged text, scrolling, keyboard and safe areas, focus order, contrast, and screen reader labels. Review the actual app at representative web and mobile sizes, including cases that require device or manual testing.
+
+## DevOps and release readiness
+
+- Separate local, CI, staging, and production configuration, storage, credentials, and callbacks. Provision a repeatable staging environment and use synthetic data and test credentials for automated runs.
+- Check migrations on an empty database and on representative existing data. Plan app and schema compatibility, backups, a tested restore, and a rollback or forward repair for a failed rollout.
+- Monitor health and readiness, application errors, and stalled payment, moderation, and invoice processing. Use redacted logs and safe correlation references. Document how to diagnose and recover a stuck operation and verify its outcome.
+- In CI, run `dotnet build`, `dotnet test`, Dart format checks, `flutter analyze`, `flutter test`, relevant builds and golden tests, and critical web E2E for changes that affect those flows. Run the relevant Android and iOS E2E and staging smoke tests before releasing those targets. Retain sanitized logs and visual diffs for failures.
+- Require passing critical E2E and visual checks for the enabled scope before each phase release. Verify the 699-line limit, English code, centralized UI copy, and approved model mappings. Record commands, tested targets, actual results, and any remaining coverage gaps.

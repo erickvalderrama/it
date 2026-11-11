@@ -1,6 +1,6 @@
 # Plan de trabajo de Mascotas
 
-Decisiones registradas el 9 de noviembre de 2026. Proyecto para un primer lanzamiento en Colombia con Flutter para web, Android e iOS, Riverpod como opción inicial, C# con .NET y PostgreSQL. La memoria técnica conserva arquitectura limpia, código en inglés, textos base en constantes, pruebas unitarias, seguridad, máximo 699 líneas por archivo de código y el modelo entidad-relación aprobado como regla de oro. [Memoria técnica](../Mascotas-CLAUDE.md)
+Decisiones registradas el 9 de noviembre de 2026. Proyecto para un primer lanzamiento en Colombia con Flutter para web, Android e iOS, Riverpod como opción inicial, C# con .NET y PostgreSQL. La memoria técnica conserva arquitectura limpia, código en inglés, textos base en constantes, pruebas unitarias, de integración, E2E y de regresión visual, seguridad, máximo 699 líneas por archivo de código y el modelo entidad-relación aprobado como regla de oro. [Memoria técnica](../Mascotas-CLAUDE.md)
 
 ## Orden de lanzamiento
 
@@ -16,16 +16,22 @@ El catálogo admite varias ciudades desde la fase 1. La salida comercial propues
 
 Para el piloto, se propone lanzar primero la web adaptable con ePayco para los cobros digitales de la fase 1. La misma interfaz Flutter se prepara para móvil. Antes de ofrecer destacados o acceso digital de pago dentro de las aplicaciones distribuidas por Apple y Google Play, revisar las reglas de compra y los canales permitidos para Colombia. Apple incluye los anuncios destacados que se muestran en la propia app dentro de su regla de compras digitales. Revisar por separado el cobro de productos y servicios físicos de las fases siguientes. [Apple App Review Guidelines](https://developer.apple.com/app-store/review/guidelines/) · [Política de pagos de Google Play](https://support.google.com/googleplay/android-developer/answer/9858738?hl=es)
 
+## Calidad y criterios de salida
+
+- Probar los recorridos críticos E2E desde Flutter hasta la API, PostgreSQL y el procesamiento en segundo plano. Usar datos ficticios y respuestas controladas de ePayco, facturación e IA en CI. Verificar las integraciones por separado en los entornos de prueba autorizados.
+- Comparar capturas con referencias visuales revisadas para las pantallas clave en tamaños compacto, mediano y amplio. Revisar diferencias, desbordamientos, textos ampliados, navegación por teclado, áreas seguras, accesibilidad y estados de carga, vacío, error y éxito.
+- Ejecutar E2E de web en CI al cambiar un flujo crítico y validar los flujos móviles relevantes en Android e iOS antes de publicar en esos canales. Cada fase requiere sus recorridos E2E y controles visuales aprobados, con evidencia de pruebas y revisión de los casos que requieran dispositivo.
+
 ## Fase 1. Adopciones
 
 ### Entregas en orden de dependencia
 
-| Entrega | Trabajo | Prueba de salida |
+| Entrega | Trabajo | Flujo E2E de salida |
 | --- | --- | --- |
-| 1A. Acceso y catálogo | Registro breve, Colombia preseleccionado, selección de municipio, roles, alta Business y aceptación de términos por versión. | Una persona se registra, cambia de ciudad, completa una solicitud Business y puede aceptar una nueva versión de términos. |
-| 1B. Publicar y revisar | Ficha de adopción con fotos, borradores, búsqueda, filtros por ciudad y origen, revisión por IA y cola manual. | Una publicación básica aprobada aparece en la ciudad correcta. Cada foto se evalúa. Una revisión incierta llega a Superadmin. |
-| 1C. Cobro e historial | Versiones de precios, promoción Business, mensualidad, compra de anuncio pagado, ePayco y facturación electrónica. | Una compra de prueba conserva precio y términos aceptados. El pago confirmado envía el anuncio a revisión. Las correcciones y confirmaciones repetidas conservan un solo cobro y un trámite de factura. |
-| 1D. Operación y piloto | Panel con usuarios registrados y activos, administración de anuncios, cobros, facturas y reclamos. Prueba de interfaz web y móvil y piloto con organizaciones. | Superadmin puede moderar, consultar la operación y recuperar una factura pendiente. Dos ciudades y los tres roles completan los casos previstos. |
+| 1A. Acceso y catálogo | Registro breve, Colombia preseleccionado, selección de municipio, roles, alta Business y aceptación de términos por versión. | Una persona se registra con Colombia preseleccionada, selecciona y cambia su ciudad, completa un alta Business y acepta una nueva versión de términos. |
+| 1B. Publicar y revisar | Ficha de adopción con fotos, borradores, búsqueda, filtros por ciudad y origen, revisión por IA y cola manual. | Una publicación básica aprobada aparece con el filtro de ciudad y publicante. Se evalúan el texto y todas las fotos. Los casos dudosos llegan a Superadmin y el contenido sexual o vulgar se rechaza. |
+| 1C. Cobro e historial | Versiones de precios, promoción Business, mensualidad, compra de anuncio pagado, ePayco y facturación electrónica. | Una compra de prueba conserva precio y términos aceptados. El pago confirmado envía el anuncio a revisión. Las correcciones se reenvían con el mismo pago. Se comprueban un solo cobro aplicado, la visibilidad tras aprobación y la factura, incluso con confirmaciones repetidas. |
+| 1D. Operación y piloto | Panel con usuarios registrados y activos, administración de anuncios, cobros, facturas y reclamos. Prueba de interfaz web y móvil y piloto con organizaciones. | Superadmin puede moderar, consultar la operación y recuperar una factura pendiente. Se verifican dos ciudades, los tres roles y el aislamiento entre cuentas. Pasan las comparaciones visuales de las pantallas clave. |
 
 ### Registro, ciudades y roles
 
@@ -107,13 +113,14 @@ Priorizar los puntos que mejoren publicación, búsqueda y revisión. Los extras
 - Permitir baño, lavado y limpieza a domicilio o por reserva con prestador, ubicación, fecha, cupo, precio y condiciones. Confirmar disponibilidad y pago, tratar expiraciones y cancelaciones y conciliar reembolsos.
 - Activar ePayco Payouts para los abonos a terceros admitidos por la cuenta y el contrato. Verificar beneficiarios, titularidad, monto, comisión, estado, reintentos y conciliación. Separar el cobro en checkout del abono posterior al prestador. [ePayco Payouts](https://docs.epayco.com/docs/qu%C3%A9-es-epayco-payouts) · [Condiciones de ePayco](https://epayco.com/terminos-y-condiciones-generales-2026/)
 - Usar recargas para pagos pequeños. Separar el saldo del cliente destinado a compras del saldo de comisiones de Business y de las obligaciones por pagar a terceros. Documentar finalidad, vencimiento si aplica, devoluciones y costo de recaudo y abono. La puesta en marcha requiere validar admisión del proveedor y tratamiento del dinero, facturación y reglas de recarga. [Diseño de recargas](../../investigaciones/Mascotas-ManosDelBarrio-recargas-2026-11-06.md)
-- La fase queda lista al completar un pedido de tienda y una reserva con su cobro, factura o soporte aplicable, entrega o servicio, comisión, abono y reembolso de prueba conciliados.
+- La fase queda lista al completar pruebas E2E de un pedido y una reserva con cobro, factura o soporte aplicable, entrega o servicio, comisión, abono y reembolso conciliados. Cubrir conflictos de stock o cupo y reintentos de recarga y abono, según el alcance habilitado.
 
 ## Fase 3. Transporte de mascotas A→B
 
 - Agregar la capacidad de transportista a Business tras la verificación aplicable. Recoger origen A, destino B, mascota, condiciones, hora, responsables, presupuesto y ofertas. El cliente selecciona prestador y acepta alcance y total.
 - Confirmar recogida y entrega. Durante el traslado, compartir ubicación con las partes autorizadas y detener la recolección al cerrar o cancelar. Probar segundo plano, bloqueo de pantalla, permisos, mala señal y último punto recibido.
 - Integrar cobros del viaje y recargas para pagos o comisiones pequeñas. Mantener separados precio aceptado, pago del cliente, remuneración del transportista, cargo de Mascotas y abono conciliado. Incorporar cancelaciones, incidentes y atención documentada.
+- La prueba E2E de salida cubre solicitud, contraoferta, aceptación, cobro, recogida, entrega y conciliación. Verificar también permisos denegados, pérdida de conexión y recuperación del seguimiento autorizado.
 
 ### Validación legal previa a viajes pagados en Colombia
 
