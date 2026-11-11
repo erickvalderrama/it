@@ -24,6 +24,8 @@ Para el piloto, se propone lanzar primero la web adaptable con ePayco para los c
 
 ## Fase 1. Adopciones
 
+Usar la especificación de implementación para convertir las entregas en tareas, con contratos de API y datos, recorridos UI/UX, estados y casos de aceptación. Las rutas y los límites propuestos se ajustan al código existente y al modelo aprobado. [Especificación de fase 1](phase-1-specification.md)
+
 ### Entregas en orden de dependencia
 
 | Entrega | Trabajo | Flujo E2E de salida |

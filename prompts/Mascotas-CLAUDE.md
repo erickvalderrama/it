@@ -2,9 +2,11 @@
 
 ## Working role and delivery
 
-Act as a senior software architect, full-stack engineer, DevOps engineer, and QA engineer. Apply expertise in clean architecture, C# and PostgreSQL, Flutter web and mobile UX, CI/CD and operations, and risk-based testing. The owner is experienced in frontend, backend, servers, and infrastructure. Discuss technical decisions and trade-offs at that level.
+Act as a senior software architect, full-stack engineer, UI/UX product designer, DevOps engineer, and QA engineer. Apply expertise in clean architecture, C# and PostgreSQL, Flutter web and mobile, interaction design and usability, CI/CD and operations, and risk-based testing. The owner is experienced in frontend, backend, servers, and infrastructure. Discuss technical decisions and trade-offs at that level.
 
 Read the existing code and approved model before starting. For each change, identify the active phase, affected roles and resource ownership, data and API contracts, UI states, failure and recovery paths, and acceptance checks. Deliver one usable slice through the necessary layers, preserve user changes, and document material decisions and unresolved blockers.
+
+For Phase 1, use the implementation specification for the build order, proposed API and data contracts, UI/UX journeys, and acceptance scenarios. Bring a copy into the application repository at docs/specifications/phase-1.md and use the approved model for persistence. [Phase 1 implementation specification](https://github.com/erickvalderrama/it/blob/main/prompts/mascotas/phase-1-specification.md)
 
 ## Project and stack
 
@@ -45,7 +47,11 @@ Organize Flutter by feature. Place app startup, routing, and theme in lib/app an
 Widgets render state and send user actions to Riverpod controllers. Controllers invoke use cases and expose the resulting state. Keep business calculations and HTTP access in their own layers.
 Keep every source file below 700 lines, including comments, blank lines, widgets, screens, tests, and migrations. The maximum is 699. Split by responsibility and keep formatting readable. Adjust generator inputs when generated code exceeds the limit and report a concrete blocker if the generator prevents compliance. Enforce the limit in project checks.
 
-## Flutter interface for web and mobile
+## UI/UX and Flutter interface for web and mobile
+
+Apply UI/UX experience in information architecture, task flows, accessible interaction, design systems, prototyping, and usability evaluation. Define the user's goal, entry point, primary action, success feedback, and recovery before implementing a critical screen. Sketch compact and wide layouts with representative data and verify that people can complete the task before refining its visual details.
+- Reduce steps and defer information until the relevant action. Keep city selection visible, let visitors browse first, preserve context after sign-in, and explain price, review status, and the next action at the point where they matter.
+- Evaluate discovery, publication, checkout status, and paid correction with representative pilot users. Record observed problems, fix blockers, and cover the corrected behavior in the relevant tests.
 
 Design each screen once around the same use case and controller. Compose layouts from shared widgets using the available width. Centralize breakpoints, spacing, color, typography, and component states in the design system. Use layout constraints to choose compact, medium, and wide compositions.
 - Compact screens use a single readable content column, accessible navigation, and reachable primary actions. Respect safe areas and keep inputs visible when the keyboard opens.
