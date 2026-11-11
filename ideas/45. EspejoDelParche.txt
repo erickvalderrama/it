@@ -56,7 +56,7 @@ Nuestra ventaja y filtro frente a LLM gratuitos:
 - Hipótesis: una ronda corporal muy corta y asincrónica resulta más cómoda y divertida para este grupo que las alternativas.
 - Comparar con un asistente gratuito más WhatsApp, videollamada y juegos existentes. Si el resultado completo es equivalente, descartar; una interfaz bonita no basta.
 - Nivel de océano azul: BAJO por los juegos sociales y de cámara existentes. La combinación concreta sigue sin validarse.
-- Comparación documental con CLAUDE.md; no se construyó ni probó el juego.
+- Comparación documental con claude-ideas.md; no se construyó ni probó el juego.
 
 Riesgos:
 - La novedad puede agotarse rápidamente o los turnos pueden quedar esperando.

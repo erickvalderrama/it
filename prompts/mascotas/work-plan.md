@@ -1,6 +1,6 @@
 # Plan de trabajo de Mascotas
 
-Decisiones registradas el 9 de noviembre de 2026. Proyecto para un primer lanzamiento en Colombia con Flutter para web, Android e iOS, Riverpod como opción inicial, C# con .NET y PostgreSQL. La memoria técnica conserva arquitectura limpia, código en inglés, textos base en constantes, pruebas unitarias, de integración, E2E y de regresión visual, seguridad, máximo 699 líneas por archivo de código y el modelo entidad-relación aprobado como regla de oro. [Memoria técnica](https://github.com/erickvalderrama/it/blob/main/prompts/Mascotas-CLAUDE.md)
+Decisiones registradas el 9 de noviembre de 2026. Proyecto para un primer lanzamiento en Colombia con Flutter para web, Android e iOS, Riverpod como opción inicial, C# con .NET y PostgreSQL. La memoria técnica conserva arquitectura limpia, código en inglés, textos base en constantes, pruebas unitarias, de integración, E2E y de regresión visual, seguridad, máximo 699 líneas por archivo de código y el modelo entidad-relación aprobado como regla de oro. [Memoria técnica](https://github.com/erickvalderrama/it/blob/main/CLAUDE.md)
 
 ## Cómo ejecutar el plan y pasarlo a otra IA
 
@@ -62,87 +62,135 @@ Usar la especificación de implementación para convertir las entregas en tareas
 - [x] **1.0-03** Versionar los borradores colombianos de términos y privacidad para la revisión del operador.
 - [ ] **1.0-04** Registrar la ruta del repositorio de aplicación y sus comandos de trabajo. Incorporar la memoria, el plan activo y la especificación a ese repositorio.
 - [ ] **1.0-05** Registrar la ubicación y versión del modelo entidad-relación aprobado. Contrastar cuentas, ubicaciones, Business, listados, medios, consentimientos, precios, pagos y facturas antes de crear los mapeos o migraciones que los afectan.
+- [x] **1.0-06** Registrar Bosque y pistacho como la paleta oficial en la memoria principal de Mascotas y en la especificación de fase 1.
 
 ### 1A.1 Arranque en contenedores, contratos y UI/UX
 
 - [ ] **1A.1-01** Revisar la solución existente o establecer la estructura modular de .NET y Flutter. Fijar SDK, dependencias, versión de PostgreSQL del servidor y manejo de estado. Verificar compilación desde un checkout limpio.
+- [ ] **1A.1-01A** Fijar las fronteras de Domain, Application, Infrastructure y API y la estructura de Flutter por feature. Verificar las referencias entre proyectos y que un flujo de ejemplo atraviesa interfaz, caso de uso y contrato sin lógica de negocio en widgets o controladores HTTP.
 - [ ] **1A.1-02** Crear los Dockerfiles de API y Flutter web y el Compose de los servicios de aplicación. Configurar servidor estático, rutas SPA y API pública. Comprobar `docker compose config`, `docker compose build`, `docker compose up -d` y `docker compose ps`.
 - [ ] **1A.1-03** Documentar variables de cada ambiente, ejemplos sin secretos y forma de inyectarlas. Configurar PostgreSQL externo, MinIO, origen web y puertos. Probar que la aplicación detecta valores ausentes o inválidos con errores que protegen datos sensibles.
 - [ ] **1A.1-04** Validar desde el contenedor la conexión a PostgreSQL con su rol autorizado y a MinIO con su cuenta de aplicación. En el espacio de pruebas, crear, leer y eliminar un objeto sintético. Registrar el destino por ambiente sin guardar secretos.
+- [ ] **1A.1-04A** Recrear los contenedores de API y web y volver a abrir una ruta profunda. Comprobar el fallback de Flutter, la ruta de la API, la separación de configuración por ambiente y la conservación de un dato de prueba en PostgreSQL y MinIO.
 - [ ] **1A.1-05** Publicar OpenAPI, códigos de error y referencias de correlación. Implementar liveness del proceso y readiness con comprobaciones acotadas de sus dependencias. Verificar estado con servicios disponibles y con un fallo simulado.
+- [ ] **1A.1-05A** Publicar un ejemplo de respuesta de catálogo y un problema de validación en el contrato versionado. Verificar en CI códigos de error estables, paginación y que Flutter deserializa las respuestas del API de prueba.
 - [ ] **1A.1-06** Preparar fixtures repetibles para Santa Marta y Barranquilla, tres roles, dos organizaciones, dos precios y dos términos. Ejecutar los resets sobre el destino de pruebas aislado tras validar el modelo aplicable. Configurar adaptadores de prueba para ePayco, IA, correo y factura.
-- [ ] **1A.1-07** Esbozar búsqueda, ficha, registro, borrador, checkout y correcciones en tamaños compacto y amplio. Montar el tema, textos centralizados y componentes compartidos. Revisar jerarquía, acción principal, foco y estados vacíos con fixtures. [Paleta inicial y criterios UI/UX](https://github.com/erickvalderrama/it/blob/main/prompts/mascotas/phase-1-specification.md#uiux-design-and-usability)
+- [ ] **1A.1-06A** Probar el reinicio de fixtures dos veces y comprobar que las cuentas, localidades y versiones de prueba son reproducibles. Verificar que la rutina se detiene al recibir un destino fuera de la base y el prefijo de pruebas.
+- [ ] **1A.1-07** Esbozar búsqueda, ficha, registro, borrador, checkout y correcciones en tamaños compacto y amplio. Revisar jerarquía, acción principal, foco y estados vacíos con fixtures. [Paleta oficial y criterios UI/UX](https://github.com/erickvalderrama/it/blob/main/prompts/mascotas/phase-1-specification.md#official-light-theme)
+- [ ] **1A.1-07A** Implementar la paleta oficial Bosque y pistacho en un tema Flutter compartido. Aplicar bosque a botones y controles seleccionados, pistacho a destacados, fondo claro a pantallas, blanco a tarjetas y tinta verde a texto. Verificar que los componentes consumen los tokens del tema.
+- [ ] **1A.1-07B** Montar navegación Explore, Publish y Account, textos centralizados y componentes de carga, vacío, error y acción principal. Probar foco visible, lectura con tecnología asistiva y recuperación de la ruta tras autenticación en layouts compacto y amplio.
 - [ ] **1A.1-08** Configurar CI para compilar las imágenes, verificar formato y análisis y ejecutar pruebas unitarias y de widgets. Preparar el runner autorizado con acceso al PostgreSQL y MinIO de pruebas para integración y E2E.
+- [ ] **1A.1-08A** Agregar comprobaciones de dependencias, formato y máximo de 699 líneas por archivo fuente. Publicar como evidencia de CI el resultado de compilación, pruebas y diffs visuales de las pantallas afectadas.
 - [ ] **1A.1-09** Ejecutar la salida del bloque desde un checkout limpio. Abrir Flutter web en contenedor, navegar a una ruta profunda y confirmar que consume la API. Guardar los comandos, resultados y una captura base.
 
 ### 1A.2 Registro, catálogo y consentimiento
 
 - [ ] **1A.2-01** Implementar el importador DIVIPOLA según el modelo aprobado. Preservar país, departamento y localidad como texto y la elegibilidad del piloto por separado. Probar reimportación y que `08001` conserva el cero inicial.
+- [ ] **1A.2-01A** Agregar una validación previa de los CSV con conteo por tipo, códigos duplicados, departamento ausente y cambios de fuente. Probar que la reimportación preserva referencias de cuentas y anuncios y que la elegibilidad del piloto se administra por separado.
 - [ ] **1A.2-02** Implementar selector de país y ciudad con Colombia preseleccionada y ciudades agrupadas por departamento. Probar filtros, carga, vacío, error y rechazo de un municipio inválido o deshabilitado en el servidor.
 - [ ] **1A.2-03** Implementar el registro de nombre, correo, contraseña, país y ciudad. Validar campos, unicidad de correo y sesión. Cubrir inicio de sesión, cierre, verificación previa a publicar y recuperación según el alcance del piloto.
+- [ ] **1A.2-03A** Probar la verificación y recuperación de cuenta con enlaces vigentes, vencidos y reutilizados. Verificar normalización del correo, mensaje de recuperación uniforme y exclusión de credenciales y tokens en registros.
+- [ ] **1A.2-03B** Construir la matriz de acceso de visitante, User, Business y Superadmin para lectura, publicación y administración. Probar autorización en el backend con una sesión vencida y con otra cuenta intentando acceder a un recurso privado.
 - [ ] **1A.2-04** Permitir cambiar la ciudad de la cuenta. Validar permisos, mantener la ciudad de cada anuncio independiente y comprobar que el retorno tras iniciar sesión abre la ruta prevista.
 - [ ] **1A.2-05** Implementar lectura de términos y privacidad y aceptación explícita de la versión efectiva. Registrar usuario, versión y fecha del servidor. Gestionar una versión publicada mientras la pantalla está abierta.
+- [ ] **1A.2-05A** Publicar una versión legal desde la administración con idioma, vigencia y texto. Consultar la versión anterior por su referencia y conservar fecha y actor de cada aceptación. Mantener la autorización de datos separada donde corresponda.
 - [ ] **1A.2-06** Bloquear las nuevas operaciones protegidas hasta aceptar términos vigentes. Comprobar el acceso a historial, documentos y soporte y el vínculo de una operación previa con su aceptación original.
+- [ ] **1A.2-06A** Probar un formulario abierto cuando cambia la versión legal. Mostrar la versión nueva y volver al borrador o checkout con la información válida preservada. Comprobar en servidor que la operación queda vinculada con la aceptación vigente.
 - [ ] **1A.2-07** Ejecutar E2E de registro, cambio de ciudad y actualización de términos. Guardar la prueba de validación en PostgreSQL y la revisión visual del formulario en web y móvil.
 
 ### 1A.3 Alta Business y promoción
 
 - [ ] **1A.3-01** Implementar elección Foundation o Store en el alta o conversión. Mantener el ID y las operaciones de la cuenta. Probar ambos perfiles bajo el rol Business.
 - [ ] **1A.3-02** Pedir cédula y RUT a Store de persona natural y NIT y RUT a Store de persona jurídica. Aplicar las verificaciones de representación que correspondan. Mostrar solo los requisitos del tipo elegido.
+- [ ] **1A.3-02A** Validar los campos condicionales y documentos de cada tipo de alta en el servidor. Probar Foundation, Store natural y Store jurídica con requisitos completos, faltantes y archivos que requieren corrección.
 - [ ] **1A.3-03** Implementar carga y lectura autorizada de documentos privados en MinIO. Comprobar formatos, límites y permisos, incluida la denegación a otra organización y la ausencia de documentos en resultados públicos.
+- [ ] **1A.3-03A** Permitir reemplazar el soporte solicitado durante una corrección y mostrar el progreso por archivo. Verificar que la revisión accede a la versión autorizada y que las vistas públicas y los registros técnicos excluyen los documentos.
 - [ ] **1A.3-04** Implementar revisión de la solicitud, estados y decisión auditada de Superadmin. Mostrar al usuario tareas pendientes y conservar la trazabilidad al habilitar Business.
+- [ ] **1A.3-04A** Definir las transiciones de solicitud pendiente, corrección, aprobación y rechazo para el flujo autorizado. Probar que dos decisiones simultáneas conservan un resultado vigente con su motivo y auditoría.
 - [ ] **1A.3-05** Implementar alta promocional con elegibilidad, inicio, vencimiento y duración configurable. Mostrar vigencia y beneficios. Probar vencimiento con reloj controlado y acceso a operaciones históricas.
+- [ ] **1A.3-05A** Probar el inicio y vencimiento de la promoción en su límite exacto, una activación repetida y una oferta gratuita de importe cero. Conservar la oferta aceptada y las operaciones anteriores al vencer.
 - [ ] **1A.3-06** Ejecutar E2E de alta Foundation, conversión Store y aislamiento entre dos Business. Revisar el formulario y los estados de verificación en resoluciones compacta y amplia.
 
 ### 1B.1 Adopción básica de extremo a extremo
 
 - [ ] **1B.1-01** Implementar borrador editable con datos de mascota, ciudad propia del anuncio y contexto de publicación individual u organización. Validar propietario y concurrencia de edición al guardar.
+- [ ] **1B.1-01A** Restaurar el borrador desde otro inicio de sesión o tras recargar. Simular una edición en dos pestañas y mostrar cómo recuperar la revisión más reciente conservando el trabajo recuperable.
 - [ ] **1B.1-02** Implementar carga de fotos a MinIO con formato y tamaño validados, orden y portada. Preparar derivados sin metadatos sensibles. Probar un fallo de una foto y su reintento sin perder las demás.
+- [ ] **1B.1-02A** Preparar miniaturas y versiones de detalle saneadas para el catálogo, con estados de carga y reintento por foto. Probar la limpieza de una carga incompleta en MinIO según la política definida.
 - [ ] **1B.1-03** Implementar vista previa con la proyección que será pública. Mostrar campos faltantes y el contexto del publicante. Verificar la visibilidad privada del borrador y sus fotos.
+- [ ] **1B.1-03A** Verificar por contrato la diferencia entre la respuesta pública y la privada. Probar que un visitante solo recibe los campos autorizados y fotos de la revisión visible, incluso al abrir directamente el enlace de un borrador.
 - [ ] **1B.1-04** Congelar una revisión completa al enviar una publicación básica. Ponerla en revisión, comprobar aprobación mediante el adaptador de prueba y activarla una sola vez con el identificador de revisión correcto.
 - [ ] **1B.1-05** Implementar catálogo público paginado, filtros de ciudad y origen del publicante, ficha compartible y estados de carga, vacío y error. Probar acceso directo, recarga y restauración de filtros.
+- [ ] **1B.1-05A** Comprobar orden y paginación estable del catálogo con dos ciudades, ambos orígenes, varios anuncios y cambios de filtro. Verificar que las páginas se reinician al cambiar de ciudad y que el listado mantiene su estado al volver de la ficha.
 - [ ] **1B.1-06** Implementar el retiro de visibilidad según los estados aprobados. Verificar que el historial se conserva y que el catálogo y la ficha aplican la misma regla de acceso.
+- [ ] **1B.1-06A** Implementar la vista de publicaciones propias con estado, fecha y acción disponible por anuncio. Probar el cierre o retiro previsto y que el autor conserva acceso a su historial y al resultado de revisión.
+- [ ] **1B.1-06B** Probar una ficha con enlace válido, un anuncio cerrado y una publicación de otra ciudad. Mostrar un estado de no disponibilidad y una acción de regreso al catálogo cuando corresponda.
 - [ ] **1B.1-07** Demostrar desde Flutter que una persona crea una adopción básica, carga fotos, la envía, la ve aprobada y la encuentra solo en los filtros que corresponden. Guardar el E2E y las capturas de borrador, ficha y resultados.
 
 ### 1B.2 Moderación, correcciones y contacto
 
 - [ ] **1B.2-01** Implementar un contrato de moderación por revisión con texto, todas las fotos y texto visible en fotos. Enviar contenido saneado y registrar versión de reglas, entradas y resultados estructurados.
+- [ ] **1B.2-01A** Validar la respuesta estructurada del proveedor contra los identificadores de la revisión, texto y cada foto. Probar resultado incompleto, ilegible o contradictorio y asegurar que llega a la ruta de revisión que corresponde.
 - [ ] **1B.2-02** Implementar resultados aprobado, correcciones requeridas, rechazado y revisión manual. Probar rechazo por contenido sexual o vulgar, imagen ausente y respuesta incierta o fallo persistente.
+- [ ] **1B.2-02A** Hacer recuperable el trabajo de revisión tras reiniciar el worker. Probar reintentos acotados, duplicados de la misma revisión y escalamiento manual al agotarlos. Registrar un resultado vigente por revisión.
 - [ ] **1B.2-03** Implementar corrección por campo o foto, nueva revisión y reenvío. Probar que una aprobación tardía de la revisión anterior conserva la privacidad de la revisión pendiente.
+- [ ] **1B.2-03A** Diseñar la pantalla de correcciones con motivo, campo o número de foto y acción para corregir. Probar reenvío conservando los campos válidos y comprobar que el contenido sin aprobar sigue privado.
 - [ ] **1B.2-04** Implementar cola de Superadmin para revisar la revisión exacta, decidir con motivo y registrar auditoría. Probar separación entre permisos de publicación y de moderación.
+- [ ] **1B.2-04A** Filtrar la cola administrativa por estado y ciudad, mostrando el tiempo de espera y la revisión exacta. Probar decisiones concurrentes y conservar actor, motivo y estado resultante en auditoría.
 - [ ] **1B.2-05** Integrar el canal de contacto acordado para adopciones. Permitir que un visitante llegue a la acción y conservar el contexto si requiere iniciar sesión. Validar quién puede consultar y gestionar los datos de cada solicitud si se usa ese flujo.
+- [ ] **1B.2-05A** Probar desde un enlace compartido el recorrido de contacto acordado, incluida autenticación cuando aplique. Verificar confirmación, reintento y acceso restringido al contacto o solicitud según el canal habilitado.
 - [ ] **1B.2-06** Ejecutar E2E de aprobado, corrección, rechazo y resolución manual. Comparar las capturas de cada estado y revisar las instrucciones del autor con usuarios del piloto.
 
 ### 1C.1 Cobros, precios y facturación con proveedores de prueba
 
 - [ ] **1C.1-01** Implementar versiones inmutables de precios y ofertas para premium y renovación Business, incluidos los beneficios de importe cero. Conservar versión, moneda, total, vigencia y actor en cada aceptación.
+- [ ] **1C.1-01A** Administrar precios por producto, vigencia y Business cuando aplique. Rechazar vigencias incompatibles para el mismo ámbito. Probar una tarifa futura, un descuento y la consulta del importe que un usuario aceptó anteriormente.
 - [ ] **1C.1-02** Mostrar total, duración, prestaciones, condiciones y versión aplicable antes de pagar. Crear la operación de checkout ligada a la revisión o período exacto. Probar un cambio de precio posterior y una oferta vencida.
+- [ ] **1C.1-02A** Hacer idempotente la creación de la operación de checkout. Probar doble clic, reenvío de la misma solicitud tras timeout y conflicto si se reutiliza la clave con un cuerpo diferente.
 - [ ] **1C.1-03** Implementar el adaptador de checkout ePayco y retorno al estado de la operación. Probar pago pendiente, cancelación o fallo de la sesión y retorno tras recargar el navegador.
+- [ ] **1C.1-03A** Hacer reanudable la pantalla de estado mediante la referencia interna. Probar retorno temprano y cierre de pestaña, y mostrar por separado pago, revisión y factura desde los estados confirmados por el servidor.
 - [ ] **1C.1-04** Verificar la confirmación ePayco en el servidor y conciliar referencia, importe y moneda. Probar firma inválida, duplicados concurrentes, eventos tardíos y el caso de un segundo cobro real que requiere conciliación.
+- [ ] **1C.1-04A** Simular monto o moneda discrepante, evento pendiente después de confirmado y reinicio entre confirmación y trabajos de seguimiento. Verificar conciliación de excepciones, permanencia del estado confirmado y recuperación sin efectos duplicados.
 - [ ] **1C.1-05** Enviar la revisión premium a moderación tras el pago confirmado. Activar su vigencia al aprobar y mantener pago y precio en correcciones. Probar que el reenvío conserva un solo cobro aplicado.
+- [ ] **1C.1-05A** Probar con reloj controlado el inicio de la vigencia al activar el anuncio y el fin del destacado. Verificar catálogo, ficha y estado del autor con la regla de visibilidad acordada.
 - [ ] **1C.1-06** Implementar renovación mensual manual de Business con la tarifa asignada. Verificar vigencia, pago confirmado, histórico de precios y aplicación idempotente a un solo período.
+- [ ] **1C.1-06A** Mostrar vigencia, beneficio, siguiente precio y acción de renovación en el perfil Business. Probar confirmaciones repetidas y dos intentos simultáneos para que se aplique un solo período y se preserve su precio aceptado.
 - [ ] **1C.1-07** Implementar captura de datos fiscales permitidos, emisión, entrega y consulta autorizada de factura. Probar error fiscal y reintento sin repetir el cobro ni cambiar la visibilidad del anuncio.
+- [ ] **1C.1-07A** Ante un resultado fiscal incierto, recuperar el estado por la referencia de la operación antes de volver a emitir. Probar que el dueño puede consultar la factura y que otro usuario recibe la denegación prevista.
 - [ ] **1C.1-08** Implementar devolución autorizada y ajuste fiscal según la política acordada. Conservar el vínculo con el pago y conciliar la operación original al reintentar.
+- [ ] **1C.1-08A** Conciliar el importe del cobro original, la devolución, el estado del proveedor y el ajuste fiscal aplicable. Probar reenvío de una devolución pendiente y registrar la evidencia de un único resultado aplicado.
 - [ ] **1C.1-09** Ejecutar E2E de compra premium, corrección y factura, renovación Business y recuperación de fallos. Verificar en la base aislada un solo pago aplicado y los vínculos de revisión, precio, términos y factura.
 
 ### 1C.2 Pruebas de proveedores en entornos autorizados
 
 - [ ] **1C.2-01** Configurar credenciales de prueba por ambiente, retorno web, confirmación ePayco y referencia de conciliación. Validar que el retorno y la confirmación se pueden recibir en cualquier orden.
+- [ ] **1C.2-01A** Validar al arrancar la selección de adaptadores por ambiente y bloquear los adaptadores de prueba en producción. Verificar la configuración de retorno y confirmación desde el servicio autorizado y registrar referencias sin secretos.
 - [ ] **1C.2-02** Ejecutar en el entorno autorizado de ePayco una compra, confirmación de servidor y conciliación de estado. Conservar evidencia redactada del resultado.
+- [ ] **1C.2-02A** Reproducir en pruebas una sesión de pago pendiente y una confirmación final. Guardar la secuencia de estados de checkout, consulta de referencia y revisión asociada, con evidencia redactada.
 - [ ] **1C.2-03** Validar el emisor fiscal configurado y probar factura, consulta, error y ajuste aplicable en el entorno de pruebas disponible.
+- [ ] **1C.2-03A** Registrar las capacidades confirmadas del entorno fiscal para identificación, emisión, consulta y ajuste. Documentar con el responsable fiscal cualquier operación que necesite un flujo alterno antes de habilitarla.
 - [ ] **1C.2-04** Validar el proveedor de IA con texto, fotos y texto visible en imágenes. Comprobar resultados completos, timeout y escalamiento manual con material de prueba.
+- [ ] **1C.2-04A** Contrastar los resultados por foto y texto del proveedor con fixtures autorizados. Medir el tiempo de respuesta del caso normal y comprobar qué ve el autor y el administrador cuando se activa la revisión manual.
 - [ ] **1C.2-05** Ensayar la recuperación de un pago o factura pendiente mediante acciones auditadas. Verificar que el reintento conserva la referencia original y la evidencia del proveedor.
 - [ ] **1C.2-06** Registrar el resultado por proveedor, configuración revisada y dependencias pendientes de operación real. Confirmar la política de devoluciones y reglas fiscales antes de habilitar cobros comerciales.
 
 ### 1D Operación, pruebas y salida del piloto
 
 - [ ] **1D-01** Completar panel Superadmin con usuarios registrados, habilitados y activos, filtros por rol, ciudad y período y definición visible de la métrica. Probar permisos y consistencia de los conteos.
+- [ ] **1D-01A** Validar métricas con datos conocidos de registrados, habilitados y activos en distintos períodos. Verificar totales, filtros, deduplicación y ausencia de datos de identidad en métricas y exportaciones operativas.
 - [ ] **1D-02** Completar colas de revisión, altas Business, precios y términos, pagos, facturas y devoluciones. Probar auditoría, búsqueda de la operación y recuperación con datos privados protegidos.
+- [ ] **1D-02A** Probar autenticación reforzada de Superadmin y acceso a operaciones sensibles. Revisar que la auditoría conserva actor, acción, motivo y resultado y que la evidencia oculta datos de facturación, documentos y referencias privadas.
 - [ ] **1D-03** Completar datos del operador, contacto, privacidad y términos para la publicación del piloto. Verificar la versión visible y su vínculo con los consentimientos y las operaciones.
+- [ ] **1D-03A** Probar el acceso a soporte y documentos legales desde una cuenta, un anuncio y una operación con cobro. Ensayar la atención de una solicitud con datos de prueba y verificar quién puede acceder a su historial.
 - [ ] **1D-04** Ejecutar la matriz de pruebas unitarias, integración con PostgreSQL y MinIO, widgets y E2E con tres roles y dos ciudades. Guardar resultados, cobertura de fallos y evidencias de cada flujo crítico.
+- [ ] **1D-04A** Preparar el reporte de salida por flujo con escenario, rol, dispositivo o navegador, comando o ejecución de CI y resultado. Repetir los casos afectados por una corrección y adjuntar evidencia de regresión.
 - [ ] **1D-05** Revisar pantallas clave en tamaños compacto, mediano y amplio. Validar teclado, ampliación de texto, contraste, lector de pantalla, navegación y diferencias visuales. Corregir problemas que impidan completar una tarea.
+- [ ] **1D-05A** Registrar goldens de Bosque y pistacho para búsqueda, ficha, checkout, correcciones y cola administrativa en tamaños aplicables. Revisar pares de texto y fondo, foco y estados con etiquetas. Guardar los diffs que se aprueben.
 - [ ] **1D-06** Reproducir en staging el despliegue de API y web desde las imágenes verificadas. Ensayar migración, restauración y recuperación en el entorno de pruebas. Validar liveness, readiness, conectividad externa, alertas y rollback.
+- [ ] **1D-06A** Restaurar en pruebas una muestra coordinada de PostgreSQL y objetos de MinIO. Abrir una ficha y un archivo privado tras la restauración y comprobar referencias y permisos. Ensayar una recuperación de despliegue con la versión documentada.
+- [ ] **1D-06B** Validar alertas de API, errores de almacenamiento y antigüedad de colas de moderación, pagos y facturas. Simular una operación detenida, seguir el procedimiento de recuperación y registrar el resultado.
 - [ ] **1D-07** Completar el piloto con organizaciones iniciales y publicaciones autorizadas. Medir tiempo a primera publicación, búsquedas sin resultados y conversión a destacado. Registrar problemas de usabilidad y su resolución.
+- [ ] **1D-07A** Observar a un visitante y a publicantes de prueba completar búsqueda, publicación y corrección. Registrar los puntos donde abandonan o requieren ayuda, priorizar correcciones y repetir las tareas afectadas.
 - [ ] **1D-08** Verificar la salida web de fase 1 con E2E, regresión visual, soporte y operación de cobro disponibles para el alcance habilitado. Antes de liberar Android o iOS, ejecutar sus pruebas y confirmar el canal de cobro aplicable.
 - [ ] **1D-09** Registrar versión, commit, resultados, decisiones y dependencias restantes. Actualizar la siguiente tarea de la fase autorizada conforme a los resultados del piloto.
 
@@ -228,6 +276,35 @@ Priorizar los puntos que mejoren publicación, búsqueda y revisión. Los extras
 - Usar recargas para pagos pequeños. Separar el saldo del cliente destinado a compras del saldo de comisiones de Business y de las obligaciones por pagar a terceros. Documentar finalidad, vencimiento si aplica, devoluciones y costo de recaudo y abono. La puesta en marcha requiere validar admisión del proveedor y tratamiento del dinero, facturación y reglas de recarga. [Diseño de recargas](https://github.com/erickvalderrama/it/blob/main/investigaciones/Mascotas-ManosDelBarrio-recargas-2026-11-06.md)
 - La fase queda lista al completar pruebas E2E de un pedido y una reserva con cobro, factura o soporte aplicable, entrega o servicio, comisión, abono y reembolso conciliados. Cubrir conflictos de stock o cupo y reintentos de recarga y abono, según el alcance habilitado.
 
+### 2A Catálogo, inventario y alcance Business
+
+- [ ] **2A-01** Revisar el modelo entidad-relación de catálogo, inventario, pedido, reserva, pago y abono. Registrar las capacidades y roles que se habilitan en cada entrega.
+- [ ] **2A-02** Habilitar la tienda para Business verificados. Probar consulta pública, edición propia y denegación a otra organización.
+- [ ] **2A-03** Crear, editar y publicar artículos con precio, stock y fotos en MinIO. Probar cambios de disponibilidad, vista pública, errores por foto y paginación.
+- [ ] **2A-04** Configurar la cobertura, costo y plazo de domicilio propio por tienda. Probar una dirección dentro de cobertura y otra fuera antes de mostrar el total.
+
+### 2B Pedidos y reservas
+
+- [ ] **2B-01** Mostrar vendedor, artículos, cantidades, domicilio, importe y condiciones en el resumen. Congelar la oferta aceptada y conservar sus referencias en el pedido.
+- [ ] **2B-02** Reservar stock durante la compra y liberarlo al vencer o cancelar. Probar dos compras sobre la última unidad y una confirmación tardía con la regla de conciliación acordada.
+- [ ] **2B-03** Confirmar pago y permitir a la tienda gestionar preparación, entrega y cierre. Probar reenvíos, cambios de estado inválidos y visibilidad del seguimiento para el comprador.
+- [ ] **2B-04** Publicar servicios de baño, lavado o limpieza con alcance, prestador, ubicación, fecha y cupos. Mostrar condiciones y total antes de reservar.
+- [ ] **2B-05** Retener el cupo mientras se confirma el pago. Probar selección simultánea, vencimiento de la retención y pago confirmado después del vencimiento.
+- [ ] **2B-06** Implementar cancelación y devolución según la política aplicable al pedido o reserva. Verificar quién puede ejecutarlas y el efecto en stock, cupo y cobro.
+
+### 2C Abonos y recargas
+
+- [ ] **2C-01** Verificar beneficiario, titularidad y medios admitidos para ePayco Payouts. Mostrar el estado de habilitación y conservar el acceso restringido a soportes.
+- [ ] **2C-02** Calcular importe del prestador, comisión y abono desde la operación original. Probar reintento, confirmación repetida y conciliación del estado del proveedor.
+- [ ] **2C-03** Configurar recargas para compras pequeñas y para comisiones Business conforme a las reglas validadas. Mantener separados el saldo de cada finalidad y las obligaciones a terceros.
+- [ ] **2C-04** Probar recarga, consumo, expiración o devolución según el alcance aprobado. Verificar operaciones concurrentes, reenvíos y saldo final contra el historial.
+
+### 2D Pruebas y salida
+
+- [ ] **2D-01** Ejecutar E2E de pedido con domicilio propio y reserva a domicilio o agendada. Verificar cobro, soporte aplicable, entrega o servicio, comisión, abono y devolución.
+- [ ] **2D-02** Revisar pantallas de tienda, checkout, reserva y operación Business en web y móvil. Guardar goldens con la paleta oficial y pruebas de foco, accesibilidad y estados recuperables.
+- [ ] **2D-03** Ensayar recuperación de un abono pendiente y conciliación de recargas en staging. Registrar versión, evidencia del proveedor y procedimiento de reversión del despliegue.
+
 ## Fase 3. Transporte de mascotas A→B
 
 - Agregar la capacidad de transportista a Business tras la verificación aplicable. Recoger origen A, destino B, mascota, condiciones, hora, responsables, presupuesto y ofertas. El cliente selecciona prestador y acepta alcance y total.
@@ -251,17 +328,47 @@ El ICA indica que la movilización nacional de perros y gatos está exenta del C
 
 Para el piloto, se propone limitar las rutas y especies admitidas y trabajar con un operador cuya habilitación y cobertura se hayan verificado para el servicio definido. Habilitar viajes pagados después de cerrar modalidad, contrato, documentación y protocolo de incidentes.
 
+### 3A Habilitación y alcance del piloto
+
+- [ ] **3A-01** Registrar la validación de modalidad, operador, vehículo, rutas, especies, custodia y cobertura para el servicio definido. Vincular la evidencia aplicable a la habilitación de viajes pagados.
+- [ ] **3A-02** Habilitar capacidad de transportista en Business y verificar identidad, documentación y vigencias aplicables. Probar que solo un Business habilitado puede ofertar.
+- [ ] **3A-03** Configurar las rutas y condiciones del piloto, incluidos requisitos de admisión, responsable de recogida y entrega y protocolo de incidentes.
+- [ ] **3A-04** Revisar el modelo entidad-relación y las reglas de acceso y conservación de solicitudes, ofertas, ubicaciones y eventos de custodia.
+
+### 3B Solicitud, ofertas y contratación
+
+- [ ] **3B-01** Crear la solicitud con origen y destino en mapa, datos de mascota, hora, condiciones y presupuesto. Validar ruta y disponibilidad y explicar cómo corregir puntos inválidos.
+- [ ] **3B-02** Permitir aceptar el presupuesto o presentar contraofertas con alcance, precio y vigencia. Probar oferta vencida, cambio de monto y selección simultánea.
+- [ ] **3B-03** Registrar una sola aceptación con prestador, total y condiciones congelados. Proteger direcciones exactas y contactos para las partes autorizadas.
+- [ ] **3B-04** Ejecutar el cobro confirmado y conservar precio, comisión y remuneración. Probar timeout, confirmación repetida y consulta de estado tras reabrir el flujo.
+
+### 3C Recogida, seguimiento y entrega
+
+- [ ] **3C-01** Confirmar recogida y entrega con los participantes autorizados y registrar actor, hora y estado. Probar acciones repetidas y fuera de orden.
+- [ ] **3C-02** Iniciar el seguimiento con permiso explícito durante el viaje. Mostrar el último punto autorizado y su hora en web y móvil.
+- [ ] **3C-03** Probar Android e iOS en segundo plano y con pantalla bloqueada. Cubrir permiso denegado o revocado, pérdida de conexión y recuperación con un estado comprensible.
+- [ ] **3C-04** Detener el seguimiento al completar o cancelar. Verificar permisos tras el cierre y conservar solo la información prevista por la política aprobada.
+- [ ] **3C-05** Permitir registrar cancelación o incidente por el canal acordado. Ensayar el acceso de soporte a la operación y el registro de atención.
+
+### 3D Conciliación, pruebas y salida
+
+- [ ] **3D-01** Conciliar pago, recarga aplicable, cargo de Mascotas, remuneración, abono y devolución. Probar reintentos y permisos sobre cada operación.
+- [ ] **3D-02** Ejecutar E2E de solicitud, contraoferta, aceptación, cobro, recogida, entrega y conciliación. Incluir cancelación, mala señal y ubicación no disponible.
+- [ ] **3D-03** Revisar mapas, ofertas y seguimiento en las plataformas habilitadas. Guardar capturas y resultados de accesibilidad y de las comprobaciones específicas de móvil.
+- [ ] **3D-04** Verificar habilitación aplicable, soporte y recuperación con el operador del piloto. Registrar versión desplegada y evidencias antes de abrir los viajes pagados.
+
 ## Registro de avance
 
 Registrar cada cierre o bloqueo por ID, con fecha, estado y evidencia reproducible. Para una prueba, incluir comando o ejecución de CI y resultado. Para un cambio visual, adjuntar la captura o el diff. Para un bloqueo, indicar la dependencia concreta y el siguiente trabajo disponible.
 
 | Fecha | Tarea | Estado | Evidencia |
 | --- | --- | --- | --- |
-| 2026-11-11 | 1.0-01 | Verificada | [Memoria](https://github.com/erickvalderrama/it/blob/main/prompts/Mascotas-CLAUDE.md) · [Especificación](https://github.com/erickvalderrama/it/blob/main/prompts/mascotas/phase-1-specification.md) |
+| 2026-11-11 | 1.0-01 | Verificada | [Memoria](https://github.com/erickvalderrama/it/blob/main/CLAUDE.md) · [Especificación](https://github.com/erickvalderrama/it/blob/main/prompts/mascotas/phase-1-specification.md) |
 | 2026-11-11 | 1.0-02 | Verificada | [Catálogo DANE y fuentes](https://github.com/erickvalderrama/it/blob/main/prompts/mascotas/data/README.md) · [Departamentos](https://github.com/erickvalderrama/it/blob/main/prompts/mascotas/data/colombia-departments.csv) · [Localidades](https://github.com/erickvalderrama/it/blob/main/prompts/mascotas/data/colombia-divipola-localities.csv) |
 | 2026-11-11 | 1.0-03 | Verificada como borradores | [Términos](https://github.com/erickvalderrama/it/blob/main/prompts/mascotas/legal/terms-and-conditions.md) · [Privacidad](https://github.com/erickvalderrama/it/blob/main/prompts/mascotas/legal/privacy-policy.md) |
 | 2026-11-11 | 1.0-04 | Pendiente de ubicación | El repositorio de aplicación aún no está identificado en la memoria. |
 | 2026-11-11 | 1.0-05 | Pendiente del modelo | La ruta del modelo entidad-relación aprobado sigue pendiente en la memoria. |
+| 2026-11-11 | 1.0-06 | Verificada como decisión de diseño | [Memoria principal](https://github.com/erickvalderrama/it/blob/main/CLAUDE.md#uiux-and-flutter-interface-for-web-and-mobile) · [Tokens oficiales](https://github.com/erickvalderrama/it/blob/main/prompts/mascotas/phase-1-specification.md#official-light-theme) |
 
 ## Preguntas para el cierre de la ejecución
 

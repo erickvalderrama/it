@@ -1,6 +1,6 @@
 # Mascotas Phase 1 implementation specification
 
-Use this specification with the project memory and work plan. [Project memory](https://github.com/erickvalderrama/it/blob/main/prompts/Mascotas-CLAUDE.md) · [Work plan](https://github.com/erickvalderrama/it/blob/main/prompts/mascotas/work-plan.md)
+Use this specification with the project memory and work plan. [Project memory](https://github.com/erickvalderrama/it/blob/main/CLAUDE.md) · [Work plan](https://github.com/erickvalderrama/it/blob/main/prompts/mascotas/work-plan.md)
 
 Phase 1 delivers adoption discovery and publishing, premium checkout, Business enrollment and membership, and the tools to operate them. Start the Colombia pilot with responsive web checkout and shared Flutter screens for web, Android, and iOS.
 
@@ -180,19 +180,19 @@ Use concise copy that states the current result and next action. Example English
 
 Observe pilot users completing discovery, publication, and correction with representative data. Include a first-time visitor and individual or Foundation publishers. Record where they hesitate or abandon the task, then fix blockers in the affected flow. Use keyboard and screen reader checks on the live interface alongside screenshot comparisons.
 
-### Proposed light theme
+### Official light theme
+
+**Bosque y pistacho** is the approved light palette for Mascotas. Use the same tokens in the web and mobile Flutter layouts. [Project memory](https://github.com/erickvalderrama/it/blob/main/CLAUDE.md#uiux-and-flutter-interface-for-web-and-mobile)
 
 | Token | Color | Use |
 | --- | --- | --- |
-| `primary` | `#0F766E` | Primary actions and selected controls, with white labels on filled buttons. |
-| `primaryPressed` | `#115E59` | Pressed primary action. |
-| `accent` | `#B5472A` | Featured labels and accent details. |
-| `accentContainer` | `#FFF1EB` | Subtle featured-label background with terracotta text. |
-| `canvas` | `#FFF8F1` | Warm screen background. |
-| `surface` | `#FFFFFF` | Cards, forms, and dialogs. |
-| `onSurface` | `#18322F` | Main text on the canvas and surfaces. |
+| `primary` | `#2B5735` | Forest green for primary actions, active navigation, and selected controls. |
+| `accentContainer` | `#D7EC9E` | Pistachio background for featured listings and related highlights. |
+| `canvas` | `#F5F8EE` | Light green background for screens. |
+| `surface`, `onPrimary` | `#FFFFFF` | Cards, inputs, dialogs, and labels on filled primary buttons. |
+| `onSurface`, `onAccentContainer` | `#243329` | Dark green text and icons on screens, surfaces, and featured labels. |
 
-Use these values as design-system tokens for the first prototype. White on primary is 5.47:1 and terracotta on the accent container is 4.88:1. Verify the final text and background pairs, focus indicators, and status treatments in the implemented screens. Give each status an explicit label and use semantic colors consistently. [WCAG text contrast](https://www.w3.org/WAI/WCAG22/Understanding/contrast-minimum.html)
+White on primary is 8.34:1 and dark green on pistachio is 10.36:1. Verify the implemented text pairs, focus indicators, and semantic status colors. Give each status an explicit label and check the palette in the visual regression tests. [WCAG text contrast](https://www.w3.org/WAI/WCAG22/Understanding/contrast-minimum.html)
 
 ## Flutter screens and interactions
 

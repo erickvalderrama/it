@@ -53,7 +53,7 @@ Nuestra ventaja y filtro frente a LLM gratuitos:
 - Diferencia por validar: panaderías concretas con excedentes recurrentes y condiciones útiles que los compradores aún no encuentren en otros canales.
 - Comparar con un asistente gratuito más Cheaf, WhatsApp y ofertas públicas. Si ya permite conseguir los mismos paquetes de forma equivalente, descartar.
 - Nivel de océano azul: BAJO. La oportunidad local y la disposición de los comercios siguen pendientes.
-- Comparación documental con CLAUDE.md; no se hicieron compras ni pruebas de cobertura.
+- Comparación documental con claude-ideas.md; no se hicieron compras ni pruebas de cobertura.
 
 Riesgos:
 - Calidad, conservación, ingredientes y alérgenos: revisar protocolos y responsabilidades antes de operar. Una foto no demuestra aptitud para consumo.

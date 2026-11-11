@@ -50,7 +50,7 @@ Nuestra ventaja y filtro frente a LLM gratuitos:
 - El valor adicional tendría que ser una red que aporte precios recientes de otras tiendas que el comprador todavía no conoce.
 - No afirmar que esos datos nunca aparecen en internet: Google permite publicar precios e inventario local gratuitamente.
   https://support.google.com/merchants/answer/14869424
-- Comparación documental con las capacidades registradas en CLAUDE.md; sin prueba práctica. Antes del piloto, comparar una misma cesta con asistentes gratuitos, buscadores, Open Prices y competidores.
+- Comparación documental con las capacidades registradas en claude-ideas.md; sin prueba práctica. Antes del piloto, comparar una misma cesta con asistentes gratuitos, buscadores, Open Prices y competidores.
 - Si ya ofrecen gratis precios equivalentes y suficientemente recientes de esas tiendas, descartar. Los datos abiertos no deben presentarse como exclusivos.
 - Nivel de océano azul: BAJO. La posible diferencia es cobertura comprobada de pequeños comercios; todavía no existe ni está validada.
 

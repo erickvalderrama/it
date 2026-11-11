@@ -22,7 +22,7 @@ Decisiones técnicas e inicio del desarrollo — 6 de noviembre de 2026:
 - Archivos de código fuente MENORES DE 700 LÍNEAS: máximo 699, incluidos widgets, páginas, pruebas y migraciones; contar comentarios y líneas vacías. Extraer responsabilidades sin minificar ni hacer divisiones artificiales.
 - REGLA DE ORO: respetar el MODELO ENTIDAD-RELACIÓN aprobado. No inventar tablas, campos, claves o relaciones para resolver pantallas o imponer patrones. Si un cambio está autorizado, actualizar modelo, mapeos y migración de manera coordinada.
 - El modelo aún no se aportó en este repositorio; su ruta en la plantilla queda PENDIENTE DE IDENTIFICAR. No crear un esquema ficticio ni confundir los módulos del alcance con autorización para nuevas tablas.
-- Plantilla lista para el CLAUDE.md del futuro proyecto: prompts/Mascotas-CLAUDE.md. No sustituye la memoria del repositorio general de ideas.
+- La memoria principal de Mascotas está en CLAUDE.md, en la raíz del repositorio. Las reglas de ideación y evaluación están en claude-ideas.md.
 - En fase 3 validar seguimiento durante un transporte activo con pantalla bloqueada, permisos, batería y pérdida de conexión en Android/iOS. Flutter requiere capacidades nativas y pruebas por plataforma.
 
 Fuentes de referencia técnica documentadas durante la comparación:

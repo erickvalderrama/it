@@ -57,7 +57,7 @@ Nuestra ventaja y filtro frente a LLM gratuitos:
   https://www.wireguard.com/
 - Diferenciación por validar: mejor recuperación en las conexiones del piloto y un cupo útil para llamadas frecuentes, con costos sostenibles.
 - Nivel de océano azul: BAJO. Necesita operación fuera del LLM, pero la ventaja frente a opciones gratuitas y de pago sigue pendiente.
-- Comparación documental con la referencia de CLAUDE.md; todavía no se realizó prueba práctica.
+- Comparación documental con la referencia de claude-ideas.md; todavía no se realizó prueba práctica.
 
 Riesgos:
 - Dos conexiones pueden fallar juntas o tener mala cobertura.

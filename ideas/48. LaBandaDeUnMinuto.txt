@@ -55,7 +55,7 @@ Nuestra ventaja y filtro frente a LLM gratuitos:
 - Diferencia por validar: un reto de coordinación inmediato y divertido para personas sin experiencia musical.
 - Comparar con un asistente gratuito más Shared Piano, WEJAM y otros juegos. Si permiten conseguir un resultado equivalente, descartar.
 - Nivel de océano azul: BAJO. La música compartida tiene opciones gratuitas y consolidadas.
-- Comparación documental con CLAUDE.md; no se realizaron partidas ni pruebas prácticas de equivalencia.
+- Comparación documental con claude-ideas.md; no se realizaron partidas ni pruebas prácticas de equivalencia.
 
 Riesgos:
 - Retrasos o diferencias entre equipos pueden volver injusta la puntuación.

@@ -50,7 +50,7 @@ Competidores en el mundo:
 
 Nuestra ventaja y filtro frente a LLM gratuitos:
 - El resultado exige reportes auténticos, geolocalizados y recientes de otras personas, con hora y caducidad. Un LLM puede procesarlos, generar el mapa o conectarse a servicios; no puede inventar observaciones fiables de conductores.
-- La referencia de capacidades gratuitas está en CLAUDE.md. Se revisaron documentos de los competidores, sin prueba práctica de cobertura ni comparación de campo con asistentes gratuitos.
+- La referencia de capacidades gratuitas está en claude-ideas.md. Se revisaron documentos de los competidores, sin prueba práctica de cobertura ni comparación de campo con asistentes gratuitos.
 - Un asistente que use una red externa depende de esa red. Si ya ofrece gratis avisos equivalentes y suficientes en la zona, no habría razón para construir otra.
 - La ventaja posible sería una comunidad local con datos realmente útiles. No está conseguida: una web sencilla o estar en Santa Marta no bastan.
 - Nivel de océano azul: BAJO por competencia directa internacional. La oportunidad local sigue pendiente de validación.

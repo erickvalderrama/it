@@ -80,7 +80,7 @@ Océano azul: BAJO. Buscador de belleza, reseñas, venta multitienda y descubrim
 Hipótesis por probar: reunir tiendas locales que mantengan catálogo y stock fiable, precios finales comparables, recogida cercana y tops transparentes.
 Filtro frente a LLM gratuitos: un asistente puede buscar productos, comparar tiendas y opiniones y usar comercios conectados. Los tops y las recomendaciones por sí solos no superan ese filtro.
 La diferencia exige inventario real comprometido, una compra aceptada por la tienda, seguimiento y entrega. Comparar con asistente gratuito + tiendas directas + Rappi/Falabella/Fresha; si el resultado ya es equivalente, descartar ese alcance.
-El filtro se basa en CLAUDE.md y documentación de competidores; no se hizo una prueba práctica exhaustiva ni se validó una ventaja exclusiva.
+El filtro se basa en claude-ideas.md y documentación de competidores; no se hizo una prueba práctica exhaustiva ni se validó una ventaja exclusiva.
 
 9. Riesgos
 Catálogo o stock desactualizado, tonos mal descritos, productos de origen dudoso o vencidos, entregas, cancelaciones y devoluciones; revisar información y requisitos aplicables por producto sin garantizar seguridad por una reseña.

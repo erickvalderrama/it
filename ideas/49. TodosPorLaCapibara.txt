@@ -54,7 +54,7 @@ Nuestra ventaja y filtro frente a LLM gratuitos:
 - Diferencia por validar: entrar desde el celular, entender tres botones y participar en momentos colectivos graciosos.
 - Comparar con un asistente gratuito más juegos existentes. Si ya proporcionan una experiencia equivalente, descartar; cambiar únicamente la mascota no basta.
 - Nivel de océano azul: BAJO. El personaje, el humor y la calidad del juego tendrían que ganarse a los usuarios.
-- Comparación documental con CLAUDE.md; no se realizó prueba práctica con jugadores ni asistentes gratuitos.
+- Comparación documental con claude-ideas.md; no se realizó prueba práctica con jugadores ni asistentes gratuitos.
 
 Riesgos:
 - Un grupo puede sabotear el recorrido o hacer que quede atascado. Probar recuperaciones y avances cortos.

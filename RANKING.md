@@ -10,7 +10,7 @@ Este es el archivo vigente para consultar y actualizar el ranking del repositori
 - Comparar cada idea nueva o modificada con las finalistas. Actualizar su valoración aunque no entre al top 10; cambiar posiciones cuando haya razones registradas.
 - Mantener fecha, número de ideas evaluadas, enlaces, criterios, riesgos, fuentes y pruebas pendientes. Conservar los números originales de las ideas.
 - Registrar por qué entra, sale, sube o baja una idea. Distinguir hipótesis de entrevistas, pagos y resultados observados; no inventar validación.
-- Revalidar fuentes cuando el cambio dependa de precios, competencia o capacidades de asistentes gratuitos. Leer las preferencias vigentes en [CLAUDE.md](CLAUDE.md).
+- Revalidar fuentes cuando el cambio dependa de precios, competencia o capacidades de asistentes gratuitos. Leer las preferencias vigentes en [claude-ideas.md](claude-ideas.md).
 - El historial de Git conserva cada versión. Los documentos fechados de evaluación son antecedentes y no reemplazan este archivo vigente.
 
 ## Registro de revisiones
@@ -48,7 +48,7 @@ No se aceptaron como prueba las frases antiguas «no existe», «sin competencia
 
 ## Proyecto seleccionado por el usuario
 
-Mascotas usa C# con .NET, PostgreSQL y Flutter para web, Android e iOS, con Riverpod como opción inicial. El proyecto exige arquitectura limpia, código en inglés, textos base en constantes, máximo 699 líneas por archivo, pruebas unitarias y seguridad. El modelo entidad-relación aprobado gobierna la persistencia. [Idea 1](ideas/1.%20Mascotas.txt) · [CLAUDE.md de Mascotas](prompts/Mascotas-CLAUDE.md)
+Mascotas usa C# con .NET, PostgreSQL y Flutter para web, Android e iOS, con Riverpod como opción inicial. El proyecto exige arquitectura limpia, código en inglés, textos base en constantes, máximo 699 líneas por archivo, pruebas unitarias y seguridad. El modelo entidad-relación aprobado gobierna la persistencia. [Idea 1](ideas/1.%20Mascotas.txt) · [CLAUDE.md de Mascotas](CLAUDE.md)
 
 La fase 1 lanza adopciones multicidad, cobro premium con ePayco antes de moderación y facturación electrónica. Superadmin, User y Business pueden pagar destacados. Tienda y fundación comparten el rol Business, con alta promocional y mensualidad asignada. La fase 2 habilita tiendas, servicios, recargas y Payouts. La fase 3 habilita transporte A→B tras su validación legal. [Plan de trabajo](prompts/mascotas/work-plan.md) [Términos](prompts/mascotas/legal/terms-and-conditions.md) · [Privacidad](prompts/mascotas/legal/privacy-policy.md)
 
@@ -185,7 +185,7 @@ Fuentes documentales del 6 de noviembre: https://www.cromantic.com/tiendas ; htt
 
 ## Filtro de LLM gratuitos
 
-Se aplicó el marco guardado en CLAUDE.md, incluidas fuentes oficiales de planes y la actualización del 6 de noviembre sobre contratación mediante Airtasker en ChatGPT. No se realizaron aquí pruebas prácticas exhaustivas de todos los asistentes, planes o cuentas.
+Se aplicó el marco guardado en claude-ideas.md, incluidas fuentes oficiales de planes y la actualización del 6 de noviembre sobre contratación mediante Airtasker en ChatGPT. No se realizaron aquí pruebas prácticas exhaustivas de todos los asistentes, planes o cuentas.
 
 Descartar la versión actual cuando su resultado central consiste en leer fotos/PDF, resumir, redactar, comparar documentos, calcular, practicar conversación o generar un archivo sencillo ya obtenible con alternativas gratuitas. En casos condicionados por cuenta o herramientas, comprobar equivalencia antes de concluir; un LLM no necesita ofrecer herramientas ilimitadas para ser competencia.
 
@@ -288,6 +288,6 @@ Consultadas documentalmente el 6 de noviembre de 2026, salvo el dossier de pagos
 - S15. Cheaf Colombia, cómo funciona: https://www.cheaf.com/co/como-funciona
 - S16. Claude Free, capacidades del plan: https://claude.com/pricing
 - S17. Airtasker, integración con ChatGPT; disponibilidad anunciada en Australia, Reino Unido y EE. UU.; plan gratuito y Colombia no confirmados: https://support.airtasker.com/hc/en-gb/articles/61373201542937-How-to-get-things-done-with-Airtasker-on-ChatGPT
-- S18. Marco completo y fuentes de capacidades de asistentes: [CLAUDE.md](CLAUDE.md).
+- S18. Marco completo y fuentes de capacidades de asistentes: [claude-ideas.md](claude-ideas.md).
 
 Limitaciones de cobertura: no se hicieron llamadas a negocios, búsquedas de inventario en cuentas autenticadas, solicitudes de cotización, compras de prueba ni auditoría legal o fiscal de los modelos. La decisión siguiente es comprobar una oferta concreta y su economía con participantes reales.

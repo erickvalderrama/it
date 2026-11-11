@@ -57,7 +57,7 @@ Nuestra ventaja y filtro frente a LLM gratuitos:
 - Si esa combinación da una recuperación equivalente, descartar para ese segmento. Una pantalla más sencilla no basta.
 - La diferencia comercial tendría que ser una operación mantenida y comprobada para personas cuyas necesidades no queden cubiertas gratuitamente.
 - Nivel de océano azul: BAJO. No se ha demostrado una ventaja frente a proveedores de respaldo existentes.
-- Comparación documental con CLAUDE.md; no se construyó ni probó el servicio.
+- Comparación documental con claude-ideas.md; no se construyó ni probó el servicio.
 
 Riesgos:
 - Una copia incompleta o una clave perdida pueden impedir recuperar archivos. Probar reinstalación y recuperación antes de aceptar datos importantes.

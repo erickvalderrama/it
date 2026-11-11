@@ -53,7 +53,7 @@ Nuestra ventaja y filtro frente a LLM gratuitos:
 - Comparar con un asistente, un contador gratuito, un grupo de WhatsApp y los juegos anteriores. Si esa combinación ya ofrece el resultado que buscan, descartar.
 - Diferencia por validar: decisiones sencillas sobre un pueblo que todos sienten suyo, con sesiones breves y aportes desde sus rutinas.
 - Nivel de océano azul: BAJO. Necesita ejecución fuera del chat, pero aún debe demostrar valor frente a juegos gratuitos consolidados.
-- Comparación documental con CLAUDE.md; no se probó el juego ni la equivalencia práctica con asistentes gratuitos.
+- Comparación documental con claude-ideas.md; no se probó el juego ni la equivalencia práctica con asistentes gratuitos.
 
 Riesgos:
 - Sensores, permisos o servicios del teléfono pueden impedir contar o sincronizar pasos.

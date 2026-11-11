@@ -54,7 +54,7 @@ Nuestra ventaja y filtro frente a LLM gratuitos:
 - Si el asistente consulta una fuente gratuita con llegadas fiables para esa ruta, puede resolver la necesidad: hay que contar esa alternativa.
 - Antes de desarrollar, comparar Moovit gratuito y otras fuentes en las mismas paradas, horas y días. Si ya son suficientemente fiables, descartar esa ruta y no fabricar una carencia.
 - Posible diferencia: cobertura comunitaria comprobada en una ruta donde falten datos. Sigue pendiente de validación.
-- Nivel de océano azul: BAJO. Comparación documental con las capacidades de CLAUDE.md; no se realizó prueba práctica.
+- Nivel de océano azul: BAJO. Comparación documental con las capacidades de claude-ideas.md; no se realizó prueba práctica.
 
 Riesgos:
 - Sin pasajeros que compartan, no hay información reciente. No sustituirla por un bus inventado avanzando en el mapa.
