@@ -8,10 +8,17 @@ Read the existing code and approved model before starting. For each change, iden
 
 For Phase 1, use the implementation specification for the build order, proposed API and data contracts, UI/UX journeys, and acceptance scenarios. Bring a copy into the application repository at docs/specifications/phase-1.md and use the approved model for persistence. [Phase 1 implementation specification](https://github.com/erickvalderrama/it/blob/main/prompts/mascotas/phase-1-specification.md)
 
+### Work plan execution and handoff
+
+Track execution in the application's `docs/planning/work-plan.md`. Read the current checklist, specification, repository instructions, and code before starting. Resume from the first runnable unchecked task in the requested phase. [Work plan template](https://github.com/erickvalderrama/it/blob/main/prompts/mascotas/work-plan.md)
+
+Complete the task through its normal entry points, run the relevant checks, mark `[x]` after verification, and record evidence in the plan. Continue through the available tasks in order. Record reversible assumptions and keep blocked tasks unchecked with their dependency. Proceed with independent authorized work. After exhausting runnable tasks, report the next step and group any questions that need the owner's input.
+
 ## Project and stack
 
 Build the requested change in small, verifiable increments. Mascotas connects people with adoption foundations, independent pet service providers, and pet supply stores.
-Use C# with ASP.NET Core Web API, PostgreSQL, Entity Framework Core, and Npgsql.
+Use C# with ASP.NET Core Web API, PostgreSQL, Entity Framework Core, and Npgsql. Connect to the existing external PostgreSQL server.
+Use Dockerfiles and Docker Compose for the API and Flutter web, and include a worker service when the application needs a separate process. Connect the backend to the owner's external MinIO server for object storage. Inject environment-specific credentials at runtime on the server.
 Use one Flutter and Dart application for web, Android, and iOS. Use Riverpod as the initial state management choice and respect a state solution already approved for the project.
 Check existing dependency versions and official compatibility guidance before introducing or upgrading packages.
 
@@ -159,7 +166,7 @@ Use the reviewed versions at docs/legal/terms-and-conditions.md and docs/legal/p
 ## Required tests and delivery checks
 
 Write unit tests in C# and Dart for new and changed behavior. Cover role and ownership rules, use cases, Riverpod state transitions, monetary calculations, membership eligibility, location validation, per-image and text moderation, sexual and vulgar content rejection, corrections with the original payment, price and Terms version changes, listing activation, refunds, invoice retry, booking, cancellation, and duplicate notifications when touched.
-Run API and persistence integration tests against disposable PostgreSQL for authorization across resources, API contracts, migrations, constraints, transactions, and concurrent writes. Use Flutter widget tests for responsive components, validation, accessibility semantics, and recoverable UI states. Add a regression test for each fixed defect at the most direct layer that reproduces it.
+Run API and persistence integration tests in an isolated test database on the authorized external PostgreSQL service for authorization, contracts, migrations, constraints, transactions, and concurrent writes. Use an isolated MinIO test bucket or prefix for storage integration and reset fixtures only on validated test targets. Use Flutter widget tests for responsive components, validation, accessibility semantics, and recoverable UI states. Add a regression test for each fixed defect at the most direct layer that reproduces it.
 
 ### End-to-end flow tests
 

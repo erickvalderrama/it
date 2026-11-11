@@ -10,7 +10,7 @@ The routes, field names, state values, limits, and payloads below are implementa
 
 | Slice | Build and demonstrate | Dependency |
 | --- | --- | --- |
-| 1A.1 Project bootstrap | Start the API and Flutter web from a fresh clone. Expose a health endpoint, connect the first Flutter screen, publish the API contract, and run CI with a synthetic fixture. | Pin the toolchain and environment configuration. |
+| 1A.1 Project bootstrap | Build and start the API and Flutter web containers from a fresh clone. Expose health endpoints, connect the first Flutter screen, publish the API contract, and run CI with a synthetic fixture. | Pin the toolchain and set the external service configuration for integration checks. |
 | 1A.2 Access and locations | Select a Colombian city, register, sign in, change city, and accept the current terms. Reopen an existing operation after terms change. | Approved identity, location, and consent mappings for persistence. |
 | 1A.3 Business enrollment | Convert an existing account to a Foundation or Store profile. Demonstrate the same account, private Store documents, verification, and promotion status. | Approved organization and membership mappings. |
 | 1B.1 Basic adoption | Create a draft, upload photos, preview, submit a revision, pass simulated moderation, then find the listing using city and publisher filters. | Approved listing, media, and revision mappings. |
@@ -28,13 +28,25 @@ Use one ticket per testable slice. Write the expected user outcome, the contract
 | Backend | `src/Mascotas.Domain`, `src/Mascotas.Application`, `src/Mascotas.Infrastructure`, and `src/Mascotas.Api`. Group use cases by feature within each layer. |
 | Flutter | `apps/mascotas_app/lib/app` for bootstrap, routing, and theme. Use `lib/core` for shared HTTP and UI components and `lib/features` for auth, locations, adoptions, Business, checkout, legal, and administration. |
 | Tests | `tests` for .NET unit and API/PostgreSQL integration suites. Use Flutter `test` for Dart and widget tests and `integration_test` for user journeys. |
-| Contracts and setup | Keep the OpenAPI contract, this specification, and run instructions in version control. Provide documented local configuration, a disposable PostgreSQL service, fixture setup, and a reproducible CI build. Use Docker Compose for PostgreSQL when it fits the existing development setup. |
+| Contracts and setup | Keep the OpenAPI contract, this specification, Dockerfiles, Docker Compose, and run instructions in version control. Connect to the existing PostgreSQL and self-hosted MinIO services with separate test scopes and reproducible fixtures. |
 
-- Pin the approved .NET SDK, EF Core and Npgsql combination, Flutter SDK, and PostgreSQL major version. Match the database major version in local integration tests and staging. Keep project dependencies and lockfiles reproducible.
-- Document PowerShell-compatible and shell-compatible commands for restore, starting local services, applying approved development migrations, loading fixtures, launching API and Flutter, and running each test suite. Verify them from a clean checkout.
+- Pin the approved .NET SDK, EF Core and Npgsql combination, and Flutter SDK. Record the existing PostgreSQL major version and exercise compatibility on authorized test databases. Keep project dependencies and lockfiles reproducible.
+- Document PowerShell-compatible and shell-compatible commands for restore, building and starting app containers, connecting to external services, applying approved development migrations, loading fixtures, and running each test suite. Verify the documented workflow from a clean checkout.
 - Validate configuration at startup. Propose `/health/live` for process liveness and `/health/ready` for deployment readiness. Keep database credentials, auth signing material, provider keys, storage credentials, and callback configuration server-side. Expose public configuration such as the API base URL to Flutter.
 - Provide deterministic development and CI adapters for checkout, invoice issuance, moderation, and email. Make the application reject test adapters and synthetic seed routines in production. Exercise provider contracts separately in authorized test environments.
 - Use one documented fixture reset that seeds Santa Marta (`CO`, `47`, `47001`), Barranquilla (`CO`, `08`, `08001`), two unrelated Business profiles, an individual publisher, a reviewer, listings in each city, two price versions, and two terms versions. Use synthetic accounts, images, and contact details. [Versioned location data](https://github.com/erickvalderrama/it/blob/main/prompts/mascotas/data/README.md)
+
+### Container runtime and external services
+
+Build the API and Flutter web images with reproducible builds. Use Compose for the application services. Add a worker service when background processing runs as a separate process. Serve Flutter web with a static server and a fallback for client routes. Configure the public API URL and verify deep links and payment return after reload. Build Android and iOS for their supported targets.
+
+| Dependency | Runtime configuration and verification |
+| --- | --- |
+| Existing PostgreSQL | Connect from the API and worker to the external host using the approved database, role, and TLS settings. Propose `ConnectionStrings__Mascotas` for server configuration. Test reachability and read access from the container. Use a scoped database account and run approved migrations through the documented procedure. |
+| Self-hosted MinIO | Configure the external endpoint, bucket or prefix, and scoped app credentials with server-side options such as `ObjectStorage__Endpoint`, `ObjectStorage__Bucket`, `ObjectStorage__AccessKey`, and `ObjectStorage__SecretKey`. Verify TLS and a write, read, and delete cycle for a synthetic object in test scope. |
+| Media access | Store object references according to the approved model. Authorize uploads and downloads on the server. Keep identity documents and original private media in controlled storage. Test authorized delivery, photo derivatives, and recoverable storage failures. |
+
+Use runtime secret injection and keep web configuration public. Test with a dedicated database and credentials on the external PostgreSQL host and a test bucket or prefix on MinIO. Validate target and permissions before fixture resets. Keep liveness process-only and make readiness checks bounded. Record the container commands and integration results in the work plan. [Docker Compose networking](https://docs.docker.com/compose/how-tos/networking/) · [ASP.NET Core configuration](https://learn.microsoft.com/en-us/aspnet/core/fundamentals/configuration/) · [MinIO .NET SDK](https://docs.min.io/aistor/developers/sdk/dotnet/)
 
 ## Data and validation
 
@@ -167,6 +179,20 @@ Use the primary user task to decide the content order, navigation, and interacti
 Use concise copy that states the current result and next action. Example English strings are `Payment pending`, `Check payment status`, and `Replace photo {photoNumber} and resubmit. Your existing payment covers this update.` Keep them in named catalogs and render them from authoritative server states.
 
 Observe pilot users completing discovery, publication, and correction with representative data. Include a first-time visitor and individual or Foundation publishers. Record where they hesitate or abandon the task, then fix blockers in the affected flow. Use keyboard and screen reader checks on the live interface alongside screenshot comparisons.
+
+### Proposed light theme
+
+| Token | Color | Use |
+| --- | --- | --- |
+| `primary` | `#0F766E` | Primary actions and selected controls, with white labels on filled buttons. |
+| `primaryPressed` | `#115E59` | Pressed primary action. |
+| `accent` | `#B5472A` | Featured labels and accent details. |
+| `accentContainer` | `#FFF1EB` | Subtle featured-label background with terracotta text. |
+| `canvas` | `#FFF8F1` | Warm screen background. |
+| `surface` | `#FFFFFF` | Cards, forms, and dialogs. |
+| `onSurface` | `#18322F` | Main text on the canvas and surfaces. |
+
+Use these values as design-system tokens for the first prototype. White on primary is 5.47:1 and terracotta on the accent container is 4.88:1. Verify the final text and background pairs, focus indicators, and status treatments in the implemented screens. Give each status an explicit label and use semantic colors consistently. [WCAG text contrast](https://www.w3.org/WAI/WCAG22/Understanding/contrast-minimum.html)
 
 ## Flutter screens and interactions
 
