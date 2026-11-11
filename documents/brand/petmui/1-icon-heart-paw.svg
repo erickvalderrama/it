@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <title>Petmui — paw with heart pad</title>
+  <rect width="512" height="512" rx="112" fill="#D7EC9E"/>
+  <g fill="#2B5735">
+    <!-- Toes -->
+    <ellipse cx="124" cy="196" rx="34" ry="44" transform="rotate(-28 124 196)"/>
+    <ellipse cx="204" cy="132" rx="38" ry="50" transform="rotate(-10 204 132)"/>
+    <ellipse cx="308" cy="132" rx="38" ry="50" transform="rotate(10 308 132)"/>
+    <ellipse cx="388" cy="196" rx="34" ry="44" transform="rotate(28 388 196)"/>
+    <!-- Heart-shaped main pad -->
+    <path transform="translate(256 340) scale(0.86) translate(-256 -330)" d="M256 426 C150 360 118 314 132 272 C146 230 204 222 232 256 C244 270 252 282 256 290 C260 282 268 270 280 256 C308 222 366 230 380 272 C394 314 362 360 256 426 Z"/>
+  </g>
+</svg>

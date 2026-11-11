@@ -38,11 +38,11 @@ Use one ticket per testable slice. Write the expected user outcome, the contract
 
 ### Container runtime and external services
 
-Build the API and Flutter web images with reproducible builds. Use Compose for the application services. Add a worker service when background processing runs as a separate process. Serve Flutter web with a static server and a fallback for client routes. Configure the public API URL and verify deep links and payment return after reload. Build Android and iOS for their supported targets.
+Build the API and Flutter web images with reproducible builds. Use Compose for the application services. Run background processing as hosted services inside the single backend; do not add separate services. Serve Flutter web with a static server and a fallback for client routes. Configure the public API URL and verify deep links and payment return after reload. Build Android and iOS for their supported targets.
 
 | Dependency | Runtime configuration and verification |
 | --- | --- |
-| Existing PostgreSQL | Connect from the API and worker to the external host using the approved database, role, and TLS settings. Propose `ConnectionStrings__Mascotas` for server configuration. Test reachability and read access from the container. Use a scoped database account and run approved migrations through the documented procedure. |
+| Existing PostgreSQL | Connect from the backend to the external host using the approved database, role, and TLS settings. Propose `ConnectionStrings__Mascotas` for server configuration. Test reachability and read access from the container. Use a scoped database account and run approved migrations through the documented procedure. |
 | Self-hosted MinIO | Configure the external endpoint, bucket or prefix, and scoped app credentials with server-side options such as `ObjectStorage__Endpoint`, `ObjectStorage__Bucket`, `ObjectStorage__AccessKey`, and `ObjectStorage__SecretKey`. Verify TLS and a write, read, and delete cycle for a synthetic object in test scope. |
 | Media access | Store object references according to the approved model. Authorize uploads and downloads on the server. Keep identity documents and original private media in controlled storage. Test authorized delivery, photo derivatives, and recoverable storage failures. |
 

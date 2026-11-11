@@ -2,6 +2,10 @@
 
 Use this root memory for Mascotas. For business-idea research, evaluation, and ranking, follow [claude-ideas.md](https://github.com/erickvalderrama/it/blob/main/claude-ideas.md).
 
+## Official product name
+
+**Petyei** is the official application name, chosen by the owner on 11 November 2026. Write it as `Petyei` in text and `petyei` in the wordmark. "Mascotas" remains the internal project name in existing documents. Use Petyei in user-facing text, store listings, the domain, and legal documents once the operator data is completed. Brand drafts, palette usage, and pending checks are in [documents/brand/petyei](documents/brand/petyei/) and [documents/brand/README.md](documents/brand/README.md). The `petyei.com` domain was unregistered on 11 November 2026; its standard price, registration, and the trademark search are pending.
+
 ## Working role and delivery
 
 Act as a senior software architect, full-stack engineer, UI/UX product designer, DevOps engineer, and QA engineer. Apply expertise in clean architecture, C# and PostgreSQL, Flutter web and mobile, interaction design and usability, CI/CD and operations, and risk-based testing. The owner is experienced in frontend, backend, servers, and infrastructure. Discuss technical decisions and trade-offs at that level.
@@ -20,13 +24,23 @@ Complete the task through its normal entry points, run the relevant checks, mark
 
 Build the requested change in small, verifiable increments. Mascotas connects people with adoption foundations, independent pet service providers, and pet supply stores.
 Use C# with ASP.NET Core Web API, PostgreSQL, Entity Framework Core, and Npgsql. Connect to the existing external PostgreSQL server.
-Use Dockerfiles and Docker Compose for the API and Flutter web, and include a worker service when the application needs a separate process. Connect the backend to the owner's external MinIO server for object storage. Inject environment-specific credentials at runtime on the server.
+Use Dockerfiles and Docker Compose for the API and Flutter web. Connect the backend to the owner's external MinIO server for object storage. Inject environment-specific credentials at runtime on the server.
+
+### One frontend and one backend — no microservices
+
+Owner rule, 11 November 2026. Build exactly two deployable applications: one Flutter frontend for web, Android, and iOS, and one ASP.NET Core backend organized as a modular monolith.
+- Do not split the system into microservices, separate databases per module, or additional backend services. Do not add a message broker, service mesh, Kubernetes, or a separate search engine unless the owner approves a specific need.
+- Run background work such as moderation, invoicing, subscription charges, reconciliation, and model training inside the backend as hosted services backed by persisted jobs. Scale the same backend image when needed.
+- Keep module boundaries inside the backend through namespaces, projects, and ports, using one PostgreSQL database.
+- Do not use Ethereum or any other blockchain. The thesis proposed blockchain adoption certificates; that part is out of scope. Keep any adoption certificate or record in PostgreSQL and MinIO with audit history.
 Use one Flutter and Dart application for web, Android, and iOS. Use Riverpod as the initial state management choice and respect a state solution already approved for the project.
 Check existing dependency versions and official compatibility guidance before introducing or upgrading packages.
 
 ## Golden rule — Approved entity relationship model
 
 The approved entity relationship model governs persistence. Record its path here when available. Approved model path is pending.
+
+Adoption and matching reference model: the owner approved the thesis ERD for adoptions, pet catalogs, and the matching questionnaires on 11 November 2026. Use [documents/prompts/mascotas/model](documents/prompts/mascotas/model/README.md) and apply its listed adaptations. The remaining areas still need the approved model.
 - Match entities, columns, types, precision, nullability, keys, cardinalities, constraints, and deletion rules.
 - Derive mappings and migrations from the approved model. Treat the functional modules and role names below as requirements for behavior.
 - Use English code identifiers and explicit mappings for physical database names required by the model. Resolve schema naming conflicts with the approved model before generating a migration.
@@ -34,12 +48,38 @@ The approved entity relationship model governs persistence. Record its path here
 - For a feature that requires an unapproved table, field, relationship, enum value, or change to a constraint, document the exact model change and its impact. Continue independent work and apply a coordinated model, mapping, migration, and test change once authorized.
 - Reconcile any discrepancy between the model, migrations, and existing database before altering persistence. Apply real database migrations or destructive operations only within the user's authorized scope.
 
+## Persistence rules — soft delete, indexes, and migrations
+
+Owner rules, 11 November 2026. Apply them to every entity and schema change.
+
+**Logical deletion only.** Never physically delete business records. Deleting a record changes its state in the database.
+- Give each deletable entity a status field with a deleted or inactive value, plus `DeletedAt` and `DeletedBy` for audit. Expose deletion as a state transition in the use case, and audit actor, time, and reason.
+- Exclude deleted records from normal queries through EF Core global query filters. Allow authorized administrative and audit queries to include them explicitly. Restore a record by changing its state back when the workflow allows it.
+- Declare unique constraints as partial unique indexes over non-deleted rows when a deleted record must not block reuse, such as an email address.
+- Configure foreign keys with restricted deletes. Do not rely on cascade deletes.
+- Handle a personal data deletion request under Colombian data protection law by anonymizing or suppressing the personal fields with an audited state change, while preserving payment, invoice, and legal records required by law. Retire stored objects in MinIO through the same state and retention policy.
+
+**Indexes are required.** Create indexes for every foreign key, the columns used in filters, sorting, joins, and pagination, uniqueness rules, and state columns used by background jobs. Use composite and partial indexes that match the actual queries, including filters on non-deleted rows. Review query plans with representative data for search, admin queues, and job polling.
+
+**Migrations in .NET only.** Change the database schema exclusively through Entity Framework Core migrations in the Infrastructure project. Do not apply manual DDL. Review each generated migration, keep it within the 699-line limit, and deploy with idempotent scripts or migration bundles. Seed catalogs through migrations or versioned import jobs.
+
 ## English throughout the codebase
 
 Use English for all authored code, filenames, directories, namespaces, classes, methods, variables, constants, comments, API routes, DTOs, error codes, fixtures, and test names. Use English names in new database models and migration code while preserving approved physical mappings.
-Use English for base interface copy. Keep any future translations in dedicated localization resources, separate from source code. Preserve user-entered content and the product name Mascotas.
-Store all base UI copy in named English constants. Keep common copy in a shared catalog such as AppStrings and feature-specific copy in that feature's catalog. Render labels through references such as Text(AppStrings.checkoutTitle). Include titles, labels, hints, actions, dialogs, validation messages, and loading, empty, and error states.
+Use English as the base and fallback language for interface copy. Keep all copy in localization resources, separate from source code, as described in "Languages and localization". Preserve user-entered content and the product name Petyei.
+Never hardcode user-facing text in widgets, controllers, or the API. Reference localized keys such as `context.l10n.checkoutTitle`. Include titles, labels, hints, actions, dialogs, validation messages, notifications, emails, and loading, empty, and error states.
 Use templates with parameters for changing values such as prices, dates, and counts. Render business data supplied by the API and map stable API error codes to centralized user messages. Keep environment URLs, secrets, rates, and plan values in their proper configuration or data source.
+
+## Languages and localization — Phase 1
+
+Owner rule, 11 November 2026. Petyei is multilingual by architecture. Phase 1 ships English and Spanish. Adding or maintaining a language must not require code changes beyond registering the locale.
+- **Flutter.** Use `flutter_localizations` and `gen-l10n` with ARB files: `app_en.arb` is the template and `app_es.arb` the first translation. Use ICU placeholders, plurals, and selects for counts, prices, and dates. Format dates, numbers, and currency with `intl` for the active locale; keep currency from the data, not from the language.
+- **Locale selection.** Detect the device or browser language on first launch, fall back to English for unsupported languages, and let the user change it in account settings and before sign-in. Persist the choice on the device and in the account. Switch language without restarting and keep the current route.
+- **Backend.** Return stable error codes and data, not translated sentences, so the client renders the message. Localize server-generated content such as emails, push notifications, and invoice notes from resource files keyed by locale, using the account's language. Accept `Accept-Language` and the stored preference.
+- **Translatable data.** Store content managed in the database with per-language translations: species and breeds, questionnaire questions and options, subscription plans and benefits, moderation reasons, notification templates, and legal documents. Use a translation table keyed by entity, field, and locale, or the approved model's equivalent, with fallback to English.
+- **Adding a language.** Document the steps: add the ARB file, register the locale, add translations for catalogs and templates, and add the legal documents in that language. A CI check fails on missing or unused keys, placeholder mismatches, and untranslated catalog entries.
+- **User content.** Do not translate listings, names, or messages written by users automatically. Store the language when known.
+- **Layout.** Reserve space for longer translations, avoid text in images, and keep layouts ready for right-to-left languages through directional padding and alignment.
 
 ## Clean architecture and file limit
 
@@ -59,6 +99,15 @@ Keep every source file below 700 lines, including comments, blank lines, widgets
 ## UI/UX and Flutter interface for web and mobile
 
 Use **Bosque y pistacho** as the official light palette. Set `primary` to `#2B5735`, `accentContainer` to `#D7EC9E`, `canvas` to `#F5F8EE`, `surface` and `onPrimary` to `#FFFFFF`, and `onSurface` and `onAccentContainer` to `#243329`. Apply the tokens through the shared Flutter theme for web and mobile. Use forest green for primary actions and selected controls and pistachio for featured listings. [Official theme tokens](https://github.com/erickvalderrama/it/blob/main/prompts/mascotas/phase-1-specification.md#official-light-theme)
+
+### Dark mode — Phase 1
+
+Owner rule, 11 November 2026. Ship light and dark themes in Phase 1 on web, Android, and iOS.
+- Offer System, Light, and Dark in account settings and before sign-in. Default to System. Persist the choice on the device and in the account so it follows the user after sign-in. Apply it without restarting.
+- Define both themes from the same semantic tokens in the shared Flutter theme. Widgets consume tokens only; never hardcode colors.
+- Proposed dark tokens derived from Bosque y pistacho: `canvas` `#121A14`, `surface` `#1C2620`, `primary` `#B9D88A`, `onPrimary` `#16231A`, `accentContainer` `#2F4A33`, `onAccentContainer` `#D7EC9E`, `onSurface` `#E3ECDF`. Measured contrast ranges from 7.6:1 to 14.6:1. Keep every text and icon pair at WCAG AA 4.5:1 or higher and 3:1 for large text and UI boundaries.
+- Provide dark variants of images that need them, including the Petyei logo, icon, maps, charts, and status colors. Status remains readable through text and icons as well as color.
+- Cover both themes in golden tests and accessibility checks for every critical screen.
 
 Apply UI/UX experience in information architecture, task flows, accessible interaction, design systems, prototyping, and usability evaluation. Define the user's goal, entry point, primary action, success feedback, and recovery before implementing a critical screen. Sketch compact and wide layouts with representative data and verify that people can complete the task before refining its visual details.
 - Reduce steps and defer information until the relevant action. Keep city selection visible, let visitors browse first, preserve context after sign-in, and explain price, review status, and the next action at the point where they matter.
@@ -95,7 +144,7 @@ Ask for name, email, password, country, and city at personal registration. Prese
 
 Start Business enrollment with a choice of store or foundation for both new accounts and conversions of existing accounts. Request store identity evidence when the person enrolls as a store or later enables a storefront. For a natural person request a Colombian identity card and RUT. For a legal entity request NIT and RUT, with representation checks where applicable. Keep these documents private, restrict verification access, and minimize retention. Apply the same Business membership rules to both profile types.
 
-Support free promotional enrollment for eligible foundations and future stores with configurable eligibility, start, and end dates. A free year from Business activation is a pilot proposal. Offer the assigned monthly price and require explicit acceptance and confirmed payment at renewal. Show status, benefits, expiry, and next price in the Business profile. Start with manual monthly renewal as proposed in the plan. Honor existing obligations after membership expiry.
+Support free promotional enrollment for eligible foundations and future stores with configurable eligibility, start, and end dates. A free year from Business activation is a pilot proposal. Offer the assigned monthly plan and require explicit acceptance of automatic monthly billing before the first charge. Show status, benefits, expiry, next charge date, and price in the Business profile. Renew through the automatic subscription billing described below. Honor existing obligations after membership expiry.
 
 ### Adoption listing, filters, and review
 
@@ -119,6 +168,18 @@ Keep a dedicated history of immutable price versions, with amounts, currency, pr
 Use ePayco for listing and Business charges through a backend adapter. Verify each notification using the provider's documented mechanism and reconcile amount, currency, reference, and operation. Use the authenticated server result for the final status. Apply a confirmation once even if it arrives repeatedly or concurrently.
 
 For named invoices, ask for the permitted buyer identification data at checkout and offer the applicable final-consumer flow. Keep phone and address separate when needed for an operational purpose and apply current DIAN requirements to invoice issuance. Issue electronic invoices for Mascotas listing and membership charges through the approved DIAN-enabled flow. Keep the ePayco payment confirmation and electronic invoice linked with separate identifiers and states. Record issuance, validation, delivery, retries, and applicable corrections. Use an authorized refund flow when required.
+
+### Subscriptions with ePayco tokenization and automatic monthly charges
+
+Owner rule, 11 November 2026. Charge monthly subscriptions automatically using customer tokenization in ePayco.
+- Each subscription plan has a monthly price and a monthly quantity of publications. Store plans as immutable price versions. Link each subscription, charge, invoice, and consumed publication to the exact plan version accepted.
+- Count publications against the active period's quota. Show used and remaining publications. Confirm rollover rules, upgrades, downgrades, and charges beyond the quota with the owner before enabling them.
+- Require these subscriber fields before subscribing: full names, identity document type, identity document number, address, phone, and email. Validate them on the server: allowed document types and number formats, normalized phone with country code, verified email, and a complete address. Correct data is required so the monthly charge does not fail.
+- Tokenize the card through ePayco's client-side tokenization or hosted flow. Never send, store, or log card numbers or security codes in Petyei. Store only the ePayco customer and token references with restricted access.
+- Record explicit consent for automatic recurring charges, with amount, frequency, plan version, and cancellation method. Let the subscriber cancel future charges at any time from the account.
+- Run monthly charges as idempotent persisted jobs in the backend. Confirm each result through the verified server notification or status query. Define bounded retries, payment failure notices, a grace period, suspension, and reactivation after the card or data is updated.
+- Issue the electronic invoice for each successful charge and reconcile it with the ePayco transaction.
+- Confirm in the current ePayco documentation and with the account manager the tokenization, customer, plan, and recurring charge APIs available to the merchant account before implementation.
 
 The pilot proposal starts paid listings and memberships on responsive web. Review Apple and Google Play rules for digital purchases before enabling them in store-distributed mobile apps. Treat physical service and product checkout as a separate review.
 
@@ -155,7 +216,31 @@ Treat authorization, data protection, and payment integrity as acceptance criter
 - Validate input, uploads, filenames, and outgoing integrations on the server. Verify image format and size, strip metadata from public and moderation copies, and remove abandoned uploads under the retention policy. Store only necessary personal data. Protect identity documents, private addresses, location, and payment references with restricted access.
 - Keep secrets and sensitive data out of code, responses, and logs. Record audit events and safe correlation references for investigations and refunds.
 
+### Authentication tokens and passwords
+
+Owner rules, 11 November 2026.
+- **JWT access tokens do not expire.** Issue signed JWTs without an expiration claim. Because a non-expiring token remains valid if it is stolen, every token must carry a session identifier, and the backend must validate that session on each request. Revoke the session on logout, password change, role or capability change, account suspension, logical deletion, and suspected compromise. Let users and Superadmin close sessions per device. Rotate signing keys through configuration with a documented procedure. Store tokens on mobile in secure platform storage and protect web storage against cross-site scripting.
+- **Passwords are stored only as one-way hashes.** Use ASP.NET Core Identity's password hasher or Argon2id with a per-password salt and current work factors. Never store passwords in plain text or with reversible encryption, and never log them. Rehash on sign-in when parameters change. Enforce the minimum password policy and rate-limit sign-in and recovery.
+
+## Own machine learning model — mandatory
+
+Owner rule, 11 November 2026. Petyei must include its own machine learning model, trained and served by the project. A third-party AI API does not satisfy this requirement; the moderation provider remains a separate component.
+- **Initial use case: adopter and pet compatibility.** The owner's master's thesis proposed matching adopters and pets from questionnaires with ML.NET. Start from that design: adopter questionnaire, pet questionnaire, species and breed catalog, and a compatibility score shown on listings and adoption requests. Source: `documents/tesis/` (final draft, ERD, species and breeds spreadsheet, user stories, and the "Mascotas en tu casa" survey). Use the anonymized [survey summary and question bank](documents/prompts/mascotas/model/survey-summary.md); never copy the raw survey, which contains respondents' email addresses, into the application, fixtures, or training data.
+- Use ML.NET inside the backend. Train from real platform signals such as questionnaire answers, adoption requests, publisher decisions, and completed adoptions. The thesis proof of concept used randomly generated scores, so its reported metrics do not validate the model.
+- Until enough labeled data exists, rank with a transparent rule-based baseline and collect the training signals. Train the model when the agreed data threshold is reached and promote it only when it outperforms the baseline on held-out data.
+- Version datasets, features, training code, model artifacts in MinIO, metrics, and the active model in PostgreSQL. Train as a backend job, load the active model in the API, and allow rollback to the previous model.
+- Explain the main reasons for a score in plain language. The score orders and suggests; the publisher still decides the adoption. Exclude identity documents, payment data, and exact addresses from features. Collect consent for questionnaire data and describe the model in the privacy policy.
+- Test feature extraction, training reproducibility with fixed seeds, evaluation against the baseline, prediction latency, and fallback when no model is active.
+
 ## Terms, privacy, and user consent
+
+### Versions by phase and language
+
+Owner rule, 11 November 2026. Write the Terms and Conditions and the Privacy Policy for the scope that is actually enabled.
+- Version 1 covers Phase 1 only: accounts, adoption listings, paid listings, Business enrollment and membership, subscriptions with automatic monthly charges, AI moderation, the compatibility model and its questionnaires, invoicing, and support. Do not describe stores, services, top-ups, payouts, or transport as available in version 1.
+- Publish a new version before enabling Phase 2 and another before Phase 3, adding only the functions that phase enables. Require acceptance of each new version before the new operations, under the rules below.
+- Publish every version in Spanish and English with the same version number, effective date, and content. Let users read and download either language from onboarding, transactions, settings, and a public page. Record the language shown and accepted. State in both texts which language prevails in case of discrepancy, as confirmed in legal review.
+- A future language adds a translation of the current version; it does not create a new version.
 
 Keep immutable versions of the Terms and Conditions and Privacy Policy with language, text, version, and effective date. Make them accessible for reading and download from onboarding, relevant transactions, and account settings. Record the exact document version, user, and acceptance time in the backend. Preserve the full history and the latest accepted version for each document. Collect personal data authorization separately when required.
 
@@ -163,7 +248,7 @@ When updated Terms apply, present them at sign-in or before a protected flow. Re
 
 In the legal copy, specify that Mascotas provides the advertised digital tools and is responsible for the functions and charges it undertakes. The publisher manages and is responsible for the adoption information and handover, the store handles its sale and delivery, and the independent provider performs the agreed service. Identify the responsible party in each flow and preserve mandatory consumer and data rights. Describe AI-assisted moderation, membership pricing, renewals, complaints, cancellations, and refunds as they apply to the enabled features.
 
-Use the reviewed versions at docs/legal/terms-and-conditions.md and docs/legal/privacy-policy.md in the future project. Complete operator identity, support channels, effective dates, retention, and actual payment and data practices before publishing. Use the initial Colombia drafts for legal review.
+Use the reviewed versions in the future project under `docs/legal/v1/es/` and `docs/legal/v1/en/` (`terms-and-conditions.md` and `privacy-policy.md`), with later phases in `v2`, `v3`, and so on. The current drafts are in Spanish and cover all three phases; adapt them to Phase 1 before publishing. Complete operator identity, support channels, effective dates, retention, and actual payment and data practices before publishing. Use the initial Colombia drafts for legal review.
 - [Terms and conditions draft](https://github.com/erickvalderrama/it/blob/main/prompts/mascotas/legal/terms-and-conditions.md)
 - [Privacy policy draft](https://github.com/erickvalderrama/it/blob/main/prompts/mascotas/legal/privacy-policy.md)
 
@@ -181,11 +266,16 @@ Use synthetic fixtures, isolated test accounts and data, a controlled clock, and
 - Phase 1 access and discovery. Register with Colombia preselected, select and change a valid DIVIPOLA location, and enroll each Business profile type. Verify that updated Terms are required before a new protected operation and that the previous acceptance remains available. Publish a basic adoption, filter by city and publisher type, and verify that one account cannot view or change another account's private records.
 - Phase 1 premium. Accept the versioned price, complete checkout, confirm payment on the server, review text and every photo, and verify visibility and the invoice. Cover payment pending or failed, duplicate or late confirmation, corrections and resubmission with the same payment, rejection for sexual or vulgar content, uncertain results sent to Superadmin, and invoice retry. Assert a single applied payment, the original accepted price, and no public listing before approval.
 - Phase 1 membership and administration. Cover Business promotion, expiry and renewal at the offered price, access to historical operations, and authorized review and payment or invoice recovery.
+- Phase 1 subscriptions. Subscribe with complete and invalid billing data, tokenize through the ePayco test flow, run the monthly charge with a controlled clock, consume and exhaust the publication quota, and cover a failed charge, retry, grace period, suspension, card update, and cancellation. Assert one charge and one invoice per period.
+- Languages, themes, and legal versions. Switch between English and Spanish and between light and dark on web and mobile without losing the current route or form data. Verify fallback to English, localized server error messages and emails, and catalog translations. Read and accept version 1 of the legal documents in each language and confirm the recorded version and language.
+- Platform rules. Verify that delete operations change state and hide records without removing rows, that revoked sessions reject non-expiring tokens, that password hashes are never returned or logged, and that migrations create the expected indexes.
+- Compatibility model. Answer both questionnaires, get the baseline score, train a model on synthetic labeled fixtures, promote it, and fall back to the baseline when the model is missing.
 - Phase 2 commerce. Cover a store order with delivery and stock changes, a booking with slot conflicts and cancellation, approved top-up and balance use, and payout or refund retry with reconciliation.
 - Phase 3 transport. Cover a request and counteroffer, acceptance, payment, pickup, delivery, and reconciliation. Verify authorized tracking, denied permissions, background and locked-screen behavior, connection loss, and recovery.
 
 ### Visual regression and accessibility
 
+- Capture goldens for critical screens in English and Spanish and in light and dark themes.
 - Create reviewed golden images or equivalent screenshot baselines for critical screens and reusable components. Start with registration, adoption results and detail, checkout and review states, and the Superadmin queue. Capture compact, medium, and wide layouts and applicable loading, empty, error, and success states. [Flutter golden tests](https://api.flutter.dev/flutter/flutter_test/matchesGoldenFile.html)
 - Pin the rendering environment, fonts, viewport, pixel density, locale, theme, and test data. Store baselines with the tests and compare expected, actual, and diff images in CI. Review the visual difference and document intentional design changes before updating a baseline.
 - Check overflow, clipping, long labels, enlarged text, scrolling, keyboard and safe areas, focus order, contrast, and screen reader labels. Review the actual app at representative web and mobile sizes, including cases that require device or manual testing.

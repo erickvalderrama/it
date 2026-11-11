@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 400" width="1200" height="400">
+  <title>Petyei — icon and wordmark lockup</title>
+  <rect width="1200" height="400" rx="48" fill="#FFFFFF"/>
+  <g transform="translate(120 56) scale(0.56)">
+    <rect width="512" height="512" rx="112" fill="#D7EC9E"/>
+    <g fill="#2B5735">
+      <ellipse cx="124" cy="196" rx="34" ry="44" transform="rotate(-28 124 196)"/>
+      <ellipse cx="204" cy="132" rx="38" ry="50" transform="rotate(-10 204 132)"/>
+      <ellipse cx="308" cy="132" rx="38" ry="50" transform="rotate(10 308 132)"/>
+      <ellipse cx="388" cy="196" rx="34" ry="44" transform="rotate(28 388 196)"/>
+      <ellipse cx="256" cy="330" rx="108" ry="88"/>
+    </g>
+    <!-- Smile: the "yei" -->
+    <path d="M202 318 Q256 378 310 318" fill="none" stroke="#D7EC9E" stroke-width="18" stroke-linecap="round"/>
+  </g>
+  <g transform="translate(224 0)">
+    <text x="226" y="270" font-family="'Nunito','Varela Round','Arial Rounded MT Bold','Segoe UI',sans-serif" font-weight="800" font-size="180" fill="#243329">petye</text>
+    <!-- Final i: stem with a paw as its dot -->
+    <rect x="736" y="178" width="38" height="92" rx="19" fill="#2B5735"/>
+    <g fill="#2B5735">
+      <ellipse cx="755" cy="142" rx="21" ry="17"/>
+      <circle cx="732" cy="118" r="8"/>
+      <circle cx="747" cy="104" r="8.5"/>
+      <circle cx="763" cy="104" r="8.5"/>
+      <circle cx="778" cy="118" r="8"/>
+    </g>
+  </g>
+</svg>

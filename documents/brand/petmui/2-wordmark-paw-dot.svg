@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 400" width="1000" height="400">
+  <title>Petmui — wordmark with paw dot</title>
+  <rect width="1000" height="400" rx="48" fill="#F5F8EE"/>
+  <text x="190" y="270" font-family="'Nunito','Varela Round','Arial Rounded MT Bold','Segoe UI',sans-serif" font-weight="800" font-size="180" fill="#243329">petmu</text>
+  <!-- Dotless i stem -->
+  <rect x="772" y="178" width="38" height="92" rx="19" fill="#2B5735"/>
+  <!-- Paw as the dot of the i -->
+  <g fill="#2B5735">
+    <ellipse cx="791" cy="142" rx="21" ry="17"/>
+    <circle cx="768" cy="118" r="8"/>
+    <circle cx="783" cy="104" r="8.5"/>
+    <circle cx="800" cy="104" r="8.5"/>
+    <circle cx="814" cy="118" r="8"/>
+  </g>
+</svg>

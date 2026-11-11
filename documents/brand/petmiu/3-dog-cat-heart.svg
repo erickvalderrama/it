@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <title>Petmiu — dog and cat heart</title>
+  <rect width="512" height="512" rx="112" fill="#F5F8EE"/>
+  <!-- Cat ear (right) -->
+  <path d="M318 156 L370 112 L394 180 Z" fill="#2B5735" stroke="#2B5735" stroke-width="16" stroke-linejoin="round"/>
+  <!-- Heart-shaped face -->
+  <path fill="#2B5735" d="M256 430 C120 340 70 270 90 200 C105 140 175 115 220 145 C240 158 252 175 256 185 C260 175 272 158 292 145 C337 115 407 140 422 200 C442 270 392 340 256 430 Z"/>
+  <!-- Dog floppy ear (left) -->
+  <path fill="#243329" d="M150 140 C100 130 62 170 66 236 C70 290 104 300 122 270 C140 240 160 190 150 140 Z"/>
+  <!-- Eyes -->
+  <circle cx="196" cy="246" r="16" fill="#D7EC9E"/>
+  <ellipse cx="316" cy="246" rx="13" ry="18" fill="#D7EC9E"/>
+  <!-- Shared nose -->
+  <path d="M238 292 h36 l-18 20 z" fill="#D7EC9E" stroke="#D7EC9E" stroke-width="8" stroke-linejoin="round"/>
+  <!-- Cat whiskers -->
+  <g stroke="#D7EC9E" stroke-width="6" stroke-linecap="round">
+    <path d="M318 300 L378 290"/>
+    <path d="M318 314 L376 320"/>
+  </g>
+  <!-- Dog tongue -->
+  <path d="M228 330 C232 356 250 360 256 340" fill="none" stroke="#D7EC9E" stroke-width="6" stroke-linecap="round"/>
+</svg>

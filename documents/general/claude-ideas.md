@@ -16,6 +16,8 @@ Indicación del usuario, 6 de noviembre de 2026: guardar la evaluación en el re
 
 ## Aplicación elegida para comenzar — Mascotas
 
+Nombre oficial de la aplicación: **Petyei**, elegido por el usuario el 11 de noviembre de 2026. Mascotas sigue como nombre interno. [Marca](../brand/petyei/)
+
 Decisiones vigentes al 9 de noviembre de 2026. Ejecutar las entregas y sus pruebas de salida en el orden del [plan de trabajo](prompts/mascotas/work-plan.md).
 
 1. **Adopciones.** Registro breve con Colombia preseleccionado, catálogo oficial DIVIPOLA y múltiples ciudades. Publicaciones básicas y premium, con filtro por ciudad y por publicante particular o Business. User, Business y Superadmin pueden pagar un destacado. Confirmar el pago en ePayco antes de enviar el premium a la IA. La IA revisa texto y todas las fotos, incluido el texto visible en ellas. Aprueba contenido conforme, solicita correcciones y rechaza versiones con vulgaridad o contenido sexual. El reenvío de una corrección conserva el pago. Los casos dudosos pasan a Superadmin. Incluir facturación electrónica de los cobros propios, métricas de registrados y activos y panel de revisión.

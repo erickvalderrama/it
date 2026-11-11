@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 400" width="1000" height="400">
+  <title>Petyey — wordmark, dark</title>
+  <rect width="1000" height="400" rx="48" fill="#243329"/>
+    <text x="199" y="270" font-family="'Nunito','Varela Round','Arial Rounded MT Bold','Segoe UI',sans-serif" font-weight="800" font-size="180"><tspan fill="#F5F8EE">pet</tspan><tspan fill="#D7EC9E">yey</tspan></text>
+    <!-- Celebration paw after "yey" -->
+    <g fill="#D7EC9E" transform="translate(842 128) rotate(18)">
+      <ellipse cx="0" cy="12" rx="24" ry="20"/>
+      <circle cx="-26" cy="-14" r="9"/>
+      <circle cx="-9" cy="-30" r="9.5"/>
+      <circle cx="9" cy="-30" r="9.5"/>
+      <circle cx="26" cy="-14" r="9"/>
+    </g>
+</svg>

@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 400" width="1000" height="400">
+  <title>Petmiu — wordmark with cat dot</title>
+  <rect width="1000" height="400" rx="48" fill="#F5F8EE"/>
+  <g transform="translate(72 0)">
+  <g font-family="'Nunito','Varela Round','Arial Rounded MT Bold','Segoe UI',sans-serif" font-weight="800" font-size="180" fill="#243329">
+    <text x="568" y="270" text-anchor="end">petm</text>
+    <text x="640" y="270">u</text>
+  </g>
+  <!-- Dotless i stem -->
+  <rect x="584" y="178" width="38" height="92" rx="19" fill="#2B5735"/>
+  <!-- Cat head as the dot of the i -->
+  <g fill="#2B5735" stroke="#2B5735" stroke-width="8" stroke-linejoin="round">
+    <path d="M578 122 L582 84 L606 108 Z"/>
+    <path d="M628 122 L624 84 L600 108 Z"/>
+  </g>
+  <circle cx="603" cy="130" r="30" fill="#2B5735"/>
+  <g fill="#D7EC9E">
+    <circle cx="592" cy="127" r="4.5"/>
+    <circle cx="614" cy="127" r="4.5"/>
+    <path d="M598 138 h10 l-5 5 z"/>
+  </g>
+  </g>
+</svg>
