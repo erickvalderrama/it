@@ -43,3 +43,6 @@ app.*.map.json
 /android/app/debug
 /android/app/profile
 /android/app/release
+
+# gen-l10n report of missing translations (checked by tools/check-l10n.py)
+/lib/l10n/untranslated.json

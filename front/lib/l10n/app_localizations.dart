@@ -104,23 +104,95 @@ abstract class AppLocalizations {
   /// **'Petyei'**
   String get appTitle;
 
-  /// No description provided for @countriesTitle.
+  /// No description provided for @navExplore.
   ///
   /// In en, this message translates to:
-  /// **'Available countries'**
-  String get countriesTitle;
+  /// **'Explore'**
+  String get navExplore;
+
+  /// No description provided for @navPublish.
+  ///
+  /// In en, this message translates to:
+  /// **'Publish'**
+  String get navPublish;
+
+  /// No description provided for @navAccount.
+  ///
+  /// In en, this message translates to:
+  /// **'Account'**
+  String get navAccount;
+
+  /// No description provided for @exploreTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Pets for adoption'**
+  String get exploreTitle;
+
+  /// No description provided for @exploreEmpty.
+  ///
+  /// In en, this message translates to:
+  /// **'There are no pets for adoption here yet.'**
+  String get exploreEmpty;
+
+  /// No description provided for @publishTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Publish an adoption'**
+  String get publishTitle;
+
+  /// No description provided for @publishIntro.
+  ///
+  /// In en, this message translates to:
+  /// **'Create a listing so a family can find this pet.'**
+  String get publishIntro;
+
+  /// No description provided for @accountTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Account'**
+  String get accountTitle;
+
+  /// No description provided for @languageLabel.
+  ///
+  /// In en, this message translates to:
+  /// **'Language'**
+  String get languageLabel;
+
+  /// No description provided for @languageSystem.
+  ///
+  /// In en, this message translates to:
+  /// **'Device language'**
+  String get languageSystem;
+
+  /// No description provided for @themeLabel.
+  ///
+  /// In en, this message translates to:
+  /// **'Appearance'**
+  String get themeLabel;
+
+  /// No description provided for @themeSystem.
+  ///
+  /// In en, this message translates to:
+  /// **'Device setting'**
+  String get themeSystem;
+
+  /// No description provided for @themeLight.
+  ///
+  /// In en, this message translates to:
+  /// **'Light'**
+  String get themeLight;
+
+  /// No description provided for @themeDark.
+  ///
+  /// In en, this message translates to:
+  /// **'Dark'**
+  String get themeDark;
 
   /// No description provided for @countriesEmpty.
   ///
   /// In en, this message translates to:
   /// **'No countries are available yet.'**
   String get countriesEmpty;
-
-  /// No description provided for @loadErrorMessage.
-  ///
-  /// In en, this message translates to:
-  /// **'We couldn\'t load this information. Check your connection and try again.'**
-  String get loadErrorMessage;
 
   /// No description provided for @retryAction.
   ///
@@ -133,6 +205,78 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'{code, select, CO{Colombia} other{{code}}}'**
   String countryName(String code);
+
+  /// Message for a stable API error code. Codes use underscores instead of dots.
+  ///
+  /// In en, this message translates to:
+  /// **'{code, select, locations_invalid_country_code{Choose a valid country.} locations_country_not_enabled{Petyei is not available in this country yet.} locations_locality_not_available{Choose a city from the list.} common_not_found{We couldn\'t find what you were looking for.} other{We couldn\'t load this information. Check your connection and try again.}}'**
+  String apiErrorMessage(String code);
+
+  /// No description provided for @cityLabel.
+  ///
+  /// In en, this message translates to:
+  /// **'Your city'**
+  String get cityLabel;
+
+  /// No description provided for @cityNotSet.
+  ///
+  /// In en, this message translates to:
+  /// **'Choose your city to see pets near you.'**
+  String get cityNotSet;
+
+  /// No description provided for @changeAction.
+  ///
+  /// In en, this message translates to:
+  /// **'Change'**
+  String get changeAction;
+
+  /// No description provided for @chooseAction.
+  ///
+  /// In en, this message translates to:
+  /// **'Choose'**
+  String get chooseAction;
+
+  /// No description provided for @cityPickerTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Choose your city'**
+  String get cityPickerTitle;
+
+  /// No description provided for @countryLabel.
+  ///
+  /// In en, this message translates to:
+  /// **'Country'**
+  String get countryLabel;
+
+  /// No description provided for @citySearchHint.
+  ///
+  /// In en, this message translates to:
+  /// **'Search city or municipality'**
+  String get citySearchHint;
+
+  /// No description provided for @citySearchEmpty.
+  ///
+  /// In en, this message translates to:
+  /// **'We couldn\'t find “{query}”.'**
+  String citySearchEmpty(String query);
+
+  /// No description provided for @citySearchEmptyHint.
+  ///
+  /// In en, this message translates to:
+  /// **'Check the spelling or search by municipality name.'**
+  String get citySearchEmptyHint;
+
+  /// No description provided for @clearSearchAction.
+  ///
+  /// In en, this message translates to:
+  /// **'Clear search'**
+  String get clearSearchAction;
+
+  /// No description provided for @cityLocation.
+  ///
+  /// In en, this message translates to:
+  /// **'{department}, {country}'**
+  String cityLocation(String department, String country);
 }
 
 class _AppLocalizationsDelegate

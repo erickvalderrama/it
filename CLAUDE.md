@@ -110,6 +110,10 @@ Owner rule, 11 November 2026. Ship light and dark themes in Phase 1 on web, Andr
 - Provide dark variants of images that need them, including the Petyei logo, icon, maps, charts, and status colors. Status remains readable through text and icons as well as color.
 - Cover both themes in golden tests and accessibility checks for every critical screen.
 
+### Mockup before every screen
+
+Owner rule, 12 November 2026. Before designing or changing any screen or interface in Flutter, create a mockup and save it in `documents/mockups/<task-id>-<screen>/`. Show the web (wide) and mobile (compact) layouts with representative data, the primary action, and the relevant loading, empty, error, and success states. Use the official palette and real copy in English or Spanish. Save the source (`index.html`) and rendered images (`web.png`, `mobile.png`), then implement the screen in Flutter following the mockup. Record the mockup path in the work plan evidence and update the mockup when the design changes.
+
 Apply UI/UX experience in information architecture, task flows, accessible interaction, design systems, prototyping, and usability evaluation. Define the user's goal, entry point, primary action, success feedback, and recovery before implementing a critical screen. Sketch compact and wide layouts with representative data and verify that people can complete the task before refining its visual details.
 - Reduce steps and defer information until the relevant action. Keep city selection visible, let visitors browse first, preserve context after sign-in, and explain price, review status, and the next action at the point where they matter.
 - Evaluate discovery, publication, checkout status, and paid correction with representative pilot users. Record observed problems, fix blockers, and cover the corrected behavior in the relevant tests.

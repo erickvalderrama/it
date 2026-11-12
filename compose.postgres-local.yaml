@@ -1,0 +1,27 @@
+# Shared local PostgreSQL 17 + PostGIS for development, used by several projects.
+# Data lives in the named volume postgres-local-data, so removing the container keeps it.
+# Each project gets its own database and role (see tools/create-local-database.sh).
+#   docker compose -f compose.postgres-local.yaml up -d
+name: postgres-local
+
+services:
+  postgres:
+    image: postgis/postgis:17-3.5
+    container_name: postgres-local
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: ${POSTGRES_LOCAL_PASSWORD:?Set POSTGRES_LOCAL_PASSWORD in .env}
+    ports:
+      - "127.0.0.1:${POSTGRES_LOCAL_PORT:-5433}:5432"
+    volumes:
+      - data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U postgres"]
+      interval: 5s
+      timeout: 3s
+      retries: 10
+    restart: unless-stopped
+
+volumes:
+  data:
+    name: postgres-local-data

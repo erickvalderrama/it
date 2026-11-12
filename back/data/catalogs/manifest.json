@@ -1,0 +1,11 @@
+{
+  "locations": {
+    "sourceVersion": "DANE-2024-12-30",
+    "departments": "divipola/colombia-departments.csv",
+    "localities": "divipola/colombia-divipola-localities.csv"
+  },
+  "pets": {
+    "sourceVersion": "thesis-2024-08-20.1",
+    "file": "species-breeds.csv"
+  }
+}

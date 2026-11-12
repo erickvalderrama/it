@@ -1,0 +1,142 @@
+kind,species_code,breed_code,sort_order,name_en,name_es
+species,dog,,1,Dog,Perro
+breed,dog,mixed_breed,,Mixed breed,Criollo
+breed,dog,labrador_retriever,,Labrador Retriever,Labrador Retriever
+breed,dog,german_shepherd,,German Shepherd,Pastor Alemán
+breed,dog,french_bulldog,,French Bulldog,Bulldog Francés
+breed,dog,beagle,,Beagle,Beagle
+breed,dog,chihuahua,,Chihuahua,Chihuahua
+breed,dog,golden_retriever,,Golden Retriever,Golden Retriever
+breed,dog,poodle,,Poodle,Poodle
+breed,dog,boxer,,Boxer,Boxer
+breed,dog,shih_tzu,,Shih Tzu,Shih Tzu
+breed,dog,dachshund,,Dachshund,Dachshund
+breed,dog,siberian_husky,,Siberian Husky,Husky
+species,cat,,2,Cat,Gato
+breed,cat,mixed_breed,,Mixed breed,Mestizo
+breed,cat,persian,,Persian,Persa
+breed,cat,siamese,,Siamese,Siamés
+breed,cat,maine_coon,,Maine Coon,Maine Coon
+breed,cat,ragdoll,,Ragdoll,Ragdoll
+breed,cat,sphynx,,Sphynx,Sphynx
+breed,cat,scottish_fold,,Scottish Fold,Scottish Fold
+breed,cat,bengal,,Bengal,Bengalí
+breed,cat,british_shorthair,,British Shorthair,British Shorthair
+breed,cat,siberian,,Siberian,Siberiano
+breed,cat,abyssinian,,Abyssinian,Abisinio
+species,rabbit,,3,Rabbit,Conejo
+breed,rabbit,holland_lop,,Holland Lop,Holland Lop
+breed,rabbit,lionhead,,Lionhead,Lionhead
+breed,rabbit,netherland_dwarf,,Netherland Dwarf,Netherland Dwarf
+breed,rabbit,rex,,Rex,Rex
+breed,rabbit,angora,,Angora,Angora
+breed,rabbit,mini_lop,,Mini Lop,Mini Lop
+breed,rabbit,flemish_giant,,Flemish Giant,Gigante de Flandes
+breed,rabbit,californian,,Californian,Californiano
+breed,rabbit,dutch,,Dutch,Holandés
+breed,rabbit,english_spot,,English Spot,Mariposa Inglés
+species,hamster,,4,Hamster,Hámster
+breed,hamster,syrian,,Syrian hamster,Hámster sirio
+breed,hamster,roborovski,,Roborovski hamster,Hámster Roborovski
+breed,hamster,russian_dwarf,,Russian dwarf hamster,Hámster ruso
+breed,hamster,chinese,,Chinese hamster,Hámster chino
+breed,hamster,campbell,,Campbell's dwarf hamster,Hámster de Campbell
+species,guinea_pig,,5,Guinea pig,Cobaya (cuyo)
+breed,guinea_pig,american,,American,Americano
+breed,guinea_pig,abyssinian,,Abyssinian,Abisinio
+breed,guinea_pig,peruvian,,Peruvian,Peruano
+breed,guinea_pig,silkie,,Silkie,Silkie
+breed,guinea_pig,texel,,Texel,Texel
+breed,guinea_pig,teddy,,Teddy,Teddy
+breed,guinea_pig,rex,,Rex,Rex
+breed,guinea_pig,skinny_pig,,Skinny pig,Skinny pig
+species,ferret,,6,Ferret,Hurón
+breed,ferret,standard,,Standard,Estándar
+breed,ferret,albino,,Albino,Albino
+breed,ferret,sable,,Sable,Sable
+breed,ferret,dark_eyed_white,,Dark-eyed white,Blanco
+breed,ferret,panda,,Panda,Panda
+species,bird,,7,Bird,Pájaro
+breed,bird,budgerigar,,Budgerigar,Periquito
+breed,bird,canary,,Canary,Canario
+breed,bird,lovebird,,Lovebird,Agaporni
+breed,bird,cockatoo,,Cockatoo,Cacatúa
+breed,bird,cockatiel,,Cockatiel,Ninfa
+breed,bird,parrotlet,,Parrotlet,Lorito
+breed,bird,zebra_finch,,Zebra finch,Diamante mandarín
+breed,bird,african_grey_parrot,,African grey parrot,Loro gris africano
+species,fish,,8,Fish,Pez
+breed,fish,betta,,Betta,Betta
+breed,fish,goldfish,,Goldfish,Pez dorado
+breed,fish,guppy,,Guppy,Guppy
+breed,fish,angelfish,,Angelfish,Pez ángel
+breed,fish,neon_tetra,,Neon tetra,Tetra neón
+breed,fish,discus,,Discus,Pez disco
+breed,fish,molly,,Molly,Molly
+breed,fish,tiger_barb,,Tiger barb,Barbo tigre
+breed,fish,plecostomus,,Plecostomus,Plecostomus
+breed,fish,clownfish,,Clownfish,Pez payaso
+species,turtle,,9,Turtle,Tortuga
+breed,turtle,red_eared_slider,,Red-eared slider,Tortuga de orejas rojas
+breed,turtle,russian_tortoise,,Russian tortoise,Tortuga rusa
+breed,turtle,leopard_tortoise,,Leopard tortoise,Tortuga leopardo
+breed,turtle,box_turtle,,Box turtle,Tortuga de caja
+breed,turtle,sulcata_tortoise,,Sulcata tortoise,Tortuga sulcata
+species,lizard,,10,Lizard,Lagarto
+breed,lizard,leopard_gecko,,Leopard gecko,Gecko leopardo
+breed,lizard,bearded_dragon,,Bearded dragon,Dragón barbudo
+breed,lizard,green_anole,,Green anole,Anole verde
+breed,lizard,crested_gecko,,Crested gecko,Gecko crestado
+breed,lizard,green_iguana,,Green iguana,Iguana verde
+species,snake,,11,Snake,Serpiente
+breed,snake,ball_python,,Ball python,Pitón bola
+breed,snake,boa_constrictor,,Boa constrictor,Boa constrictora
+breed,snake,corn_snake,,Corn snake,Serpiente del maíz
+breed,snake,california_kingsnake,,California kingsnake,Serpiente rey de California
+breed,snake,garter_snake,,Garter snake,Serpiente jarretera
+species,mouse,,12,Mouse,Ratón
+breed,mouse,common,,Common mouse,Ratón común
+breed,mouse,smooth_coat,,Smooth-coated mouse,Ratón de pelo liso
+breed,mouse,fancy,,Fancy mouse,Ratón de fantasía
+breed,mouse,african_pygmy,,African pygmy mouse,Ratón enano africano
+species,rat,,13,Rat,Rata
+breed,rat,dumbo,,Dumbo,Dumbo
+breed,rat,rex,,Rex,Rex
+breed,rat,hairless,,Hairless,Sin pelo
+breed,rat,hooded,,Hooded,Hooded
+breed,rat,siamese,,Siamese,Siamés
+species,hedgehog,,14,Hedgehog,Erizo
+breed,hedgehog,african_pygmy,,African pygmy hedgehog,Erizo pigmeo africano
+breed,hedgehog,long_eared,,Long-eared hedgehog,Erizo de orejas largas
+breed,hedgehog,white_breasted,,White-breasted hedgehog,Erizo de pecho blanco
+species,chinchilla,,15,Chinchilla,Chinchilla
+breed,chinchilla,standard_grey,,Standard grey,Gris estándar
+breed,chinchilla,beige,,Beige,Beige
+breed,chinchilla,ebony,,Ebony,Ébano
+breed,chinchilla,violet,,Violet,Violeta
+species,horse,,16,Horse,Caballo
+breed,horse,thoroughbred,,Thoroughbred,Pura sangre
+breed,horse,arabian,,Arabian,Árabe
+breed,horse,quarter_horse,,Quarter Horse,Cuarto de milla
+breed,horse,friesian,,Friesian,Frisón
+breed,horse,appaloosa,,Appaloosa,Appaloosa
+species,mini_pig,,17,Mini pig,Mini cerdo
+breed,mini_pig,juliana,,Juliana,Juliana
+breed,mini_pig,vietnamese_potbellied,,Vietnamese potbellied pig,Cerdo barrigón vietnamita
+breed,mini_pig,kunekune,,Kunekune,Kunekune
+species,chicken,,18,Chicken,Gallina
+breed,chicken,leghorn,,Leghorn,Leghorn
+breed,chicken,rhode_island_red,,Rhode Island Red,Rhode Island Red
+breed,chicken,silkie,,Silkie,Sedosa
+breed,chicken,plymouth_rock,,Plymouth Rock,Plymouth Rock
+breed,chicken,sussex,,Sussex,Sussex
+species,duck,,19,Duck,Pato
+breed,duck,pekin,,Pekin,Pekín
+breed,duck,rouen,,Rouen,Rouen
+breed,duck,cayuga,,Cayuga,Cayuga
+breed,duck,muscovy,,Muscovy,Pato criollo
+breed,duck,call,,Call duck,Pato call
+species,chameleon,,20,Chameleon,Camaleón
+breed,chameleon,veiled,,Veiled chameleon,Camaleón velado
+breed,chameleon,jacksons,,Jackson's chameleon,Camaleón de Jackson
+breed,chameleon,panther,,Panther chameleon,Camaleón pantera

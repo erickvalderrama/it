@@ -1,0 +1,255 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Mockup 1A.2-02 · Selector de ciudad</title>
+<style>
+  :root {
+    --primary: #2B5735; --on-primary: #FFFFFF; --accent: #D7EC9E; --on-accent: #243329;
+    --canvas: #F5F8EE; --surface: #FFFFFF; --ink: #243329; --muted: #5B6B5F; --line: #DCE5D3;
+    --error: #B3261E;
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; padding: 32px; background: #E9EEE3; font-family: "Segoe UI", Roboto, sans-serif; color: var(--ink); }
+  h1 { font-size: 20px; margin: 0 0 4px; }
+  .note { color: var(--muted); font-size: 13px; margin: 0 0 24px; max-width: 1200px; }
+  .row { display: flex; gap: 28px; align-items: flex-start; flex-wrap: nowrap; }
+  .caption { font-size: 13px; font-weight: 600; margin: 10px 0 0; text-align: center; color: var(--muted); }
+
+  /* Phone frame */
+  .phone { width: 300px; height: 620px; background: var(--canvas); border-radius: 28px; border: 8px solid #1E2620;
+           overflow: hidden; display: flex; flex-direction: column; position: relative; }
+  .status { height: 22px; font-size: 11px; display: flex; justify-content: space-between; padding: 4px 16px; color: var(--ink); }
+  .appbar { height: 52px; display: flex; align-items: center; gap: 12px; padding: 0 16px; font-size: 18px; font-weight: 600; }
+  .appbar .back { font-size: 20px; }
+  .content { flex: 1; overflow: hidden; padding: 0 12px; }
+  .navbar { height: 64px; background: var(--surface); border-top: 1px solid var(--line); display: flex; justify-content: space-around; align-items: center; font-size: 11px; }
+  .navbar div { display: flex; flex-direction: column; align-items: center; gap: 2px; color: var(--muted); }
+  .navbar .on { color: var(--ink); font-weight: 600; }
+  .navbar .on .pill { background: var(--accent); }
+  .pill { width: 52px; height: 26px; border-radius: 13px; display: flex; align-items: center; justify-content: center; font-size: 15px; }
+
+  .section-title { font-size: 13px; font-weight: 600; color: var(--muted); margin: 12px 4px 6px; }
+  .card { background: var(--surface); border-radius: 14px; overflow: hidden; }
+  .tile { display: flex; align-items: center; gap: 12px; padding: 12px 14px; border-bottom: 1px solid var(--line); font-size: 14px; }
+  .tile:last-child { border-bottom: 0; }
+  .tile .grow { flex: 1; }
+  .tile small { display: block; color: var(--muted); font-size: 12px; margin-top: 2px; }
+  .link { color: var(--primary); font-weight: 600; font-size: 13px; }
+  .radio { width: 18px; height: 18px; border-radius: 50%; border: 2px solid var(--muted); }
+  .radio.on { border-color: var(--primary); box-shadow: inset 0 0 0 4px var(--surface); background: var(--primary); }
+
+  .field { display: flex; align-items: center; gap: 8px; background: var(--surface); border: 1px solid var(--line); border-radius: 12px;
+           padding: 10px 12px; font-size: 14px; color: var(--muted); margin: 4px 0 8px; }
+  .field.focus { border: 2px solid var(--primary); color: var(--ink); }
+  .select { display: flex; justify-content: space-between; align-items: center; background: var(--surface); border: 1px solid var(--line);
+            border-radius: 12px; padding: 8px 12px; font-size: 14px; margin-top: 4px; }
+  .select small { display: block; color: var(--muted); font-size: 11px; }
+  .group { position: sticky; font-size: 12px; font-weight: 700; color: var(--primary); text-transform: uppercase; letter-spacing: .04em;
+           padding: 10px 4px 4px; background: var(--canvas); }
+  .item { display: flex; justify-content: space-between; align-items: center; padding: 11px 12px; background: var(--surface); font-size: 14px;
+          border-bottom: 1px solid var(--line); }
+  .item.selected { background: var(--accent); font-weight: 600; }
+  .check { color: var(--primary); font-weight: 700; }
+  mark { background: none; color: var(--primary); font-weight: 700; }
+  .empty { text-align: center; padding: 40px 18px; font-size: 14px; }
+  .empty .icon { font-size: 34px; }
+  .empty p { margin: 8px 0; }
+  .empty .hint { color: var(--muted); font-size: 13px; }
+  .btn { display: inline-block; background: var(--primary); color: var(--on-primary); border-radius: 20px; padding: 10px 20px; font-weight: 600; font-size: 14px; margin-top: 12px; }
+  .btn.text { background: none; color: var(--primary); }
+  .skeleton { height: 40px; border-radius: 8px; background: linear-gradient(90deg, #E4EBDD, #F0F4EA, #E4EBDD); margin: 6px 0; }
+
+  /* Web frame */
+  .browser { width: 1200px; height: 720px; border-radius: 12px; overflow: hidden; background: var(--canvas); border: 1px solid #C9D3C0;
+             display: flex; flex-direction: column; position: relative; }
+  .chrome { height: 36px; background: #DDE4D6; display: flex; align-items: center; gap: 8px; padding: 0 14px; font-size: 12px; color: var(--muted); }
+  .dot { width: 10px; height: 10px; border-radius: 50%; background: #B9C4B0; }
+  .url { margin-left: 16px; background: #F3F6EF; border-radius: 6px; padding: 4px 12px; width: 420px; }
+  .web { flex: 1; display: flex; }
+  .rail { width: 96px; background: var(--surface); border-right: 1px solid var(--line); display: flex; flex-direction: column; align-items: center; gap: 22px; padding-top: 24px; font-size: 12px; }
+  .rail div { display: flex; flex-direction: column; align-items: center; gap: 4px; color: var(--muted); }
+  .rail .on { color: var(--ink); font-weight: 600; }
+  .rail .on .pill { background: var(--accent); }
+  .brand { font-weight: 800; font-size: 18px; color: var(--primary); }
+  .main { flex: 1; padding: 28px 40px; }
+  .main h2 { margin: 0 0 8px; font-size: 24px; }
+  .narrow { max-width: 640px; }
+  .scrim { position: absolute; inset: 36px 0 0 0; background: rgba(20, 30, 22, .45); display: flex; align-items: center; justify-content: center; }
+  .dialog { width: 560px; max-height: 600px; background: var(--canvas); border-radius: 24px; padding: 20px 22px; display: flex; flex-direction: column; }
+  .dialog-head { display: flex; justify-content: space-between; align-items: center; font-size: 20px; font-weight: 600; margin-bottom: 8px; }
+  .dialog .list { overflow: hidden; border-radius: 12px; }
+  .two { display: grid; grid-template-columns: 200px 1fr; gap: 12px; align-items: end; }
+  .legend { margin-top: 18px; font-size: 13px; color: var(--muted); max-width: 1200px; line-height: 1.5; }
+  .legend b { color: var(--ink); }
+  section { margin-bottom: 36px; }
+  body.only-web #mobile, body.only-mobile #web { display: none; }
+  body.only-web .note, body.only-mobile .note, body.only-web h1, body.only-mobile h1 { display: none; }
+</style>
+</head>
+<body>
+<h1>1A.2-02 · Selector de país y ciudad</h1>
+<p class="note">Colombia preseleccionada; ciudades agrupadas por departamento; búsqueda sin tildes ni mayúsculas en el dispositivo; tocar una ciudad la elige y vuelve. Se abre desde Cuenta (visitantes y usuarios) y luego desde el registro. Paleta Bosque y pistacho.</p>
+
+<section id="mobile">
+  <div class="row">
+    <div>
+      <div class="phone">
+        <div class="status"><span>9:41</span><span>● ▲ ▮</span></div>
+        <div class="appbar">Cuenta</div>
+        <div class="content">
+          <div class="section-title">Tu ciudad</div>
+          <div class="card">
+            <div class="tile"><div class="grow">Santa Marta<small>Magdalena, Colombia</small></div><span class="link">Cambiar</span></div>
+          </div>
+          <div class="section-title">Idioma</div>
+          <div class="card">
+            <div class="tile"><span class="radio"></span>Idioma del dispositivo</div>
+            <div class="tile"><span class="radio"></span>English</div>
+            <div class="tile"><span class="radio on"></span>Español</div>
+          </div>
+          <div class="section-title">Apariencia</div>
+          <div class="card">
+            <div class="tile"><span class="radio on"></span>Según el dispositivo</div>
+            <div class="tile"><span class="radio"></span>Claro</div>
+          </div>
+        </div>
+        <div class="navbar">
+          <div><span class="pill">⌕</span>Explorar</div>
+          <div><span class="pill">＋</span>Publicar</div>
+          <div class="on"><span class="pill">◯</span>Cuenta</div>
+        </div>
+      </div>
+      <p class="caption">1. Cuenta: ciudad visible y acción Cambiar</p>
+    </div>
+
+    <div>
+      <div class="phone">
+        <div class="status"><span>9:41</span><span>● ▲ ▮</span></div>
+        <div class="appbar"><span class="back">←</span>Elige tu ciudad</div>
+        <div class="content">
+          <div class="select"><span><small>País</small>Colombia</span><span>▾</span></div>
+          <div class="field">⌕ Buscar ciudad o municipio</div>
+          <div class="list">
+            <div class="group">Magdalena</div>
+            <div class="item">Aracataca</div>
+            <div class="item">Ciénaga</div>
+            <div class="item">El Banco</div>
+            <div class="item">Fundación</div>
+            <div class="item selected">Santa Marta <span class="check">✓</span></div>
+            <div class="group">Meta</div>
+            <div class="item">Villavicencio</div>
+          </div>
+        </div>
+      </div>
+      <p class="caption">2. Selector: Colombia preseleccionada, grupos por departamento</p>
+    </div>
+
+    <div>
+      <div class="phone">
+        <div class="status"><span>9:41</span><span>● ▲ ▮</span></div>
+        <div class="appbar"><span class="back">←</span>Elige tu ciudad</div>
+        <div class="content">
+          <div class="select"><span><small>País</small>Colombia</span><span>▾</span></div>
+          <div class="field focus">⌕ santa ma<span style="margin-left:auto">✕</span></div>
+          <div class="list">
+            <div class="group">Boyacá</div>
+            <div class="item"><span><mark>Santa Ma</mark>ría</span></div>
+            <div class="group">Huila</div>
+            <div class="item"><span><mark>Santa Ma</mark>ría</span></div>
+            <div class="group">Magdalena</div>
+            <div class="item selected"><span><mark>Santa Ma</mark>rta</span><span class="check">✓</span></div>
+          </div>
+        </div>
+      </div>
+      <p class="caption">3. Búsqueda sin tildes; resaltado y departamento visible</p>
+    </div>
+
+    <div>
+      <div class="phone">
+        <div class="status"><span>9:41</span><span>● ▲ ▮</span></div>
+        <div class="appbar"><span class="back">←</span>Elige tu ciudad</div>
+        <div class="content">
+          <div class="select"><span><small>País</small>Colombia</span><span>▾</span></div>
+          <div class="field focus">⌕ santa martha<span style="margin-left:auto">✕</span></div>
+          <div class="empty">
+            <div class="icon">⌕</div>
+            <p>No encontramos «santa martha».</p>
+            <p class="hint">Revisa cómo se escribe o busca por el nombre del municipio.</p>
+            <span class="btn text">Borrar búsqueda</span>
+          </div>
+        </div>
+      </div>
+      <p class="caption">4. Sin resultados</p>
+    </div>
+
+    <div>
+      <div class="phone">
+        <div class="status"><span>9:41</span><span>● ▲ ▮</span></div>
+        <div class="appbar"><span class="back">←</span>Elige tu ciudad</div>
+        <div class="content">
+          <div class="skeleton" style="height:46px"></div>
+          <div class="skeleton" style="height:44px"></div>
+          <div class="skeleton"></div><div class="skeleton"></div><div class="skeleton"></div>
+          <div class="empty" style="padding-top:28px">
+            <p>No pudimos cargar esta información. Revisa tu conexión e inténtalo de nuevo.</p>
+            <span class="btn">Reintentar</span>
+          </div>
+        </div>
+      </div>
+      <p class="caption">5. Cargando (arriba) y error con reintento</p>
+    </div>
+  </div>
+</section>
+
+<section id="web">
+  <div class="browser">
+    <div class="chrome"><span class="dot"></span><span class="dot"></span><span class="dot"></span><span class="url">petyei.com/account/city</span></div>
+    <div class="web">
+      <div class="rail">
+        <span class="brand">petyei</span>
+        <div><span class="pill">⌕</span>Explorar</div>
+        <div><span class="pill">＋</span>Publicar</div>
+        <div class="on"><span class="pill">◯</span>Cuenta</div>
+      </div>
+      <div class="main">
+        <div class="narrow">
+          <h2>Cuenta</h2>
+          <div class="section-title">Tu ciudad</div>
+          <div class="card"><div class="tile"><div class="grow">Santa Marta<small>Magdalena, Colombia</small></div><span class="link">Cambiar</span></div></div>
+          <div class="section-title">Idioma</div>
+          <div class="card"><div class="tile"><span class="radio on"></span>Español</div></div>
+        </div>
+      </div>
+    </div>
+    <div class="scrim">
+      <div class="dialog">
+        <div class="dialog-head">Elige tu ciudad <span>✕</span></div>
+        <div class="two">
+          <div class="select"><span><small>País</small>Colombia</span><span>▾</span></div>
+          <div class="field">⌕ Buscar ciudad o municipio</div>
+        </div>
+        <div class="list">
+          <div class="group">Atlántico</div>
+          <div class="item">Barranquilla</div>
+          <div class="item">Malambo</div>
+          <div class="item">Soledad</div>
+          <div class="group">Magdalena</div>
+          <div class="item">Ciénaga</div>
+          <div class="item selected">Santa Marta <span class="check">✓</span></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <p class="caption">Web (≥ 840 px): riel lateral; el selector se abre como diálogo sobre Cuenta, con su propia URL para volver con Atrás.</p>
+</section>
+
+<p class="legend"><b>Comportamiento.</b> El país viene preseleccionado (Colombia, único habilitado; el selector de país aparece pero sin otras opciones hasta habilitarlas). La lista completa se descarga una vez y se busca en el dispositivo sin distinguir tildes ni mayúsculas. Tocar una ciudad la elige, la guarda y vuelve a la pantalla anterior. La ciudad elegida se marca con fondo pistacho y ✓ (no solo color). El servidor valida la ciudad al registrar o publicar y rechaza una ciudad inexistente o deshabilitada.</p>
+
+<script>
+  const view = new URLSearchParams(location.search).get('view');
+  if (view) document.body.classList.add('only-' + view);
+</script>
+</body>
+</html>

@@ -6,6 +6,7 @@ import '../data/http_country_repository.dart';
 import '../domain/country.dart';
 import '../domain/country_repository.dart';
 import '../domain/list_enabled_countries.dart';
+import '../domain/locality.dart';
 
 final httpClientProvider = Provider<http.Client>((ref) {
   final client = http.Client();
@@ -20,20 +21,17 @@ final countryRepositoryProvider = Provider<CountryRepository>(
   ),
 );
 
-final countriesControllerProvider =
-    AsyncNotifierProvider<CountriesController, List<Country>>(
-      CountriesController.new,
-      // The error state offers a retry action; avoid silent automatic retries.
-      retry: (_, _) => null,
+/// Error states offer a retry action, so providers do not retry silently.
+Duration? _noAutomaticRetry(int _, Object _) => null;
+
+final countriesProvider = FutureProvider<List<Country>>(
+  (ref) => ListEnabledCountries(ref.watch(countryRepositoryProvider))(),
+  retry: _noAutomaticRetry,
+);
+
+final localitiesProvider =
+    FutureProvider.family<List<DepartmentLocalities>, String>(
+      (ref, countryCode) =>
+          ref.watch(countryRepositoryProvider).listLocalities(countryCode),
+      retry: _noAutomaticRetry,
     );
-
-class CountriesController extends AsyncNotifier<List<Country>> {
-  @override
-  Future<List<Country>> build() =>
-      ListEnabledCountries(ref.watch(countryRepositoryProvider))();
-
-  Future<void> retry() async {
-    state = const AsyncLoading();
-    state = await AsyncValue.guard(build);
-  }
-}

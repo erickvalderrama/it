@@ -1,27 +1,26 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_riverpod/flutter_riverpod.dart';
 
-import '../features/locations/presentation/countries_screen.dart';
+import '../core/settings/app_settings.dart';
 import '../l10n/app_localizations.dart';
+import 'router.dart';
 import 'theme/app_theme.dart';
 
-class PetyeiApp extends StatelessWidget {
-  const PetyeiApp({super.key, this.locale, this.themeMode = ThemeMode.system});
-
-  /// Null follows the device language, falling back to English.
-  final Locale? locale;
-  final ThemeMode themeMode;
+class PetyeiApp extends ConsumerWidget {
+  const PetyeiApp({super.key});
 
   @override
-  Widget build(BuildContext context) {
-    return MaterialApp(
+  Widget build(BuildContext context, WidgetRef ref) {
+    final settings = ref.watch(appSettingsProvider);
+    return MaterialApp.router(
       onGenerateTitle: (context) => AppLocalizations.of(context).appTitle,
       theme: AppTheme.light,
       darkTheme: AppTheme.dark,
-      themeMode: themeMode,
-      locale: locale,
+      themeMode: settings.themeMode,
+      locale: settings.locale,
       localizationsDelegates: AppLocalizations.localizationsDelegates,
       supportedLocales: AppLocalizations.supportedLocales,
-      home: const CountriesScreen(),
+      routerConfig: ref.watch(routerProvider),
     );
   }
 }

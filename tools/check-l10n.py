@@ -19,8 +19,7 @@ front = Path(__file__).resolve().parent.parent / "front"
 lib = front / "lib"
 errors: list[str] = []
 
-untranslated_file = front / "build" / "l10n" / "untranslated.json"
-untranslated_file.parent.mkdir(parents=True, exist_ok=True)
+untranslated_file = lib / "l10n" / "untranslated.json"
 untranslated_file.unlink(missing_ok=True)
 flutter = shutil.which("flutter") or shutil.which("flutter.bat")
 if flutter is None:

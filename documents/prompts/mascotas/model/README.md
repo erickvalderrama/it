@@ -31,3 +31,20 @@ Record these as proposed model changes and confirm them with the owner before ge
 - Replace `Users.password` with the password hash, and keep phone and address under the privacy rules.
 - Link locations to the DIVIPOLA catalog and keep latitude and longitude with enough precision; `decimal(18,2)` is too coarse for coordinates.
 - `Adoption_Certificates` used an Ethereum hash in the thesis. The owner ruled out Ethereum and any blockchain; drop the hash column and keep certificates in PostgreSQL and MinIO with audit history.
+
+## Applied in the first migration (12 November 2026)
+
+Migration `InitialCatalogs` in `back/src/Petyei.Infrastructure/Persistence/Migrations`, requested by the owner:
+
+| Thesis table | Petyei table | Adaptation |
+| --- | --- | --- |
+| `Countries`, `States`, `Cities` | `countries`, `departments`, `localities` | DIVIPOLA catalog: official codes as text (`08001`), department per locality, source version, and a separate `is_selectable` flag for the pilot. |
+| `Animal_Types` | `species` | Stable English `code` (`dog`) and sort order; names in `catalog_translations`. |
+| `Breeds` | `breeds` | Stable `code` unique per species; names in `catalog_translations`. |
+| — | `catalog_translations` | One row per entity, field, and locale, with English as fallback. |
+| `Genders` | — | Not a table: the pet's sex will be an enum on the pet (female, male, unknown). |
+
+Every table has `state`, `deleted_at`, `deleted_by`, and `deletion_reason`, an index on `state`, partial unique indexes over active rows, and restricted deletes.
+
+Pending: users, pets, questionnaires, adoptions, and notifications depend on the approved accounts model. The seed data for localities, species, and breeds will be loaded by versioned import jobs; the spreadsheet lists "Cobaya (Cuyo)" and "Conejillo de Indias" as separate species although they are the same animal, so they will be merged into `guinea_pig`.
+

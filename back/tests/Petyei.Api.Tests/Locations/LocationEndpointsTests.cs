@@ -5,7 +5,7 @@ using Petyei.Application.Locations;
 
 namespace Petyei.Api.Tests.Locations;
 
-public sealed class LocationEndpointsTests(WebApplicationFactory<Program> factory) : IClassFixture<WebApplicationFactory<Program>>
+public sealed class LocationEndpointsTests(ApiFactory factory) : IClassFixture<ApiFactory>
 {
     [Fact]
     public async Task ListCountries_ReturnsColombiaFromConfiguration()

@@ -1,15 +1,66 @@
 {
   "@@locale": "en",
   "appTitle": "Petyei",
-  "countriesTitle": "Available countries",
+  "navExplore": "Explore",
+  "navPublish": "Publish",
+  "navAccount": "Account",
+  "exploreTitle": "Pets for adoption",
+  "exploreEmpty": "There are no pets for adoption here yet.",
+  "publishTitle": "Publish an adoption",
+  "publishIntro": "Create a listing so a family can find this pet.",
+  "accountTitle": "Account",
+  "languageLabel": "Language",
+  "languageSystem": "Device language",
+  "themeLabel": "Appearance",
+  "themeSystem": "Device setting",
+  "themeLight": "Light",
+  "themeDark": "Dark",
   "countriesEmpty": "No countries are available yet.",
-  "loadErrorMessage": "We couldn't load this information. Check your connection and try again.",
   "retryAction": "Try again",
   "countryName": "{code, select, CO{Colombia} other{{code}}}",
   "@countryName": {
     "description": "Country name for an ISO 3166-1 alpha-2 code.",
     "placeholders": {
-      "code": { "type": "String" }
+      "code": {
+        "type": "String"
+      }
+    }
+  },
+  "apiErrorMessage": "{code, select, locations_invalid_country_code{Choose a valid country.} locations_country_not_enabled{Petyei is not available in this country yet.} locations_locality_not_available{Choose a city from the list.} common_not_found{We couldn't find what you were looking for.} other{We couldn't load this information. Check your connection and try again.}}",
+  "@apiErrorMessage": {
+    "description": "Message for a stable API error code. Codes use underscores instead of dots.",
+    "placeholders": {
+      "code": {
+        "type": "String"
+      }
+    }
+  },
+  "cityLabel": "Your city",
+  "cityNotSet": "Choose your city to see pets near you.",
+  "changeAction": "Change",
+  "chooseAction": "Choose",
+  "cityPickerTitle": "Choose your city",
+  "countryLabel": "Country",
+  "citySearchHint": "Search city or municipality",
+  "citySearchEmpty": "We couldn't find “{query}”.",
+  "@citySearchEmpty": {
+    "placeholders": {
+      "query": {
+        "type": "String"
+      }
+    }
+  },
+  "citySearchEmptyHint": "Check the spelling or search by municipality name.",
+  "clearSearchAction": "Clear search",
+  "cityLocation": "{department}, {country}",
+  "@cityLocation": {
+    "placeholders": {
+      "department": {
+        "type": "String"
+      },
+      "country": {
+        "type": "String"
+      }
     }
   }
 }

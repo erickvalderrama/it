@@ -1,0 +1,4 @@
+# EF Core generates these files; review them, but do not apply style analyzers.
+[*.cs]
+generated_code = true
+dotnet_analyzer_diagnostic.severity = none

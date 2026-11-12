@@ -28,6 +28,20 @@ abstract final class AppTheme {
         backgroundColor: colors.canvas,
         foregroundColor: colors.onSurface,
       ),
+      // Rounded, filled fields as in the mockups.
+      inputDecorationTheme: InputDecorationTheme(
+        filled: true,
+        fillColor: colors.surface,
+        border: OutlineInputBorder(borderRadius: BorderRadius.circular(12)),
+        enabledBorder: OutlineInputBorder(
+          borderRadius: BorderRadius.circular(12),
+          borderSide: BorderSide(color: scheme.outlineVariant),
+        ),
+        focusedBorder: OutlineInputBorder(
+          borderRadius: BorderRadius.circular(12),
+          borderSide: BorderSide(color: colors.primary, width: 2),
+        ),
+      ),
     );
   }
 }

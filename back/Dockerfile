@@ -15,6 +15,7 @@ RUN dotnet publish src/Petyei.Api/Petyei.Api.csproj -c Release -o /app --no-rest
 FROM mcr.microsoft.com/dotnet/aspnet:10.0 AS runtime
 WORKDIR /app
 COPY --from=build /app ./
+COPY data/ ./data/
 ENV ASPNETCORE_HTTP_PORTS=8080
 EXPOSE 8080
 USER $APP_UID
