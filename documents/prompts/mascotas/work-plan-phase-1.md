@@ -6,7 +6,7 @@ Decisiones registradas el 9 de noviembre de 2026. Proyecto para un primer lanzam
 
 ## Cómo ejecutar el plan y pasarlo a otra IA
 
-1. Leer el `CLAUDE.md` de Mascotas, este plan, la especificación de fase 1 y las instrucciones del repositorio. Al trasladar los archivos al proyecto de aplicación, usar `CLAUDE.md` en la raíz, `docs/planning/work-plan.md` para el avance y `docs/specifications/phase-1.md` para los contratos y pantallas. Usar esa copia del plan como registro activo.
+1. Leer el `CLAUDE.md` de Mascotas, este plan, la especificación de fase 1 y las instrucciones del repositorio. La aplicación vive en este mismo repositorio (`erickvalderrama/it`, rama `main`) con dos carpetas en la raíz: `back/` para la solución ASP.NET Core y `front/` para la aplicación Flutter. Este archivo es el registro activo del avance y la especificación de fase 1 sigue en `documents/prompts/mascotas/`.
 2. Revisar el código, la rama, los cambios existentes y el registro de avance. Empezar por la primera tarea `[ ]` ejecutable de la fase solicitada. Seguir el orden de dependencias, conservar el trabajo existente y usar las convenciones del proyecto. Mantener la arquitectura, el modelo entidad-relación, los textos base en inglés, el límite de 699 líneas y las pruebas exigidas en la memoria.
 3. Ejecutar la tarea por el flujo real que usará el usuario. Correr las comprobaciones aplicables y registrar el resultado con ruta, commit, comando, ejecución de CI o captura. Cambiar la casilla de `[ ]` a `[x]` solo al verificar el resultado. Actualizar el plan en el mismo cambio y continuar con la siguiente tarea disponible.
 4. Resolver decisiones reversibles durante la ejecución y anotar las que afecten el resultado. Para una dependencia ausente, conservar `[ ]` y registrar qué falta y qué tarea afecta. Avanzar con las tareas independientes del alcance autorizado, usando fixtures o adaptadores de prueba cuando corresponda. Retomar la tarea bloqueada cuando esté disponible su dependencia.
@@ -16,6 +16,7 @@ Decisiones registradas el 9 de noviembre de 2026. Proyecto para un primer lanzam
 
 | Componente | Ubicación y conexión |
 | --- | --- |
+| Estructura del repositorio | `back/`: solución .NET (Domain, Application, Infrastructure, API y pruebas) con su Dockerfile. `front/`: aplicación Flutter para web, Android e iOS con su Dockerfile web. En la raíz: `compose.yaml`, `CLAUDE.md` y `documents/`. |
 | API ASP.NET Core y trabajo en segundo plano | Un solo backend: imagen de aplicación .NET en contenedor. Los trabajos en segundo plano (moderación, facturas, cobros de suscripción, conciliación y entrenamiento del modelo) corren como servicios hospedados dentro del mismo backend. Sin microservicios. |
 | Flutter web | Imagen con el build web y servidor de archivos estáticos. Configurar la URL pública de la API y el fallback de navegación para abrir enlaces profundos directamente. |
 | Flutter Android e iOS | Builds para sus plataformas de distribución. Las apps se conectan a la misma API desplegada en contenedores. |
@@ -65,7 +66,7 @@ Usar la especificación de implementación para convertir las entregas en tareas
 - [x] **1.0-01** Versionar la memoria técnica de Mascotas y la especificación de fase 1 para el traspaso a desarrollo.
 - [x] **1.0-02** Versionar los dos CSV DIVIPOLA y sus instrucciones de importación. Verificados 33 registros departamentales y 1.122 registros de localidades.
 - [x] **1.0-03** Versionar los borradores colombianos de términos y privacidad para la revisión del operador.
-- [ ] **1.0-04** Registrar la ruta del repositorio de aplicación y sus comandos de trabajo. Incorporar la memoria, el plan activo y la especificación a ese repositorio.
+- [x] **1.0-04** Registrar la ruta del repositorio de aplicación y sus comandos de trabajo. Incorporar la memoria, el plan activo y la especificación a ese repositorio.
 - [ ] **1.0-05** Registrar la ubicación y versión del modelo entidad-relación aprobado. Contrastar cuentas, ubicaciones, Business, listados, medios, consentimientos, precios, pagos y facturas antes de crear los mapeos o migraciones que los afectan.
 - [x] **1.0-06** Registrar Bosque y pistacho como la paleta oficial en la memoria principal de Mascotas y en la especificación de fase 1.
 - [x] **1.0-07** Elegir el nombre oficial de la aplicación y preparar los bocetos de marca con la paleta oficial.
@@ -74,12 +75,12 @@ Usar la especificación de implementación para convertir las entregas en tareas
 ### 1A.1 Arranque en contenedores, contratos y UI/UX
 
 - [ ] **1A.1-01** Revisar la solución existente o establecer la estructura modular de .NET y Flutter. Fijar SDK, dependencias, versión de PostgreSQL del servidor y manejo de estado. Verificar compilación desde un checkout limpio.
-- [ ] **1A.1-01A** Fijar las fronteras de Domain, Application, Infrastructure y API y la estructura de Flutter por feature. Verificar las referencias entre proyectos y que un flujo de ejemplo atraviesa interfaz, caso de uso y contrato sin lógica de negocio en widgets o controladores HTTP.
-- [ ] **1A.1-01B** Implementar la base de borrado lógico: estado, `DeletedAt` y `DeletedBy`, filtros globales de EF Core, restricción de borrado en llaves foráneas e índices únicos parciales sobre registros no borrados. Probar que borrar cambia el estado, oculta el registro y conserva la fila.
+- [x] **1A.1-01A** Fijar las fronteras de Domain, Application, Infrastructure y API y la estructura de Flutter por feature. Verificar las referencias entre proyectos y que un flujo de ejemplo atraviesa interfaz, caso de uso y contrato sin lógica de negocio en widgets o controladores HTTP.
+- [x] **1A.1-01B** Implementar la base de borrado lógico: estado, `DeletedAt` y `DeletedBy`, filtros globales de EF Core, restricción de borrado en llaves foráneas e índices únicos parciales sobre registros no borrados. Probar que borrar cambia el estado, oculta el registro y conserva la fila.
 - [ ] **1A.1-01C** Configurar las migraciones de EF Core como único mecanismo de cambio de esquema, con script idempotente o bundle para despliegue. Crear índices para llaves foráneas, filtros, ordenamiento y colas de trabajos. Verificar la migración en una base vacía y revisar los planes de consulta.
 - [ ] **1A.1-01D** Implementar JWT sin vencimiento con identificador de sesión validado en cada solicitud. Revocar la sesión al cerrar sesión, cambiar contraseña o rol, suspender o borrar la cuenta. Probar que un token revocado se rechaza y que el usuario puede cerrar sesiones por dispositivo.
 - [ ] **1A.1-01E** Guardar contraseñas solo como hash con el hasher de ASP.NET Core Identity o Argon2id. Probar que el hash nunca aparece en respuestas ni registros, el rehash al cambiar parámetros y el límite de intentos.
-- [ ] **1A.1-02** Crear los Dockerfiles de API y Flutter web y el Compose de los servicios de aplicación. Configurar servidor estático, rutas SPA y API pública. Comprobar `docker compose config`, `docker compose build`, `docker compose up -d` y `docker compose ps`.
+- [x] **1A.1-02** Crear los Dockerfiles de API y Flutter web y el Compose de los servicios de aplicación. Configurar servidor estático, rutas SPA y API pública. Comprobar `docker compose config`, `docker compose build`, `docker compose up -d` y `docker compose ps`.
 - [ ] **1A.1-03** Documentar variables de cada ambiente, ejemplos sin secretos y forma de inyectarlas. Configurar PostgreSQL externo, MinIO, origen web y puertos. Probar que la aplicación detecta valores ausentes o inválidos con errores que protegen datos sensibles.
 - [ ] **1A.1-03A** Configurar Google Maps Platform: cuenta de Google Cloud con facturación, keys separadas para Android (paquete y certificado), iOS (bundle ID) y web (dominios autorizados), cada una limitada a las APIs que usa, y cuotas con alertas de presupuesto.
   - CA: las keys se inyectan por ambiente en el build y ninguna aparece en el repositorio.
@@ -132,7 +133,7 @@ Reglas del responsable, 11 de noviembre de 2026: la aplicación es multilenguaje
 
 #### Idiomas
 
-- [ ] **1A.4-01** Configurar `flutter_localizations` y `gen-l10n` con `app_en.arb` como plantilla y `app_es.arb`. Exponer los textos mediante una extensión como `context.l10n`.
+- [x] **1A.4-01** Configurar `flutter_localizations` y `gen-l10n` con `app_en.arb` como plantilla y `app_es.arb`. Exponer los textos mediante una extensión como `context.l10n`.
   - CA: ningún widget ni controlador contiene texto visible escrito en el código; una búsqueda automática en CI lo verifica.
   - CA: las claves usan nombres en inglés por funcionalidad, por ejemplo `adoptionDetailTitle`.
   - CA: cantidades, precios y fechas usan marcadores ICU con plurales y formato de `intl` según el idioma activo.
@@ -146,7 +147,7 @@ Reglas del responsable, 11 de noviembre de 2026: la aplicación es multilenguaje
 - [ ] **1A.4-04** Implementar traducciones de datos administrados en base de datos: especies, razas, preguntas y opciones de cuestionarios, planes y beneficios, motivos de moderación y plantillas de notificación, con caída a inglés.
   - CA: el catálogo de especies y razas se muestra en el idioma activo; una traducción faltante muestra el texto en inglés y queda reportada.
   - CA: Superadmin puede editar la traducción de un elemento sin cambiar código, con auditoría.
-- [ ] **1A.4-05** Agregar a CI la validación de traducciones: claves faltantes o sin uso, marcadores distintos entre idiomas y elementos de catálogo sin traducir.
+- [x] **1A.4-05** Agregar a CI la validación de traducciones: claves faltantes o sin uso, marcadores distintos entre idiomas y elementos de catálogo sin traducir.
   - CA: un ARB con una clave faltante o un marcador distinto hace fallar el pipeline con el nombre de la clave.
 - [ ] **1A.4-06** Documentar en `docs/localization.md` cómo agregar un idioma y ensayarlo con un idioma de prueba.
   - CA: agregar un tercer idioma de prueba solo requiere el ARB, registrar el locale, las traducciones de catálogo y los documentos legales; no cambia lógica de negocio.
@@ -466,7 +467,17 @@ Registrar cada cierre o bloqueo por ID, con fecha, estado y evidencia reproducib
 | 2026-11-11 | 1.0-01 | Verificada | [Memoria](https://github.com/erickvalderrama/it/blob/main/CLAUDE.md) · [Especificación](https://github.com/erickvalderrama/it/blob/main/documents/prompts/mascotas/phase-1-specification.md) |
 | 2026-11-11 | 1.0-02 | Verificada | [Catálogo DANE y fuentes](https://github.com/erickvalderrama/it/blob/main/documents/prompts/mascotas/data/README.md) · [Departamentos](https://github.com/erickvalderrama/it/blob/main/documents/prompts/mascotas/data/colombia-departments.csv) · [Localidades](https://github.com/erickvalderrama/it/blob/main/documents/prompts/mascotas/data/colombia-divipola-localities.csv) |
 | 2026-11-11 | 1.0-03 | Verificada como borradores | [Términos](https://github.com/erickvalderrama/it/blob/main/documents/prompts/mascotas/legal/terms-and-conditions.md) · [Privacidad](https://github.com/erickvalderrama/it/blob/main/documents/prompts/mascotas/legal/privacy-policy.md) |
-| 2026-11-11 | 1.0-04 | Pendiente de ubicación | El repositorio de aplicación aún no está identificado en la memoria. |
+| 2026-11-12 | 1.0-04 | Verificada | Repositorio `erickvalderrama/it`, rama `main`, carpetas `back/` y `front/`. Comandos en `README.md`. |
+| 2026-11-12 | 1A.1-01 | En curso | `back/`: .NET 10.0.401 fijado en `global.json`, versiones centralizadas en `Directory.Packages.props` (EF Core 10.0.15, Npgsql 10.0.3), advertencias como errores. `front/`: Flutter 3.41.2, Riverpod 3.3.2, gen-l10n. `dotnet build` y `flutter analyze` sin advertencias. Falta: versión del servidor PostgreSQL y compilación desde un checkout limpio tras el commit. |
+| 2026-11-12 | 1A.1-01A | Verificada | Flujo de países habilitados: `CountryCode` (Domain) → `ListEnabledCountries` + puerto `ICountryCatalog` (Application) → catálogo por configuración (Infrastructure) → `GET /api/v1/locations/countries` (API) → repositorio HTTP, caso de uso y controlador Riverpod → pantalla. `dotnet test`: 16 pruebas; `flutter test`: 7 pruebas (inglés, español, oscuro, vacío, error y reintento). |
+| 2026-11-12 | 1A.1-01B | Verificada | `SoftDeletableEntity` (estado, `DeletedAt`, `DeletedBy`, motivo), `SoftDeleteInterceptor` y `ApplyPlatformConventions` (filtro global, índice de estado, borrado restringido en llaves foráneas, `HasActiveUniqueIndex` parcial). 4 pruebas contra PostgreSQL 17 + PostGIS en contenedor (Testcontainers): la fila se conserva, la consulta normal la oculta, el correo se reutiliza solo tras borrar y la restauración funciona. 3 pruebas de dominio. |
+| 2026-11-12 | 1A.1-01C | En curso | `dotnet-ef` 10.0.15 fijado en `back/dotnet-tools.json`, fábrica de diseño y nombres en snake_case. `dotnet ef dbcontext info` reconoce `PetyeiDbContext` con Npgsql. Falta la primera migración: depende de confirmar las adaptaciones del modelo (1.0-05). |
+| 2026-11-12 | 1A.1-02 | Verificada | `back/Dockerfile`, `front/Dockerfile` (Flutter 3.41.2 → nginx con fallback SPA) y `compose.yaml`. `docker compose config`, `build`, `up -d` y `ps` correctos. API en :5180 (`/api/v1/locations/countries` 200, `/health/live` 200, 404 con Problem Details), web en :5181 con ruta profunda `/adoptions/123` 200; CORS solo para el origen configurado. Captura de la web en español mostrando Colombia desde la API. Puertos 8080/8081 cambiados porque ya estaban ocupados en la máquina. |
+| 2026-11-12 | 1A.1-03 | En curso | `.env.example` sin secretos, `ConnectionStrings:Petyei`, `Countries:Enabled` validado al arrancar y `Cors:AllowedOrigins`. Faltan PostgreSQL externo, MinIO y la validación de valores ausentes de esos servicios. |
+| 2026-11-12 | 1A.1-08 | En curso | `.github/workflows/ci.yml`: backend (formato, build, pruebas con PostgreSQL en contenedor), frontend (traducciones, formato, análisis, pruebas) y verificaciones (699 líneas, compose config y build). Pendiente la primera ejecución en GitHub tras el push. |
+| 2026-11-12 | 1A.4-01 | Verificada | gen-l10n con `app_en.arb` (plantilla) y `app_es.arb`, extensión `context.l10n`, ICU `select` para nombres de país. `tools/check-l10n.py` falla con texto literal en widgets. |
+| 2026-11-12 | 1A.4-05 | Verificada | `tools/check-l10n.py`: claves faltantes por idioma, claves sin uso y texto literal. Prueba negativa: al quitar `retryAction` de `app_es.arb` falla con "Locale 'es' is missing translations: retryAction". |
+| 2026-11-12 | 1A.4-08 | En curso | Tokens claros y oscuros en `AppColors` y `AppTheme`; prueba de widget confirma el `primary` oscuro `#B9D88A`. Falta la revisión automática de colores escritos directamente. |
 | 2026-11-11 | 1.0-05 | Pendiente del modelo | La ruta del modelo entidad-relación aprobado sigue pendiente en la memoria. |
 | 2026-11-11 | 1.0-06 | Verificada como decisión de diseño | [Memoria principal](https://github.com/erickvalderrama/it/blob/main/CLAUDE.md#uiux-and-flutter-interface-for-web-and-mobile) · [Tokens oficiales](https://github.com/erickvalderrama/it/blob/main/documents/prompts/mascotas/phase-1-specification.md#official-light-theme) |
 | 2026-11-11 | 1.0-07 | Verificada como decisión del responsable | Nombre Petyei. `petyei.com` sin registrar según RDAP de Verisign. [Marca y bocetos](https://github.com/erickvalderrama/it/blob/main/documents/brand/README.md) |
@@ -478,7 +489,7 @@ Revisar esta lista al terminar el trabajo ejecutable. Conservar solo las pregunt
 
 | Tarea | Información que desbloquea el siguiente paso |
 | --- | --- |
-| 1.0-04 | ¿Cuál es el repositorio y la rama de trabajo de la aplicación? |
+| 1A.1-01 | ¿Qué versión de PostgreSQL tiene el servidor externo y tiene PostGIS disponible? |
 | 1.0-05 | ¿Dónde está la versión aprobada del modelo entidad-relación? |
 | 1.0-08 | ¿Se registró `petyei.com` a precio estándar y cuál fue el resultado de la búsqueda de marca? |
 | 1A.1-04 | ¿Cuáles son los destinos y el mecanismo autorizado para configurar PostgreSQL y MinIO por ambiente? Compartir la ubicación de la configuración segura. |

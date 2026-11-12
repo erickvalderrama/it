@@ -1,0 +1,14 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/Petyei.Api/Petyei.Api.csproj" />
+    <Project Path="src/Petyei.Application/Petyei.Application.csproj" />
+    <Project Path="src/Petyei.Domain/Petyei.Domain.csproj" />
+    <Project Path="src/Petyei.Infrastructure/Petyei.Infrastructure.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/Petyei.Api.Tests/Petyei.Api.Tests.csproj" />
+    <Project Path="tests/Petyei.Application.Tests/Petyei.Application.Tests.csproj" />
+    <Project Path="tests/Petyei.Domain.Tests/Petyei.Domain.Tests.csproj" />
+    <Project Path="tests/Petyei.Infrastructure.Tests/Petyei.Infrastructure.Tests.csproj" />
+  </Folder>
+</Solution>

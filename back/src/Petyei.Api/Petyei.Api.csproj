@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <InvariantGlobalization>false</InvariantGlobalization>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.OpenApi" />
+    <ProjectReference Include="..\Petyei.Application\Petyei.Application.csproj" />
+    <ProjectReference Include="..\Petyei.Infrastructure\Petyei.Infrastructure.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <InternalsVisibleTo Include="Petyei.Api.Tests" />
+  </ItemGroup>
+
+</Project>

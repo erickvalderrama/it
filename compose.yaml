@@ -1,0 +1,23 @@
+name: petyei
+
+services:
+  api:
+    build:
+      context: ./back
+    environment:
+      ASPNETCORE_ENVIRONMENT: ${ASPNETCORE_ENVIRONMENT:-Production}
+      Cors__AllowedOrigins__0: ${WEB_ORIGIN:-http://localhost:5181}
+    ports:
+      - "${API_PORT:-5180}:8080"
+    restart: unless-stopped
+
+  web:
+    build:
+      context: ./front
+      args:
+        API_BASE_URL: ${API_BASE_URL:-http://localhost:5180}
+    ports:
+      - "${WEB_PORT:-5181}:80"
+    depends_on:
+      - api
+    restart: unless-stopped

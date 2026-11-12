@@ -48,9 +48,9 @@ No se aceptaron como prueba las frases antiguas «no existe», «sin competencia
 
 ## Proyecto seleccionado por el usuario
 
-Mascotas usa C# con .NET, PostgreSQL y Flutter para web, Android e iOS, con Riverpod como opción inicial. El proyecto exige arquitectura limpia, código en inglés, textos base en constantes, máximo 699 líneas por archivo, pruebas unitarias y seguridad. El modelo entidad-relación aprobado gobierna la persistencia. [Idea 1](ideas/1.%20Mascotas.txt) · [CLAUDE.md de Mascotas](CLAUDE.md)
+Mascotas usa C# con .NET, PostgreSQL y Flutter para web, Android e iOS, con Riverpod como opción inicial. El proyecto exige arquitectura limpia, código en inglés, textos base en constantes, máximo 699 líneas por archivo, pruebas unitarias y seguridad. El modelo entidad-relación aprobado gobierna la persistencia. [Idea 1](ideas/1.%20Mascotas.txt) · [CLAUDE.md de Mascotas](../../CLAUDE.md)
 
-La fase 1 lanza adopciones multicidad, cobro premium con ePayco antes de moderación y facturación electrónica. Superadmin, User y Business pueden pagar destacados. Tienda y fundación comparten el rol Business, con alta promocional y mensualidad asignada. La fase 2 habilita tiendas, servicios, recargas y Payouts. La fase 3 habilita transporte A→B tras su validación legal. [Plan de trabajo](prompts/mascotas/work-plan.md) [Términos](prompts/mascotas/legal/terms-and-conditions.md) · [Privacidad](prompts/mascotas/legal/privacy-policy.md)
+La fase 1 lanza adopciones multicidad, cobro premium con ePayco antes de moderación y facturación electrónica. Superadmin, User y Business pueden pagar destacados. Tienda y fundación comparten el rol Business, con alta promocional y mensualidad asignada. La fase 2 habilita tiendas, servicios, recargas y Payouts. La fase 3 habilita transporte A→B tras su validación legal. [Plan de trabajo](../prompts/mascotas/work-plan-phase-1.md) [Términos](../prompts/mascotas/legal/terms-and-conditions.md) · [Privacidad](../prompts/mascotas/legal/privacy-policy.md)
 
 ## Top 10
 
@@ -85,7 +85,7 @@ Los tamaños siguientes son propuestas de piloto, no resultados, previsiones de 
 
 - Frecuencia. Publicaciones y búsquedas de adopción puntuales, recurrentes para fundaciones. Belleza periódica y transporte ocasional en fases posteriores.
 - Primera prueba. Alta asistida de fundaciones y publicación en más de una ciudad, con captación inicial propuesta en Santa Marta. Medir anuncios que completan revisión, solicitudes de adopción y conversión a premium. Probar cobro, reenvío de correcciones, devolución y factura.
-- Condición. Validar que el anuncio genera contactos útiles y que puede operarse su moderación, cobro y soporte. Probar la disposición a aceptar una mensualidad Business después de la promoción. [Plan de trabajo](prompts/mascotas/work-plan.md)
+- Condición. Validar que el anuncio genera contactos útiles y que puede operarse su moderación, cobro y soporte. Probar la disposición a aceptar una mensualidad Business después de la promoción. [Plan de trabajo](../prompts/mascotas/work-plan-phase-1.md)
 
 ### 3. 17. Cotiza tu moto
 

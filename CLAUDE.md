@@ -1,6 +1,6 @@
 # CLAUDE.md — Mascotas Project
 
-Use this root memory for Mascotas. For business-idea research, evaluation, and ranking, follow [claude-ideas.md](https://github.com/erickvalderrama/it/blob/main/claude-ideas.md).
+Use this root memory for Mascotas. For business-idea research, evaluation, and ranking, follow [claude-ideas.md](documents/general/claude-ideas.md).
 
 ## Official product name
 
@@ -12,11 +12,11 @@ Act as a senior software architect, full-stack engineer, UI/UX product designer,
 
 Read the existing code and approved model before starting. For each change, identify the active phase, affected roles and resource ownership, data and API contracts, UI states, failure and recovery paths, and acceptance checks. Deliver one usable slice through the necessary layers, preserve user changes, and document material decisions and unresolved blockers.
 
-For Phase 1, use the implementation specification for the build order, proposed API and data contracts, UI/UX journeys, and acceptance scenarios. Bring a copy into the application repository at docs/specifications/phase-1.md and use the approved model for persistence. [Phase 1 implementation specification](https://github.com/erickvalderrama/it/blob/main/prompts/mascotas/phase-1-specification.md)
+For Phase 1, use the implementation specification for the build order, proposed API and data contracts, UI/UX journeys, and acceptance scenarios. Keep it in `documents/prompts/mascotas/` and use the approved model for persistence. [Phase 1 implementation specification](https://github.com/erickvalderrama/it/blob/main/documents/prompts/mascotas/phase-1-specification.md)
 
 ### Work plan execution and handoff
 
-Track execution in the application's `docs/planning/work-plan.md`. Read the current checklist, specification, repository instructions, and code before starting. Resume from the first runnable unchecked task in the requested phase. [Work plan template](https://github.com/erickvalderrama/it/blob/main/prompts/mascotas/work-plan.md)
+Track execution in `documents/prompts/mascotas/work-plan-phase-1.md`, the active plan. Read the current checklist, specification, repository instructions, and code before starting. Resume from the first runnable unchecked task in the requested phase. [Work plan template](https://github.com/erickvalderrama/it/blob/main/documents/prompts/mascotas/work-plan-phase-1.md)
 
 Complete the task through its normal entry points, run the relevant checks, mark `[x]` after verification, and record evidence in the plan. Continue through the available tasks in order. Record reversible assumptions and keep blocked tasks unchecked with their dependency. Proceed with independent authorized work. After exhausting runnable tasks, report the next step and group any questions that need the owner's input.
 
@@ -24,6 +24,7 @@ Complete the task through its normal entry points, run the relevant checks, mark
 
 Build the requested change in small, verifiable increments. Mascotas connects people with adoption foundations, independent pet service providers, and pet supply stores.
 Use C# with ASP.NET Core Web API, PostgreSQL, Entity Framework Core, and Npgsql. Connect to the existing external PostgreSQL server.
+The application lives in this repository with two root folders: `back/` for the ASP.NET Core solution and `front/` for the Flutter app. Keep `compose.yaml` at the root.
 Use Dockerfiles and Docker Compose for the API and Flutter web. Connect the backend to the owner's external MinIO server for object storage. Inject environment-specific credentials at runtime on the server.
 
 ### One frontend and one backend — no microservices
@@ -98,7 +99,7 @@ Keep every source file below 700 lines, including comments, blank lines, widgets
 
 ## UI/UX and Flutter interface for web and mobile
 
-Use **Bosque y pistacho** as the official light palette. Set `primary` to `#2B5735`, `accentContainer` to `#D7EC9E`, `canvas` to `#F5F8EE`, `surface` and `onPrimary` to `#FFFFFF`, and `onSurface` and `onAccentContainer` to `#243329`. Apply the tokens through the shared Flutter theme for web and mobile. Use forest green for primary actions and selected controls and pistachio for featured listings. [Official theme tokens](https://github.com/erickvalderrama/it/blob/main/prompts/mascotas/phase-1-specification.md#official-light-theme)
+Use **Bosque y pistacho** as the official light palette. Set `primary` to `#2B5735`, `accentContainer` to `#D7EC9E`, `canvas` to `#F5F8EE`, `surface` and `onPrimary` to `#FFFFFF`, and `onSurface` and `onAccentContainer` to `#243329`. Apply the tokens through the shared Flutter theme for web and mobile. Use forest green for primary actions and selected controls and pistachio for featured listings. [Official theme tokens](https://github.com/erickvalderrama/it/blob/main/documents/prompts/mascotas/phase-1-specification.md#official-light-theme)
 
 ### Dark mode — Phase 1
 
@@ -126,7 +127,7 @@ Design each screen once around the same use case and controller. Compose layouts
 
 ## Release plan and roles
 
-Ship the adoption release first. Use the work plan for dependencies, acceptance checks, release gates, and the Colombia pilot. Follow the approved entity relationship model when implementing these requirements. [Mascotas work plan](https://github.com/erickvalderrama/it/blob/main/prompts/mascotas/work-plan.md)
+Ship the adoption release first. Use the work plan for dependencies, acceptance checks, release gates, and the Colombia pilot. Follow the approved entity relationship model when implementing these requirements. [Mascotas work plan](https://github.com/erickvalderrama/it/blob/main/documents/prompts/mascotas/work-plan-phase-1.md)
 
 | Role | Scope |
 | --- | --- |
@@ -140,7 +141,7 @@ Use one Business role for both Foundation and Store profile types. A Business ca
 
 ### Registration, locations, and Business enrollment
 
-Ask for name, email, password, country, and city at personal registration. Preselect Colombia and enable it as the initial country. Use the approved location catalog to support several cities from launch and future countries through configuration. Group Colombian locations by department in the selector. Keep official DIVIPOLA codes as text and validate country, department, and location on the server. Store a listing's location independently from the account's city. [DANE catalog and import notes](https://github.com/erickvalderrama/it/tree/main/prompts/mascotas/data)
+Ask for name, email, password, country, and city at personal registration. Preselect Colombia and enable it as the initial country. Use the approved location catalog to support several cities from launch and future countries through configuration. Group Colombian locations by department in the selector. Keep official DIVIPOLA codes as text and validate country, department, and location on the server. Store a listing's location independently from the account's city. [DANE catalog and import notes](https://github.com/erickvalderrama/it/tree/main/documents/prompts/mascotas/data)
 
 Start Business enrollment with a choice of store or foundation for both new accounts and conversions of existing accounts. Request store identity evidence when the person enrolls as a store or later enables a storefront. For a natural person request a Colombian identity card and RUT. For a legal entity request NIT and RUT, with representation checks where applicable. Keep these documents private, restrict verification access, and minimize retention. Apply the same Business membership rules to both profile types.
 
@@ -256,8 +257,8 @@ When updated Terms apply, present them at sign-in or before a protected flow. Re
 In the legal copy, specify that Mascotas provides the advertised digital tools and is responsible for the functions and charges it undertakes. The publisher manages and is responsible for the adoption information and handover, the store handles its sale and delivery, and the independent provider performs the agreed service. Identify the responsible party in each flow and preserve mandatory consumer and data rights. Describe AI-assisted moderation, membership pricing, renewals, complaints, cancellations, and refunds as they apply to the enabled features.
 
 Use the reviewed versions in the future project under `docs/legal/v1/es/` and `docs/legal/v1/en/` (`terms-and-conditions.md` and `privacy-policy.md`), with later phases in `v2`, `v3`, and so on. The current drafts are in Spanish and cover all three phases; adapt them to Phase 1 before publishing. Complete operator identity, support channels, effective dates, retention, and actual payment and data practices before publishing. Use the initial Colombia drafts for legal review.
-- [Terms and conditions draft](https://github.com/erickvalderrama/it/blob/main/prompts/mascotas/legal/terms-and-conditions.md)
-- [Privacy policy draft](https://github.com/erickvalderrama/it/blob/main/prompts/mascotas/legal/privacy-policy.md)
+- [Terms and conditions draft](https://github.com/erickvalderrama/it/blob/main/documents/prompts/mascotas/legal/terms-and-conditions.md)
+- [Privacy policy draft](https://github.com/erickvalderrama/it/blob/main/documents/prompts/mascotas/legal/privacy-policy.md)
 
 ## Required tests and delivery checks
 

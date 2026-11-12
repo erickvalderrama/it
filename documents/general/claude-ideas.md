@@ -18,7 +18,7 @@ Indicación del usuario, 6 de noviembre de 2026: guardar la evaluación en el re
 
 Nombre oficial de la aplicación: **Petyei**, elegido por el usuario el 11 de noviembre de 2026. Mascotas sigue como nombre interno. [Marca](../brand/petyei/)
 
-Decisiones vigentes al 9 de noviembre de 2026. Ejecutar las entregas y sus pruebas de salida en el orden del [plan de trabajo](prompts/mascotas/work-plan.md).
+Decisiones vigentes al 9 de noviembre de 2026. Ejecutar las entregas y sus pruebas de salida en el orden del [plan de trabajo](../prompts/mascotas/work-plan-phase-1.md).
 
 1. **Adopciones.** Registro breve con Colombia preseleccionado, catálogo oficial DIVIPOLA y múltiples ciudades. Publicaciones básicas y premium, con filtro por ciudad y por publicante particular o Business. User, Business y Superadmin pueden pagar un destacado. Confirmar el pago en ePayco antes de enviar el premium a la IA. La IA revisa texto y todas las fotos, incluido el texto visible en ellas. Aprueba contenido conforme, solicita correcciones y rechaza versiones con vulgaridad o contenido sexual. El reenvío de una corrección conserva el pago. Los casos dudosos pasan a Superadmin. Incluir facturación electrónica de los cobros propios, métricas de registrados y activos y panel de revisión.
 2. **Tiendas y servicios.** Venta de artículos con domicilio propio de la tienda y servicios de baño, lavado y limpieza a domicilio o por reserva. ePayco Payouts para abonos verificados. Recargas para compras pequeñas y saldo separado para comisiones, con validación previa del modelo.
@@ -29,8 +29,8 @@ Decisiones vigentes al 9 de noviembre de 2026. Ejecutar las entregas y sus prueb
 - Versionar términos y política de privacidad. Mostrar los términos nuevos y exigir aceptación explícita para nuevas operaciones. Conservar historial de versiones y relación de cada usuario con la versión más reciente aceptada. El publicante, la tienda y el prestador responden por lo que ofrecen y ejecutan. Mascotas atiende sus funciones, cobros, datos y obligaciones aplicables.
 - Stack C# con .NET y ASP.NET Core Web API, PostgreSQL y Flutter para web, Android e iOS. Riverpod es la opción inicial de estado. Arquitectura limpia, máximo 699 líneas por archivo fuente, código y textos base en inglés, textos de interfaz centralizados en constantes, pruebas unitarias y seguridad. El modelo entidad-relación aprobado gobierna la persistencia y su ruta está pendiente.
 - Mantener layouts adaptables y accesibles. En fase 3 validar seguimiento con pantalla bloqueada, permisos y pérdida de conexión en Android e iOS, con la última ubicación autorizada visible en web.
-- Consultar la memoria principal de Mascotas y copiarla a la raíz del repositorio de la aplicación al iniciarlo. [CLAUDE.md de Mascotas](CLAUDE.md)
-- Completar los datos del operador y revisar los textos antes de publicar. [Idea 1](ideas/1.%20Mascotas.txt) · [Catálogo DANE](prompts/mascotas/data/README.md) · [Términos](prompts/mascotas/legal/terms-and-conditions.md) · [Privacidad](prompts/mascotas/legal/privacy-policy.md)
+- Consultar la memoria principal de Mascotas y copiarla a la raíz del repositorio de la aplicación al iniciarlo. [CLAUDE.md de Mascotas](../../CLAUDE.md)
+- Completar los datos del operador y revisar los textos antes de publicar. [Idea 1](ideas/1.%20Mascotas.txt) · [Catálogo DANE](../prompts/mascotas/data/README.md) · [Términos](../prompts/mascotas/legal/terms-and-conditions.md) · [Privacidad](../prompts/mascotas/legal/privacy-policy.md)
 
 ## Perfil técnico del fundador
 

@@ -1,6 +1,6 @@
 # Mascotas Phase 1 implementation specification
 
-Use this specification with the project memory and work plan. [Project memory](https://github.com/erickvalderrama/it/blob/main/CLAUDE.md) · [Work plan](https://github.com/erickvalderrama/it/blob/main/prompts/mascotas/work-plan.md)
+Use this specification with the project memory and work plan. [Project memory](https://github.com/erickvalderrama/it/blob/main/CLAUDE.md) · [Work plan](https://github.com/erickvalderrama/it/blob/main/documents/prompts/mascotas/work-plan-phase-1.md)
 
 Phase 1 delivers adoption discovery and publishing, premium checkout, Business enrollment and membership, and the tools to operate them. Start the Colombia pilot with responsive web checkout and shared Flutter screens for web, Android, and iOS.
 
@@ -34,7 +34,7 @@ Use one ticket per testable slice. Write the expected user outcome, the contract
 - Document PowerShell-compatible and shell-compatible commands for restore, building and starting app containers, connecting to external services, applying approved development migrations, loading fixtures, and running each test suite. Verify the documented workflow from a clean checkout.
 - Validate configuration at startup. Propose `/health/live` for process liveness and `/health/ready` for deployment readiness. Keep database credentials, auth signing material, provider keys, storage credentials, and callback configuration server-side. Expose public configuration such as the API base URL to Flutter.
 - Provide deterministic development and CI adapters for checkout, invoice issuance, moderation, and email. Make the application reject test adapters and synthetic seed routines in production. Exercise provider contracts separately in authorized test environments.
-- Use one documented fixture reset that seeds Santa Marta (`CO`, `47`, `47001`), Barranquilla (`CO`, `08`, `08001`), two unrelated Business profiles, an individual publisher, a reviewer, listings in each city, two price versions, and two terms versions. Use synthetic accounts, images, and contact details. [Versioned location data](https://github.com/erickvalderrama/it/blob/main/prompts/mascotas/data/README.md)
+- Use one documented fixture reset that seeds Santa Marta (`CO`, `47`, `47001`), Barranquilla (`CO`, `08`, `08001`), two unrelated Business profiles, an individual publisher, a reviewer, listings in each city, two price versions, and two terms versions. Use synthetic accounts, images, and contact details. [Versioned location data](https://github.com/erickvalderrama/it/blob/main/documents/prompts/mascotas/data/README.md)
 
 ### Container runtime and external services
 

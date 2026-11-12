@@ -1,0 +1,9 @@
+{
+  "@@locale": "es",
+  "appTitle": "Petyei",
+  "countriesTitle": "Países disponibles",
+  "countriesEmpty": "Todavía no hay países disponibles.",
+  "loadErrorMessage": "No pudimos cargar esta información. Revisa tu conexión e inténtalo de nuevo.",
+  "retryAction": "Reintentar",
+  "countryName": "{code, select, CO{Colombia} other{{code}}}"
+}

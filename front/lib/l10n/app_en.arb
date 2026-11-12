@@ -1,0 +1,15 @@
+{
+  "@@locale": "en",
+  "appTitle": "Petyei",
+  "countriesTitle": "Available countries",
+  "countriesEmpty": "No countries are available yet.",
+  "loadErrorMessage": "We couldn't load this information. Check your connection and try again.",
+  "retryAction": "Try again",
+  "countryName": "{code, select, CO{Colombia} other{{code}}}",
+  "@countryName": {
+    "description": "Country name for an ISO 3166-1 alpha-2 code.",
+    "placeholders": {
+      "code": { "type": "String" }
+    }
+  }
+}

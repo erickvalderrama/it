@@ -1,0 +1,6 @@
+[*.cs]
+# Test names use Method_Scenario_Result.
+dotnet_diagnostic.CA1707.severity = none
+# xUnit test classes and async tests do not need ConfigureAwait or internal visibility.
+dotnet_diagnostic.CA2007.severity = none
+dotnet_diagnostic.CA1515.severity = none
